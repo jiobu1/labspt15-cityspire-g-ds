@@ -16,7 +16,7 @@ Field_ = Union[Field, str]
 load_dotenv()
 database_url = os.getenv("DATABASE_URL")
 # database = databases.Database(database_url)
-conn = psycopg2.connect(database_url, sslmode='require')
+conn = psycopg2.connect(database_url)
 
 router = APIRouter()
 
