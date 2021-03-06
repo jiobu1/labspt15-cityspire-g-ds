@@ -154,7 +154,7 @@ async def get_crime(city: City):
         by fastAPI to a json object.
     """
     city = validate_city(city)
-    data = Table("data")
+    data = Table("mytable")
     value = await select("Crime Rating", city)
     return {"crime": value[0]}
 
@@ -370,7 +370,7 @@ async def get_recommendation_cities(city: City, nearest_string: str):
 
     test_list = nearest_string.split(",")
 
-    data = Table("data")
+    data = Table("mytable")
     q2 = (
         Query.from_(data)
         .select(data["City"])

@@ -3,8 +3,8 @@
 import os
 from fastapi import APIRouter, Depends
 import sqlalchemy
-import psycopg2
-from dotenv import load_dotenv
+# import psycopg2`
+from dotenv import dotenv_values
 import databases
 import asyncio
 from typing import Union, Iterable
@@ -13,9 +13,8 @@ from pypika.terms import Field
 
 Field_ = Union[Field, str]
 
-load_dotenv()
-database_url = os.getenv("DATABASE_URL")
-database = databases.Database(database_url)
+config = dotenv_values()
+database = databases.Database(config["DATABASE_URL"])
 
 router = APIRouter()
 
@@ -35,7 +34,7 @@ async def get_url():
 
 
 async def select(columns: Union[Iterable[Field_], Field_], city):
-    data = Table("data")
+    data = Table("mytable")
     if type(columns) == str or type(columns) == Field:
         q = Query.from_(data).select(columns)
     else:
@@ -60,10 +59,9 @@ async def select_all(city):
         Dictionary that contains the requested data, which is converted
             by fastAPI to a json object.
     """
-    data = Table("data")
+    data = Table("mytable")
     di_fn = CustomFunction("ROUND", ["number"])
     columns = (
-        # 'lat', 'lon'
         data["lat"].as_("latitude"),
         data["lon"].as_("longitude"),
         data["Crime Rating"].as_("crime"),
@@ -84,3 +82,4 @@ async def select_all(city):
     )
     value = await database.fetch_one(str(q))
     return value
+
