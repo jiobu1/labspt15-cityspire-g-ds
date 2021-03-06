@@ -4,7 +4,7 @@ import os
 from fastapi import APIRouter, Depends
 import sqlalchemy
 # import psycopg2`
-from dotenv import dotenv_values
+from dotenv import dotenv_values, load_dotenv
 import databases
 import asyncio
 from typing import Union, Iterable
@@ -13,8 +13,14 @@ from pypika.terms import Field
 
 Field_ = Union[Field, str]
 
-config = dotenv_values()
-database = databases.Database(config["DATABASE_URL"])
+# Local deployment
+# config = dotenv_values()
+# database = databases.Database(config["DATABASE_URL"])
+
+#Heroku
+load_dotenv()
+database_url = os.getenv("DATABASE_URL")
+database = databases.Database(database_url)
 
 router = APIRouter()
 
