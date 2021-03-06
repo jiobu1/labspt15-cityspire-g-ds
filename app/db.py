@@ -14,7 +14,7 @@ from pypika.terms import Field
 Field_ = Union[Field, str]
 
 load_dotenv()
-database_url = os.getenv("DATABASE_URL")
+database_url = os.getenv("HEROKU_POSTGRESQL_SILVER_URL")
 # database = databases.Database(database_url)
 conn = psycopg2.connect(database_url)
 
