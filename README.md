@@ -9,6 +9,11 @@ and economic factors that are important in deciding where someone would like to 
 This app will present such important data in an intuitive and easy to understand interface.
 Use data to find a place right for you to live.
 
+## UPDATE
+https://cityspire1.herokuapp.com/ 
+this app has been deployed on heroku with a heroku postgresql database. 
+The rest of the information below is the same
+
 ## LOCAL TESTING
 1. Clone repository
 2.  In terminal run the following code to deploy: 
@@ -21,6 +26,7 @@ Use data to find a place right for you to live.
 
 ### DS ENDPOINTS
 http://cityscape-203.eba-ijacxhm2.us-east-1.elasticbeanstalk.com/
+https://cityspire1.herokuapp.com/ 
 
 #### Database
 * /api/info
