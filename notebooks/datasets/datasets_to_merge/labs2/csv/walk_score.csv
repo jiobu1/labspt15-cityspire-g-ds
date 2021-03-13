@@ -45,7 +45,7 @@
 43,4,Glendale,85301.0,40,34,59,226721,AZ,Car Dependent,Some Transit,Bikeable
 44,5,Scottsdale,85255.0,31,26,56,217385,AZ,Car Dependent,Some Transit,Bikeable
 45,6,Gilbert,85296.0,28,15,54,208453,AZ,Car Dependent,Minimal,Bikeable
-46,7,Tempe,85281.0,53,47,74,161719,AZ,Somewhat Walkable,Some Transit,Biker's Paradise
+46,7,Tempe,85281.0,53,47,74,161719,AZ,Somewhat Walkable,Some Transit,Very Bikeable
 47,8,Peoria,85345.0,29,14,47,154065,AZ,Car Dependent,Minimal,Somewhat Bikeable
 48,9,Surprise,85374.0,21,0,47,117517,AZ,Car Dependent,Minimal,Somewhat Bikeable
 49,10,Yuma,,31,19,55,93064,AZ,Car Dependent,Minimal,Bikeable
@@ -112,11 +112,11 @@
 110,0,Los Angeles,90011.0,68,53,59,3792621,CA,Somewhat Walkable,Good Transit,Bikeable
 111,1,San Diego,92126.0,51,37,43,1307402,CA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 112,2,San Jose,95123.0,49,41,62,945942,CA,Car Dependent,Some Transit,Bikeable
-113,3,San Francisco,94112.0,87,80,72,805235,CA,Walker's Paradise,Rider's Paradise,Biker's Paradise
+113,3,San Francisco,94112.0,87,80,72,805235,CA,Very Walkable,Excellent Transit,Very Bikeable
 114,4,Fresno,93702.0,45,32,59,494665,CA,Car Dependent,Some Transit,Bikeable
 115,5,Sacramento,95822.0,45,34,68,466488,CA,Car Dependent,Some Transit,Bikeable
-116,6,Long Beach,90805.0,72,52,69,462257,CA,Walker's Paradise,Good Transit,Bikeable
-117,7,Oakland,94601.0,74,56,65,390724,CA,Walker's Paradise,Good Transit,Bikeable
+116,6,Long Beach,90805.0,72,52,69,462257,CA,Very Walkable,Good Transit,Bikeable
+117,7,Oakland,94601.0,74,56,65,390724,CA,Very Walkable,Good Transit,Bikeable
 118,8,Bakersfield,93309.0,34,27,44,347483,CA,Car Dependent,Some Transit,Somewhat Bikeable
 119,9,Anaheim,92804.0,55,37,52,336265,CA,Somewhat Walkable,Some Transit,Bikeable
 120,10,Santa Ana,92704.0,66,45,61,324528,CA,Somewhat Walkable,Some Transit,Bikeable
@@ -130,8 +130,8 @@
 128,18,Oxnard,93035.0,55,32,52,197899,CA,Somewhat Walkable,Some Transit,Bikeable
 129,19,Fontana,92336.0,36,29,41,196069,CA,Car Dependent,Some Transit,Somewhat Bikeable
 130,20,Moreno Valley,92553.0,32,29,37,193365,CA,Car Dependent,Some Transit,Somewhat Bikeable
-131,21,Glendale,91205.0,71,45,52,191719,CA,Walker's Paradise,Some Transit,Bikeable
-132,22,Huntington Beach,92647.0,55,32,71,189992,CA,Somewhat Walkable,Some Transit,Biker's Paradise
+131,21,Glendale,91205.0,71,45,52,191719,CA,Very Walkable,Some Transit,Bikeable
+132,22,Huntington Beach,92647.0,55,32,71,189992,CA,Somewhat Walkable,Some Transit,Very Bikeable
 133,23,Santa Clarita,,35,0,33,176320,CA,Car Dependent,Minimal,Somewhat Bikeable
 134,24,Garden Grove,92840.0,61,39,58,170883,CA,Somewhat Walkable,Some Transit,Bikeable
 135,25,Santa Rosa,95405.0,44,27,51,167815,CA,Car Dependent,Some Transit,Bikeable
@@ -147,24 +147,24 @@
 145,35,Torrance,90503.0,67,39,55,145438,CA,Somewhat Walkable,Some Transit,Bikeable
 146,36,Hayward,94544.0,55,40,54,144186,CA,Somewhat Walkable,Some Transit,Bikeable
 147,37,Escondido,,44,31,40,143911,CA,Car Dependent,Some Transit,Somewhat Bikeable
-148,38,Sunnyvale,94087.0,59,41,76,140081,CA,Somewhat Walkable,Some Transit,Biker's Paradise
-149,39,Pasadena,91104.0,69,51,70,137122,CA,Somewhat Walkable,Good Transit,Biker's Paradise
+148,38,Sunnyvale,94087.0,59,41,76,140081,CA,Somewhat Walkable,Some Transit,Very Bikeable
+149,39,Pasadena,91104.0,69,51,70,137122,CA,Somewhat Walkable,Good Transit,Very Bikeable
 150,40,Orange,92867.0,51,34,55,136416,CA,Somewhat Walkable,Some Transit,Bikeable
 151,41,Fullerton,92833.0,53,34,48,135161,CA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 152,42,Thousand Oaks,91360.0,32,17,27,126683,CA,Car Dependent,Minimal,Somewhat Bikeable
-153,43,East Los Angeles,90022.0,75,56,50,126496,CA,Walker's Paradise,Good Transit,Bikeable
+153,43,East Los Angeles,90022.0,75,56,50,126496,CA,Very Walkable,Good Transit,Bikeable
 154,44,Visalia,,35,0,49,124442,CA,Car Dependent,Minimal,Somewhat Bikeable
 155,45,Simi Valley,93065.0,36,21,47,124237,CA,Car Dependent,Minimal,Somewhat Bikeable
 156,46,Concord,94518.0,46,30,53,122067,CA,Car Dependent,Some Transit,Bikeable
 157,47,Roseville,95678.0,36,20,61,118788,CA,Car Dependent,Minimal,Bikeable
-158,48,Santa Clara,95051.0,58,41,74,116468,CA,Somewhat Walkable,Some Transit,Biker's Paradise
+158,48,Santa Clara,95051.0,58,41,74,116468,CA,Somewhat Walkable,Some Transit,Very Bikeable
 159,49,Vallejo,94590.0,40,31,36,115942,CA,Car Dependent,Some Transit,Somewhat Bikeable
 160,50,Victorville,92394.0,19,23,34,115903,CA,Car Dependent,Minimal,Somewhat Bikeable
 161,51,El Monte,91732.0,62,46,58,113475,CA,Somewhat Walkable,Some Transit,Bikeable
-162,52,Berkeley,94704.0,83,59,82,112580,CA,Walker's Paradise,Good Transit,Biker's Paradise
+162,52,Berkeley,94704.0,83,59,82,112580,CA,Very Walkable,Good Transit,Very Bikeable
 163,53,Downey,90242.0,60,0,54,111772,CA,Somewhat Walkable,Minimal,Bikeable
 164,54,Costa Mesa,92627.0,64,39,66,109960,CA,Somewhat Walkable,Some Transit,Bikeable
-165,55,Inglewood,90301.0,72,49,55,109673,CA,Walker's Paradise,Some Transit,Bikeable
+165,55,Inglewood,90301.0,72,49,55,109673,CA,Very Walkable,Some Transit,Bikeable
 166,56,San Buenaventura,,46,0,57,106433,CA,Car Dependent,Minimal,Bikeable
 167,57,West Covina,91790.0,44,0,37,106098,CA,Car Dependent,Minimal,Somewhat Bikeable
 168,58,Norwalk,90650.0,60,43,53,105549,CA,Somewhat Walkable,Some Transit,Bikeable
@@ -172,7 +172,7 @@
 170,60,Fairfield,94535.0,32,25,42,105321,CA,Car Dependent,Some Transit,Somewhat Bikeable
 171,61,Richmond,94804.0,57,43,53,103701,CA,Somewhat Walkable,Some Transit,Bikeable
 172,62,Murrieta,,27,20,24,103466,CA,Car Dependent,Minimal,Somewhat Bikeable
-173,63,Burbank,91505.0,70,39,62,103340,CA,Walker's Paradise,Some Transit,Bikeable
+173,63,Burbank,91505.0,70,39,62,103340,CA,Very Walkable,Some Transit,Bikeable
 174,64,Antioch,94509.0,36,0,42,102372,CA,Car Dependent,Minimal,Somewhat Bikeable
 175,65,Daly City,94015.0,61,52,35,101123,CA,Somewhat Walkable,Good Transit,Somewhat Bikeable
 176,66,Temecula,,29,16,29,100097,CA,Car Dependent,Minimal,Somewhat Bikeable
@@ -182,7 +182,7 @@
 180,70,San Mateo,94403.0,65,40,65,97207,CA,Somewhat Walkable,Some Transit,Bikeable
 181,71,Compton,,65,0,61,96455,CA,Somewhat Walkable,Minimal,Bikeable
 182,72,Clovis,93612.0,36,0,51,95631,CA,Car Dependent,Minimal,Bikeable
-183,73,South Gate,90280.0,70,0,56,94396,CA,Walker's Paradise,Minimal,Bikeable
+183,73,South Gate,90280.0,70,0,56,94396,CA,Very Walkable,Minimal,Bikeable
 184,74,Vista,92083.0,44,34,31,93834,CA,Car Dependent,Some Transit,Somewhat Bikeable
 185,75,Mission Viejo,92691.0,35,0,37,93305,CA,Car Dependent,Minimal,Somewhat Bikeable
 186,76,Vacaville,,33,24,46,92428,CA,Car Dependent,Minimal,Somewhat Bikeable
@@ -191,17 +191,17 @@
 188,78,Carson,90745.0,55,0,51,91714,CA,Somewhat Walkable,Minimal,Bikeable
 189,79,Hesperia,,15,0,32,90173,CA,Car Dependent,Minimal,Somewhat Bikeable
 190,80,Redding,,26,18,42,89861,CA,Car Dependent,Minimal,Somewhat Bikeable
-191,81,Santa Monica,90405.0,82,62,86,89736,CA,Walker's Paradise,Good Transit,Biker's Paradise
+191,81,Santa Monica,90405.0,82,62,86,89736,CA,Very Walkable,Good Transit,Very Bikeable
 192,82,Westminster,92683.0,63,0,58,89701,CA,Somewhat Walkable,Minimal,Bikeable
 193,83,Santa Barbara,93101.0,61,0,66,88410,CA,Somewhat Walkable,Minimal,Bikeable
 194,84,Chico,95926.0,45,0,69,86187,CA,Car Dependent,Minimal,Bikeable
 195,85,Whittier,90602.0,63,0,52,85331,CA,Somewhat Walkable,Minimal,Bikeable
 196,86,Newport Beach,92660.0,47,29,53,85186,CA,Car Dependent,Some Transit,Bikeable
 197,87,San Leandro,94577.0,63,45,62,84950,CA,Somewhat Walkable,Some Transit,Bikeable
-198,88,Hawthorne,90250.0,71,45,59,84293,CA,Walker's Paradise,Some Transit,Bikeable
+198,88,Hawthorne,90250.0,71,45,59,84293,CA,Very Walkable,Some Transit,Bikeable
 199,89,San Marcos,92078.0,33,0,30,83781,CA,Car Dependent,Minimal,Somewhat Bikeable
 200,90,Citrus Heights,95610.0,43,0,47,83301,CA,Car Dependent,Minimal,Somewhat Bikeable
-201,91,Alhambra,91801.0,71,0,50,83089,CA,Walker's Paradise,Minimal,Bikeable
+201,91,Alhambra,91801.0,71,0,50,83089,CA,Very Walkable,Minimal,Bikeable
 202,92,Tracy,95376.0,42,0,47,82922,CA,Car Dependent,Minimal,Somewhat Bikeable
 203,93,Livermore,,40,0,66,80968,CA,Car Dependent,Minimal,Bikeable
 204,94,Buena Park,90620.0,55,39,55,80530,CA,Somewhat Walkable,Some Transit,Bikeable
@@ -219,7 +219,7 @@
 216,106,Baldwin Park,,53,0,50,75390,CA,Somewhat Walkable,Minimal,Bikeable
 217,107,Chino Hills,91709.0,23,0,20,74799,CA,Car Dependent,Minimal,Somewhat Bikeable
 218,108,Mountain View,94040.0,65,43,90,74066,CA,Somewhat Walkable,Some Transit,Biker's Paradise
-219,109,Alameda,94501.0,66,41,76,73812,CA,Somewhat Walkable,Some Transit,Biker's Paradise
+219,109,Alameda,94501.0,66,41,76,73812,CA,Somewhat Walkable,Some Transit,Very Bikeable
 220,110,Upland,91786.0,47,29,49,73732,CA,Car Dependent,Some Transit,Somewhat Bikeable
 221,111,Folsom,95630.0,30,0,55,72203,CA,Car Dependent,Minimal,Bikeable
 222,112,San Ramon,,24,0,37,72148,CA,Car Dependent,Minimal,Somewhat Bikeable
@@ -232,7 +232,7 @@
 229,119,Perris,,24,0,33,68386,CA,Car Dependent,Minimal,Somewhat Bikeable
 230,120,Manteca,,41,0,46,67096,CA,Car Dependent,Minimal,Somewhat Bikeable
 231,121,Milpitas,,52,39,66,66790,CA,Somewhat Walkable,Some Transit,Bikeable
-232,122,Redondo Beach,90278.0,74,0,64,66748,CA,Walker's Paradise,Minimal,Bikeable
+232,122,Redondo Beach,90278.0,74,0,64,66748,CA,Very Walkable,Minimal,Bikeable
 233,123,Davis,,44,34,90,65622,CA,Car Dependent,Some Transit,Biker's Paradise
 234,124,Camarillo,,42,0,46,65201,CA,Car Dependent,Minimal,Somewhat Bikeable
 235,125,Yuba City,,41,0,56,64925,CA,Car Dependent,Minimal,Bikeable
@@ -242,8 +242,8 @@
 239,129,Walnut Creek,94596.0,39,26,49,64173,CA,Car Dependent,Some Transit,Somewhat Bikeable
 240,130,South San Francisco,94080.0,57,0,43,63632,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
 241,131,San Clemente,92672.0,34,0,31,63522,CA,Car Dependent,Minimal,Somewhat Bikeable
-242,132,Florence,,75,59,57,63387,CA,Walker's Paradise,Good Transit,Bikeable
-242,132,Graham,,75,59,57,63387,CA,Walker's Paradise,Good Transit,Bikeable
+242,132,Florence,,75,59,57,63387,CA,Very Walkable,Good Transit,Bikeable
+242,132,Graham,,75,59,57,63387,CA,Very Walkable,Good Transit,Bikeable
 243,133,Pittsburg,,34,0,40,63264,CA,Car Dependent,Minimal,Somewhat Bikeable
 244,134,Laguna Niguel,92677.0,32,0,32,62979,CA,Car Dependent,Minimal,Somewhat Bikeable
 245,135,Pico Rivera,90660.0,58,0,60,62942,CA,Somewhat Walkable,Minimal,Bikeable
@@ -254,13 +254,13 @@
 250,140,Castro Valley,94546.0,39,26,31,61388,CA,Car Dependent,Some Transit,Somewhat Bikeable
 251,141,Monterey Park,91754.0,63,0,39,60269,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
 252,142,La Habra,,62,0,47,60239,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
-253,143,Santa Cruz,95064.0,62,37,84,59946,CA,Somewhat Walkable,Some Transit,Biker's Paradise
+253,143,Santa Cruz,95064.0,62,37,84,59946,CA,Somewhat Walkable,Some Transit,Very Bikeable
 254,144,Encinitas,92024.0,41,0,36,59518,CA,Car Dependent,Minimal,Somewhat Bikeable
 255,145,Tulare,,40,0,57,59278,CA,Car Dependent,Minimal,Bikeable
-256,146,Gardena,90249.0,75,46,57,58829,CA,Walker's Paradise,Some Transit,Bikeable
+256,146,Gardena,90249.0,75,46,57,58829,CA,Very Walkable,Some Transit,Bikeable
 257,147,National City,91950.0,66,47,48,58582,CA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 258,148,Cupertino,,48,35,66,58302,CA,Car Dependent,Some Transit,Bikeable
-259,149,Huntington Park,,82,53,60,58114,CA,Walker's Paradise,Good Transit,Bikeable
+259,149,Huntington Park,,82,53,60,58114,CA,Very Walkable,Good Transit,Bikeable
 260,150,Petaluma,,47,30,56,57941,CA,Car Dependent,Some Transit,Bikeable
 261,151,San Rafael,94901.0,51,37,46,57713,CA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 262,152,South Whittier,,53,0,48,57156,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
@@ -285,7 +285,7 @@
 281,171,Brentwood,,35,0,50,51481,CA,Car Dependent,Minimal,Bikeable
 282,172,Yucaipa,,24,0,27,51367,CA,Car Dependent,Minimal,Somewhat Bikeable
 283,173,Cathedral City,92234.0,36,0,43,51200,CA,Car Dependent,Minimal,Somewhat Bikeable
-284,174,Watsonville,95019.0,65,32,71,51199,CA,Somewhat Walkable,Some Transit,Biker's Paradise
+284,174,Watsonville,95019.0,65,32,71,51199,CA,Somewhat Walkable,Some Transit,Very Bikeable
 285,175,Placentia,92870.0,50,31,47,50533,CA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 286,176,Glendora,91741.0,45,31,42,50073,CA,Car Dependent,Some Transit,Somewhat Bikeable
 287,177,Cerritos,90703.0,53,0,57,49041,CA,Somewhat Walkable,Minimal,Bikeable
@@ -314,17 +314,17 @@
 310,200,Newark,,54,31,48,42573,CA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 311,201,Lompoc,,51,0,65,42434,CA,Somewhat Walkable,Minimal,Bikeable
 312,202,El Dorado Hills,95762.0,12,0,18,42108,CA,Car Dependent,Minimal,Somewhat Bikeable
-313,203,Bell Gardens,,70,0,62,42072,CA,Walker's Paradise,Minimal,Bikeable
+313,203,Bell Gardens,,70,0,62,42072,CA,Very Walkable,Minimal,Bikeable
 314,204,Danville,94526.0,23,0,35,42039,CA,Car Dependent,Minimal,Somewhat Bikeable
 315,205,Rancho Palos Verdes,90275.0,28,0,21,41643,CA,Car Dependent,Minimal,Somewhat Bikeable
 316,206,San Bruno,94066.0,52,0,36,41114,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
 317,207,Rohnert Park,94928.0,42,0,56,40971,CA,Car Dependent,Minimal,Bikeable
 318,208,Coachella,,38,0,43,40704,CA,Car Dependent,Minimal,Somewhat Bikeable
 319,209,La Puente,,57,0,47,39816,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
-320,210,San Gabriel,91776.0,73,37,51,39718,CA,Walker's Paradise,Some Transit,Bikeable
-321,211,Campbell,95008.0,54,39,71,39349,CA,Somewhat Walkable,Some Transit,Biker's Paradise
+320,210,San Gabriel,91776.0,73,37,51,39718,CA,Very Walkable,Some Transit,Bikeable
+321,211,Campbell,95008.0,54,39,71,39349,CA,Somewhat Walkable,Some Transit,Very Bikeable
 322,212,Brea,,49,0,47,39282,CA,Car Dependent,Minimal,Somewhat Bikeable
-323,213,Culver City,90232.0,75,51,71,38883,CA,Walker's Paradise,Good Transit,Biker's Paradise
+323,213,Culver City,90232.0,75,51,71,38883,CA,Very Walkable,Good Transit,Very Bikeable
 324,214,Calexico,,53,0,49,38572,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
 325,215,Stanton,90680.0,61,39,57,38186,CA,Somewhat Walkable,Some Transit,Bikeable
 326,216,Morgan Hill,,30,23,50,37882,CA,Car Dependent,Minimal,Bikeable
@@ -337,9 +337,9 @@
 333,223,Los Banos,,32,0,40,35972,CA,Car Dependent,Minimal,Somewhat Bikeable
 334,224,Martinez,,38,0,39,35824,CA,Car Dependent,Minimal,Somewhat Bikeable
 335,225,Temple City,91780.0,56,40,56,35558,CA,Somewhat Walkable,Some Transit,Bikeable
-336,226,Bell,,77,0,61,35477,CA,Walker's Paradise,Minimal,Bikeable
+336,226,Bell,,77,0,61,35477,CA,Very Walkable,Minimal,Bikeable
 337,227,Oakley,94561.0,25,0,50,35432,CA,Car Dependent,Minimal,Bikeable
-338,228,Manhattan Beach,90266.0,72,0,52,35135,CA,Walker's Paradise,Minimal,Bikeable
+338,228,Manhattan Beach,90266.0,72,0,52,35135,CA,Very Walkable,Minimal,Bikeable
 339,229,Hollister,,42,20,49,34928,CA,Car Dependent,Minimal,Somewhat Bikeable
 340,230,Claremont,91711.0,46,0,50,34926,CA,Car Dependent,Minimal,Bikeable
 341,231,San Juan Capistrano,,34,0,46,34593,CA,Car Dependent,Minimal,Somewhat Bikeable
@@ -347,17 +347,17 @@
 343,233,West Hollywood,,91,61,57,34399,CA,Walker's Paradise,Good Transit,Bikeable
 344,234,Rubidoux,,30,0,32,34280,CA,Car Dependent,Minimal,Somewhat Bikeable
 345,235,La Presa,,41,32,33,34169,CA,Car Dependent,Some Transit,Somewhat Bikeable
-346,236,Beverly Hills,90212.0,75,60,53,34109,CA,Walker's Paradise,Good Transit,Bikeable
+346,236,Beverly Hills,90212.0,75,60,53,34109,CA,Very Walkable,Good Transit,Bikeable
 347,237,Orangevale,95662.0,32,0,41,33960,CA,Car Dependent,Minimal,Somewhat Bikeable
 348,238,San Dimas,91773.0,35,0,33,33371,CA,Car Dependent,Minimal,Somewhat Bikeable
 349,239,Dana Point,92629.0,52,27,43,33351,CA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 350,240,Pleasant Hill,94523.0,51,29,60,33152,CA,Somewhat Walkable,Some Transit,Bikeable
 351,241,Foothill Farms,95842.0,41,0,56,33121,CA,Car Dependent,Minimal,Bikeable
 352,242,Seaside,93955.0,51,0,48,33025,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
-353,243,Lawndale,,81,0,59,32769,CA,Walker's Paradise,Minimal,Bikeable
+353,243,Lawndale,,81,0,59,32769,CA,Very Walkable,Minimal,Bikeable
 354,244,Oildale,,44,33,48,32684,CA,Car Dependent,Some Transit,Somewhat Bikeable
 355,245,Wildomar,92595.0,10,0,22,32176,CA,Car Dependent,Minimal,Somewhat Bikeable
-356,246,Menlo Park,94025.0,57,0,79,32026,CA,Somewhat Walkable,Minimal,Biker's Paradise
+356,246,Menlo Park,94025.0,57,0,79,32026,CA,Somewhat Walkable,Minimal,Very Bikeable
 357,247,Westmont,,60,56,56,31853,CA,Somewhat Walkable,Good Transit,Bikeable
 358,248,Adelanto,,12,0,31,31765,CA,Car Dependent,Minimal,Somewhat Bikeable
 359,249,La Verne,,40,0,39,31063,CA,Car Dependent,Minimal,Somewhat Bikeable
@@ -366,26 +366,26 @@
 362,252,Fallbrook,,38,0,26,30534,CA,Car Dependent,Minimal,Somewhat Bikeable
 363,253,Laguna Hills,,40,28,41,30344,CA,Car Dependent,Some Transit,Somewhat Bikeable
 364,254,Saratoga,,28,0,45,29926,CA,Car Dependent,Minimal,Somewhat Bikeable
-365,255,Goleta,,42,0,71,29888,CA,Car Dependent,Minimal,Biker's Paradise
+365,255,Goleta,,42,0,71,29888,CA,Car Dependent,Minimal,Very Bikeable
 366,256,El Paso de Robles,,40,0,31,29793,CA,Car Dependent,Minimal,Somewhat Bikeable
 367,257,Banning,,29,0,32,29603,CA,Car Dependent,Minimal,Somewhat Bikeable
 368,258,Los Gatos,,43,0,51,29413,CA,Car Dependent,Minimal,Bikeable
 369,259,Santa Paula,,55,0,47,29321,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
 370,260,Walnut,,30,36,29,29172,CA,Car Dependent,Some Transit,Somewhat Bikeable
-371,261,San Pablo,,70,44,51,29139,CA,Walker's Paradise,Some Transit,Bikeable
-372,262,Los Altos,,45,30,72,28976,CA,Car Dependent,Some Transit,Biker's Paradise
+371,261,San Pablo,,70,44,51,29139,CA,Very Walkable,Some Transit,Bikeable
+372,262,Los Altos,,45,30,72,28976,CA,Car Dependent,Some Transit,Very Bikeable
 373,263,Orcutt,,23,0,40,28905,CA,Car Dependent,Minimal,Somewhat Bikeable
 374,264,Burlingame,,65,0,65,28806,CA,Somewhat Walkable,Minimal,Bikeable
 375,265,San Carlos,94070.0,45,0,41,28406,CA,Car Dependent,Minimal,Somewhat Bikeable
 376,266,Atascadero,,26,0,29,28310,CA,Car Dependent,Minimal,Somewhat Bikeable
 377,267,Spring Valley,,33,28,25,28205,CA,Car Dependent,Some Transit,Somewhat Bikeable
 378,268,Atwater,,39,0,43,28168,CA,Car Dependent,Minimal,Somewhat Bikeable
-379,269,East Palo Alto,,58,0,70,28155,CA,Somewhat Walkable,Minimal,Biker's Paradise
+379,269,East Palo Alto,,58,0,70,28155,CA,Somewhat Walkable,Minimal,Very Bikeable
 380,270,Suisun City,,33,0,51,28111,CA,Car Dependent,Minimal,Bikeable
 381,271,Monterey,,54,39,47,27810,CA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 382,272,Ridgecrest,,33,0,50,27616,CA,Car Dependent,Minimal,Bikeable
-383,273,Maywood,90270.0,78,43,63,27395,CA,Walker's Paradise,Some Transit,Bikeable
-384,274,Eureka,,64,0,70,27191,CA,Somewhat Walkable,Minimal,Biker's Paradise
+383,273,Maywood,90270.0,78,43,63,27395,CA,Very Walkable,Some Transit,Bikeable
+384,274,Eureka,,64,0,70,27191,CA,Somewhat Walkable,Minimal,Very Bikeable
 385,275,Norco,92860.0,22,0,29,27063,CA,Car Dependent,Minimal,Somewhat Bikeable
 386,276,Benicia,,29,0,24,26997,CA,Car Dependent,Minimal,Somewhat Bikeable
 387,277,Windsor,,37,0,48,26801,CA,Car Dependent,Minimal,Somewhat Bikeable
@@ -413,7 +413,7 @@
 408,298,Bloomington,,31,0,37,23851,CA,Car Dependent,Minimal,Somewhat Bikeable
 409,299,Cudahy,,60,45,62,23805,CA,Somewhat Walkable,Some Transit,Bikeable
 410,300,Galt,,31,0,39,23647,CA,Car Dependent,Minimal,Somewhat Bikeable
-411,301,San Fernando,,78,48,58,23645,CA,Walker's Paradise,Some Transit,Bikeable
+411,301,San Fernando,,78,48,58,23645,CA,Very Walkable,Some Transit,Bikeable
 412,302,El Cerrito,94530.0,64,51,60,23549,CA,Somewhat Walkable,Good Transit,Bikeable
 413,303,San Lorenzo,,56,34,56,23452,CA,Somewhat Walkable,Some Transit,Bikeable
 414,304,Loma Linda,92354.0,36,31,42,23261,CA,Car Dependent,Some Transit,Somewhat Bikeable
@@ -423,7 +423,7 @@
 418,308,Calabasas,,22,0,15,23058,CA,Car Dependent,Minimal,Somewhat Bikeable
 419,309,Ladera Ranch,92694.0,27,0,26,22980,CA,Car Dependent,Minimal,Somewhat Bikeable
 420,310,Valinda,,49,0,48,22822,CA,Car Dependent,Minimal,Somewhat Bikeable
-421,311,Lennox,,74,53,58,22753,CA,Walker's Paradise,Good Transit,Bikeable
+421,311,Lennox,,74,53,58,22753,CA,Very Walkable,Good Transit,Bikeable
 422,312,Laguna Beach,,43,26,24,22723,CA,Car Dependent,Some Transit,Somewhat Bikeable
 423,313,Rosemont,,40,32,57,22681,CA,Car Dependent,Some Transit,Bikeable
 424,314,Riverbank,,36,0,44,22678,CA,Car Dependent,Minimal,Somewhat Bikeable
@@ -450,22 +450,22 @@
 445,335,Granite Bay,95746.0,12,0,32,20402,CA,Car Dependent,Minimal,Somewhat Bikeable
 446,336,Agoura Hills,,34,0,26,20330,CA,Car Dependent,Minimal,Somewhat Bikeable
 447,337,Ramona,,31,0,34,20292,CA,Car Dependent,Minimal,Somewhat Bikeable
-448,338,Lomita,90717.0,73,38,59,20256,CA,Walker's Paradise,Some Transit,Bikeable
+448,338,Lomita,90717.0,73,38,59,20256,CA,Very Walkable,Some Transit,Bikeable
 449,339,La Cañada Flintridge,,33,0,25,20246,CA,Car Dependent,Minimal,Somewhat Bikeable
 450,340,Glen Avon,,26,0,33,20199,CA,Car Dependent,Minimal,Somewhat Bikeable
 451,341,South El Monte,,62,0,56,20116,CA,Somewhat Walkable,Minimal,Bikeable
 452,342,Marina,,44,0,57,19718,CA,Car Dependent,Minimal,Bikeable
 453,343,La Crescenta,,53,0,29,19653,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
 453,343,Montrose,,53,0,29,19653,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
-454,344,Hermosa Beach,90254.0,87,0,70,19506,CA,Walker's Paradise,Minimal,Biker's Paradise
+454,344,Hermosa Beach,90254.0,87,0,70,19506,CA,Very Walkable,Minimal,Very Bikeable
 455,345,American Canyon,,30,0,49,19454,CA,Car Dependent,Minimal,Somewhat Bikeable
 456,346,Arvin,,35,0,39,19304,CA,Car Dependent,Minimal,Somewhat Bikeable
 457,347,Castaic,,23,0,16,19015,CA,Car Dependent,Minimal,Somewhat Bikeable
-458,348,Coronado,92118.0,51,33,72,18912,CA,Somewhat Walkable,Some Transit,Biker's Paradise
+458,348,Coronado,92118.0,51,33,72,18912,CA,Somewhat Walkable,Some Transit,Very Bikeable
 459,349,Casa de Oro,,26,0,19,18762,CA,Car Dependent,Minimal,Somewhat Bikeable
 459,349,Mount Helix,,26,0,19,18762,CA,Car Dependent,Minimal,Somewhat Bikeable
 460,350,Chowchilla,,23,0,42,18720,CA,Car Dependent,Minimal,Somewhat Bikeable
-461,351,Albany,94706.0,82,55,90,18539,CA,Walker's Paradise,Good Transit,Biker's Paradise
+461,351,Albany,94706.0,82,55,90,18539,CA,Very Walkable,Good Transit,Biker's Paradise
 462,352,Mead Valley,,6,0,27,18510,CA,Car Dependent,Minimal,Somewhat Bikeable
 463,353,Pinole,94564.0,41,0,30,18390,CA,Car Dependent,Minimal,Somewhat Bikeable
 464,354,Dixon,,43,0,44,18351,CA,Car Dependent,Minimal,Somewhat Bikeable
@@ -481,22 +481,22 @@
 474,364,Arroyo Grande,,41,0,41,17252,CA,Car Dependent,Minimal,Somewhat Bikeable
 475,365,Arcata,,47,0,64,17231,CA,Car Dependent,Minimal,Bikeable
 476,366,Rancho Mirage,92270.0,16,0,34,17218,CA,Car Dependent,Minimal,Somewhat Bikeable
-477,367,Live Oak,,53,29,80,17158,CA,Somewhat Walkable,Some Transit,Biker's Paradise
+477,367,Live Oak,,53,29,80,17158,CA,Somewhat Walkable,Some Transit,Very Bikeable
 478,368,Shafter,,43,0,46,16988,CA,Car Dependent,Minimal,Somewhat Bikeable
 479,369,Nipomo,,24,0,31,16714,CA,Car Dependent,Minimal,Somewhat Bikeable
 480,370,El Segundo,90245.0,65,0,49,16654,CA,Somewhat Walkable,Minimal,Somewhat Bikeable
-481,371,Artesia,90701.0,78,38,60,16522,CA,Walker's Paradise,Some Transit,Bikeable
-482,0,Denver,80219.0,61,47,73,600158,CO,Somewhat Walkable,Some Transit,Biker's Paradise
+481,371,Artesia,90701.0,78,38,60,16522,CA,Very Walkable,Some Transit,Bikeable
+482,0,Denver,80219.0,61,47,73,600158,CO,Somewhat Walkable,Some Transit,Very Bikeable
 483,1,Colorado Springs,80918.0,35,19,45,416427,CO,Car Dependent,Minimal,Somewhat Bikeable
 484,2,Aurora,80013.0,43,38,55,325078,CO,Car Dependent,Some Transit,Bikeable
-485,3,Fort Collins,,37,29,78,143986,CO,Car Dependent,Some Transit,Biker's Paradise
+485,3,Fort Collins,,37,29,78,143986,CO,Car Dependent,Some Transit,Very Bikeable
 486,4,Lakewood,80226.0,42,38,58,142980,CO,Car Dependent,Some Transit,Bikeable
 487,5,Thornton,80241.0,31,24,50,118772,CO,Car Dependent,Minimal,Bikeable
 488,6,Pueblo,,35,0,50,106595,CO,Car Dependent,Minimal,Bikeable
 489,7,Arvada,80004.0,34,29,52,106433,CO,Car Dependent,Some Transit,Bikeable
 490,8,Westminster,80031.0,35,33,53,106114,CO,Car Dependent,Some Transit,Bikeable
 491,9,Centennial,80122.0,36,25,47,100377,CO,Car Dependent,Some Transit,Somewhat Bikeable
-492,10,Boulder,,57,49,86,97385,CO,Somewhat Walkable,Some Transit,Biker's Paradise
+492,10,Boulder,,57,49,86,97385,CO,Somewhat Walkable,Some Transit,Very Bikeable
 493,11,Highlands Ranch,80126.0,27,0,50,96713,CO,Car Dependent,Minimal,Bikeable
 494,12,Greeley,,36,0,49,92889,CO,Car Dependent,Minimal,Somewhat Bikeable
 495,13,Longmont,80501.0,39,29,59,86270,CO,Car Dependent,Some Transit,Bikeable
@@ -524,13 +524,13 @@
 516,34,Golden,,41,0,56,18867,CO,Car Dependent,Minimal,Bikeable
 517,35,Windsor,,24,0,40,18644,CO,Car Dependent,Minimal,Somewhat Bikeable
 518,36,Evans,80620.0,29,0,39,18537,CO,Car Dependent,Minimal,Somewhat Bikeable
-519,37,Louisville,,40,32,70,18376,CO,Car Dependent,Some Transit,Biker's Paradise
+519,37,Louisville,,40,32,70,18376,CO,Car Dependent,Some Transit,Very Bikeable
 520,38,Sherrelwood,,40,33,39,18287,CO,Car Dependent,Some Transit,Somewhat Bikeable
 521,39,Erie,,11,0,44,18135,CO,Car Dependent,Minimal,Somewhat Bikeable
 522,40,Durango,,38,0,51,16887,CO,Car Dependent,Minimal,Bikeable
 523,0,Bridgeport,6606.0,67,40,52,144229,CT,Somewhat Walkable,Some Transit,Bikeable
 524,1,New Haven,6511.0,68,48,68,129779,CT,Somewhat Walkable,Some Transit,Bikeable
-525,2,Hartford,6106.0,71,54,57,124775,CT,Walker's Paradise,Good Transit,Bikeable
+525,2,Hartford,6106.0,71,54,57,124775,CT,Very Walkable,Good Transit,Bikeable
 526,3,Stamford,6902.0,54,46,46,122643,CT,Somewhat Walkable,Some Transit,Somewhat Bikeable
 527,4,Waterbury,6708.0,48,34,29,110366,CT,Car Dependent,Some Transit,Somewhat Bikeable
 528,5,Norwalk,6854.0,48,36,42,85603,CT,Car Dependent,Some Transit,Somewhat Bikeable
@@ -560,14 +560,14 @@
 552,29,Ansonia,6401.0,39,0,27,19249,CT,Car Dependent,Minimal,Somewhat Bikeable
 553,30,Wallingford Center,,45,0,38,18209,CT,Car Dependent,Minimal,Somewhat Bikeable
 554,31,Willimantic,,53,0,46,17737,CT,Somewhat Walkable,Minimal,Somewhat Bikeable
-555,0,Wilmington,,75,50,53,70851,DE,Walker's Paradise,Good Transit,Bikeable
+555,0,Wilmington,,75,50,53,70851,DE,Very Walkable,Good Transit,Bikeable
 556,1,Dover,,34,29,48,36047,DE,Car Dependent,Some Transit,Somewhat Bikeable
 557,2,Newark,,40,27,60,31454,DE,Car Dependent,Some Transit,Bikeable
 558,3,Bear,,27,0,37,19371,DE,Car Dependent,Minimal,Somewhat Bikeable
 559,4,Middletown,,29,0,42,18871,DE,Car Dependent,Minimal,Somewhat Bikeable
-560,0,Washington D.C.,,76,71,69,601723,DC,Walker's Paradise,Rider's Paradise,Bikeable
+560,0,Washington D.C.,,76,71,69,601723,DC,Very Walkable,Excellent Transit,Bikeable
 561,0,Jacksonville,32210.0,26,23,43,821784,FL,Car Dependent,Minimal,Somewhat Bikeable
-562,1,Miami,33125.0,78,57,65,399457,FL,Walker's Paradise,Good Transit,Bikeable
+562,1,Miami,33125.0,78,57,65,399457,FL,Very Walkable,Good Transit,Bikeable
 563,2,Tampa,33604.0,49,34,57,335709,FL,Car Dependent,Some Transit,Bikeable
 564,3,St. Petersburg,33710.0,44,35,61,244769,FL,Car Dependent,Some Transit,Bikeable
 565,4,Orlando,32811.0,41,33,60,238300,FL,Car Dependent,Some Transit,Bikeable
@@ -590,7 +590,7 @@
 582,21,Spring Hill,34609.0,16,0,36,98621,FL,Car Dependent,Minimal,Somewhat Bikeable
 583,22,Lakeland,,37,0,52,97422,FL,Car Dependent,Minimal,Bikeable
 584,23,Davie,33314.0,27,16,45,91992,FL,Car Dependent,Minimal,Somewhat Bikeable
-585,24,Miami Beach,33139.0,75,51,70,87779,FL,Walker's Paradise,Good Transit,Biker's Paradise
+585,24,Miami Beach,33139.0,75,51,70,87779,FL,Very Walkable,Good Transit,Very Bikeable
 586,25,Lehigh Acres,33971.0,7,0,32,86784,FL,Car Dependent,Minimal,Somewhat Bikeable
 587,26,Deltona,,15,0,32,85182,FL,Car Dependent,Minimal,Somewhat Bikeable
 588,27,Plantation,,29,34,44,84955,FL,Car Dependent,Some Transit,Somewhat Bikeable
@@ -702,7 +702,7 @@
 692,131,Buenaventura Lakes,34743.0,17,23,32,26079,FL,Car Dependent,Minimal,Somewhat Bikeable
 693,132,Meadow Woods,,13,22,33,25558,FL,Car Dependent,Minimal,Somewhat Bikeable
 694,133,Rockledge,,20,22,37,24926,FL,Car Dependent,Minimal,Somewhat Bikeable
-695,134,Key West,,63,0,86,24649,FL,Somewhat Walkable,Minimal,Biker's Paradise
+695,134,Key West,,63,0,86,24649,FL,Somewhat Walkable,Minimal,Very Bikeable
 696,135,Temple Terrace,,37,32,48,24541,FL,Car Dependent,Some Transit,Somewhat Bikeable
 697,136,Coral Terrace,,60,36,52,24376,FL,Somewhat Walkable,Some Transit,Bikeable
 698,137,Citrus Park,33625.0,20,14,45,24252,FL,Car Dependent,Minimal,Somewhat Bikeable
@@ -859,7 +859,7 @@
 844,10,Rexburg,,44,0,56,25484,ID,Car Dependent,Minimal,Bikeable
 845,11,Moscow,,47,0,55,23800,ID,Car Dependent,Minimal,Bikeable
 846,12,Eagle,,18,0,38,19908,ID,Car Dependent,Minimal,Somewhat Bikeable
-847,0,Chicago,60629.0,77,65,73,2695598,IL,Walker's Paradise,Good Transit,Biker's Paradise
+847,0,Chicago,60629.0,77,65,73,2695598,IL,Very Walkable,Good Transit,Very Bikeable
 848,1,Aurora,60505.0,40,22,54,197899,IL,Car Dependent,Minimal,Bikeable
 849,2,Rockford,61104.0,42,0,46,152871,IL,Car Dependent,Minimal,Somewhat Bikeable
 850,3,Joliet,,35,17,46,147433,IL,Car Dependent,Minimal,Somewhat Bikeable
@@ -868,26 +868,26 @@
 853,6,Peoria,61614.0,39,0,44,115007,IL,Car Dependent,Minimal,Somewhat Bikeable
 854,7,Elgin,,42,29,53,108188,IL,Car Dependent,Some Transit,Bikeable
 855,8,Waukegan,,49,30,45,89078,IL,Car Dependent,Some Transit,Somewhat Bikeable
-856,9,Cicero,60804.0,73,52,57,83891,IL,Walker's Paradise,Good Transit,Bikeable
+856,9,Cicero,60804.0,73,52,57,83891,IL,Very Walkable,Good Transit,Bikeable
 857,10,Champaign,61820.0,50,47,65,81055,IL,Somewhat Walkable,Some Transit,Bikeable
 858,11,Bloomington,61701.0,35,27,49,76610,IL,Car Dependent,Some Transit,Somewhat Bikeable
 859,12,Decatur,62523.0,32,0,43,76122,IL,Car Dependent,Minimal,Somewhat Bikeable
 860,13,Arlington Heights,60004.0,46,0,60,75101,IL,Car Dependent,Minimal,Bikeable
-861,14,Evanston,60201.0,74,50,88,74486,IL,Walker's Paradise,Good Transit,Biker's Paradise
+861,14,Evanston,60201.0,74,50,88,74486,IL,Very Walkable,Good Transit,Very Bikeable
 862,15,Schaumburg,60193.0,42,0,67,74227,IL,Car Dependent,Minimal,Bikeable
 863,16,Bolingbrook,60440.0,33,0,48,73366,IL,Car Dependent,Minimal,Somewhat Bikeable
 864,17,Palatine,,39,0,53,68557,IL,Car Dependent,Minimal,Bikeable
-865,18,Skokie,60076.0,66,42,70,64784,IL,Somewhat Walkable,Some Transit,Biker's Paradise
+865,18,Skokie,60076.0,66,42,70,64784,IL,Somewhat Walkable,Some Transit,Very Bikeable
 866,19,Des Plaines,,53,36,57,58364,IL,Somewhat Walkable,Some Transit,Bikeable
 867,20,Orland Park,,28,0,44,56767,IL,Car Dependent,Minimal,Somewhat Bikeable
 868,21,Tinley Park,,33,0,44,56703,IL,Car Dependent,Minimal,Somewhat Bikeable
 869,22,Oak Lawn,60453.0,57,35,51,56690,IL,Somewhat Walkable,Some Transit,Bikeable
-870,23,Berwyn,,73,45,58,56657,IL,Walker's Paradise,Some Transit,Bikeable
+870,23,Berwyn,,73,45,58,56657,IL,Very Walkable,Some Transit,Bikeable
 871,24,Mount Prospect,60056.0,51,28,61,54167,IL,Somewhat Walkable,Some Transit,Bikeable
 872,25,Wheaton,,40,24,53,52894,IL,Car Dependent,Minimal,Bikeable
 873,26,Normal,,38,37,50,52497,IL,Car Dependent,Some Transit,Bikeable
 874,27,Hoffman Estates,60192.0,34,0,56,51895,IL,Car Dependent,Minimal,Bikeable
-875,28,Oak Park,60302.0,78,62,66,51878,IL,Walker's Paradise,Good Transit,Bikeable
+875,28,Oak Park,60302.0,78,62,66,51878,IL,Very Walkable,Good Transit,Bikeable
 876,29,Downers Grove,,44,27,50,47833,IL,Car Dependent,Some Transit,Bikeable
 877,30,Glenview,,37,31,44,44692,IL,Car Dependent,Some Transit,Somewhat Bikeable
 878,31,Belleville,,38,30,45,44478,IL,Car Dependent,Some Transit,Somewhat Bikeable
@@ -896,7 +896,7 @@
 881,34,Moline,,43,37,43,43483,IL,Car Dependent,Some Transit,Somewhat Bikeable
 882,35,Lombard,,44,21,53,43165,IL,Car Dependent,Minimal,Bikeable
 883,36,Buffalo Grove,60089.0,39,0,56,41496,IL,Car Dependent,Minimal,Bikeable
-884,37,Urbana,61801.0,51,52,70,41250,IL,Somewhat Walkable,Good Transit,Biker's Paradise
+884,37,Urbana,61801.0,51,52,70,41250,IL,Somewhat Walkable,Good Transit,Very Bikeable
 885,38,Bartlett,,21,0,50,41208,IL,Car Dependent,Minimal,Bikeable
 886,39,Crystal Lake,,29,0,46,40743,IL,Car Dependent,Minimal,Somewhat Bikeable
 887,40,Quincy,62301.0,42,0,46,40633,IL,Car Dependent,Minimal,Somewhat Bikeable
@@ -1242,7 +1242,7 @@
 1225,67,Ballenger Creek,,25,0,40,18274,MD,Car Dependent,Minimal,Somewhat Bikeable
 1226,68,Calverton,,27,34,38,17724,MD,Car Dependent,Some Transit,Somewhat Bikeable
 1227,69,Oxon Hill,,20,27,27,17722,MD,Car Dependent,Some Transit,Somewhat Bikeable
-1228,70,Hyattsville,,66,59,74,17557,MD,Somewhat Walkable,Good Transit,Biker's Paradise
+1228,70,Hyattsville,,66,59,74,17557,MD,Somewhat Walkable,Good Transit,Very Bikeable
 1229,71,White Oak,,39,48,31,17403,MD,Car Dependent,Some Transit,Somewhat Bikeable
 1230,72,Glassmanor,,33,47,23,17295,MD,Car Dependent,Some Transit,Somewhat Bikeable
 1231,73,Seabrook,,30,30,42,17287,MD,Car Dependent,Some Transit,Somewhat Bikeable
@@ -1250,24 +1250,24 @@
 1233,75,Beltsville,,39,29,43,16772,MD,Car Dependent,Some Transit,Somewhat Bikeable
 1234,76,Ferndale,,36,35,39,16746,MD,Car Dependent,Some Transit,Somewhat Bikeable
 1235,77,Takoma Park,,69,61,68,16715,MD,Somewhat Walkable,Good Transit,Bikeable
-1236,0,Boston,2124.0,82,72,70,617594,MA,Walker's Paradise,Rider's Paradise,Biker's Paradise
+1236,0,Boston,2124.0,82,72,70,617594,MA,Very Walkable,Excellent Transit,Very Bikeable
 1237,1,Worcester,1604.0,56,33,38,181045,MA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1238,2,Springfield,1109.0,59,43,50,153060,MA,Somewhat Walkable,Some Transit,Bikeable
 1239,3,Lowell,1852.0,64,39,46,106519,MA,Somewhat Walkable,Some Transit,Somewhat Bikeable
-1240,4,Cambridge,2138.0,88,74,96,105162,MA,Walker's Paradise,Rider's Paradise,Biker's Paradise
+1240,4,Cambridge,2138.0,88,74,96,105162,MA,Very Walkable,Excellent Transit,Biker's Paradise
 1241,5,New Bedford,2740.0,66,33,52,95072,MA,Somewhat Walkable,Some Transit,Bikeable
 1242,6,Brockton,2301.0,51,36,46,93810,MA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1243,7,Quincy,2169.0,60,49,44,92271,MA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1244,8,Lynn,1902.0,67,40,47,90329,MA,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1245,9,Fall River,2720.0,65,34,50,88857,MA,Somewhat Walkable,Some Transit,Bikeable
 1246,10,Newton,2459.0,55,42,48,85146,MA,Somewhat Walkable,Some Transit,Somewhat Bikeable
-1247,11,Lawrence,1841.0,72,36,46,76377,MA,Walker's Paradise,Some Transit,Somewhat Bikeable
-1248,12,Somerville,2145.0,89,64,89,75754,MA,Walker's Paradise,Good Transit,Biker's Paradise
+1247,11,Lawrence,1841.0,72,36,46,76377,MA,Very Walkable,Some Transit,Somewhat Bikeable
+1248,12,Somerville,2145.0,89,64,89,75754,MA,Very Walkable,Good Transit,Very Bikeable
 1249,13,Framingham,1702.0,42,21,39,68318,MA,Car Dependent,Minimal,Somewhat Bikeable
 1250,14,Haverhill,1830.0,41,22,33,60879,MA,Car Dependent,Minimal,Somewhat Bikeable
 1251,15,Waltham,2453.0,55,33,48,60632,MA,Somewhat Walkable,Some Transit,Somewhat Bikeable
-1252,16,Malden,2148.0,72,53,52,59450,MA,Walker's Paradise,Good Transit,Bikeable
-1253,17,Brookline,2446.0,80,69,72,58732,MA,Walker's Paradise,Good Transit,Biker's Paradise
+1252,16,Malden,2148.0,72,53,52,59450,MA,Very Walkable,Good Transit,Bikeable
+1253,17,Brookline,2446.0,80,69,72,58732,MA,Very Walkable,Good Transit,Very Bikeable
 1254,18,Medford,2155.0,67,50,60,56173,MA,Somewhat Walkable,Good Transit,Bikeable
 1255,19,Taunton,2780.0,28,0,37,55874,MA,Car Dependent,Minimal,Somewhat Bikeable
 1256,20,Chicopee,1020.0,43,35,41,55298,MA,Car Dependent,Some Transit,Somewhat Bikeable
@@ -1279,7 +1279,7 @@
 1262,26,Pittsfield,,38,21,39,44737,MA,Car Dependent,Minimal,Somewhat Bikeable
 1263,27,Attleboro,2703.0,31,23,41,43593,MA,Car Dependent,Minimal,Somewhat Bikeable
 1264,28,Arlington,2474.0,67,48,65,42844,MA,Somewhat Walkable,Some Transit,Bikeable
-1265,29,Everett,2149.0,83,49,52,41667,MA,Walker's Paradise,Some Transit,Bikeable
+1265,29,Everett,2149.0,83,49,52,41667,MA,Very Walkable,Some Transit,Bikeable
 1266,30,Salem,1970.0,67,32,54,41340,MA,Somewhat Walkable,Some Transit,Bikeable
 1267,31,Westfield,,29,16,36,41094,MA,Car Dependent,Minimal,Somewhat Bikeable
 1268,32,Leominster,1453.0,37,23,33,40759,MA,Car Dependent,Minimal,Somewhat Bikeable
@@ -1289,9 +1289,9 @@
 1272,36,Marlborough,1752.0,40,0,31,38499,MA,Car Dependent,Minimal,Somewhat Bikeable
 1273,37,Woburn,1801.0,45,27,36,38120,MA,Car Dependent,Some Transit,Somewhat Bikeable
 1274,38,Braintree Town,2184.0,37,33,35,35744,MA,Car Dependent,Some Transit,Somewhat Bikeable
-1275,39,Chelsea,2150.0,81,57,47,35177,MA,Walker's Paradise,Good Transit,Somewhat Bikeable
+1275,39,Chelsea,2150.0,81,57,47,35177,MA,Very Walkable,Good Transit,Somewhat Bikeable
 1276,40,Randolph,2368.0,35,31,42,32112,MA,Car Dependent,Some Transit,Somewhat Bikeable
-1277,41,Watertown Town,2472.0,74,47,68,31915,MA,Walker's Paradise,Some Transit,Bikeable
+1277,41,Watertown Town,2472.0,74,47,68,31915,MA,Very Walkable,Some Transit,Bikeable
 1278,42,Franklin Town,2038.0,21,0,28,31635,MA,Car Dependent,Minimal,Somewhat Bikeable
 1279,43,Lexington,2421.0,32,0,44,31394,MA,Car Dependent,Minimal,Somewhat Bikeable
 1280,44,Needham,2492.0,38,22,37,28886,MA,Car Dependent,Minimal,Somewhat Bikeable
@@ -1347,7 +1347,7 @@
 1330,22,Battle Creek,,37,0,42,52347,MI,Car Dependent,Minimal,Somewhat Bikeable
 1331,23,Saginaw,48602.0,39,0,48,51508,MI,Car Dependent,Minimal,Somewhat Bikeable
 1332,24,Kentwood,,24,0,43,48707,MI,Car Dependent,Minimal,Somewhat Bikeable
-1333,25,East Lansing,48825.0,53,0,77,48579,MI,Somewhat Walkable,Minimal,Biker's Paradise
+1333,25,East Lansing,48825.0,53,0,77,48579,MI,Somewhat Walkable,Minimal,Very Bikeable
 1334,26,Roseville,48066.0,43,0,47,47299,MI,Car Dependent,Minimal,Somewhat Bikeable
 1335,27,Portage,49024.0,18,0,47,46292,MI,Car Dependent,Minimal,Somewhat Bikeable
 1336,28,Midland,,30,0,50,41863,MI,Car Dependent,Minimal,Bikeable
@@ -1373,7 +1373,7 @@
 1356,48,Holt,,17,0,44,23973,MI,Car Dependent,Minimal,Somewhat Bikeable
 1357,49,Waverly,,27,0,46,23925,MI,Car Dependent,Minimal,Somewhat Bikeable
 1358,50,Walker,,18,0,36,23537,MI,Car Dependent,Minimal,Somewhat Bikeable
-1359,51,Hamtramck,,82,0,56,22423,MI,Walker's Paradise,Minimal,Bikeable
+1359,51,Hamtramck,,82,0,56,22423,MI,Very Walkable,Minimal,Bikeable
 1360,52,Auburn Hills,48326.0,27,0,46,21412,MI,Car Dependent,Minimal,Somewhat Bikeable
 1361,53,Okemos,,21,0,41,21369,MI,Car Dependent,Minimal,Somewhat Bikeable
 1362,54,Marquette,,46,0,60,21355,MI,Car Dependent,Minimal,Bikeable
@@ -1387,7 +1387,7 @@
 1370,62,Wayne,,42,0,45,17593,MI,Car Dependent,Minimal,Somewhat Bikeable
 1371,63,Allendale,,20,0,36,17579,MI,Car Dependent,Minimal,Somewhat Bikeable
 1372,64,Jenison,,19,0,40,16538,MI,Car Dependent,Minimal,Somewhat Bikeable
-1373,0,Minneapolis,55407.0,70,57,84,382578,MN,Walker's Paradise,Good Transit,Biker's Paradise
+1373,0,Minneapolis,55407.0,70,57,84,382578,MN,Very Walkable,Good Transit,Very Bikeable
 1374,1,St. Paul,55106.0,60,48,67,285068,MN,Somewhat Walkable,Some Transit,Bikeable
 1375,2,Rochester,,30,0,57,106769,MN,Car Dependent,Minimal,Bikeable
 1376,3,Duluth,55812.0,35,34,43,86265,MN,Car Dependent,Some Transit,Somewhat Bikeable
@@ -1448,7 +1448,7 @@
 1431,58,Forest Lake,,17,0,38,18375,MN,Car Dependent,Minimal,Somewhat Bikeable
 1432,59,Stillwater,,33,0,43,18225,MN,Car Dependent,Minimal,Somewhat Bikeable
 1433,60,Albert Lea,,29,0,43,18016,MN,Car Dependent,Minimal,Somewhat Bikeable
-1434,61,Hopkins,,57,34,71,17591,MN,Somewhat Walkable,Some Transit,Biker's Paradise
+1434,61,Hopkins,,57,34,71,17591,MN,Somewhat Walkable,Some Transit,Very Bikeable
 1435,62,Anoka,,40,25,55,17142,MN,Car Dependent,Some Transit,Bikeable
 1436,0,Jackson,39212.0,28,20,38,173514,MS,Car Dependent,Minimal,Somewhat Bikeable
 1437,1,Gulfport,39501.0,23,0,41,67793,MS,Car Dependent,Minimal,Somewhat Bikeable
@@ -1566,34 +1566,34 @@
 1548,5,Keene,,43,0,51,23409,NH,Car Dependent,Minimal,Bikeable
 1549,6,Derry,,29,0,38,22015,NH,Car Dependent,Minimal,Somewhat Bikeable
 1550,7,Portsmouth,,47,0,48,20779,NH,Car Dependent,Minimal,Somewhat Bikeable
-1551,0,Newark,7104.0,79,65,61,277140,NJ,Walker's Paradise,Good Transit,Bikeable
-1552,1,Jersey City,7305.0,87,71,70,247597,NJ,Walker's Paradise,Rider's Paradise,Biker's Paradise
-1553,2,Paterson,7501.0,78,48,48,146199,NJ,Walker's Paradise,Some Transit,Somewhat Bikeable
-1554,3,Elizabeth,7202.0,81,43,56,124969,NJ,Walker's Paradise,Some Transit,Bikeable
+1551,0,Newark,7104.0,79,65,61,277140,NJ,Very Walkable,Good Transit,Bikeable
+1552,1,Jersey City,7305.0,87,71,70,247597,NJ,Very Walkable,Excellent Transit,Very Bikeable
+1553,2,Paterson,7501.0,78,48,48,146199,NJ,Very Walkable,Some Transit,Somewhat Bikeable
+1554,3,Elizabeth,7202.0,81,43,56,124969,NJ,Very Walkable,Some Transit,Bikeable
 1555,4,Toms River,8753.0,28,0,39,88791,NJ,Car Dependent,Minimal,Somewhat Bikeable
-1556,5,Trenton,8608.0,70,45,58,84913,NJ,Walker's Paradise,Some Transit,Bikeable
+1556,5,Trenton,8608.0,70,45,58,84913,NJ,Very Walkable,Some Transit,Bikeable
 1557,6,Clifton,7011.0,61,45,47,84136,NJ,Somewhat Walkable,Some Transit,Somewhat Bikeable
-1558,7,Camden,8105.0,70,47,59,77344,NJ,Walker's Paradise,Some Transit,Bikeable
-1559,8,Passaic,7055.0,82,54,52,69781,NJ,Walker's Paradise,Good Transit,Bikeable
-1560,9,Union City,7087.0,94,81,56,66455,NJ,Walker's Paradise,Rider's Paradise,Bikeable
-1561,10,East Orange,7017.0,73,56,50,64270,NJ,Walker's Paradise,Good Transit,Bikeable
-1562,11,Bayonne,7002.0,80,62,52,63024,NJ,Walker's Paradise,Good Transit,Bikeable
+1558,7,Camden,8105.0,70,47,59,77344,NJ,Very Walkable,Some Transit,Bikeable
+1559,8,Passaic,7055.0,82,54,52,69781,NJ,Very Walkable,Good Transit,Bikeable
+1560,9,Union City,7087.0,94,81,56,66455,NJ,Walker's Paradise,Excellent Transit,Bikeable
+1561,10,East Orange,7017.0,73,56,50,64270,NJ,Very Walkable,Good Transit,Bikeable
+1562,11,Bayonne,7002.0,80,62,52,63024,NJ,Very Walkable,Good Transit,Bikeable
 1563,12,Vineland,8361.0,26,0,38,60724,NJ,Car Dependent,Minimal,Somewhat Bikeable
-1564,13,New Brunswick,8901.0,74,34,62,55181,NJ,Walker's Paradise,Some Transit,Bikeable
+1564,13,New Brunswick,8901.0,74,34,62,55181,NJ,Very Walkable,Some Transit,Bikeable
 1565,14,Lakewood,,54,0,48,53805,NJ,Somewhat Walkable,Minimal,Somewhat Bikeable
-1566,15,Perth Amboy,8861.0,76,43,51,50814,NJ,Walker's Paradise,Some Transit,Bikeable
-1567,16,Hoboken,7030.0,96,75,80,50005,NJ,Walker's Paradise,Rider's Paradise,Biker's Paradise
+1566,15,Perth Amboy,8861.0,76,43,51,50814,NJ,Very Walkable,Some Transit,Bikeable
+1567,16,Hoboken,7030.0,96,75,80,50005,NJ,Walker's Paradise,Excellent Transit,Very Bikeable
 1568,17,Plainfield,7062.0,59,42,50,49808,NJ,Somewhat Walkable,Some Transit,Bikeable
-1569,18,West New York,7093.0,94,73,51,49708,NJ,Walker's Paradise,Rider's Paradise,Bikeable
-1570,19,Hackensack,7601.0,73,56,51,43010,NJ,Walker's Paradise,Good Transit,Bikeable
+1569,18,West New York,7093.0,94,73,51,49708,NJ,Walker's Paradise,Excellent Transit,Bikeable
+1570,19,Hackensack,7601.0,73,56,51,43010,NJ,Very Walkable,Good Transit,Bikeable
 1571,20,Sayreville,8872.0,30,0,33,42704,NJ,Car Dependent,Minimal,Somewhat Bikeable
-1572,21,Kearny,7032.0,75,42,47,40684,NJ,Walker's Paradise,Some Transit,Somewhat Bikeable
+1572,21,Kearny,7032.0,75,42,47,40684,NJ,Very Walkable,Some Transit,Somewhat Bikeable
 1573,22,Linden,7036.0,67,42,52,40499,NJ,Somewhat Walkable,Some Transit,Bikeable
-1574,23,Atlantic City,8401.0,73,48,61,39558,NJ,Walker's Paradise,Some Transit,Bikeable
-1575,24,Fort Lee,7024.0,79,54,50,35345,NJ,Walker's Paradise,Good Transit,Bikeable
+1574,23,Atlantic City,8401.0,73,48,61,39558,NJ,Very Walkable,Some Transit,Bikeable
+1575,24,Fort Lee,7024.0,79,54,50,35345,NJ,Very Walkable,Good Transit,Bikeable
 1576,25,Fair Lawn,7410.0,58,42,47,32457,NJ,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1577,26,Long Branch,7740.0,63,26,58,30719,NJ,Somewhat Walkable,Some Transit,Bikeable
-1578,27,Garfield,7026.0,76,45,49,30487,NJ,Walker's Paradise,Some Transit,Somewhat Bikeable
+1578,27,Garfield,7026.0,76,45,49,30487,NJ,Very Walkable,Some Transit,Somewhat Bikeable
 1579,28,Westfield,7090.0,44,32,43,30316,NJ,Car Dependent,Some Transit,Somewhat Bikeable
 1580,29,Millville,,31,0,42,28400,NJ,Car Dependent,Minimal,Somewhat Bikeable
 1581,30,Rahway,7065.0,64,39,58,27346,NJ,Somewhat Walkable,Some Transit,Bikeable
@@ -1602,9 +1602,9 @@
 1584,33,Paramus,7652.0,36,41,38,26342,NJ,Car Dependent,Some Transit,Somewhat Bikeable
 1585,34,Bridgeton,,43,0,43,25349,NJ,Car Dependent,Minimal,Somewhat Bikeable
 1586,35,Ridgewood,7450.0,42,42,41,24958,NJ,Car Dependent,Some Transit,Somewhat Bikeable
-1587,36,Lodi,7644.0,70,45,47,24136,NJ,Walker's Paradise,Some Transit,Somewhat Bikeable
+1587,36,Lodi,7644.0,70,45,47,24136,NJ,Very Walkable,Some Transit,Somewhat Bikeable
 1588,37,Old Bridge,,30,36,37,23753,NJ,Car Dependent,Some Transit,Somewhat Bikeable
-1589,38,Cliffside Park,7010.0,83,55,45,23594,NJ,Walker's Paradise,Good Transit,Somewhat Bikeable
+1589,38,Cliffside Park,7010.0,83,55,45,23594,NJ,Very Walkable,Good Transit,Somewhat Bikeable
 1590,39,South Plainfield,7080.0,43,24,43,23385,NJ,Car Dependent,Minimal,Somewhat Bikeable
 1591,40,Carteret,7008.0,56,32,47,22844,NJ,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1592,41,Somerset,,26,0,41,22083,NJ,Car Dependent,Minimal,Somewhat Bikeable
@@ -1612,13 +1612,13 @@
 1594,43,Summit,7901.0,47,33,33,21457,NJ,Car Dependent,Some Transit,Somewhat Bikeable
 1595,44,Roselle,7203.0,66,44,50,21085,NJ,Somewhat Walkable,Some Transit,Bikeable
 1596,45,Pleasantville,8232.0,51,37,56,20249,NJ,Somewhat Walkable,Some Transit,Bikeable
-1597,46,Palisades Park,7650.0,81,52,42,19622,NJ,Walker's Paradise,Good Transit,Somewhat Bikeable
+1597,46,Palisades Park,7650.0,81,52,42,19622,NJ,Very Walkable,Good Transit,Somewhat Bikeable
 1598,47,Elmwood Park,7407.0,55,42,45,19403,NJ,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1599,48,Woodbridge,,52,38,44,19265,NJ,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1600,49,Hawthorne,7506.0,53,26,37,18791,NJ,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1601,50,Iselin,8830.0,60,35,47,18695,NJ,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1602,51,Glassboro,,38,0,48,18579,NJ,Car Dependent,Minimal,Somewhat Bikeable
-1603,52,Morristown,,70,32,42,18411,NJ,Walker's Paradise,Some Transit,Somewhat Bikeable
+1603,52,Morristown,,70,32,42,18411,NJ,Very Walkable,Some Transit,Somewhat Bikeable
 1604,53,Point Pleasant,,49,0,52,18392,NJ,Car Dependent,Minimal,Bikeable
 1605,54,Dover,,59,35,35,18157,NJ,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1606,55,Rutherford,7070.0,69,53,47,18061,NJ,Somewhat Walkable,Good Transit,Somewhat Bikeable
@@ -1639,21 +1639,21 @@
 1621,9,Alamogordo,,26,0,41,30403,NM,Car Dependent,Minimal,Somewhat Bikeable
 1622,10,Carlsbad,,36,0,50,26138,NM,Car Dependent,Minimal,Bikeable
 1623,11,Gallup,,28,0,33,21678,NM,Car Dependent,Minimal,Somewhat Bikeable
-1624,0,New York,11368.0,88,84,70,8175133,NY,Walker's Paradise,Rider's Paradise,Biker's Paradise
+1624,0,New York,11368.0,88,84,70,8175133,NY,Very Walkable,Excellent Transit,Very Bikeable
 1625,1,Buffalo,14213.0,68,49,65,261310,NY,Somewhat Walkable,Some Transit,Bikeable
 1626,2,Rochester,14621.0,65,43,61,210565,NY,Somewhat Walkable,Some Transit,Bikeable
-1627,3,Yonkers,10701.0,70,54,39,195976,NY,Walker's Paradise,Good Transit,Somewhat Bikeable
+1627,3,Yonkers,10701.0,70,54,39,195976,NY,Very Walkable,Good Transit,Somewhat Bikeable
 1628,4,Syracuse,13210.0,60,44,50,145170,NY,Somewhat Walkable,Some Transit,Bikeable
 1629,5,Albany,12208.0,65,54,56,97856,NY,Somewhat Walkable,Good Transit,Bikeable
 1630,6,New Rochelle,10801.0,65,44,48,77062,NY,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1631,7,Cheektowaga,14225.0,34,28,44,75178,NY,Car Dependent,Some Transit,Somewhat Bikeable
-1632,8,Mount Vernon,10550.0,74,56,44,67292,NY,Walker's Paradise,Good Transit,Somewhat Bikeable
+1632,8,Mount Vernon,10550.0,74,56,44,67292,NY,Very Walkable,Good Transit,Somewhat Bikeable
 1633,9,Schenectady,12308.0,65,37,51,66135,NY,Somewhat Walkable,Some Transit,Bikeable
 1634,10,Utica,13501.0,58,0,49,62235,NY,Somewhat Walkable,Minimal,Somewhat Bikeable
 1635,11,Brentwood,11717.0,38,0,42,60664,NY,Car Dependent,Minimal,Somewhat Bikeable
 1636,12,Tonawanda,14223.0,47,31,50,58144,NY,Car Dependent,Some Transit,Bikeable
 1637,13,White Plains,10605.0,62,51,40,56853,NY,Somewhat Walkable,Good Transit,Somewhat Bikeable
-1638,14,Hempstead,11550.0,74,53,55,53891,NY,Walker's Paradise,Good Transit,Bikeable
+1638,14,Hempstead,11550.0,74,53,55,53891,NY,Very Walkable,Good Transit,Bikeable
 1639,15,Levittown,11756.0,50,21,46,51881,NY,Somewhat Walkable,Minimal,Somewhat Bikeable
 1640,16,Irondequoit,14617.0,32,33,40,51692,NY,Car Dependent,Some Transit,Somewhat Bikeable
 1641,17,Niagara Falls,14301.0,49,30,55,50193,NY,Car Dependent,Some Transit,Bikeable
@@ -1671,7 +1671,7 @@
 1653,29,Central Islip,11722.0,37,0,42,34450,NY,Car Dependent,Minimal,Somewhat Bikeable
 1654,30,Rome,,35,0,45,33725,NY,Car Dependent,Minimal,Somewhat Bikeable
 1655,31,New City,10956.0,21,0,29,33559,NY,Car Dependent,Minimal,Somewhat Bikeable
-1656,32,Long Beach,,70,29,53,33275,NY,Walker's Paradise,Some Transit,Bikeable
+1656,32,Long Beach,,70,29,53,33275,NY,Very Walkable,Some Transit,Bikeable
 1657,33,Elmont,11003.0,62,40,49,33198,NY,Somewhat Walkable,Some Transit,Somewhat Bikeable
 1658,34,Huntington Station,,51,0,50,33029,NY,Somewhat Walkable,Minimal,Bikeable
 1659,35,Poughkeepsie,,63,30,54,32736,NY,Somewhat Walkable,Some Transit,Bikeable
@@ -1680,10 +1680,10 @@
 1662,38,North Tonawanda,,38,0,51,31568,NY,Car Dependent,Minimal,Bikeable
 1663,39,Spring Valley,,53,20,41,31347,NY,Somewhat Walkable,Minimal,Somewhat Bikeable
 1664,40,Jamestown,,53,0,43,31146,NY,Somewhat Walkable,Minimal,Somewhat Bikeable
-1665,41,Ithaca,14853.0,71,0,57,30014,NY,Walker's Paradise,Minimal,Bikeable
+1665,41,Ithaca,14853.0,71,0,57,30014,NY,Very Walkable,Minimal,Bikeable
 1666,42,Franklin Square,11010.0,67,38,51,29320,NY,Somewhat Walkable,Some Transit,Bikeable
 1667,43,Elmira,,50,0,55,29200,NY,Somewhat Walkable,Minimal,Bikeable
-1668,44,Port Chester,,76,43,43,28967,NY,Walker's Paradise,Some Transit,Somewhat Bikeable
+1668,44,Port Chester,,76,43,43,28967,NY,Very Walkable,Some Transit,Somewhat Bikeable
 1669,45,Newburgh,,69,0,43,28866,NY,Somewhat Walkable,Minimal,Somewhat Bikeable
 1670,46,West Islip,11795.0,33,0,39,28335,NY,Car Dependent,Minimal,Somewhat Bikeable
 1671,47,Middletown,,57,0,38,28086,NY,Somewhat Walkable,Minimal,Somewhat Bikeable
@@ -1723,7 +1723,7 @@
 1705,81,Selden,,35,0,40,19851,NY,Car Dependent,Minimal,Somewhat Bikeable
 1706,82,Holtsville,11742.0,22,0,36,19714,NY,Car Dependent,Minimal,Somewhat Bikeable
 1707,83,Eastchester,10709.0,61,41,44,19554,NY,Somewhat Walkable,Some Transit,Somewhat Bikeable
-1708,84,Lynbrook,11563.0,72,51,57,19427,NY,Walker's Paradise,Good Transit,Bikeable
+1708,84,Lynbrook,11563.0,72,51,57,19427,NY,Very Walkable,Good Transit,Bikeable
 1709,85,Cortland,,54,0,48,19204,NY,Somewhat Walkable,Minimal,Somewhat Bikeable
 1710,86,Ronkonkoma,,27,0,35,19082,NY,Car Dependent,Minimal,Somewhat Bikeable
 1711,87,East Massapequa,,47,24,47,19069,NY,Car Dependent,Minimal,Somewhat Bikeable
@@ -1733,7 +1733,7 @@
 1715,91,Wantagh,,49,28,47,18871,NY,Car Dependent,Some Transit,Somewhat Bikeable
 1716,92,West Hempstead,,65,42,53,18862,NY,Somewhat Walkable,Some Transit,Bikeable
 1717,93,Syosset,,44,0,42,18829,NY,Car Dependent,Minimal,Somewhat Bikeable
-1718,94,Mineola,11501.0,77,52,51,18799,NY,Walker's Paradise,Good Transit,Bikeable
+1718,94,Mineola,11501.0,77,52,51,18799,NY,Very Walkable,Good Transit,Bikeable
 1719,95,Islip,11751.0,41,0,44,18689,NY,Car Dependent,Minimal,Somewhat Bikeable
 1720,96,Amsterdam,,34,0,29,18620,NY,Car Dependent,Minimal,Somewhat Bikeable
 1721,97,Monsey,,40,0,35,18412,NY,Car Dependent,Minimal,Somewhat Bikeable
@@ -1955,16 +1955,16 @@
 1935,27,Jenks,74037.0,15,4,39,16924,OK,Car Dependent,Minimal,Somewhat Bikeable
 1936,28,Ada,,32,0,38,16810,OK,Car Dependent,Minimal,Somewhat Bikeable
 1937,29,El Reno,,29,0,38,16749,OK,Car Dependent,Minimal,Somewhat Bikeable
-1938,0,Portland,97206.0,67,52,82,583776,OR,Somewhat Walkable,Good Transit,Biker's Paradise
-1939,1,Eugene,97401.0,45,36,72,156185,OR,Car Dependent,Some Transit,Biker's Paradise
+1938,0,Portland,97206.0,67,52,82,583776,OR,Somewhat Walkable,Good Transit,Very Bikeable
+1939,1,Eugene,97401.0,45,36,72,156185,OR,Car Dependent,Some Transit,Very Bikeable
 1940,2,Salem,,42,31,62,154637,OR,Car Dependent,Some Transit,Bikeable
 1941,3,Gresham,97030.0,45,40,65,105594,OR,Car Dependent,Some Transit,Bikeable
-1942,4,Hillsboro,,44,39,72,91611,OR,Car Dependent,Some Transit,Biker's Paradise
+1942,4,Hillsboro,,44,39,72,91611,OR,Car Dependent,Some Transit,Very Bikeable
 1943,5,Beaverton,97008.0,50,37,68,89803,OR,Somewhat Walkable,Some Transit,Bikeable
 1944,6,Bend,,33,24,53,76639,OR,Car Dependent,Minimal,Bikeable
 1945,7,Medford,,37,25,54,74907,OR,Car Dependent,Some Transit,Bikeable
 1946,8,Springfield,,47,33,63,59403,OR,Car Dependent,Some Transit,Bikeable
-1947,9,Corvallis,97331.0,48,28,84,54462,OR,Car Dependent,Some Transit,Biker's Paradise
+1947,9,Corvallis,97331.0,48,28,84,54462,OR,Car Dependent,Some Transit,Very Bikeable
 1948,10,Albany,,34,17,53,50158,OR,Car Dependent,Minimal,Bikeable
 1949,11,Aloha,,40,37,64,49425,OR,Car Dependent,Some Transit,Bikeable
 1950,12,Tigard,,41,31,63,48035,OR,Car Dependent,Some Transit,Bikeable
@@ -1982,7 +1982,7 @@
 1962,24,Forest Grove,,42,30,66,21083,OR,Car Dependent,Some Transit,Bikeable
 1963,25,Klamath Falls,,39,23,44,20840,OR,Car Dependent,Minimal,Somewhat Bikeable
 1964,26,Bethany,,36,27,56,20646,OR,Car Dependent,Some Transit,Bikeable
-1965,27,Milwaukie,,51,43,71,20291,OR,Somewhat Walkable,Some Transit,Biker's Paradise
+1965,27,Milwaukie,,51,43,71,20291,OR,Somewhat Walkable,Some Transit,Very Bikeable
 1966,28,Ashland,,53,18,59,20078,OR,Somewhat Walkable,Minimal,Bikeable
 1967,29,Hayesville,,36,35,61,19936,OR,Car Dependent,Some Transit,Bikeable
 1968,30,Wilsonville,,28,27,55,19509,OR,Car Dependent,Some Transit,Bikeable
@@ -1992,19 +1992,19 @@
 1972,34,Hermiston,,43,0,43,16745,OR,Car Dependent,Minimal,Somewhat Bikeable
 1973,35,Oak Grove,,48,38,65,16629,OR,Car Dependent,Some Transit,Bikeable
 1974,36,Pendleton,,35,0,32,16612,OR,Car Dependent,Minimal,Somewhat Bikeable
-1975,0,Philadelphia,19120.0,79,67,67,1526006,PA,Walker's Paradise,Good Transit,Bikeable
+1975,0,Philadelphia,19120.0,79,67,67,1526006,PA,Very Walkable,Good Transit,Bikeable
 1976,1,Pittsburgh,15213.0,63,56,57,305704,PA,Somewhat Walkable,Good Transit,Bikeable
-1977,2,Allentown,18102.0,70,36,44,118032,PA,Walker's Paradise,Some Transit,Somewhat Bikeable
+1977,2,Allentown,18102.0,70,36,44,118032,PA,Very Walkable,Some Transit,Somewhat Bikeable
 1978,3,Erie,16504.0,59,0,54,101786,PA,Somewhat Walkable,Minimal,Bikeable
-1979,4,Reading,,75,0,48,88082,PA,Walker's Paradise,Minimal,Somewhat Bikeable
+1979,4,Reading,,75,0,48,88082,PA,Very Walkable,Minimal,Somewhat Bikeable
 1980,5,Scranton,18503.0,57,0,38,76089,PA,Somewhat Walkable,Minimal,Somewhat Bikeable
 1981,6,Bethlehem,18018.0,63,32,45,74982,PA,Somewhat Walkable,Some Transit,Somewhat Bikeable
-1982,7,Lancaster,,81,0,59,59322,PA,Walker's Paradise,Minimal,Bikeable
+1982,7,Lancaster,,81,0,59,59322,PA,Very Walkable,Minimal,Bikeable
 1983,8,Levittown,19055.0,36,20,42,52983,PA,Car Dependent,Minimal,Somewhat Bikeable
-1984,9,Harrisburg,17104.0,74,39,58,49528,PA,Walker's Paradise,Some Transit,Bikeable
+1984,9,Harrisburg,17104.0,74,39,58,49528,PA,Very Walkable,Some Transit,Bikeable
 1985,10,Altoona,,54,0,35,46320,PA,Somewhat Walkable,Minimal,Somewhat Bikeable
-1986,11,York,17401.0,74,40,63,43718,PA,Walker's Paradise,Some Transit,Bikeable
-1987,12,State College,,68,52,75,42034,PA,Somewhat Walkable,Good Transit,Biker's Paradise
+1986,11,York,17401.0,74,40,63,43718,PA,Very Walkable,Some Transit,Bikeable
+1987,12,State College,,68,52,75,42034,PA,Somewhat Walkable,Good Transit,Very Bikeable
 1988,13,Wilkes,18701.0,62,0,47,41498,PA,Somewhat Walkable,Minimal,Somewhat Bikeable
 1988,13,Barre,18701.0,62,0,47,41498,PA,Somewhat Walkable,Minimal,Somewhat Bikeable
 1989,14,Norristown,,69,42,48,34324,PA,Somewhat Walkable,Some Transit,Somewhat Bikeable
@@ -2029,15 +2029,15 @@
 2008,33,McKeesport,15132.0,44,32,34,19731,PA,Car Dependent,Some Transit,Somewhat Bikeable
 2009,34,Upper St. Clair,15241.0,14,0,10,19229,PA,Car Dependent,Minimal,Somewhat Bikeable
 2010,35,Carlisle,,60,0,62,18682,PA,Somewhat Walkable,Minimal,Bikeable
-2011,36,West Chester,,76,0,50,18461,PA,Walker's Paradise,Minimal,Bikeable
-2012,0,Providence,2909.0,78,48,62,178042,RI,Walker's Paradise,Some Transit,Bikeable
+2011,36,West Chester,,76,0,50,18461,PA,Very Walkable,Minimal,Bikeable
+2012,0,Providence,2909.0,78,48,62,178042,RI,Very Walkable,Some Transit,Bikeable
 2013,1,Warwick,2886.0,34,26,40,82672,RI,Car Dependent,Some Transit,Somewhat Bikeable
 2014,2,Cranston,2920.0,49,30,46,80387,RI,Car Dependent,Some Transit,Somewhat Bikeable
 2015,3,Pawtucket,2860.0,69,37,52,71148,RI,Somewhat Walkable,Some Transit,Bikeable
 2016,4,East Providence,2914.0,48,30,46,47037,RI,Car Dependent,Some Transit,Somewhat Bikeable
 2017,5,Woonsocket,2895.0,52,26,37,41186,RI,Somewhat Walkable,Some Transit,Somewhat Bikeable
 2018,6,Newport,2840.0,65,31,54,24672,RI,Somewhat Walkable,Some Transit,Bikeable
-2019,7,Central Falls,2863.0,79,34,52,19376,RI,Walker's Paradise,Some Transit,Bikeable
+2019,7,Central Falls,2863.0,79,34,52,19376,RI,Very Walkable,Some Transit,Bikeable
 2020,8,Westerly,,34,4,34,17936,RI,Car Dependent,Minimal,Somewhat Bikeable
 2021,0,Columbia,29205.0,38,0,38,129272,SC,Car Dependent,Minimal,Somewhat Bikeable
 2022,1,Charleston,29407.0,40,23,52,120083,SC,Car Dependent,Minimal,Bikeable
@@ -2264,7 +2264,7 @@
 2242,155,Bellaire,77401.0,52,46,50,16855,TX,Somewhat Walkable,Some Transit,Bikeable
 2243,156,Mineral Wells,,19,0,39,16788,TX,Car Dependent,Minimal,Somewhat Bikeable
 2244,157,Horizon City,,23,0,35,16735,TX,Car Dependent,Minimal,Somewhat Bikeable
-2245,0,Salt Lake City,84116.0,59,44,73,186440,UT,Somewhat Walkable,Some Transit,Biker's Paradise
+2245,0,Salt Lake City,84116.0,59,44,73,186440,UT,Somewhat Walkable,Some Transit,Very Bikeable
 2246,1,West Valley City,84120.0,35,36,43,129480,UT,Car Dependent,Some Transit,Somewhat Bikeable
 2247,2,Provo,84601.0,47,34,63,112488,UT,Car Dependent,Some Transit,Bikeable
 2248,3,West Jordan,84088.0,27,29,40,103712,UT,Car Dependent,Some Transit,Somewhat Bikeable
@@ -2308,12 +2308,12 @@
 2286,41,Saratoga Springs,,8,4,27,17781,UT,Car Dependent,Minimal,Somewhat Bikeable
 2287,42,North Ogden,,20,28,25,17357,UT,Car Dependent,Some Transit,Somewhat Bikeable
 2288,43,South Ogden,,40,34,39,16532,UT,Car Dependent,Some Transit,Somewhat Bikeable
-2289,0,Burlington,,59,37,78,42417,VT,Somewhat Walkable,Some Transit,Biker's Paradise
+2289,0,Burlington,,59,37,78,42417,VT,Somewhat Walkable,Some Transit,Very Bikeable
 2290,1,South Burlington,,27,0,53,17904,VT,Car Dependent,Minimal,Bikeable
 2291,0,Virginia Beach,23464.0,32,21,44,437994,VA,Car Dependent,Minimal,Somewhat Bikeable
 2292,1,Norfolk,23503.0,45,36,51,242803,VA,Car Dependent,Some Transit,Bikeable
 2293,2,Chesapeake,23322.0,21,13,40,222209,VA,Car Dependent,Minimal,Somewhat Bikeable
-2294,3,Arlington,22204.0,69,62,72,207627,VA,Somewhat Walkable,Good Transit,Biker's Paradise
+2294,3,Arlington,22204.0,69,62,72,207627,VA,Somewhat Walkable,Good Transit,Very Bikeable
 2295,4,Richmond,23220.0,52,0,52,204214,VA,Somewhat Walkable,Minimal,Bikeable
 2296,5,Newport News,23608.0,33,27,42,180719,VA,Car Dependent,Some Transit,Somewhat Bikeable
 2297,6,Alexandria,22304.0,60,55,61,139966,VA,Somewhat Walkable,Good Transit,Bikeable
@@ -2377,7 +2377,7 @@
 2355,64,Burke Centre,,38,22,38,17326,VA,Car Dependent,Minimal,Somewhat Bikeable
 2356,65,Idylwood,,42,37,43,17288,VA,Car Dependent,Some Transit,Somewhat Bikeable
 2357,66,Laurel,,31,0,37,16713,VA,Car Dependent,Minimal,Somewhat Bikeable
-2358,0,Seattle,98115.0,74,60,70,608660,WA,Walker's Paradise,Good Transit,Biker's Paradise
+2358,0,Seattle,98115.0,74,60,70,608660,WA,Very Walkable,Good Transit,Very Bikeable
 2359,1,Spokane,99205.0,49,36,52,208916,WA,Car Dependent,Some Transit,Bikeable
 2360,2,Tacoma,98406.0,53,0,49,198397,WA,Somewhat Walkable,Minimal,Somewhat Bikeable
 2361,3,Vancouver,98683.0,40,34,61,161791,WA,Car Dependent,Some Transit,Bikeable
