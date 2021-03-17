@@ -1,10 +1,13 @@
+import os
 import pandas as pd
 import numpy as np
 import re
 import json
 from sklearn.linear_model import LinearRegression
 
-df = pd.read_csv('/Users/keinobaird/Desktop/labspt15-cityspire-g-ds/notebooks/data/population2010-2019/metropop_2010_2019.csv')
+pwd = os.getcwd()
+
+df = pd.read_csv('metropop_2010_2019.csv')
 
 def explode_str(df, col='Metro-Area', sep='-'):
     s = df[col]
