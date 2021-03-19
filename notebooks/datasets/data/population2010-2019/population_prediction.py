@@ -17,9 +17,10 @@ def explode_str(df, col='Metro-Area', sep='-'):
 new_df = explode_str(df)
 
 def metro_lists_gen(new_df):
-    new_df.rename(columns={"Metro-Area": 'metro_area'}, inplace=True)
+    new_df.rename(columns={"Metro-Area": 'metro_area',
+                            "State": "state"}, inplace=True)
     new_df['metro_area'] = new_df['metro_area'].apply(lambda row: row.lower())
-    lists = new_df['metro_area'].unique().tolist()
+    lists = new_df[['metro_area', 'state']].unique().tolist()
     with open('metro_list.json', 'w', encoding='utf-8') as f:
         json.dump(lists, f, ensure_ascii=False, indent=4)
     return lists, new_df
@@ -27,7 +28,7 @@ def metro_lists_gen(new_df):
 
 def selecting_metro(df, metro):
     df = df.loc[df['metro_area'] == metro]
-    df.drop(['metro_area', 'State', 'Census', 'Estimate Base'], axis=1, inplace=True)
+    df.drop(['metro_area', 'Census', 'Estimate Base'], axis=1, inplace=True)
     df = df.T
     df.dropna(inplace=True)
     df = df.reset_index()
@@ -53,7 +54,7 @@ def main():
         result = prediction(model, year)
         print(f'\n Result: {metro.upper()} population in {year} will be {result:,d}')
     else:
-        print("Kindly check available metro anmes and spelling from metro_list.json")
+        print("Kindly check available metro names and spelling from metro_list.json")
 
 if __name__ == '__main__':
     main()

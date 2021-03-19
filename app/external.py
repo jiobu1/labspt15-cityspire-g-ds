@@ -3,22 +3,48 @@ import requests
 from pydantic import BaseModel
 from app.ml import City, validate_city
 from app.state_abbr import us_state_abbrev as abbr
+from dotenv import dotenv_values, load_dotenv
 
 router = APIRouter()
+load_dotenv()
+weather_api = os.getenv("WEATHER_API_KEY")
 
 
-url = "https://community-open-weather-map.p.rapidapi.com/weather"
+@router.post('/api/temperature')
 
-querystring = {"q":"London,uk","lat":"0","lon":"0","callback":"test","id":"2172797","lang":"null","units":"\"metric\" or \"imperial\"","mode":"xml, html"}
+# 1
+def temperature():
+    query = request.form['q']
+    r = requests.get('http://api.openweathermap.org/data/2.5/weather?q='+query+',us&appid='+weather_api)
+    json_object = r.json()
+    temp_k = float(json_object['main']['temp'])
+    temp_f = (temp_k - 273.15) * 1.8 + 32
+    return {"current temperature": temp_f}
 
-headers = {
-    'x-rapidapi-key': "faff7ab7c7msh3822aded57db4f7p186a98jsnaa1b1cf4c384",
-    'x-rapidapi-host': "community-open-weather-map.p.rapidapi.com"
-    }
+# 2
+def weather_data(query):
+	res=requests.get('http://api.openweathermap.org/data/2.5/weather?'+query+',us&appid='+weather_api);
+	return res.json()
 
-response = requests.request("GET", url, headers=headers, params=querystring)
+def print_weather(result,city):
+	print("{}'s temperature: {}°C ".format(city,result['main']['temp']))
+	print("Wind speed: {} m/s".format(result['wind']['speed']))
+	print("Description: {}".format(result['weather'][0]['description']))
+	print("Weather: {}".format(result['weather'][0]['main']))
 
-print(response.text)
+def main():
+	city=input('Enter the city:')
+	print()
+	try:
+	  query='q='+city;
+	  w_data=weather_data(query);
+	  print_weather(w_data, city)
+	  print()
+	except:
+	  print('City name not found...')
+
+if __name__=='__main__':
+	main()
 
 @router.post("/api/walkability")
 async def get_walkability(city: City):
