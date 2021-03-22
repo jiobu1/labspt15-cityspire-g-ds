@@ -14,7 +14,7 @@ weather_api = os.getenv("WEATHER_API_KEY")
 
 # https://github.com/juhilsomaiya/API-Integrations-Python/blob/master/Weather_forecast/main.p
 @router.post('/api/temperature')
-def get_data(city:City):
+async def current_weather(city:City):
     app_id = weather_api
     location = validate_city(city) # {city: "New York", state: "NY" }
     city_name = location.city + "," + location.state
