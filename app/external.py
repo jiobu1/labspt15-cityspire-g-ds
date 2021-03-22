@@ -15,6 +15,25 @@ weather_api = os.getenv("WEATHER_API_KEY")
 # https://github.com/juhilsomaiya/API-Integrations-Python/blob/master/Weather_forecast/main.p
 @router.post('/api/temperature')
 async def current_weather(city:City):
+    """Retrieve current weather data from openweathermap
+
+    Fetch weather data from openweathermap
+    - description
+    - temperature
+    - high and low
+    - humidity
+    - wind speed
+    - real feel forecast
+    - pressure
+
+    args:
+        city: The target city
+
+    returns:
+        Dictionary that contains the requested data, which is converted
+        by fastAPI to a json object.
+
+    """
     app_id = weather_api
     location = validate_city(city) # {city: "New York", state: "NY" }
     city_name = location.city + "," + location.state
