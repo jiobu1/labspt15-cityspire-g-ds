@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
-from app import db, ml, viz
+from app import db, ml, viz, external
 
 description = """
 MISSION: Be a one-stop resource for users to receive the most accurate city information.
