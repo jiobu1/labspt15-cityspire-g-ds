@@ -1,6 +1,8 @@
 import requests
 import os
 import datetime
+import csv
+import json
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel
 from bs4 import BeautifulSoup
@@ -59,11 +61,76 @@ async def current_weather(city:City):
 
 # https://www.youtube.com/watch?v=eN_3d4JrL_w
 @router.post('/api/job_opportunities')
-async def get_url(position, city:City):
+async def main(position, location):
+    # Run the main program reouting
+    records = []  # creating the record list
+    url = get_url(position, location)  # create the url while passing in the position and location.
+
+    while True:
+        print(url)
+        response = requests.get(url)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        cards = soup.find_all('div', 'jobsearch-SerpJobCard')
+
+        for card in cards:
+            record = get_record(card)
+            records.append(record)
+
+        try:
+            url = 'https://www.indeed.com' + soup.find('a', {'aria-label': 'Next'}).get('href')
+        except AttributeError:
+            break
+
+    with open('results.csv', 'a', newline='', encoding='utf-8') as f:
+        writer = csv.writer(f)
+        writer.writerow(['Job Title', 'Company', 'Location', 'Posting Date', 'Extract Date', 'Summary', 'Salary', 'Job Url'])
+        writer.writerows(records)
+
+    csvFilePath = 'results.csv'
+    jsonFilePath = 'driver.json'
+
+    # read csv file and add to data
+    data = {}
+    with open(csvFilePath) as csvFile:
+        csvReader = csv.DictReader(csvFile)
+        for rows in csvReader:
+            id = rows['id']
+            data[id] = rows
+
+    # create new json file and write data on it
+    with open(jsonFilePath, 'w') as jsonFile:
+        # make it more readable and pretty
+        jsonFile.write(json.dumps(data, indent=4))
+
+    return jsonFile
+
+
+def get_record(card):
+    """Extract job date from a single record"""
+    atag = card.h2.a
+    job_title = atag.get('title')
+    company = card.find('span', 'company').text.strip()
+    job_location = card.find('div', 'recJobLoc').get('data-rc-loc')
+    job_summary = card.find('div', 'summary').text.strip()
+    post_date = card.find('span', 'date').text.strip()
+
+    try:
+        salary = card.find('span', 'salarytext').text.strip()
+    except AttributeError:
+        salary = ''
+
+    extract_date = datetime.datetime.today().strftime('%Y-%m-%d')
+    job_url = 'https://www.indeed.com' + atag.get('href')
+
+    record = (job_title, company, job_location, post_date, extract_date, job_summary, salary, job_url)
+
+    return record
+
+def get_url(position, city:City):
     "Generate a url based on position and location"
 
     city_name = validate_city(city)
-    location = city_name.city + "," + city_name.state
+    location = city_name.city + ' ' + city_name.state
     template = "https://www.indeed.com/jobs?q={}&l={}"
     url = template.format(position, location)
     return url
