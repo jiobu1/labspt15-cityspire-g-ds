@@ -1,10 +1,9 @@
 import requests
 import os
 import datetime
-import requests
 from fastapi import APIRouter, HTTPException, Depends
-from bs4 import BeautifulSoup
 from pydantic import BaseModel
+from bs4 import BeautifulSoup
 from app.ml import City, validate_city
 from app.state_abbr import us_state_abbrev as abbr
 from dotenv import dotenv_values, load_dotenv
