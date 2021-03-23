@@ -1,7 +1,9 @@
 import requests
 import os
 import datetime
+import requests
 from fastapi import APIRouter, HTTPException, Depends
+from bs4 import BeautifulSoup
 from pydantic import BaseModel
 from app.ml import City, validate_city
 from app.state_abbr import us_state_abbrev as abbr
@@ -55,3 +57,38 @@ async def current_weather(city:City):
         "Feels Like": str(main['feels_like'])+" F\N{DEGREE SIGN}",
         "Pressure": str(main['pressure'])+" hPa"
     }
+
+# https://www.youtube.com/watch?v=eN_3d4JrL_w
+@router.post('/api/job_opportunities')
+async def get_url(position, city:City):
+    "Generate a url based on position and location"
+
+    city_name = validate_city(city)
+    location = city_name.city + "," + city_name.state
+    template = "https://www.indeed.com/jobs?q={}&l={}"
+    url = template.format(position, location)
+    return url
+
+def get_record(card):
+    "Exract job data from a single record"
+    atag = card.h2.a
+    job_title = atag.get('title')
+    job_url =  'https://www.indeeed.com' + atag.get('href')
+    company = card.find('span', 'company').text.strip()
+    job_location = card.find('div', 'recJobLoc').get('data-rc-loc')
+    job_summary = card.find('div', 'summary').text.strip()
+    post_date = card.find('span', 'date').text
+    datetime.datetime.today().strftime('%Y-%m-%d')
+    try:
+        card.find('span', 'salaryText').text.strip()
+    except AttributeError:
+        job_salary = ''
+
+    record = (job_title, company, job_location, post_date, today, job_summary, job_salary, job_url)
+
+    return record
+
+records = []
+for card in cards:
+    record = get_record(card)
+    records.append(record)
