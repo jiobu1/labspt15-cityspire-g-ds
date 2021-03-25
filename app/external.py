@@ -66,15 +66,15 @@ async def current_weather(city:City):
 async def job_opportunities(position, city:City):
     """Returns jobs opportunities from indeed.com
 
-        Fetch first 10 job opportunities
-        - Job title,
-        - Company,
-        - Job location
-        - Post Date,
-        - Extract Date,
-        - Job Description,
-        - Salary,
-        - Job Url
+    Fetch first 10 job opportunities
+    - Job title,
+    - Company,
+    - Job location
+    - Post Date,
+    - Extract Date,
+    - Job Description,
+    - Salary,
+    - Job Url
 
     args:
         position - desired job opportunity
