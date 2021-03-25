@@ -63,19 +63,22 @@ async def current_weather(city:City):
 # https://www.youtube.com/watch?v=eN_3d4JrL_w
 # https://medium.com/@hannah15198/convert-csv-to-json-with-python-b8899c722f6d
 @router.post('/api/job_opportunities')
-async def main(position, city:City):
+async def job_opportunities(position, city:City):
     """Returns jobs opportunities from indeed.com
 
-        Job title,
-        Company,
-        Job location
-        Post Date,
-        Extract Date,
-        Job Description,
-        Salary,
-        Job Url
+        Fetch first 10 job opportunities
+        - Job title,
+        - Company,
+        - Job location
+        - Post Date,
+        - Extract Date,
+        - Job Description,
+        - Salary,
+        - Job Url
 
-    args: position, city
+    args:
+        position - desired job opportunity
+        city - target city
 
     returns:
         Dictionary that contains the requested data, which is converted
