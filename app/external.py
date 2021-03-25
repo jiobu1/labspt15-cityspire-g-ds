@@ -1,9 +1,6 @@
 import requests
 import os
 import datetime
-import csv
-import json
-import pandas as pd
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel
 from bs4 import BeautifulSoup
@@ -77,8 +74,8 @@ async def job_opportunities(position, city:City):
     - Job Url
 
     args:
-        position - desired job opportunity
-        city - target city
+        - position: desired job opportunity
+        - city: target city
 
     returns:
         Dictionary that contains the requested data, which is converted
@@ -92,7 +89,6 @@ async def job_opportunities(position, city:City):
     location = city_name.city + ' ' + city_name.state
     url = get_url(position, location)  # create the url while passing in the position and location.
 
-    print(url)
     response = requests.get(url)
     soup = BeautifulSoup(response.text, 'html.parser')
     cards = soup.find_all('div', 'jobsearch-SerpJobCard')
