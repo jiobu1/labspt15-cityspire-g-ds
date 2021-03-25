@@ -64,6 +64,24 @@ async def current_weather(city:City):
 # https://medium.com/@hannah15198/convert-csv-to-json-with-python-b8899c722f6d
 @router.post('/api/job_opportunities')
 async def main(position, city:City):
+    """Returns jobs opportunities from indeed.com
+
+        Job title,
+        Company,
+        Job location
+        Post Date,
+        Extract Date,
+        Job Description,
+        Salary,
+        Job Url
+
+    args: position, city
+
+    returns:
+        Dictionary that contains the requested data, which is converted
+        by fastAPI to a json object.
+
+    """
     # Run the main program reouting
     records = []  # creating the record list
 
@@ -105,28 +123,14 @@ def get_record(card):
     extract_date = datetime.datetime.today().strftime('%Y-%m-%d')
     job_url = 'https://www.indeed.com' + atag.get('href')
 
-    record = (job_title, company, job_location, post_date, extract_date, job_summary, salary, job_url)
-
-    return record
-
-def get_record(card):
-    """Extract job date from a single record"""
-    atag = card.h2.a
-    job_title = atag.get('title')
-    company = card.find('span', 'company').text.strip()
-    job_location = card.find('div', 'recJobLoc').get('data-rc-loc')
-    job_summary = card.find('div', 'summary').text.strip()
-    post_date = card.find('span', 'date').text.strip()
-
-    try:
-        salary = card.find('span', 'salarytext').text.strip()
-    except AttributeError:
-        salary = ''
-
-    extract_date = datetime.datetime.today().strftime('%Y-%m-%d')
-    job_url = 'https://www.indeed.com' + atag.get('href')
-
-    record = (job_title, company, job_location, post_date, extract_date, job_summary, salary, job_url)
+    record = {'Job Title': job_title,
+              'Company': company,
+              'Location': job_location,
+              'Date Posted': post_date,
+              'Extract Date': extract_date,
+              'Description': job_summary,
+              'Salary': salary,
+              'Job Url': job_url}
 
     return record
 
