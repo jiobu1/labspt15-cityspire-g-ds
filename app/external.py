@@ -98,12 +98,15 @@ async def job_opportunities(position, city:City):
         records.append(record)
 
     #also return total number of jobs
-    total_jobs = soup.find('div', id='searchCountPages').text.strip()
-    total = total_jobs.split()[-2:]
-    s = ' '
-    jobs = s.join(total)
+    try:
+        total_jobs = soup.find('div', id='searchCountPages').text.strip()
+        total = total_jobs.split()[-2:]
+        jobs = ' '.join(total)
+    except AttributeError:
+        total_jobs = ''
+        jobs = ''
 
-    return jobs, records
+    return {"Search Results":jobs, "Top 10 Listings": records}
 
 def get_record(card):
     """Extract job date from a single record"""
