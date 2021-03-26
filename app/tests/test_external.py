@@ -65,15 +65,14 @@ job_opportunities_schema = {
         "city": "New York",
         "state": "NY"
     },
-    "Date": "string",
-    "Description": "string",
-    "Temperature": "string",
-    "High": "string",
-    "Low": "string",
-    "Humidity": "string",
-    "Wind_Speed": "string",
-    "Feels_Like": "string",
-    "Pressure": "string"
+    "Job Title": str,
+    "Company": str,
+    "Location": str,
+    "Date Posted": str,
+    "Extract Date": str,
+    "Description": str,
+    "Salary": str,
+    "Job Url": str
 }
 
 def test_job_opportunities_validates_json_resonse_schema():
