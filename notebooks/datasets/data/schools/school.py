@@ -66,4 +66,4 @@ driver.close()
 
 print(df.head())
 print(df.shape)
-df.to_csv('schools.csv')
+df.to_csv('notebooks/datasets/data/schools/csv/schools.csv')
