@@ -13,7 +13,7 @@ import urllib.parse
 # pwd = os.getcwd()
 
 # # create city state list
-# cities = pd.read_excel('csv/List of Cities.xlsx')
+# cities = pd.read_excel('notebooks/datasets/data/schools/csv/List of Cities.xlsx')
 
 # # just get the second and third colun
 # cities = cities[['Unnamed: 1','Unnamed: 2']]
@@ -35,7 +35,7 @@ import urllib.parse
 # print(cities.head())
 
 # # persist by creating new csv
-# cities.to_csv('csv/cities.csv')
+# cities.to_csv('notebooks/datasets/data/schools/csv/cities.csv')
 
 # 2. using selenium to get school information
 driver = webdriver.Chrome()
