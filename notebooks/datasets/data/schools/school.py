@@ -1,5 +1,3 @@
-#reference: http://www.crummy.com/software/BeautifulSoup/bs4/doc/
-from bs4 import BeautifulSoup
 import os
 import requests
 import csv
