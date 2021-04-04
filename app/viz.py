@@ -12,6 +12,7 @@ from app.state_abbr import us_state_abbrev as abbr
 router = APIRouter()
 
 MODEL_CSV = 'https://media.githubusercontent.com/media/CityScape-Datasets/Workspace_Datasets/main/Models/nn_model/nn_model.csv'
+SCHOOLS_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/datasets/data/schools/schools_cleaned.csv'
 
 class CityData():
     """
@@ -70,7 +71,8 @@ async def demographics_plot(current_city:City):
     city_data = CityData(city)
 
     # Dempgraphics
-    city_demographics = city_data.subset[city_data.demographics()]
+    city_demographics = city_data.sub
+    set[city_data.demographics()]
     city_demographics['Not Specified'] = 100 - city_demographics.sum(axis=1) # Accounting for people that did not respond
     melt = pd.melt(city_demographics)
     melt.columns = ['demographic', 'percentage']
@@ -213,3 +215,37 @@ async def air_quality_plot(current_city:City):
     fig.show()
     # fig.write_html("path/to/file.html")
     return fig.to_json()
+
+class School_Data():
+    """
+    Locates specific school data for the city
+    Number of schools based on
+    - Ratings
+    - Type
+    - Grades
+    - District
+    """
+    def __init__(self, current_city):
+        self.current_city = current_city
+        self.dataframe = pd.read_csv(MODEL_CSV)
+        self.subset = self.dataframe[self.dataframe['City'] == self.current_city.city]
+
+@router.post("api/schools_graph")
+async def schools_plot(current_city:City):
+    """
+    Visualize school information for the city
+
+    ### Query Parameters
+    - city
+
+    ### Response
+    JSON string to render with react-plotly.js
+    """
+
+    city = validate_city(current_city)
+    city_data = CityData(city)
+
+    # Schools
+    # Breakdown of ratings
+    # Total number of private and public institutions
+    # Grades covered
