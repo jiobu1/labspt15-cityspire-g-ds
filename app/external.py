@@ -194,7 +194,7 @@ def get_url(position, location):
 
 #     return rental_list
 
-async def api_property_list_for_rent(city:City, api_key = config.settings.REALTOR_API_KEY, property_type = 'condo', limit=4):
+async def api_property_list_for_rent(city:City, api_key = config.settings.RENTAL_API_KEY, property_type = 'condo', limit=4):
     # url for api
     url = "https://realtor-com-real-estate.p.rapidapi.com/for-rent"
 
@@ -209,7 +209,7 @@ async def api_property_list_for_rent(city:City, api_key = config.settings.REALTO
 
     # header
     headers = {
-                'x-rapidapi-key': os.getenv("REALTOR_API_KEY"),
+                'x-rapidapi-key': os.getenv("RENTAL_API_KEY"),
                 'x-rapidapi-host': "realtor-com-real-estate.p.rapidapi.com"
     }
 
@@ -226,11 +226,9 @@ url = "https://realtor-com-real-estate.p.rapidapi.com/for-rent"
 querystring = {"city":"Detroit","state_code":"MI","limit":"4","offset":"0"}
 
 headers = {
-    'x-rapidapi-key' : os.getenv('REALTOR_API_KEY'),
+    'x-rapidapi-key' : os.getenv('RENTAL_API_KEY'),
     'x-rapidapi-host' : "realtor-com-real-estate.p.rapidapi.com"
     }
-
-print(os.getenv('REALTOR_API_KEY'))
 
 response = requests.request("GET", url, headers = headers, params = querystring)
 
