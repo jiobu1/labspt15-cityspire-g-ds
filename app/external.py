@@ -11,6 +11,10 @@ from dotenv import dotenv_values, load_dotenv
 router = APIRouter()
 load_dotenv()
 weather_api = os.getenv("WEATHER_API_KEY")
+rental_api = os.getenv("REALTOR_API_KEY")
+
+headers={'x-rapidapi-key': os.getenv('REALTOR_API_KEY'),
+            'x-rapidapi-host': os.getenv('REALTOR_HOST')}
 
 
 # https://github.com/juhilsomaiya/API-Integrations-Python/blob/master/Weather_forecast/main.p
@@ -142,3 +146,54 @@ def get_url(position, location):
     template = "https://www.indeed.com/jobs?q={}&l={}"
     url = template.format(position, location)
     return url
+
+@router.post('/api/rent_listings')
+async def rent_list(api_key=config.settings.rental_api,
+             city:City,
+             prop_type: str="condo",
+             limit: int=4):
+
+    """
+    args:
+        api_key
+        city - desired city
+        prop_type: str ('condo', 'single_family', 'multi_family')
+        limit: int number of results to populate
+
+    returns: dict
+        Chosen information of the requested parameters such
+        as addresses, state, ciy, lat, lon, photos, walk score, pollution info
+    """
+
+    url=os.getenv('RENT_URL')
+    querystring={"city": city,
+                 "state_code": state,
+                 "limit": limit,
+                 "offset": "0",
+                 "sort":"relevance",
+                 "prop_type": prop_type}
+
+    response_for_rent = requests.request('GET', url, params=querystring, headers=headers,)
+    response = response_for_rent.json()['properties']
+    pollution_res = pollution(city)
+
+
+    rental_list=[]
+    for i in range(limit):
+      line=response[i]['address']['line']
+      city=response[i]['address']['city']
+      state=response[i]['address']['state']
+      lat=response[i]['address']['lat']
+      lon=response[i]['address']['lon']
+      photos=response[i]['photos']
+      element={ 'lat': lat,
+                'lon': lon,
+                'city':city,
+                'state':state,
+                'photos': photos,
+                'pollution': pollution_res}
+
+
+      rental_list.append(element)
+
+    return rental_list
