@@ -166,7 +166,7 @@ async def rental_listing(
             city:City,
             api_key=settings.RENTAL_API_KEY,
             prop_type: str="condo",
-            limit: int=1):
+            limit: int=5):
 
     """
     args:

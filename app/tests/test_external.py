@@ -3,7 +3,6 @@ import requests
 import json
 from jsonschema import validate
 from jsonschema import Draft6Validator
-from app import config
 from dotenv import dotenv_values, load_dotenv
 
 load_dotenv()
@@ -108,14 +107,14 @@ def test_rental_listing_check_status_code_equals_200():
         "city": "New York",
         "state": "NY",
         "prop_type" : "condo",
-        "limit" : 1
+        "limit" : 5
     }
     response = requests.post("http://127.0.0.1:8000/streamlined_rent_list?", json=data)
 
 rental_listings_schema = {
     "$schema": "https://json-schema.org/schema#",
-    "Latitude" : "integer",
-    "Longitude" : "integer",
+    "Latitude" : "number",
+    "Longitude" : "number",
     "Street Address" : "string",
     "City" : "string",
     "State" : "string",
@@ -125,7 +124,7 @@ rental_listings_schema = {
     "Dogs Allowed" : "boolean",
     "List Price": "integer",
     "Ammenities" : "array",
-    "Photos" : "object",
+    "Photos" : "array",
 
 }
 
@@ -135,7 +134,7 @@ def test_rental_listing_validates_json_response_schema():
         "city": "New York",
         "state": "NY",
         "prop_type" : "condo",
-        "limit" : 1
+        "limit" : 5
     }
     response = requests.post("http://127.0.0.1:8000/streamlined_rent_list?", json=data)
 
