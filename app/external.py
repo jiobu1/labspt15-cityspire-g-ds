@@ -165,7 +165,9 @@ headers={'x-rapidapi-key': os.getenv("RENTAL_API_KEY"),
 async def rental_listing(
             city:City,
             api_key=settings.RENTAL_API_KEY,
-            prop_type: str="condo",
+            beds_min: int=1,
+            baths_min: int=1,
+            prop_type: str="apartment",
             limit: int=5):
 
     """
@@ -192,6 +194,8 @@ async def rental_listing(
                 "state_code": location_state,
                 "limit": limit,
                 "offset": "0",
+                "beds_min": beds_min,
+                "baths_min": baths_min,
                 "sort": "relevance",
                 "prop_type": prop_type}
 

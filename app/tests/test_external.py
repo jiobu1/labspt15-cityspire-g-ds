@@ -106,7 +106,9 @@ def test_rental_listing_check_status_code_equals_200():
         "api_key": os.getenv("RENTAL_API_KEY"),
         "city": "New York",
         "state": "NY",
-        "prop_type" : "condo",
+        "beds_min": int=1,
+        "baths_min": int=1,
+        "prop_type" : "apartment",
         "limit" : 5
     }
     response = requests.post("http://127.0.0.1:8000/api/rental_listing?", json=data)
@@ -132,7 +134,9 @@ def test_rental_listing_validates_json_response_schema():
         "api_key": os.getenv("RENTAL_API_KEY"),
         "city": "New York",
         "state": "NY",
-        "prop_type" : "condo",
+        "beds_min": int=1,
+        "baths_min": int=1,
+        "prop_type" : "apartment",
         "limit" : 5
     }
     response = requests.post("http://127.0.0.1:8000/api/rental_listing?", json=data)
