@@ -1,7 +1,12 @@
+import os
 import requests
 import json
 from jsonschema import validate
 from jsonschema import Draft6Validator
+from app import config
+from dotenv import dotenv_values, load_dotenv
+
+load_dotenv()
 
 #Weather API Test
 def test_temperature_check_status_code_equals_200():
@@ -29,7 +34,7 @@ weather_schema = {
     "Pressure": "string"
 }
 
-def test_weather_data_validates_json_resonse_schema():
+def test_weather_data_validates_json_response_schema():
     data = {
         "city": "New York",
         "state": "NY"
@@ -75,7 +80,7 @@ job_opportunities_schema = {
     "Job Url": str
 }
 
-def test_job_opportunities_validates_json_resonse_schema():
+def test_job_opportunities_validates_json_response_schema():
     data = {
         "city": "New York",
         "state": "NY"
@@ -93,3 +98,55 @@ def test_job_opportunities_validates_json_resonse_schema():
     # Validate will raise exception if given json is not
     # what is described in schema.
     validate(instance=resp_body, schema=job_opportunities_schema)
+
+##########################################################################################################
+
+# Rental Listing Test
+def test_rental_listing_check_status_code_equals_200():
+    data = {
+        "api_key": os.getenv("RENTAL_API_KEY"),
+        "city": "New York",
+        "state": "NY",
+        "prop_type" : "condo",
+        "limit" : 1
+    }
+    response = requests.post("http://127.0.0.1:8000/streamlined_rent_list?", json=data)
+
+rental_listings_schema = {
+    "$schema": "https://json-schema.org/schema#",
+    "Latitude" : float,
+    "Longitude" : float,
+    "Street Address" : str,
+    "City" : str,
+    "State" : str,
+    "Bedrooms" : int,
+    "Bathrooms" : int,
+    "Cats Allowed" : bool,
+    "Dogs Allowed" : bool,
+    "List Price": float,
+    "Ammenities" : list,
+    "Photos" : list,
+
+}
+
+def test_rental_listing_validates_json_response_schema():
+    data = {
+        "api_key": os.getenv("RENTAL_API_KEY"),
+        "city": "New York",
+        "state": "NY",
+        "prop_type" : "condo",
+        "limit" : 1
+    }
+    response = requests.post("http://127.0.0.1:8000/streamlined_rent_list?", json=data)
+
+    # Validate response headers and body contents, e.g. status code.
+    assert response.status_code == 200
+
+    # Validate response content type header
+    assert response.headers["Content-Type"] == "application/json"
+
+    resp_body = response.json()
+
+    # Validate will raise exception if given json is not
+    # what is described in schema.
+    validate(instance=resp_body, schema=rental_listings_schema)

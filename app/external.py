@@ -3,7 +3,7 @@ import os
 import datetime
 import pprint
 from fastapi import APIRouter, HTTPException, Depends
-from pydantic import BaseModel, SecretStr
+from pydantic import BaseModel, BaseSettings, SecretStr
 from bs4 import BeautifulSoup
 from app.ml import City, validate_city
 from app.state_abbr import us_state_abbrev as abbr
@@ -145,10 +145,24 @@ def get_url(position, location):
     url = template.format(position, location)
     return url
 
-@router.post('/streamlined_rent_list')
-async def streamlined_rent_list(
+
+class Settings(BaseSettings):
+
+    RENTAL_API_KEY: SecretStr
+
+
+    class Config:
+        env_file = ".env"
+
+settings = Settings()
+
+headers={'x-rapidapi-key': os.getenv("RENTAL_API_KEY"),
+            'x-rapidapi-host':  "realtor-com-real-estate.p.rapidapi.com"}
+
+@router.post('/api/rental_listing')
+async def rental_listing(
             city:City,
-            api_key=config.settings.RENTAL_API_KEY,
+            api_key=settings.RENTAL_API_KEY,
             prop_type: str="condo",
             limit: int=1):
 
@@ -157,7 +171,7 @@ async def streamlined_rent_list(
     - api_key
     - city: str
     - state: str Two-letter abbreviation
-    - prop_type: str ('condo', 'single_family', 'multi_family')
+    - prop_type: str ('condo', 'single_family', 'apartment', 'multi_family')
     - limit: int number of results to populate
 
     returns:
@@ -170,44 +184,52 @@ async def streamlined_rent_list(
     location_state = city.state
 
     url="https://realtor-com-real-estate.p.rapidapi.com/for-rent"
+
     querystring={
                 "city": location_city,
-                "state_code" : location_state,
+                "state_code": location_state,
                 "limit": limit,
                 "offset": "0",
-                "sort":"relevance",
+                "sort": "relevance",
                 "prop_type": prop_type}
 
-    headers={'x-rapidapi-key': os.getenv('RENTAL_API_KEY'),
-            'x-rapidapi-host':  "realtor-com-real-estate.p.rapidapi.com"}
-
-    response_for_rent=requests.request("GET", url, params=querystring, headers=headers,)
+    response_for_rent=requests.request("GET", url, params=querystring, headers=headers)
     response = response_for_rent.json()['data']['results']
 
-    pp = pprint.PrettyPrinter(indent=4)
+    # pp = pprint.PrettyPrinter(indent=4)
+    # pp.pprint(response)
 
     rental_list=[]
 
     for i in range(limit):
-      line=response[i]['location']['address']['line']
-      city=response[i]['location']['address']['city']
-      state=response[i]['location']['address']['state']
-      list_price = response[i]['list_price_max']
-      lat=response[i]['location']['address']['coordinate']['lat']
-      lon=response[i]['location']['address']['coordinate']['lon']
-      photos=response[i]['photos']
+        lat = response[i]['location']['address']['coordinate']['lat']
+        lon  = response[i]['location']['address']['coordinate']['lon']
+        line = response[i]['location']['address']['line']
+        city = response[i]['location']['address']['city']
+        state = response[i]['location']['address']['state']
+        baths = response[i]['description']['baths_max']
+        bedrooms = response[i]['description']['beds_max']
+        cats_allowed = response[i]['pet_policy']['cats']
+        dogs_allowed = response[i]['pet_policy']['dogs']
+        list_price = response[i]['list_price_max']
+        ammenities = response[i]['tags']
+        photos = response[i]['photos']
 
-      element={
-          'Latitude': lat,
-          'Longitude': lon,
-          'Street Address': line,
-          'City':city,
-          'State':state,
-          'Photos': photos,
-          'List Price': list_price}
+    element={
+        'Latitude': lat,
+        'Longitude': lon,
+        'Street Address': line,
+        'City': city,
+        'State': state,
+        'Bedrooms': bedrooms,
+        'Bathrooms': baths,
+        'Cats Allowed': cats_allowed,
+        'Dogs Allowed': dogs_allowed,
+        'List Price': list_price,
+        'Ammenities': ammenities,
+        'Photos': photos,
+      }
 
-      rental_list.append(element)
-    
-    pp.pprint(rental_list)
+    rental_list.append(element)
 
     return rental_list
