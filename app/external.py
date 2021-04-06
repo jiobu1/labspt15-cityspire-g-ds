@@ -175,6 +175,8 @@ async def rental_listing(
     - api_key
     - city: str
     - state: str Two-letter abbreviation
+    - beds_min: int number of minimum bedrooms
+    - baths_min: int number of minimum bathrooms
     - prop_type: str ('condo', 'single_family', 'apartment', 'multi_family')
     - limit: int number of results to populate
 
