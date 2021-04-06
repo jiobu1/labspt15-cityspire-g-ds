@@ -7,7 +7,6 @@ from pydantic import BaseModel, BaseSettings, SecretStr
 from bs4 import BeautifulSoup
 from app.ml import City, validate_city
 from app.state_abbr import us_state_abbrev as abbr
-from app import config
 from dotenv import dotenv_values, load_dotenv
 
 router = APIRouter()
@@ -58,6 +57,8 @@ async def current_weather(city:City):
         "Feels Like": str(main['feels_like'])+" F\N{DEGREE SIGN}",
         "Pressure": str(main['pressure'])+" hPa"
     }
+
+########################################################################################################
 
 # https://www.youtube.com/watch?v=eN_3d4JrL_w
 # https://medium.com/@hannah15198/convert-csv-to-json-with-python-b8899c722f6d
@@ -145,6 +146,7 @@ def get_url(position, location):
     url = template.format(position, location)
     return url
 
+########################################################################################################
 
 class Settings(BaseSettings):
 
