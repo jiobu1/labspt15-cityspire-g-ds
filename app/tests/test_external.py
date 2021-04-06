@@ -106,8 +106,8 @@ def test_rental_listing_check_status_code_equals_200():
         "api_key": os.getenv("RENTAL_API_KEY"),
         "city": "New York",
         "state": "NY",
-        "beds_min": int=1,
-        "baths_min": int=1,
+        "beds_min": 1,
+        "baths_min": 1,
         "prop_type" : "apartment",
         "limit" : 5
     }
@@ -134,8 +134,8 @@ def test_rental_listing_validates_json_response_schema():
         "api_key": os.getenv("RENTAL_API_KEY"),
         "city": "New York",
         "state": "NY",
-        "beds_min": int=1,
-        "baths_min": int=1,
+        "beds_min": 1,
+        "baths_min": 1,
         "prop_type" : "apartment",
         "limit" : 5
     }
