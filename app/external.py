@@ -12,19 +12,6 @@ from dotenv import dotenv_values, load_dotenv
 router = APIRouter()
 load_dotenv()
 
-
-
-class Settings(BaseSettings):
-
-    RENTAL_API_KEY: SecretStr
-
-
-    class Config:
-        env_file = ".env"
-
-settings = Settings()
-
-
 weather_api = os.getenv("WEATHER_API_KEY")
 
 # https://github.com/juhilsomaiya/API-Integrations-Python/blob/master/Weather_forecast/main.p
@@ -157,70 +144,12 @@ def get_url(position, location):
     url = template.format(position, location)
     return url
 
-
-# @router.post('api/rental_listing')
-# async def api_property_list_for_rent(city:City, api_key = settings.RENTAL_API_KEY, prop_type = 'condo', limit=4): #os.getenv("RENTAL_API_KEY")
-
-#     # url for api
-#     url = "https://realtor-com-real-estate.p.rapidapi.com/for-rent"
-
-#     # enter parameters
-#     querystring = {
-#         'sort' : 'relevance',
-#         'city' : city,
-#         'offset' : '0',
-#         'limit': limit,
-#         'prop_type' : prop_type
-#     }
-
-#     # header
-#     headers = {
-#         'x-rapidapi-key': os.getenv("RENTAL_API_KEY"),
-#         'x-rapidapi-host': "realtor-com-real-estate.p.rapidapi.com"
-#         }
-
-
-#     # response
-#     # fetch = window.fetch.bind(window)
-#     response = requests.request("GET", url, headers=headers, params=querystring)
-#     print(url)
-
-#     print(response.text)
-#     return response.json()
-
-#     # rental_list = []
-
-#     # for i in response['properties']:
-#     #     rental_list.append(i)
-
-#     # return rental_list
-
-# import requests
-
-# url = "https://realtor-com-real-estate.p.rapidapi.com/for-rent"
-
-# querystring = {"city":"Detroit","state_code":"MI","limit":"42","offset":"0"}
-
-# headers = {
-#     'x-rapidapi-key': os.getenv("RENTAL_API_KEY"),
-#     'x-rapidapi-host': "realtor-com-real-estate.p.rapidapi.com"
-#     }
-
-# response = requests.request("GET", url, headers=headers, params=querystring)
-
-# print(type(response.text))
-
-headers={'x-rapidapi-key': os.getenv('RENTAL_API_KEY'),
-            'x-rapidapi-host':  "realtor-com-real-estate.p.rapidapi.com"}
-
-
-
 @router.post('/streamlined_rent_list')
 async def streamlined_rent_list(
             #  city: str="New York City",
             #  state: str="NY",
             city:City,
-            api_key=settings.RENTAL_API_KEY,
+            api_key=config.settings.RENTAL_API_KEY,
             prop_type: str="condo",
             limit: int=1):
 
@@ -249,6 +178,9 @@ async def streamlined_rent_list(
                 "offset": "0",
                 "sort":"relevance",
                 "prop_type": prop_type}
+
+    headers={'x-rapidapi-key': os.getenv('RENTAL_API_KEY'),
+            'x-rapidapi-host':  "realtor-com-real-estate.p.rapidapi.com"}
 
     response_for_rent=requests.request("GET", url, params=querystring, headers=headers,)
     response = response_for_rent.json()['data']['results']
