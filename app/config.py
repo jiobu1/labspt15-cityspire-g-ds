@@ -1,4 +1,4 @@
-from pydantic import BaseSettings, SecretStr
+from pydantic import  BaseSettings, SecretStr
 
 class Settings(BaseSettings):
 
@@ -8,6 +8,4 @@ class Settings(BaseSettings):
     class Config:
         env_file = ".env"
 
-
 settings = Settings()
-print(settings)

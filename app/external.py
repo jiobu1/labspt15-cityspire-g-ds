@@ -11,8 +11,21 @@ from dotenv import dotenv_values, load_dotenv
 
 router = APIRouter()
 load_dotenv()
-weather_api = os.getenv("WEATHER_API_KEY")
 
+
+
+class Settings(BaseSettings):
+
+    RENTAL_API_KEY: SecretStr
+
+
+    class Config:
+        env_file = ".env"
+
+settings = Settings()
+
+
+weather_api = os.getenv("WEATHER_API_KEY")
 
 # https://github.com/juhilsomaiya/API-Integrations-Python/blob/master/Weather_forecast/main.p
 @router.post('/api/temperature')
@@ -145,33 +158,121 @@ def get_url(position, location):
     return url
 
 
-@router.post('api/rental_listing')
-async def api_property_list_for_rent(city:City, api_key = config.settings.RENTAL_API_KEY, property_type = 'condo', limit=4):
+# @router.post('api/rental_listing')
+# async def api_property_list_for_rent(city:City, api_key = settings.RENTAL_API_KEY, prop_type = 'condo', limit=4): #os.getenv("RENTAL_API_KEY")
 
-    # url for api
-    url = "https://realtor-com-real-estate.p.rapidapi.com/for-rent"
+#     # url for api
+#     url = "https://realtor-com-real-estate.p.rapidapi.com/for-rent"
 
-    # enter parameters
-    querystring = {
-        'sort' : 'relevance',
-        'city' : city,
-        'offset' : '0',
-        'limit': limit,
-        'property_type' : property_type
-    }
+#     # enter parameters
+#     querystring = {
+#         'sort' : 'relevance',
+#         'city' : city,
+#         'offset' : '0',
+#         'limit': limit,
+#         'prop_type' : prop_type
+#     }
 
-    # header
-    headers = {
-                'x-rapidapi-key': os.getenv("RENTAL_API_KEY"),
-                'x-rapidapi-host': "realtor-com-real-estate.p.rapidapi.com"
-    }
+#     # header
+#     headers = {
+#         'x-rapidapi-key': os.getenv("RENTAL_API_KEY"),
+#         'x-rapidapi-host': "realtor-com-real-estate.p.rapidapi.com"
+#         }
 
-    # response
-    response = requests.request("GET", url, headers=headers, params=querystring)
 
-    rental_list = []
+#     # response
+#     # fetch = window.fetch.bind(window)
+#     response = requests.request("GET", url, headers=headers, params=querystring)
+#     print(url)
 
-    for i in response['properties']:
-        rental_list.append(i)
+#     print(response.text)
+#     return response.json()
 
-    return rental_list
+#     # rental_list = []
+
+#     # for i in response['properties']:
+#     #     rental_list.append(i)
+
+#     # return rental_list
+
+# import requests
+
+# url = "https://realtor-com-real-estate.p.rapidapi.com/for-rent"
+
+# querystring = {"city":"Detroit","state_code":"MI","limit":"42","offset":"0"}
+
+# headers = {
+#     'x-rapidapi-key': os.getenv("RENTAL_API_KEY"),
+#     'x-rapidapi-host': "realtor-com-real-estate.p.rapidapi.com"
+#     }
+
+# response = requests.request("GET", url, headers=headers, params=querystring)
+
+# print(type(response.text))
+
+headers={'x-rapidapi-key': os.getenv('RENTAL_API_KEY'),
+            'x-rapidapi-host':  "realtor-com-real-estate.p.rapidapi.com"}
+
+
+
+@router.post('/streamlined_rent_list')
+async def streamlined_rent_list(
+            #  city: str="New York City",
+            #  state: str="NY",
+            city:City,
+            api_key=settings.RENTAL_API_KEY,
+            prop_type: str="condo",
+            limit: int=1):
+
+    """
+    Parameters:
+        api_key
+        city: str
+        state: str Two-letter abbreviation
+        prop_type: str ('condo', 'single_family', 'multi_family')
+        limit: int number of results to populate
+
+    Returns: dict
+        Chosen information of the requested parameters such
+        as addresses, state, ciy, lat, lon, photos, walk score, pollution info
+    """
+
+    city = validate_city(city)
+    location_city = city.city
+    location_state = city.state
+
+    url="https://realtor-com-real-estate.p.rapidapi.com/for-rent"
+    querystring={
+                "city": location_city,
+                "state_code" : location_state,
+                "limit": limit,
+                "offset": "0",
+                "sort":"relevance",
+                "prop_type": prop_type}
+
+    response_for_rent=requests.request("GET", url, params=querystring, headers=headers,)
+    response = response_for_rent.json()['data']['results']
+    # pollution_res = pollution(city)
+    # print(response.keys())
+
+    # rental_list=[]
+    # for i in range(limit):
+    #   line=response[i]['address']['line']
+    #   city=response[i]['address']['city']
+    #   state=response[i]['address']['state']
+    #   lat=response[i]['address']['lat']
+    #   lon=response[i]['address']['lon']
+    #   photos=response[i]['photos']
+    #   element={ 'lat': lat,
+    #             'lon': lon,
+    #             'city':city,
+    #             'state':state,
+    #             'photos': photos}
+    #             # 'pollution': pollution_res}
+
+
+    #   rental_list.append(element)
+
+    # return rental_list
+
+    return response
