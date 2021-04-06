@@ -23,15 +23,15 @@ weather_schema = {
         "city": "New York",
         "state": "NY"
     },
-    "Date": "string",
-    "Description": "string",
-    "Temperature": "string",
-    "High": "string",
-    "Low": "string",
-    "Humidity": "string",
-    "Wind_Speed": "string",
-    "Feels_Like": "string",
-    "Pressure": "string"
+    "Date": str,
+    "Description": str,
+    "Temperature": str,
+    "High": str,
+    "Low": str,
+    "Humidity": str,
+    "Wind_Speed": str,
+    "Feels_Like": str,
+    "Pressure": str
 }
 
 def test_weather_data_validates_json_response_schema():
@@ -114,18 +114,18 @@ def test_rental_listing_check_status_code_equals_200():
 
 rental_listings_schema = {
     "$schema": "https://json-schema.org/schema#",
-    "Latitude" : float,
-    "Longitude" : float,
-    "Street Address" : str,
-    "City" : str,
-    "State" : str,
-    "Bedrooms" : int,
-    "Bathrooms" : int,
-    "Cats Allowed" : bool,
-    "Dogs Allowed" : bool,
-    "List Price": float,
-    "Ammenities" : list,
-    "Photos" : list,
+    "Latitude" : "integer",
+    "Longitude" : "integer",
+    "Street Address" : "string",
+    "City" : "string",
+    "State" : "string",
+    "Bedrooms" : "integer",
+    "Bathrooms" : "integer",
+    "Cats Allowed" : "boolean",
+    "Dogs Allowed" : "boolean",
+    "List Price": "integer",
+    "Ammenities" : "array",
+    "Photos" : "object",
 
 }
 
