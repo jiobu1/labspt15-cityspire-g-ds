@@ -198,9 +198,6 @@ async def rental_listing(
     response_for_rent=requests.request("GET", url, params=querystring, headers=headers)
     response = response_for_rent.json()['data']['results']
 
-    # pp = pprint.PrettyPrinter(indent=4)
-    # pp.pprint(response)
-
     rental_list=[]
 
     for i in range(limit):
