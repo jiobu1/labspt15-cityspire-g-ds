@@ -109,7 +109,7 @@ def test_rental_listing_check_status_code_equals_200():
         "prop_type" : "condo",
         "limit" : 5
     }
-    response = requests.post("http://127.0.0.1:8000/streamlined_rent_list?", json=data)
+    response = requests.post("http://127.0.0.1:8000/api/rental_listing?", json=data)
 
 rental_listings_schema = {
     "$schema": "https://json-schema.org/schema#",
@@ -125,7 +125,6 @@ rental_listings_schema = {
     "List Price": "integer",
     "Ammenities" : "array",
     "Photos" : "array",
-
 }
 
 def test_rental_listing_validates_json_response_schema():
@@ -136,7 +135,7 @@ def test_rental_listing_validates_json_response_schema():
         "prop_type" : "condo",
         "limit" : 5
     }
-    response = requests.post("http://127.0.0.1:8000/streamlined_rent_list?", json=data)
+    response = requests.post("http://127.0.0.1:8000/api/rental_listing?", json=data)
 
     # Validate response headers and body contents, e.g. status code.
     assert response.status_code == 200
