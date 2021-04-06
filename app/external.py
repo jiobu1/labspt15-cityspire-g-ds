@@ -1,6 +1,7 @@
 import requests
 import os
 import datetime
+import pprint
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel, SecretStr
 from bs4 import BeautifulSoup
@@ -146,24 +147,22 @@ def get_url(position, location):
 
 @router.post('/streamlined_rent_list')
 async def streamlined_rent_list(
-            #  city: str="New York City",
-            #  state: str="NY",
             city:City,
             api_key=config.settings.RENTAL_API_KEY,
             prop_type: str="condo",
             limit: int=1):
 
     """
-    Parameters:
-        api_key
-        city: str
-        state: str Two-letter abbreviation
-        prop_type: str ('condo', 'single_family', 'multi_family')
-        limit: int number of results to populate
+    args:
+    - api_key
+    - city: str
+    - state: str Two-letter abbreviation
+    - prop_type: str ('condo', 'single_family', 'multi_family')
+    - limit: int number of results to populate
 
-    Returns: dict
-        Chosen information of the requested parameters such
-        as addresses, state, ciy, lat, lon, photos, walk score, pollution info
+    returns:
+        Dictionary that contains the requested data, which is converted
+        by fastAPI to a json object.
     """
 
     city = validate_city(city)
@@ -184,27 +183,31 @@ async def streamlined_rent_list(
 
     response_for_rent=requests.request("GET", url, params=querystring, headers=headers,)
     response = response_for_rent.json()['data']['results']
-    # pollution_res = pollution(city)
-    # print(response.keys())
 
-    # rental_list=[]
-    # for i in range(limit):
-    #   line=response[i]['address']['line']
-    #   city=response[i]['address']['city']
-    #   state=response[i]['address']['state']
-    #   lat=response[i]['address']['lat']
-    #   lon=response[i]['address']['lon']
-    #   photos=response[i]['photos']
-    #   element={ 'lat': lat,
-    #             'lon': lon,
-    #             'city':city,
-    #             'state':state,
-    #             'photos': photos}
-    #             # 'pollution': pollution_res}
+    pp = pprint.PrettyPrinter(indent=4)
 
+    rental_list=[]
 
-    #   rental_list.append(element)
+    for i in range(limit):
+      line=response[i]['location']['address']['line']
+      city=response[i]['location']['address']['city']
+      state=response[i]['location']['address']['state']
+      list_price = response[i]['list_price_max']
+      lat=response[i]['location']['address']['coordinate']['lat']
+      lon=response[i]['location']['address']['coordinate']['lon']
+      photos=response[i]['photos']
 
-    # return rental_list
+      element={
+          'Latitude': lat,
+          'Longitude': lon,
+          'Street Address': line,
+          'City':city,
+          'State':state,
+          'Photos': photos,
+          'List Price': list_price}
 
-    return response
+      rental_list.append(element)
+    
+    pp.pprint(rental_list)
+
+    return rental_list
