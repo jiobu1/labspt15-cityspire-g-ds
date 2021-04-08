@@ -60,8 +60,7 @@ async def current_weather(city:City):
 
 ########################################################################################################
 
-# https://www.youtube.com/watch?v=eN_3d4JrL_w
-# https://medium.com/@hannah15198/convert-csv-to-json-with-python-b8899c722f6d
+# https://github.com/israel-dryer/Indeed-Job-Scraper/blob/master/indeed-job-scraper.ipynb
 @router.post('/api/job_opportunities')
 async def job_opportunities(position, city:City):
     """Returns jobs opportunities from indeed.com
@@ -85,8 +84,7 @@ async def job_opportunities(position, city:City):
         by fastAPI to a json object.
 
     """
-    # Run the main program reouting
-    records = []  # creating the record list
+    # Run the main program routing
 
     city_name = validate_city(city)
     location = city_name.city + ' ' + city_name.state
