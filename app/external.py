@@ -178,6 +178,7 @@ async def rental_listing(
     - prop_type: str ('condo', 'single_family', 'apartment', 'multi_family')
     - limit: int number of results to populate
 
+
     returns:
         Dictionary that contains the requested data, which is converted
         by fastAPI to a json object.
@@ -210,6 +211,7 @@ async def rental_listing(
         line = response[i]['location']['address']['line']
         city = response[i]['location']['address']['city']
         state = response[i]['location']['address']['state']
+        pet_policy = response[i]['pet_policy']
         try:
             baths = response[i]['description']['baths_max']
         except AttributeError:
@@ -218,14 +220,14 @@ async def rental_listing(
             bedrooms = response[i]['description']['beds_max']
         except AttributeError:
             bedrooms = 0
-        try:
+        if pet_policy != None:
             cats_allowed = response[i]['pet_policy']['cats']
-        except AttributeError:
-            cats_allowed = False
-        try:
+        else:
+            cats_allowed = 'Unknown'
+        if pet_policy != None:
             dogs_allowed = response[i]['pet_policy']['dogs']
-        except AttributeError:
-            dogs_allowed = False
+        else:
+            dogs_allowed = 'Unknown'
         list_price = response[i]['list_price_max']
         try:
             ammenities = response[i]['tags']
@@ -253,4 +255,3 @@ async def rental_listing(
         rental_list.append(elements)
 
     return rental_list
-
