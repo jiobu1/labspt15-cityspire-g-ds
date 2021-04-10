@@ -89,3 +89,26 @@ async def select_all(city):
     value = await database.fetch_one(str(q))
     return value
 
+@router.get('/all_cities')
+async def all_cities():
+    """
+    Fetch all cities in the database
+
+    args: None
+
+    returns: returns a list of cities
+    """
+
+    data = Table("mytable")
+    columns = (
+        data["City"].as_("city"),
+        data["State"].as_("state")
+    )
+
+    q = (
+        Query.from_(data)
+        .select(*columns)
+    )
+
+    value = await database.fetch_one(str(q))
+    return value
