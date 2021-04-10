@@ -60,7 +60,7 @@ async def all_cities():
         .select(*columns)
     )
 
-    value = await database.fetch_one(str(q))
+    value = await database.fetch_all(str(q))
     return value
 
 
