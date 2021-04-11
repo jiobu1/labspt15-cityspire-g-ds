@@ -283,16 +283,16 @@ class School_Data():
         return self.subset.loc[elementary_subset]
 
     def middle_school(self):
-        middle_school = ['Middle School (6-8)']
-        return self.middle_school
+        middle_school_subset = self.subset['Middle School (6-8)'] == 1
+        return self.subset.loc[middle_school_subset]
 
     def high_school(self):
-        self.high_school = ['High School (9-12)']
-        return self.high_school
+        high_school_subset = self.subset['High School (9-12)'] == 1
+        return self.subset.loc[high_school_subset]
 
 
 @router.post('/api/schools_listing')
-async def schools_listings(current_city:City):#, school_category):
+async def schools_listings(current_city:City, school_category):
     """
     Listing of school information for the city
 
@@ -310,6 +310,13 @@ async def schools_listings(current_city:City):#, school_category):
     school_category = ['pre-k', 'elementary', 'middle school', 'high school']
 
     # School Category
+    if school_category == 'pre-k':
+        school_listing = school_data.pre_k()
+    elif school_category == 'elementary':
+        school_listing = school_data.elementary()
+    elif school_category == 'middle school':
+        school_listing = school_data.elementary()
+    else:
+        school_listing = school_data.high_school()
 
-    pk_listing = school_data.pre_k()
-    return pk_listing.to_dict('records')
+    return school_listing.to_dict('records')
