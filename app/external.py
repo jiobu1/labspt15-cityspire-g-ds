@@ -255,3 +255,8 @@ async def rental_listing(
         rental_list.append(elements)
 
     return rental_list
+
+########################################################################################################
+
+@router.post('/api/school_listing')
+async def school_listing(city:City, school_category, rating='10/10', )
