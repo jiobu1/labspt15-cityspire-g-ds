@@ -29,7 +29,7 @@ class CityData():
 
     def demographics(self):
         self.demographics = ['Hispanic', 'White', 'Black', 'Native', 'Asian', 'Pacific']
-        return self.demographics
+        return ['Hispanic', 'White', 'Black', 'Native', 'Asian', 'Pacific']
 
     def industry(self):
         self.industry = ['PrivateWork', 'PublicWork', 'SelfEmployed', 'FamilyWork']

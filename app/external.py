@@ -1,7 +1,7 @@
 import requests
 import os
 import datetime
-import pprint
+import pandas as pd
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel, BaseSettings, SecretStr
 from bs4 import BeautifulSoup
@@ -275,15 +275,15 @@ class School_Data():
         self.subset = self.dataframe[self.dataframe['City'] == self.current_city.city]
 
     def pre_k(self):
-        self.pre_k = ['Pre-Kindergarten (PK)']
-        return self.pre_k
+        pre_k_subset = self.subset['Pre-Kindergarten (PK)'] == 1
+        return self.subset.loc[pre_k_subset]
 
     def elementary(self):
-        self.elementary = ['Elementary (K-5)']
-        return self.elementary
+        elementary_subset = self.subset['Elementary (K-5)'] == 1
+        return self.subset.loc[elementary_subset]
 
     def middle_school(self):
-        self.middle_school = ['Middle School (6-8)']
+        middle_school = ['Middle School (6-8)']
         return self.middle_school
 
     def high_school(self):
@@ -291,8 +291,8 @@ class School_Data():
         return self.high_school
 
 
-@router.post("api/schools_listing")
-async def schools_listings(current_city:City, school_category):
+@router.post('/api/schools_listing')
+async def schools_listings(current_city:City):#, school_category):
     """
     Listing of school information for the city
 
@@ -301,7 +301,7 @@ async def schools_listings(current_city:City, school_category):
     - school category -> pre-k, elementary, middle school, high school
 
     ### Response
-    JSON string to render with react-plotly.js
+    sorted dataframe as JSON string to render with react-plotly.js
     """
 
     city = validate_city(current_city)
@@ -310,9 +310,6 @@ async def schools_listings(current_city:City, school_category):
     school_category = ['pre-k', 'elementary', 'middle school', 'high school']
 
     # School Category
-    if school_category == 'pre-k':
-        pk_listing = school_data.subset[school_data.pre_k()]
-        pk_listing = pk_listing.sort_values('Score')
-        print(pk_listing)
 
-
+    pk_listing = school_data.pre_k()
+    return pk_listing.to_dict('records')
