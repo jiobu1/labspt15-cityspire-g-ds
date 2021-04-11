@@ -258,5 +258,55 @@ async def rental_listing(
 
 ########################################################################################################
 
-@router.post('/api/school_listing')
-async def school_listing(city:City, school_category, rating='10/10', )
+class School_Data():
+    """
+    Locates specific school data for the city
+    Number of schools based on
+    - Ratings -> sorted, listed from highest to lowest
+    - Type -> public, private, charter
+    - Grades -> pre-k, elementary, middle, high school
+    - District -> district in city
+    """
+    def __init__(self, current_city):
+        self.current_city = current_city
+        self.dataframe = pd.read_csv(MODEL_CSV)
+        self.subset = self.dataframe[self.dataframe['City'] == self.current_city.city]
+
+    def school_categories(self):
+        self.pre_k = ['Pre-Kindergarten (PK)']
+        return self.pre_k
+
+    def elementary(self):
+        self.elementary = ['Elementary (K-5)']
+        return self.elementary
+
+    def middle_school(self):
+        self.middle_school = ['Middle School (6-8)']
+        return self.middle_school
+
+    def high_school(self):
+        self.high_school = ['High School (9-12)']
+        return self.high_school
+
+
+@router.post("api/schools_graph")
+async def schools_listings(current_city:City, school_category):
+    """
+    Listing of school information for the city
+
+    ### Query Parameters
+    - city
+
+    ### Response
+    JSON string to render with react-plotly.js
+    """
+
+    city = validate_city(current_city)
+    school_data = School_Data(city)
+
+    # School Category
+    if school_category == school_data.pre_k():
+        pk_listing = school_data.subset[school_data.pre_k()]
+        pk_listing.sort_values('score')
+
+
