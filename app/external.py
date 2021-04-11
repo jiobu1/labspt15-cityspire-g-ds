@@ -258,6 +258,8 @@ async def rental_listing(
 
 ########################################################################################################
 
+SCHOOLS_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/datasets/data/schools/schools_cleaned.csv'
+
 class School_Data():
     """
     Locates specific school data for the city
@@ -269,10 +271,10 @@ class School_Data():
     """
     def __init__(self, current_city):
         self.current_city = current_city
-        self.dataframe = pd.read_csv(MODEL_CSV)
+        self.dataframe = pd.read_csv(SCHOOLS_CSV)
         self.subset = self.dataframe[self.dataframe['City'] == self.current_city.city]
 
-    def school_categories(self):
+    def pre_k(self):
         self.pre_k = ['Pre-Kindergarten (PK)']
         return self.pre_k
 
@@ -289,13 +291,14 @@ class School_Data():
         return self.high_school
 
 
-@router.post("api/schools_graph")
+@router.post("api/schools_listing")
 async def schools_listings(current_city:City, school_category):
     """
     Listing of school information for the city
 
     ### Query Parameters
     - city
+    - school category -> pre-k, elementary, middle school, high school
 
     ### Response
     JSON string to render with react-plotly.js
@@ -304,9 +307,12 @@ async def schools_listings(current_city:City, school_category):
     city = validate_city(current_city)
     school_data = School_Data(city)
 
+    school_category = ['pre-k', 'elementary', 'middle school', 'high school']
+
     # School Category
-    if school_category == school_data.pre_k():
+    if school_category == 'pre-k':
         pk_listing = school_data.subset[school_data.pre_k()]
-        pk_listing.sort_values('score')
+        pk_listing = pk_listing.sort_values('Score')
+        print(pk_listing)
 
 
