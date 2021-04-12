@@ -84,7 +84,8 @@ async def job_opportunities(position, city:City):
         by fastAPI to a json object.
 
     """
-    # Run the main program routing
+     # Run the main program reouting
+    records = []  # creating the record list
 
     city_name = validate_city(city)
     location = city_name.city + ' ' + city_name.state
