@@ -213,3 +213,4 @@ async def air_quality_plot(current_city:City):
     fig.show()
     # fig.write_html("path/to/file.html")
     return fig.to_json()
+
