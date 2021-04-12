@@ -7,7 +7,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 from app.ml import City, validate_city
-from app.state_abbr import us_state_abbrev as abbr
+from app.data.files.state_abbr import us_state_abbrev as abbr
 
 router = APIRouter()
 

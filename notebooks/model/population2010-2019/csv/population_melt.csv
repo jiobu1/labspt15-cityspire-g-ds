@@ -641,7 +641,7 @@
 "Tuscaloosa, AL",2010,239481.0
 "Twin Falls, ID",2010,99987.0
 "Tyler, TX",2010,210408.0
-"Urban Honolulu, HI",2010,956285.0
+"Honolulu, HI",2010,956285.0
 "Utica, NY",2010,299226.0
 "Rome, NY",2010,299226.0
 "Valdosta, GA",2010,140054.0
@@ -705,6 +705,30 @@
 "Boardman, PA",2010,564826.0
 "Yuba City, CA",2010,167099.0
 "Yuma, AZ",2010,197127.0
+"Athens, OH",2010,65175.0
+"Muskogee, OK",2010,39223.0
+"Winona, MN",2010,51461.0
+"Texarkana, AR",2010,29919.0
+"Manitowoc, WI",2010,81329.0
+"Clinton, IA",2010,49097.0
+"Lodi, CA",2010,62134.0
+"Minneapolis, MN",2010,382578.0
+"Tampa, FL",2010,335709.0
+"Niagara Falls, NY",2010,50193.0
+"Mauldin, SC",2010,22889.0
+"Juneau, AK",2010,31276.0
+"Muscatine, IA",2010,42745.0
+"Holland, MI",2010,33051.0
+"Elko, NV",2010,49085.0
+"Wyoming, MI",2010,72125.0
+"Redmond, OR",2010,26215.0
+"Arroyo Grande, CA",2010,17252.0
+"Sheridan, WY",2010,29144.0
+"Porterville, CA",2010,54165.0
+"Brookings, SD",2010,22056.0
+"Fairfield, CA",2010,105321.0
+"Scottsdale, AZ",2010,258069.0
+"Pascagoula, MS",2010,22392.0
 "Abilene, TX",2011,166634.0
 "Akron, OH",2011,703200.0
 "Albany, GA",2011,154545.0
@@ -1347,7 +1371,7 @@
 "Tuscaloosa, AL",2011,240363.0
 "Twin Falls, ID",2011,100620.0
 "Tyler, TX",2011,212764.0
-"Urban Honolulu, HI",2011,967336.0
+"Honolulu, HI",2011,967336.0
 "Utica, NY",2011,298604.0
 "Rome, NY",2011,298604.0
 "Valdosta, GA",2011,142007.0
@@ -1411,6 +1435,30 @@
 "Boardman, PA",2011,562347.0
 "Yuba City, CA",2011,166971.0
 "Yuma, AZ",2011,202841.0
+"Athens, OH",2011,65079.0
+"Muskogee, OK",2011,39073.0
+"Winona, MN",2011,51355.0
+"Texarkana, AR",2011,29876.0
+"Manitowoc, WI",2011,81038.0
+"Clinton, IA",2011,49102.0
+"Lodi, CA",2011,62354.0
+"Minneapolis, MN",2011,381833.0
+"Tampa, FL",2011,336171.0
+"Niagara Falls, NY",2011,50570.0
+"Mauldin, SC",2011,32227.0
+"Juneau, AK",2011,31244.0
+"Muscatine, IA",2011,42842.0
+"Holland, MI",2011,33503.0
+"Elko, NV",2011,49442.0
+"Wyoming, MI",2011,72100.0
+"Redmond, OR",2011,25677.0
+"Arroyo Grande, CA",2011,17132.0
+"Sheridan, WY",2011,29251.0
+"Porterville, CA",2011,53531.0
+"Brookings, SD",2011,21767.0
+"Fairfield, CA",2011,104404.0
+"Scottsdale, AZ",2011,219311.0
+"Pascagoula, MS",2011,22765.0
 "Abilene, TX",2012,167442.0
 "Akron, OH",2012,702109.0
 "Albany, GA",2012,153976.0
@@ -2053,7 +2101,7 @@
 "Tuscaloosa, AL",2012,242328.0
 "Twin Falls, ID",2012,101128.0
 "Tyler, TX",2012,214811.0
-"Urban Honolulu, HI",2012,977994.0
+"Honolulu, HI",2012,977994.0
 "Utica, NY",2012,297992.0
 "Rome, NY",2012,297992.0
 "Valdosta, GA",2012,144121.0
@@ -2117,6 +2165,30 @@
 "Boardman, PA",2012,558530.0
 "Yuba City, CA",2012,166963.0
 "Yuma, AZ",2012,202475.0
+"Athens, OH",2012,64610.0
+"Muskogee, OK",2012,39045.0
+"Winona, MN",2012,51343.0
+"Texarkana, AR",2012,29972.0
+"Manitowoc, WI",2012,80726.0
+"Clinton, IA",2012,49097.0
+"Lodi, CA",2012,62475.0
+"Minneapolis, MN",2012,385023.0
+"Tampa, FL",2012,339391.0
+"Niagara Falls, NY",2012,50214.0
+"Mauldin, SC",2012,22849.0
+"Juneau, AK",2012,31636.0
+"Muscatine, IA",2012,42916.0
+"Holland, MI",2012,33307.0
+"Elko, NV",2012,50969.0
+"Wyoming, MI",2012,72408.0
+"Redmond, OR",2012,26186.0
+"Arroyo Grande, CA",2012,17284.0
+"Sheridan, WY",2012,29524.0
+"Porterville, CA",2012,53531.0
+"Brookings, SD",2012,22065.0
+"Fairfield, CA",2012,105407.0
+"Scottsdale, AZ",2012,219867.0
+"Pascagoula, MS",2012,22523.0
 "Abilene, TX",2013,167473.0
 "Akron, OH",2013,703621.0
 "Albany, GA",2013,152667.0
@@ -2759,7 +2831,7 @@
 "Tuscaloosa, AL",2013,244378.0
 "Twin Falls, ID",2013,102662.0
 "Tyler, TX",2013,216475.0
-"Urban Honolulu, HI",2013,986059.0
+"Honolulu, HI",2013,986059.0
 "Utica, NY",2013,297230.0
 "Rome, NY",2013,297230.0
 "Valdosta, GA",2013,142937.0
@@ -2823,6 +2895,30 @@
 "Boardman, PA",2013,555850.0
 "Yuba City, CA",2013,167597.0
 "Yuma, AZ",2013,202420.0
+"Athens, OH",2013,64594.0
+"Muskogee, OK",2013,39073.0
+"Winona, MN",2013,51332.0
+"Texarkana, AR",2013,30013.0
+"Manitowoc, WI",2013,80485.0
+"Clinton, IA",2013,48281.0
+"Lodi, CA",2013,62703.0
+"Minneapolis, MN",2013,389112.0
+"Tampa, FL",2013,343768.0
+"Niagara Falls, NY",2013,49920.0
+"Mauldin, SC",2013,22849.0
+"Juneau, AK",2013,31897.0
+"Muscatine, IA",2013,43010.0
+"Holland, MI",2013,33281.0
+"Elko, NV",2013,52334.0
+"Wyoming, MI",2013,72864.0
+"Redmond, OR",2013,26583.0
+"Arroyo Grande, CA",2013,17411.0
+"Sheridan, WY",2013,29733.0
+"Porterville, CA",2013,54534.0
+"Brookings, SD",2013,22356.0
+"Fairfield, CA",2013,106533.0
+"Scottsdale, AZ",2013,221283.0
+"Pascagoula, MS",2013,22372.0
 "Abilene, TX",2014,168342.0
 "Akron, OH",2014,704908.0
 "Albany, GA",2014,151949.0
@@ -3465,7 +3561,7 @@
 "Tuscaloosa, AL",2014,246988.0
 "Twin Falls, ID",2014,103912.0
 "Tyler, TX",2014,219642.0
-"Urban Honolulu, HI",2014,987414.0
+"Honolulu, HI",2014,987414.0
 "Utica, NY",2014,295982.0
 "Rome, NY",2014,295982.0
 "Valdosta, GA",2014,143433.0
@@ -3529,6 +3625,30 @@
 "Boardman, PA",2014,553039.0
 "Yuba City, CA",2014,168311.0
 "Yuma, AZ",2014,204054.0
+"Athens, OH",2014,64783.0
+"Muskogee, OK",2014,38937.0
+"Winona, MN",2014,51059.0
+"Texarkana, AR",2014,30015.0
+"Manitowoc, WI",2014,79951.0
+"Clinton, IA",2014,47895.0
+"Lodi, CA",2014,63158.0
+"Minneapolis, MN",2014,394424.0
+"Tampa, FL",2014,348934.0
+"Niagara Falls, NY",2014,49679.0
+"Mauldin, SC",2014,23985.0
+"Juneau, AK",2014,32200.0
+"Muscatine, IA",2014,43028.0
+"Holland, MI",2014,33342.0
+"Elko, NV",2014,52531.0
+"Wyoming, MI",2014,73434.0
+"Redmond, OR",2014,27002.0
+"Arroyo Grande, CA",2014,17536.0
+"Sheridan, WY",2014,29852.0
+"Porterville, CA",2014,54534.0
+"Brookings, SD",2014,22645.0
+"Fairfield, CA",2014,107983.0
+"Scottsdale, AZ",2014,223519.0
+"Pascagoula, MS",2014,22239.0
 "Abilene, TX",2015,169688.0
 "Akron, OH",2015,704382.0
 "Albany, GA",2015,150387.0
@@ -4171,7 +4291,7 @@
 "Tuscaloosa, AL",2015,249066.0
 "Twin Falls, ID",2015,105216.0
 "Tyler, TX",2015,222390.0
-"Urban Honolulu, HI",2015,991064.0
+"Honolulu, HI",2015,991064.0
 "Utica, NY",2015,293916.0
 "Rome, NY",2015,293916.0
 "Valdosta, GA",2015,143311.0
@@ -4235,6 +4355,30 @@
 "Boardman, PA",2015,548798.0
 "Yuba City, CA",2015,169327.0
 "Yuma, AZ",2015,205186.0
+"Athens, OH",2015,65886.0
+"Muskogee, OK",2015,38776.0
+"Winona, MN",2015,50827.0
+"Texarkana, AR",2015,30127.0
+"Manitowoc, WI",2015,79483.0
+"Clinton, IA",2015,47558.0
+"Lodi, CA",2015,63589.0
+"Minneapolis, MN",2015,399950.0
+"Tampa, FL",2015,355603.0
+"Niagara Falls, NY",2015,49435.0
+"Mauldin, SC",2015,24396.0
+"Juneau, AK",2015,32531.0
+"Muscatine, IA",2015,43068.0
+"Holland, MI",2015,33526.0
+"Elko, NV",2015,51728.0
+"Wyoming, MI",2015,74105.0
+"Redmond, OR",2015,27450.0
+"Arroyo Grande, CA",2015,17720.0
+"Sheridan, WY",2015,29852.0
+"Porterville, CA",2015,55218.0
+"Brookings, SD",2015,22974.0
+"Fairfield, CA",2015,109468.0
+"Scottsdale, AZ",2015,227471.0
+"Pascagoula, MS",2015,22230.0
 "Abilene, TX",2016,170017.0
 "Akron, OH",2016,703524.0
 "Albany, GA",2016,149137.0
@@ -4877,7 +5021,7 @@
 "Tuscaloosa, AL",2016,250099.0
 "Twin Falls, ID",2016,107252.0
 "Tyler, TX",2016,225161.0
-"Urban Honolulu, HI",2016,992268.0
+"Honolulu, HI",2016,992268.0
 "Utica, NY",2016,292811.0
 "Rome, NY",2016,292811.0
 "Valdosta, GA",2016,144471.0
@@ -4941,6 +5085,30 @@
 "Boardman, PA",2016,544582.0
 "Yuba City, CA",2016,170694.0
 "Yuma, AZ",2016,207247.0
+"Athens, OH",2016,66352.0
+"Muskogee, OK",2016,38605.0
+"Winona, MN",2016,50861.0
+"Texarkana, AR",2016,30155.0
+"Manitowoc, WI",2016,79348.0
+"Clinton, IA",2016,47248.0
+"Lodi, CA",2016,63842.0
+"Minneapolis, MN",2016,404670.0
+"Tampa, FL",2016,361477.0
+"Niagara Falls, NY",2016,49435.0
+"Mauldin, SC",2016,24396.0
+"Juneau, AK",2016,32524.0
+"Muscatine, IA",2016,42968.0
+"Holland, MI",2016,33581.0
+"Elko, NV",2016,52082.0
+"Wyoming, MI",2016,74692.0
+"Redmond, OR",2016,27998.0
+"Arroyo Grande, CA",2016,17842.0
+"Sheridan, WY",2016,29964.0
+"Porterville, CA",2016,58472.0
+"Brookings, SD",2016,23292.0
+"Fairfield, CA",2016,110953.0
+"Scottsdale, AZ",2016,234495.0
+"Pascagoula, MS",2016,234495.0
 "Abilene, TX",2017,170429.0
 "Akron, OH",2017,703987.0
 "Albany, GA",2017,148090.0
@@ -5583,7 +5751,7 @@
 "Tuscaloosa, AL",2017,250933.0
 "Twin Falls, ID",2017,109142.0
 "Tyler, TX",2017,227195.0
-"Urban Honolulu, HI",2017,986353.0
+"Honolulu, HI",2017,986353.0
 "Utica, NY",2017,292174.0
 "Rome, NY",2017,292174.0
 "Valdosta, GA",2017,145360.0
@@ -5647,6 +5815,30 @@
 "Boardman, PA",2017,541545.0
 "Yuba City, CA",2017,172782.0
 "Yuma, AZ",2017,209507.0
+"Athens, OH",2017,66503.0
+"Muskogee, OK",2017,38139.0
+"Winona, MN",2017,50718.0
+"Texarkana, AR",2017,30120.0
+"Manitowoc, WI",2017,79099.0
+"Clinton, IA",2017,46874.0
+"Lodi, CA",2017,64403.0
+"Minneapolis, MN",2017,411452.0
+"Tampa, FL",2017,361477.0
+"Niagara Falls, NY",2017,48976.0
+"Mauldin, SC",2017,24396.0
+"Juneau, AK",2017,32434.0
+"Muscatine, IA",2017,42872.0
+"Holland, MI",2017,33488.0
+"Elko, NV",2017,52357.0
+"Wyoming, MI",2017,75124.0
+"Redmond, OR",2017,28492.0
+"Arroyo Grande, CA",2017,17971.0
+"Sheridan, WY",2017,30147.0
+"Porterville, CA",2017,58782.0
+"Brookings, SD",2017,23471.0
+"Fairfield, CA",2017,112790.0
+"Scottsdale, AZ",2017,239283.0
+"Pascagoula, MS",2017,21935.0
 "Abilene, TX",2018,171150.0
 "Akron, OH",2018,703855.0
 "Albany, GA",2018,147840.0
@@ -6289,7 +6481,7 @@
 "Tuscaloosa, AL",2018,251257.0
 "Twin Falls, ID",2018,110095.0
 "Tyler, TX",2018,229749.0
-"Urban Honolulu, HI",2018,979858.0
+"Honolulu, HI",2018,979858.0
 "Utica, NY",2018,291187.0
 "Rome, NY",2018,291187.0
 "Valdosta, GA",2018,146143.0
@@ -6353,6 +6545,30 @@
 "Boardman, PA",2018,538226.0
 "Yuba City, CA",2018,173905.0
 "Yuma, AZ",2018,211612.0
+"Athens, OH",2018,65519.0
+"Muskogee, OK",2018,37900.0
+"Winona, MN",2018,50735.0
+"Texarkana, AR",2018,30104.0
+"Manitowoc, WI",2018,79015.0
+"Clinton, IA",2018,46874.0
+"Lodi, CA",2018,65006.0
+"Minneapolis, MN",2018,416021.0
+"Tampa, FL",2018,376345.0
+"Niagara Falls, NY",2018,48661.0
+"Mauldin, SC",2018,24396.0
+"Juneau, AK",2018,32330.0
+"Muscatine, IA",2018,42874.0
+"Holland, MI",2018,33503.0
+"Elko, NV",2018,52539.0
+"Wyoming, MI",2018,75532.0
+"Redmond, OR",2018,29234.0
+"Arroyo Grande, CA",2018,18039.0
+"Sheridan, WY",2018,30219.0
+"Porterville, CA",2018,59797.0
+"Brookings, SD",2018,23863.0
+"Fairfield, CA",2018,114101.0
+"Scottsdale, AZ",2018,246026.0
+"Pascagoula, MS",2018,21865.0
 "Abilene, TX",2019,172060.0
 "Akron, OH",2019,703479.0
 "Albany, GA",2019,146726.0
@@ -6995,7 +7211,7 @@
 "Tuscaloosa, AL",2019,252047.0
 "Twin Falls, ID",2019,111290.0
 "Tyler, TX",2019,232751.0
-"Urban Honolulu, HI",2019,974563.0
+"Honolulu, HI",2019,974563.0
 "Utica, NY",2019,289990.0
 "Rome, NY",2019,289990.0
 "Valdosta, GA",2019,147292.0
@@ -7059,3 +7275,27 @@
 "Boardman, PA",2019,536081.0
 "Yuba City, CA",2019,175639.0
 "Yuma, AZ",2019,213787.0
+"Athens, OH",2019,65327.0
+"Muskogee, OK",2019,37624.0
+"Winona, MN",2019,50484.0
+"Texarkana, AR",2019,29901.0
+"Manitowoc, WI",2019,78981.0
+"Clinton, IA",2019,46429.0
+"Lodi, CA",2019,65846.0
+"Minneapolis, MN",2019,420324.0
+"Tampa, FL",2019,387916.0
+"Niagara Falls, NY",2019,48252.0
+"Mauldin, SC",2019,24396.0
+"Juneau, AK",2019,32227.0
+"Muscatine, IA",2019,42664.0
+"Holland, MI",2019,33402.0
+"Elko, NV",2019,52778.0
+"Wyoming, MI",2019,75702.0
+"Redmond, OR",2019,30167.0
+"Arroyo Grande, CA",2019,18033.0
+"Sheridan, WY",2019,30485.0
+"Porterville, CA",2019,59797.0
+"Brookings, SD",2019,24108.0
+"Fairfield, CA",2019,115282.0
+"Scottsdale, AZ",2019,250602.0
+"Pascagoula, MS",2019,21809.0

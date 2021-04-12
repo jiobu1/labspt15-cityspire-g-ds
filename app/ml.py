@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup as bs
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel
-from app.state_abbr import us_state_abbrev as abbr
+from app.data.files.state_abbr import us_state_abbrev as abbr
 from pathlib import Path
 import pandas as pd
 from pypika import Query, Table, CustomFunction
@@ -251,7 +251,7 @@ async def get_livability(city: City, weights: LivabilityWeights = None):
     """
     city = validate_city(city)
     values = await select(["Rent", "Good Days", "Crime Rate per 1000"], city)
-    with open("app/livability_scaler.pkl", "rb") as f:
+    with open("app/data/pickle_model/livability_scaler.pkl", "rb") as f:
         s = load(f)
     v = [[values[0] * -1, values[1], values[2] * -1]]
     scaled = s.transform(v)[0]

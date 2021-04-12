@@ -6,7 +6,7 @@ from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel, BaseSettings, SecretStr
 from bs4 import BeautifulSoup
 from app.ml import City, validate_city
-from app.state_abbr import us_state_abbrev as abbr
+from app.data.files.state_abbr import us_state_abbrev as abbr
 from dotenv import dotenv_values, load_dotenv
 
 router = APIRouter()
