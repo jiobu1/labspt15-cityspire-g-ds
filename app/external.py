@@ -350,7 +350,7 @@ async def get_plot(city, periods):
   ax.fill_between(df['year'],
                 df['yhat_lower'],
                 df['yhat_upper'],
-                color='k', 
+                color='k',
                 alpha=.25)
 
   ax.set_xlabel('Year')
