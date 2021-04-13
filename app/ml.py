@@ -12,18 +12,14 @@ import asyncio
 from app.db import database, select, select_all
 from typing import List, Optional
 
-
 router = APIRouter()
-
 
 class City(BaseModel):
     city: str = "New York"
     state: str = "NY"
 
-
 class CityRecommendations(BaseModel):
     recommendations: List[City]
-
 
 class CityDataBase(BaseModel):
     city: City
@@ -35,18 +31,15 @@ class CityDataBase(BaseModel):
     population: int
     diversity_index: float
 
-
 class CityData(CityDataBase):
     walkability: float
     livability: float
     recommendations: List[City]
 
-
 class CityDataFull(CityDataBase):
     good_days: int
     crime_rate_ppt: float
     nearest_string: str
-
 
 class LivabilityWeights(BaseModel):
     walkability: float = 1.0
@@ -54,7 +47,6 @@ class LivabilityWeights(BaseModel):
     low_pollution: float = 1.0
     diversity: float = 1.0
     low_crime: float = 1.0
-
 
 def validate_city(
     city: City,
@@ -121,7 +113,6 @@ async def get_data(city: City):
 
     return data
 
-
 @router.post("/api/coordinates")
 async def get_coordinates(city: City):
     """Retrieve coordinates for target city
@@ -138,7 +129,6 @@ async def get_coordinates(city: City):
     city = validate_city(city)
     value = await select(["lat", "lon"], city)
     return {"latitude": value[0], "longitude": value[1]}
-
 
 @router.post("/api/crime")
 async def get_crime(city: City):
@@ -158,7 +148,6 @@ async def get_crime(city: City):
     value = await select("Crime Rating", city)
     return {"crime": value[0]}
 
-
 @router.post("/api/rental_price")
 async def get_rental_price(city: City):
     """Retrieve rental price for target city
@@ -174,9 +163,7 @@ async def get_rental_price(city: City):
     """
     city = validate_city(city)
     value = await select("Rent", city)
-
     return {"rental_price": value[0]}
-
 
 @router.post("/api/pollution")
 async def get_pollution(city: City):
@@ -194,7 +181,6 @@ async def get_pollution(city: City):
     city = validate_city(city)
     value = await select("Air Quality Index", city)
     return {"air_quality_index": value[0]}
-
 
 @router.post("/api/walkability")
 async def get_walkability(city: City):
@@ -217,7 +203,6 @@ async def get_walkability(city: City):
 
     return {"walkability": score}
 
-
 async def get_walkscore(city: str, state: str):
     """Scrape Walkscore.
 
@@ -232,7 +217,6 @@ async def get_walkscore(city: str, state: str):
     r_ = requests.get(f"https://www.walkscore.com/{state}/{city}")
     images = bs(r_.text, features="lxml").select(".block-header-badge img")
     return [int(str(x)[10:12]) for x in images]
-
 
 @router.post("/api/livability")
 async def get_livability(city: City, weights: LivabilityWeights = None):
@@ -249,6 +233,7 @@ async def get_livability(city: City, weights: LivabilityWeights = None):
         Dictionary that contains the requested data, which is converted
         by fastAPI to a json object.
     """
+
     city = validate_city(city)
     values = await select(["Rent", "Good Days", "Crime Rate per 1000"], city)
     with open("app/data/pickle_model/livability_scaler.pkl", "rb") as f:
@@ -279,7 +264,6 @@ async def get_livability(city: City, weights: LivabilityWeights = None):
 
         return {"livability": round(sum_ / divisor)}
 
-
 async def get_livability_score(city: City, city_data: CityDataFull):
     """Calculate livability score
 
@@ -288,7 +272,6 @@ async def get_livability_score(city: City, city_data: CityDataFull):
 
     args:
         city: The target city
-
 
     returns:
         Dictionary that contains the requested data, which is converted
@@ -313,7 +296,6 @@ async def get_livability_score(city: City, city_data: CityDataFull):
 
     return {"livability": round(sum(rescaled) / 5)}
 
-
 @router.post("/api/population")
 async def get_population(city: City):
     """Retrieve population rating for target city
@@ -331,7 +313,6 @@ async def get_population(city: City):
     city = validate_city(city)
     value = await select("Population", city)
     return {"population": value[0]}
-
 
 @router.post("/api/nearest", response_model=CityRecommendations)
 async def get_recommendations(city: City):
@@ -353,7 +334,6 @@ async def get_recommendations(city: City):
     recommendations = await get_recommendation_cities(city, value.get("Nearest"))
 
     return recommendations
-
 
 async def get_recommendation_cities(city: City, nearest_string: str):
     """Use the string and transform to City

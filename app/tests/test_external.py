@@ -31,7 +31,7 @@ weather_schema = {
     "Wind_Speed": str,
     "Feels_Like": str,
     "Pressure": str
-}
+    }
 
 def test_weather_data_validates_json_response_schema():
     data = {
@@ -51,8 +51,6 @@ def test_weather_data_validates_json_response_schema():
     # Validate will raise exception if given json is not
     # what is described in schema.
     validate(instance=resp_body, schema=weather_schema)
-
-##########################################################################################################
 
 # Job Opportunities Test
 def test_job_opportunities_check_status_code_equals_200():
@@ -77,7 +75,7 @@ job_opportunities_schema = {
     "Description": str,
     "Salary": str,
     "Job Url": str
-}
+    }
 
 def test_job_opportunities_validates_json_response_schema():
     data = {
@@ -97,8 +95,6 @@ def test_job_opportunities_validates_json_response_schema():
     # Validate will raise exception if given json is not
     # what is described in schema.
     validate(instance=resp_body, schema=job_opportunities_schema)
-
-##########################################################################################################
 
 # Rental Listing Test
 def test_rental_listing_check_status_code_equals_200():
@@ -127,7 +123,7 @@ rental_listings_schema = {
     "List Price": "integer",
     "Ammenities" : "array",
     "Photos" : "array",
-}
+    }
 
 # Rental Listing Test
 def test_rental_listing_check_status_code_equals_200():
@@ -156,7 +152,7 @@ rental_listings_schema = {
     "List Price": "integer",
     "Ammenities" : "array",
     "Photos" : "array",
-}
+    }
 
 def test_rental_listing_validates_json_response_schema():
     data = {
@@ -181,8 +177,6 @@ def test_rental_listing_validates_json_response_schema():
     # Validate will raise exception if given json is not
     # what is described in schema.
     validate(instance=resp_body, schema=rental_listings_schema)
-
-##########################################################################################################
 
 # School Listings Test
 def test_school_listings_check_status_code_equals_200():
@@ -210,7 +204,7 @@ school_listings_schema = {
     "Middle School (6-8)": "boolean",
     "Elementary (K-5)": "boolean",
     "Pre-Kindergarten (PK)": "boolean"
-  }
+    }
 
 def test_school_listing_validates_json_response_schema():
     data = {

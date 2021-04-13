@@ -82,8 +82,9 @@ async def demographics_plot(current_city:City):
             'x':0.5,
             'xanchor': 'center',
             'yanchor': 'top'})
+
     fig.show()
-    # fig.write_html("path/to/file.html")
+
     return fig.to_json()
 
 @router.post("/api/employment_graph")
@@ -123,8 +124,9 @@ async def employment_plot(current_city:City):
         coloraxis=dict(colorscale = 'Bluered_r'),
         coloraxis_showscale = False,
         showlegend = False)
+
     fig.show()
-    # fig.write_html("path/to/file.html")
+
     return fig.to_json()
 
 @router.post("/api/crime_graph")
@@ -175,8 +177,9 @@ async def crime_plot(current_city:City):
     fig.add_trace(go.Pie(values = property_crime_melt['total'],
                          labels = property_crime_melt['property crime type']),
                          row = 2, col = 2)
+
     fig.show()
-    # fig.write_html("path/to/file.html")
+
     return fig.to_json()
 
 @router.post("/api/aqi_graph")
@@ -210,7 +213,35 @@ async def air_quality_plot(current_city:City):
             'x':0.5,
             'xanchor': 'center',
             'yanchor': 'top'})
+
     fig.show()
-    # fig.write_html("path/to/file.html")
+
     return fig.to_json()
 
+# Population Forecast for 10 Years
+
+POPULATION_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_cleaned.csv'
+FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_prediction.csv'
+
+async def get_plot(city, periods):
+    city = [city]
+    population = pd.read_csv(POPULATION_CSV)
+    population = population[population['City,State'].isin(city)]
+    population = population[['City,State', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']]
+    population_melt = population.melt(id_vars=['City,State'], var_name='ds', value_name='y')
+    print(population_melt)
+    ax = population_melt.plot(x = 'ds', y = 'y', label='Observed', figsize= (10, 8))
+    forecast = pd.read_csv(FORECAST_CSV)[:-10]
+    df[['year', 'yhat']].plot(ax = ax, x = 'ds', y = 'yhat', label = "Forecast")
+    ax.fill_between(df['year'],
+                df['yhat_lower'],
+                df['yhat_upper'],
+                color='k',
+                alpha=.25)
+
+    ax.set_xlabel('Year')
+    ax.set_ylabel('Population')
+    plt.title(f"{city} Population" )
+    plt.legend()
+
+    plt.show()

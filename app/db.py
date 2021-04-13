@@ -3,7 +3,6 @@
 import os
 from fastapi import APIRouter, Depends
 import sqlalchemy
-# import psycopg2`
 from dotenv import dotenv_values, load_dotenv
 import databases
 import asyncio
@@ -13,17 +12,12 @@ from pypika.terms import Field
 
 Field_ = Union[Field, str]
 
-# Local deployment
-# config = dotenv_values()
-# database = databases.Database(config["DATABASE_URL"])
-
 #Heroku
 load_dotenv()
 database_url = os.getenv("DATABASE_URL")
 database = databases.Database(database_url)
 
 router = APIRouter()
-
 
 @router.get("/info")
 async def get_url():
@@ -37,7 +31,6 @@ async def get_url():
 
     url_without_password = repr(database.url)
     return {"database_url": url_without_password}
-
 
 @router.get('/all_cities')
 async def all_cities():
@@ -63,7 +56,6 @@ async def all_cities():
     value = await database.fetch_all(str(q))
     return value
 
-
 async def select(columns: Union[Iterable[Field_], Field_], city):
     data = Table("mytable")
     if type(columns) == str or type(columns) == Field:
@@ -77,7 +69,6 @@ async def select(columns: Union[Iterable[Field_], Field_], city):
     value = await database.fetch_one(str(q))
     return value
 
-
 async def select_all(city):
     """Fetch all data at once
 
@@ -90,6 +81,7 @@ async def select_all(city):
         Dictionary that contains the requested data, which is converted
             by fastAPI to a json object.
     """
+
     data = Table("mytable")
     di_fn = CustomFunction("ROUND", ["number"])
     columns = (

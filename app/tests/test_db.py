@@ -14,8 +14,7 @@ all_cities_schema = {
     "$schema": "https://json-schema.org/schema#",
     "city": "string",
     "state": "string"
-
-}
+    }
 
 def test_weather_data_validates_json_resonse_schema():
 
