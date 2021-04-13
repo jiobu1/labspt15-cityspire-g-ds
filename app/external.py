@@ -12,6 +12,7 @@ from dotenv import dotenv_values, load_dotenv
 router = APIRouter()
 load_dotenv()
 
+# Weather Endpoint
 weather_api = os.getenv("WEATHER_API_KEY")
 
 # https://github.com/juhilsomaiya/API-Integrations-Python/blob/master/Weather_forecast/main.p
@@ -59,6 +60,8 @@ async def current_weather(city:City):
     }
 
 ########################################################################################################
+
+# Jobs Listing Endpoint
 
 # https://github.com/israel-dryer/Indeed-Job-Scraper/blob/master/indeed-job-scraper.ipynb
 @router.post('/api/job_opportunities')
@@ -146,6 +149,8 @@ def get_url(position, location):
     return url
 
 ########################################################################################################
+
+# Rental Listings Endpoint
 
 class Settings(BaseSettings):
 
@@ -259,6 +264,8 @@ async def rental_listing(
 
 ########################################################################################################
 
+# Schools Listing Endpoint
+
 SCHOOLS_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/datasets/data/schools/schools_cleaned.csv'
 
 class School_Data():
@@ -321,3 +328,34 @@ async def schools_listings(current_city:City, school_category):
         school_listing = school_data.high_school()
 
     return school_listing.to_dict('records')
+
+
+########################################################################################################
+
+# Population Forecast for 10 Years
+
+POPULATION_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_cleaned.csv'
+FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_prediction.csv'
+
+async def get_plot(city, periods):
+  city = [city]
+  population = pd.read_csv(POPULATION_CSV)
+  population = population[population['City,State'].isin(city)]
+  population = population[['City,State', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']]
+  population_melt = population.melt(id_vars=['City,State'], var_name='ds', value_name='y')
+  print(population_melt)
+  ax = population_melt.plot(x = 'ds', y = 'y', label='Observed', figsize= (10, 8))
+  forecast = pd.read_csv(FORECAST_CSV)[:-10]
+  df[['year', 'yhat']].plot(ax = ax, x = 'ds', y = 'yhat', label = "Forecast")
+  ax.fill_between(df['year'],
+                df['yhat_lower'],
+                df['yhat_upper'],
+                color='k', 
+                alpha=.25)
+
+  ax.set_xlabel('Year')
+  ax.set_ylabel('Population')
+  plt.title(f"{city} Population" )
+  plt.legend()
+
+  plt.show()
