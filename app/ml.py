@@ -59,14 +59,14 @@ def validate_city(
     Full name to All Caps ABBR if needed.
 
     args:
-        city: The City object to be Validated
+    - Scity: The City object to be Validated
 
     returns:
-        a City object in a proper format to be used elsewhere.
+    - a City object in a proper format to be used elsewhere.
 
     raises:
-        HTTPException:
-            If the state cannot be converted into an ABBR
+    - HTTPException:
+        If the state cannot be converted into an ABBR
     """
 
     city.city = city.city.title()
@@ -91,11 +91,11 @@ async def get_data(city: City):
     return data
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-        by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
 
     city = validate_city(city)
@@ -122,12 +122,13 @@ async def get_coordinates(city: City):
     Fetch data from DB
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-        by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
+
     city = validate_city(city)
     value = await select(["lat", "lon"], city)
     return {"latitude": value[0], "longitude": value[1]}
@@ -139,12 +140,13 @@ async def get_crime(city: City):
     Fetch data from DB
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-        by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
+
     city = validate_city(city)
     data = Table("mytable")
     value = await select("Crime Rating", city)
@@ -157,12 +159,13 @@ async def get_rental_price(city: City):
     Fetch data from DB
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-        by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
+
     city = validate_city(city)
     value = await select("Rent", city)
     return {"rental_price": value[0]}
@@ -174,12 +177,13 @@ async def get_pollution(city: City):
     Fetch data from DB
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-        by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
+
     city = validate_city(city)
     value = await select("Air Quality Index", city)
     return {"air_quality_index": value[0]}
@@ -189,12 +193,13 @@ async def get_walkability(city: City):
     """Retrieve walkscore for target city
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-        by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
+
     city = validate_city(city)
     try:
         score = (await get_walkscore(**city.dict()))[0]
@@ -209,11 +214,11 @@ async def get_walkscore(city: str, state: str):
     """Scrape Walkscore.
 
     args:
-        city: The target city
-        state: Target state as an all-caps 2-letter abbr
+    - city: The target city
+    - state: Target state as an all-caps 2-letter abbr
 
     returns:
-        List containing WalkScore, BusScore, and BikeScore in that order
+    - List containing WalkScore, BusScore, and BikeScore in that order
     """
 
     r_ = requests.get(f"https://www.walkscore.com/{state}/{city}")
@@ -228,12 +233,12 @@ async def get_livability(city: City, weights: LivabilityWeights = None):
     return data
 
     args:
-        city: The target city
-        LivabilityWeights: Weights for the to use for calculation
+    - city: The target city
+    - LivabilityWeights: Weights for the to use for calculation
 
     returns:
-        Dictionary that contains the requested data, which is converted
-        by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
 
     city = validate_city(city)
@@ -273,11 +278,11 @@ async def get_livability_score(city: City, city_data: CityDataFull):
     return data
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-            by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
 
     with open("app/livability_scaler.pkl", "rb") as f:
@@ -305,11 +310,11 @@ async def get_population(city: City):
     Fetch data from DB
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-            by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
 
     city = validate_city(city)
@@ -323,11 +328,11 @@ async def get_recommendations(city: City):
     Fetch data from DB
 
     args:
-        city: The target city
+    - city: The target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-            by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
 
     city = validate_city(city)
@@ -343,11 +348,11 @@ async def get_recommendation_cities(city: City, nearest_string: str):
     Fetch data from DB
 
     args:
-        nearest_string: String consisting of the index numbers of the recommended cities.
+    - nearest_string: String consisting of the index numbers of the recommended cities.
 
     returns:
-        Dictionary that contains the requested data, which is converted
-            by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
 
     test_list = nearest_string.split(",")
@@ -370,110 +375,110 @@ async def get_recommendation_cities(city: City, nearest_string: str):
 
     return recs
 
-# @router.post('/api/population_forecast')
-# def population_forecast(city:City, periods=10):
-#     """
-#     Create visualization of historical and forecasted population
+@router.post('/api/population_forecast')
+def population_forecast(city:City, periods=10):
+    """
+    Create visualization of historical and forecasted population
 
-#     args:
-#         - city: str -> The target city
-#         - periods: int -> number of years to forecast for
+    args:
+    - city: str -> The target city
+    - periods: int -> number of years to forecast for
 
-#     Returns:
-#         Visualization of population forecast
-#         - 10 year of historical data
-#         - forecasts for number of years entered
-#     """
+    Returns:
+    Visualization of population forecast
+    - 10 year of historical data
+    - forecasts for number of years entered
+    """
 
-#     city = validate_city(city)
+    city = validate_city(city)
 
-#     # Load Dataset
-#     population = pd.read_csv('https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_cleaned.csv')
-#     population.reset_index(level=0, inplace=True)
+    # Load Dataset
+    population = pd.read_csv('https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_cleaned.csv')
+    population.reset_index(level=0, inplace=True)
 
-#     # Melt table into ds and y
-#     population_melt = population[['City,State', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']]
-#     population_melt = population_melt.melt(id_vars=['City,State'], var_name='ds', value_name='y')
+    # Melt table into ds and y
+    population_melt = population[['City,State', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']]
+    population_melt = population_melt.melt(id_vars=['City,State'], var_name='ds', value_name='y')
 
-#     # Isolate city data
-#     location = [city.city + ', ' + city.state]
-#     df_ = population_melt.loc[population_melt['City,State'].isin(location)][['ds','y']]
-#     df_.columns = ['ds','y']
+    # Isolate city data
+    location = [city.city + ', ' + city.state]
+    df_ = population_melt.loc[population_melt['City,State'].isin(location)][['ds','y']]
+    df_.columns = ['ds','y']
 
 
-#     # Fit and Predict on city dataframe
-#     # Model
-#     m = Prophet(interval_width=0.95)
+    # Fit and Predict on city dataframe
+    # Model
+    m = Prophet(interval_width=0.95)
 
-#     # Fit model
-#     m.fit(df_)
-#     future = m.make_future_dataframe(periods=periods, freq='Y')
+    # Fit model
+    m.fit(df_)
+    future = m.make_future_dataframe(periods=periods, freq='Y')
 
-#     # Predict
-#     forecast = m.predict(future)
-#     predictions = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']][9:]
-#     predictions['ds'] = pd.DatetimeIndex(predictions['ds']).year
-#     predictions[['yhat', 'yhat_lower', 'yhat_upper']] =  predictions[['yhat', 'yhat_lower', 'yhat_upper']].round()
+    # Predict
+    forecast = m.predict(future)
+    predictions = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']][9:]
+    predictions['ds'] = pd.DatetimeIndex(predictions['ds']).year
+    predictions[['yhat', 'yhat_lower', 'yhat_upper']] =  predictions[['yhat', 'yhat_lower', 'yhat_upper']].round()
 
-#     # Create graph
-#     # Graph first 10 years
-#     df_['ds'] = df_['ds'].astype(int)
-#     predictions['ds'] = predictions['ds'].astype(int)
+    # Create graph
+    # Graph first 10 years
+    df_['ds'] = df_['ds'].astype(int)
+    predictions['ds'] = predictions['ds'].astype(int)
 
-#     # Graph historical data
-#     fig = go.Figure()
+    # Graph historical data
+    fig = go.Figure()
 
-#     fig.add_trace(go.Scatter(
-#         name = 'Original',
-#         x = list(df_['ds']),
-#         y = list(df_['y']),
-#         fill = None,
-#         mode = 'lines',
-#         line_color = 'black',
-#         showlegend = True
-#     ))
+    fig.add_trace(go.Scatter(
+        name = 'Original',
+        x = list(df_['ds']),
+        y = list(df_['y']),
+        fill = None,
+        mode = 'lines',
+        line_color = 'black',
+        showlegend = True
+    ))
 
-#     # Graph predictions including the upper and lower bounds
-#     fig.add_trace(go.Scatter(
-#         name = 'Forecast',
-#         x = list(predictions['ds']),
-#         y = list(predictions['yhat']),
-#         fill = None,
-#         mode = 'lines',
-#         line_color = 'red',
-#         showlegend = True
-#     ))
+    # Graph predictions including the upper and lower bounds
+    fig.add_trace(go.Scatter(
+        name = 'Forecast',
+        x = list(predictions['ds']),
+        y = list(predictions['yhat']),
+        fill = None,
+        mode = 'lines',
+        line_color = 'red',
+        showlegend = True
+    ))
 
-#     fig.add_trace(go.Scatter(
-#         name = 'Lower Bound',
-#         x = list(predictions['ds']),
-#         y = list(predictions['yhat_lower']),
-#         fill = None,
-#         mode = 'lines',
-#         line_color = 'gray',
-#     ))
+    fig.add_trace(go.Scatter(
+        name = 'Lower Bound',
+        x = list(predictions['ds']),
+        y = list(predictions['yhat_lower']),
+        fill = None,
+        mode = 'lines',
+        line_color = 'gray',
+    ))
 
-#     fig.add_trace(go.Scatter(
-#         name = 'Upper Bound',
-#         x = list(predictions['ds']),
-#         y = list(predictions['yhat_upper']),
-#         fill='tonexty',
-#         mode='lines',
-#         line_color = 'gray',
-#     ))
+    fig.add_trace(go.Scatter(
+        name = 'Upper Bound',
+        x = list(predictions['ds']),
+        y = list(predictions['yhat_upper']),
+        fill='tonexty',
+        mode='lines',
+        line_color = 'gray',
+    ))
 
-#     # Edit the layout
-#     fig.update_layout({
-#         'autosize':True,
-#         'title': f'{city[0]} Population Forecast',
-#         'title_x': 0.5,
-#         'xaxis_title': 'Year',
-#         'yaxis_title': 'Population'
-#         })
+    # Edit the layout
+    fig.update_layout({
+        'autosize':True,
+        'title': f'{city[0]} Population Forecast',
+        'title_x': 0.5,
+        'xaxis_title': 'Year',
+        'yaxis_title': 'Population'
+        })
 
-#     fig.update_yaxes(automargin = True,)
-#     fig.update_xaxes(automargin = True, nticks=20)
+    fig.update_yaxes(automargin = True,)
+    fig.update_xaxes(automargin = True, nticks=20)
 
-#     fig.show()
+    fig.show()
 
-#     return fig.to_json
+    return fig.to_json

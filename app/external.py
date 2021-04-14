@@ -37,8 +37,8 @@ async def current_weather(city:City):
     returns:
         Dictionary that contains the requested data, which is converted
         by fastAPI to a json object.
-
     """
+
     app_id = weather_api
     location = validate_city(city) # {city: "New York", state: "NY" }
     city_name = location.city + "," + location.state
@@ -77,15 +77,15 @@ async def job_opportunities(position, city:City):
     - Job Url
 
     args:
-        - position: desired job opportunity
-        - city: target city
+    - position: desired job opportunity
+    - city: target city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-        by fastAPI to a json object.
-
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
-     # Run the main program reouting
+
+     # Run the main program routing
     records = []  # creating the record list
 
     city_name = validate_city(city)
@@ -268,6 +268,7 @@ class School_Data():
     - Grades -> pre-k, elementary, middle, high school
     - District -> district in city
     """
+
     def __init__(self, current_city):
         self.current_city = current_city
         self.dataframe = pd.read_csv(SCHOOLS_CSV)

@@ -66,6 +66,7 @@ async def demographics_plot(current_city:City):
     ### Response
     JSON string to render with react-plotly.js
     """
+
     city = validate_city(current_city)
     city_data = CityData(city)
 
@@ -99,6 +100,7 @@ async def employment_plot(current_city:City):
     ### Response
     JSON string to render with react-plotly.js
     """
+
     city = validate_city(current_city)
     city_data = CityData(city)
 
@@ -142,6 +144,7 @@ async def crime_plot(current_city:City):
     ### Response
     JSON string to render with react-plotly.js
     """
+
     city = validate_city(current_city)
     city_data = CityData(city)
 
@@ -193,6 +196,7 @@ async def air_quality_plot(current_city:City):
     ### Response
     JSON string to render with react-plotly.js
     """
+
     city = validate_city(current_city)
     city_data = CityData(city)
 

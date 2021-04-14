@@ -75,11 +75,11 @@ async def select_all(city):
     Fetch data from DB
 
     args:
-        city: selected city
+    - city: selected city
 
     returns:
-        Dictionary that contains the requested data, which is converted
-            by fastAPI to a json object.
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
     """
 
     data = Table("mytable")
