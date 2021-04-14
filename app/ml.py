@@ -384,7 +384,7 @@ def population_forecast(city:City, periods):
         - forecasts for number of years entered
     """
 
-    city_name = validate_city(city)
+    location = validate_city(city)
 
     # Load Dataset
     population = pd.read_csv('https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_cleaned.csv')
@@ -395,14 +395,18 @@ def population_forecast(city:City, periods):
     population_melt = population_melt.melt(id_vars=['City,State'], var_name='ds', value_name='y')
 
     # Isolate city data
-    city = [city_name]
-    df_ = population_melt.loc[population_melt['City,State'].isin(city)][['ds','y']]
+    city_name =  location.city + ', ' + location.state
+    city_name = [city_name]
+    df_ = population_melt.loc[population_melt['City,State'].isin([city_name])][['ds','y']]
     df_.columns = ['ds','y']
 
     # Fit and Predict on city dataframe
+    # Model
     m = Prophet(interval_width=0.95)
+    # Fit model
     m.fit(df_)
-    future = m.make_future_dataframe(periods=periods, freq='Y')
+    future = m.make_future_dataframe(periods=periods + 1, freq='Y')
+    # Predict
     forecast = m.predict(future)
     predictions = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']][9:]
     predictions['ds'] = pd.DatetimeIndex(predictions['ds']).year
