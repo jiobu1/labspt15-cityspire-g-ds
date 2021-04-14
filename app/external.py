@@ -1,3 +1,5 @@
+"""API functions"""
+
 import requests
 import os
 import datetime

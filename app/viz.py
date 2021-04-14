@@ -218,30 +218,85 @@ async def air_quality_plot(current_city:City):
 
     return fig.to_json()
 
-# Population Forecast for 10 Years
-
 POPULATION_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_cleaned.csv'
 FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_prediction.csv'
 
-async def get_plot(city, periods):
-    city = [city]
+@router.post('/api/population_forecast_graph')
+async def population_forecast_graph(city:City):
+
+    city = validate_city(city)
+    location = [city.city + ', ' + city.state]
+
+    # Historical population data
     population = pd.read_csv(POPULATION_CSV)
-    population = population[population['City,State'].isin(city)]
+    population = population[population['City,State'].isin(location)]
     population = population[['City,State', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']]
     population_melt = population.melt(id_vars=['City,State'], var_name='ds', value_name='y')
-    print(population_melt)
+    population_melt['ds'] = (population_melt['ds']).astype(int)
+
+    # Predictions
+    forecast = pd.read_csv(FORECAST_CSV)
+    predictions = forecast[forecast['City,State'].isin(location)][9:]
+    predictions['year'] = (predictions['year']).astype(int)
+
+    # Graph Data
     ax = population_melt.plot(x = 'ds', y = 'y', label='Observed', figsize= (10, 8))
-    forecast = pd.read_csv(FORECAST_CSV)[:-10]
-    df[['year', 'yhat']].plot(ax = ax, x = 'ds', y = 'yhat', label = "Forecast")
-    ax.fill_between(df['year'],
-                df['yhat_lower'],
-                df['yhat_upper'],
-                color='k',
-                alpha=.25)
+    predictions[['year', 'yhat']].plot(ax = ax, x = 'year', y = 'yhat', label = "Forecast")
 
-    ax.set_xlabel('Year')
-    ax.set_ylabel('Population')
-    plt.title(f"{city} Population" )
-    plt.legend()
+    # Fill to show upper and lower bounds
+    # Graph predictions including the upper and lower bounds
+    fig = go.Figure()
 
-    plt.show()
+    fig.add_trace(go.Scatter(
+        name = 'Original',
+        x = population_melt['ds'],
+        y = population_melt['y'],
+        fill = None,
+        mode = 'lines',
+        line_color = 'black',
+        showlegend = True
+    ))
+
+    fig.add_trace(go.Scatter(
+        name = 'Forecast',
+        x = predictions['year'],
+        y = predictions['yhat'],
+        fill = None,
+        mode = 'lines',
+        line_color = 'red',
+        showlegend = True
+    ))
+
+    fig.add_trace(go.Scatter(
+        name = 'Lower Bound',
+        x = predictions['year'],
+        y = predictions['yhat_lower'],
+        fill = None,
+        mode = 'lines',
+        line_color = 'gray'
+    ))
+
+    fig.add_trace(go.Scatter(
+        name = 'Upper Bound',
+        x = predictions['year'],
+        y = predictions['yhat_upper'],
+        fill='tonexty',
+        mode='lines',
+        line_color = 'gray'
+    ))
+
+    # Edit the layout
+    fig.update_layout({
+        'autosize':True,
+        'title': f'{location[0]} Population Forecast',
+        'title_x': 0.5,
+        'xaxis_title': 'Year',
+        'yaxis_title': 'Population'
+        })
+
+    fig.update_yaxes(automargin = True)
+    fig.update_xaxes(automargin = True, nticks=20)
+
+    fig.show()
+
+    return fig.to_json()
