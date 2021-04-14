@@ -367,3 +367,105 @@ async def get_recommendation_cities(city: City, nearest_string: str):
     )
 
     return recs
+
+@router.post('/api/population_forecast')
+def population_forecast(city:City, periods):
+    """
+    Create visualization of historical and forecasted population
+
+    args:
+        - city: str -> The target city
+        - periods: int -> number of years to forecast for
+
+    Returns:
+        Visualization of population forecast
+        - 10 year of historical data
+        - forecasts for number of years entered
+    """
+
+    city_name = validate_city(city)
+
+    # Load Dataset
+    population = pd.read_csv('https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/population2010-2019/csv/population_cleaned.csv')
+    population.reset_index(level=0, inplace=True)
+
+    # Melt table into ds and y
+    population_melt = population[['City,State', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019']]
+    population_melt = population_melt.melt(id_vars=['City,State'], var_name='ds', value_name='y')
+
+    # Isolate city data
+    city = [city_name]
+    df_ = population_melt.loc[population_melt['City,State'].isin(city)][['ds','y']]
+    df_.columns = ['ds','y']
+
+    # Fit and Predict on city dataframe
+    m = Prophet(interval_width=0.95)
+    m.fit(df_)
+    future = m.make_future_dataframe(periods=periods, freq='Y')
+    forecast = m.predict(future)
+    predictions = forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper']][9:]
+    predictions['ds'] = pd.DatetimeIndex(predictions['ds']).year
+    predictions[['yhat', 'yhat_lower', 'yhat_upper']] =  predictions[['yhat', 'yhat_lower', 'yhat_upper']].round()
+
+    # Create graph
+    # Graph first 10 years
+    df_['ds'] = df_['ds'].astype(int)
+    predictions['ds'] = predictions['ds'].astype(int)
+
+    # Graph historical data
+    fig = go.Figure()
+
+    fig.add_trace(go.Scatter(
+        name = 'Original',
+        x = list(df_['ds']),
+        y = list(df_['y']),
+        fill = None,
+        mode = 'lines',
+        line_color = 'black',
+        showlegend = True
+    ))
+
+    # Graph predictions including the upper and lower bounds
+    fig.add_trace(go.Scatter(
+        name = 'Forecast',
+        x = list(predictions['ds']),
+        y = list(predictions['yhat']),
+        fill = None,
+        mode = 'lines',
+        line_color = 'red',
+        showlegend = True
+    ))
+
+    fig.add_trace(go.Scatter(
+        name = 'Lower Bound',
+        x = list(predictions['ds']),
+        y = list(predictions['yhat_lower']),
+        fill = None,
+        mode = 'lines',
+        line_color = 'gray',
+    ))
+
+    fig.add_trace(go.Scatter(
+        name = 'Upper Bound',
+        x = list(predictions['ds']),
+        y = list(predictions['yhat_upper']),
+        fill='tonexty',
+        mode='lines',
+        line_color = 'gray',
+    ))
+
+    # Edit the layout
+    fig.update_layout({
+        'autosize':True,
+        'title': f'{city[0]} Population Forecast',
+        'title_x': 0.5,
+        'xaxis_title': 'Year',
+        'yaxis_title': 'Population'
+        })
+
+    fig.update_yaxes(automargin = True,)
+    fig.update_xaxes(automargin = True, nticks=20)
+
+    fig.show()
+
+    return fig.to_json
