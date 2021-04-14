@@ -52,7 +52,7 @@ PyYAML = "==5.4.1"
 selenium = "*"
 cython = "*"
 pystan = "*"
-prophet = "*"
+fbprophet = "*"
 
 [requires]
 python_version = "3"

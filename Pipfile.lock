@@ -494,13 +494,7 @@
             "index": "pypi",
             "version": "==4.14.3"
         },
-        "prophet": {
-            "hashes": [
-                "sha256:3e682e8ea6e1ee26a92cf289f207d539f30e44879126c128ff8f4e360eb25a8b"
-            ],
-            "index": "pypi",
-            "version": "==1.0.1"
-        },
+
         "psycopg2-binary": {
             "hashes": [
                 "sha256:0deac2af1a587ae12836aa07970f5cb91964f05a7c6cdb69d8425ff4c15d4e2c",
