@@ -223,6 +223,16 @@ FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds
 
 @router.post('/api/population_forecast_graph')
 async def population_forecast_graph(city:City):
+    """
+    Visualize employment information for city
+    - see industry breakdown and employment type
+
+    ### Query Parameters
+    - city
+
+    ### Response
+    JSON string to render with react-plotly.js
+    """
 
     city = validate_city(city)
     location = [city.city + ', ' + city.state]
