@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
-from app import db, ml, viz, external, practice
+from app import db, ml, viz, external
 
 description = """
 MISSION: Be a one-stop resource for users to receive the most accurate city information.
@@ -27,8 +27,6 @@ app.include_router(db.router, tags=["Database"])
 app.include_router(ml.router, tags=["Machine Learning"])
 app.include_router(viz.router, tags=["Visualization"])
 app.include_router(external.router, tags=["External"])
-app.include_router(practice.router, tags=["Practice"])
-
 
 app.add_middleware(
     CORSMiddleware,
@@ -38,16 +36,13 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 @app.on_event("startup")
 async def startup():
     await db.database.connect()
 
-
 @app.on_event("shutdown")
 async def shutdown():
     await db.database.disconnect()
-
 
 if __name__ == "__main__":
     uvicorn.run(app)
