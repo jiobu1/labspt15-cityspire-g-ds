@@ -290,7 +290,6 @@ class School_Data():
         high_school_subset = self.subset['High School (9-12)'] == 1
         return self.subset.loc[high_school_subset]
 
-
 @router.post('/api/schools_listing')
 async def schools_listings(current_city:City, school_category):
     """

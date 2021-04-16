@@ -35,6 +35,8 @@ class CityDataBase(BaseModel):
 
 class CityData(CityDataBase):
     walkability: float
+    transitscore: float
+    bikescore: float
     livability: float
     recommendations: List[City]
 
@@ -82,7 +84,6 @@ def validate_city(
 
     return city
 
-
 @router.post("/api/get_data", response_model=CityData)
 async def get_data(city: City):
     """Retrieve all data for city
@@ -106,6 +107,8 @@ async def get_data(city: City):
     tasks = await asyncio.gather(
         get_livability_score(city, full_data),
         get_walkability(city),
+        get_transitscore(city),
+        get_bikescore(city),
         get_recommendation_cities(city, full_data.nearest_string),
     )
     data = {**full_data.dict()}
@@ -190,7 +193,7 @@ async def get_pollution(city: City):
 
 @router.post("/api/walkability")
 async def get_walkability(city: City):
-    """Retrieve walkscore, bus score, and bikeability score for target city
+    """Retrieve walkscore for target city
 
     args:
     - city: The target city
@@ -209,6 +212,51 @@ async def get_walkability(city: City):
         )
 
     return {"walkability": score}
+
+@router.post("/api/transitscore")
+async def get_transitscore(city: City):
+    """Retrieve bus score for target city
+
+    args:
+    - city: The target city
+
+    returns:
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
+    """
+
+    city = validate_city(city)
+    try:
+        score = (await get_walkscore(**city.dict()))[1]
+    except IndexError:
+        raise HTTPException(
+            status_code=422, detail=f"Walkscore not found for {city.city}, {city.state}"
+        )
+
+    return {"transitscore": score}
+
+@router.post("/api/bikescore")
+async def get_bikescore(city: City):
+    """Retrieve bike score for target city
+
+    args:
+    - city: The target city
+
+    returns:
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
+    """
+
+    city = validate_city(city)
+    try:
+        score = (await get_walkscore(**city.dict()))[2]
+    except IndexError:
+        raise HTTPException(
+            status_code=422, detail=f"Walkscore not found for {city.city}, {city.state}"
+        )
+
+    return {"bikescore": score}
+
 
 async def get_walkscore(city: str, state: str):
     """Scrape Walkscore.
@@ -285,7 +333,7 @@ async def get_livability_score(city: City, city_data: CityDataFull):
     by fastAPI to a json object.
     """
 
-    with open("app/livability_scaler.pkl", "rb") as f:
+    with open("app/data/pickle_model/livability_scaler.pkl", "rb") as f:
         s = load(f)
     v = [
         [
