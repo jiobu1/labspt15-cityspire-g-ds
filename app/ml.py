@@ -32,6 +32,7 @@ class CityDataBase(BaseModel):
     air_quality_index: str
     population: int
     diversity_index: float
+    high_performing_schools: float
 
 class CityData(CityDataBase):
     walkability: float
@@ -47,10 +48,13 @@ class CityDataFull(CityDataBase):
 
 class LivabilityWeights(BaseModel):
     walkability: float = 1.0
+    bikescore: float = 1.0
+    transitscore: float = 1.0
     low_rent: float = 1.0
     low_pollution: float = 1.0
     diversity: float = 1.0
     low_crime: float = 1.0
+    high_performing_schools: float = 1.0
 
 def validate_city(
     city: City,
@@ -296,10 +300,15 @@ async def get_livability(city: City, weights: LivabilityWeights = None):
     v = [[values[0] * -1, values[1], values[2] * -1]]
     scaled = s.transform(v)[0]
     walkscore = await get_walkscore(city.city, city.state)
+    bikescore = await get_bikescore(city.city, city.state)
+    transitscore = await get_transitscore(city.city, city.state)
+
     diversity_index = await select("Diversity Index", city)
 
     rescaled = [walkscore[0]]
-    rescaled.append(round(diversity_index[0]))
+    rescaled.append(bikescore)
+    rescaled.append(transitscore)
+    rescaled.append(round(diversity_index))
     for score in scaled:
         rescaled.append(score * 100)
     # breakpoint()
@@ -344,8 +353,12 @@ async def get_livability_score(city: City, city_data: CityDataFull):
     ]
     scaled = s.transform(v)[0]
     walkscore = await get_walkscore(city.city, city.state)
+    bikescore = await get_bikescore(city.city, city.state)
+    transitscore = await get_transitscore(city.city, city.state)
 
-    rescaled = [walkscore[0], city_data.diversity_index]
+
+    rescaled = [walkscore[0], walkscore[1], walkscore[2], city_data.diversity_index]
+    print(rescaled)
     for score in scaled:
         rescaled.append(score * 100)
 
