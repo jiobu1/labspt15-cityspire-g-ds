@@ -299,7 +299,7 @@ async def get_livability(city: City, weights: LivabilityWeights = None):
     diversity_index = await select("Diversity Index", city)
 
     rescaled = [walkscore[0]]
-    rescaled.append(round(diversity_index[0]) * 100)
+    rescaled.append(round(diversity_index[0]))
     for score in scaled:
         rescaled.append(score * 100)
     # breakpoint()
