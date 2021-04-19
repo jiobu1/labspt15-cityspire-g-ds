@@ -32,7 +32,7 @@ class CityDataBase(BaseModel):
     air_quality_index: str
     population: int
     diversity_index: float
-    high_performing_schools: float
+    percent_high_performing_schools: float
 
 class CityData(CityDataBase):
     walkability: float
@@ -54,7 +54,7 @@ class LivabilityWeights(BaseModel):
     low_pollution: float = 1.0
     diversity: float = 1.0
     low_crime: float = 1.0
-    high_performing_schools: float = 1.0
+    percent_high_performing_schools: float = 1.0
 
 def validate_city(
     city: City,
@@ -303,13 +303,13 @@ async def get_livability(city: City, weights: LivabilityWeights = None):
     bikescore = await get_walkscore(city.city, city.state)
     transitscore = await get_walkscore(city.city, city.state)
     diversity_index = await select("Diversity Index", city)
-    high_performing_schools = await select("Percent Performing Above Average or Better", city)
+    percent_high_performing_schools = await select("Percent Performing Above Average or Better", city)
 
     rescaled = [walkscore[0]]
     rescaled.append(bikescore[2])
     rescaled.append(transitscore[1])
     rescaled.append(round(diversity_index[0]))
-    rescaled.append(high_performing_schools[0])
+    rescaled.append(percent_high_performing_schools[0])
 
     for score in scaled:
         rescaled.append(score * 100)
@@ -361,7 +361,7 @@ async def get_livability_score(city: City, city_data: CityDataFull):
     transitscore = await get_walkscore(city.city, city.state)
 
 
-    rescaled = [walkscore[0], walkscore[2], walkscore[1], city_data.diversity_index, city_data.high_performing_schools]
+    rescaled = [walkscore[0], walkscore[2], walkscore[1], city_data.diversity_index, city_data.percent_high_performing_schools]
     for score in scaled:
         rescaled.append(score * 100)
     print(rescaled)

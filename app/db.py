@@ -95,7 +95,7 @@ async def select_all(city):
         data["Good Days"].as_("good_days"),
         data["Crime Rate per 1000"].as_("crime_rate_ppt"),
         di_fn(data["Diversity Index"]).as_("diversity_index"),
-        di_fn(data["Percent Performing Above Average or Better"]).as_("high_performing_schools")
+        di_fn(data["Percent Performing Above Average or Better"]).as_("percent_high_performing_schools")
     )
 
     q = (
