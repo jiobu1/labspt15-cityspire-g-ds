@@ -81,7 +81,7 @@
             "hashes": [
                 "sha256:8b0862c5491283c9e5ec6c7256dfcd835b9ef2319e38339ac640aa0156cc34c9"
             ],
-            "version": "==0.9.68"
+            "version": "==0.9.5"
         },
         "convertdate": {
             "hashes": [
