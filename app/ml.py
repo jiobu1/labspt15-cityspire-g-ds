@@ -8,7 +8,6 @@ from pydantic import BaseModel
 from app.data.files.state_abbr import us_state_abbrev as abbr
 from pathlib import Path
 import pandas as pd
-from fbprophet import Prophet
 from pypika import Query, Table, CustomFunction
 import asyncio
 from app.db import database, select, select_all
