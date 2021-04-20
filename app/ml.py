@@ -312,18 +312,19 @@ async def get_livability(city: City, weights: LivabilityWeights = None):
 
     for score in scaled:
         rescaled.append(score * 100)
-    print(len(rescaled))
-    print(rescaled)
-    # breakpoint()
+
     if weights is None:
         return {"livability": round(sum(rescaled) / len(rescaled))}
     else:
         weighted = [
             rescaled[0] * weights.walkability,
-            rescaled[1] * weights.diversity,
-            rescaled[2] * weights.low_rent,
-            rescaled[3] * weights.low_pollution,
-            rescaled[4] * weights.low_crime,
+            rescaled[1] * weights.bikescore,
+            rescaled[2] * weights.transitscore,
+            rescaled[3] * weights.diversity,
+            rescaled[4] * weights.percent_high_performing_schools,
+            rescaled[5] * weights.low_rent,
+            rescaled[6] * weights.low_pollution,
+            rescaled[7] * weights.low_crime,
         ]
 
         sum_ = sum(weighted)
@@ -363,7 +364,6 @@ async def get_livability_score(city: City, city_data: CityDataFull):
     rescaled = [walkscore[0], walkscore[2], walkscore[1], city_data.diversity_index, city_data.percent_high_performing_schools]
     for score in scaled:
         rescaled.append(score * 100)
-    print(rescaled)
 
     return {"livability": round(sum(rescaled) / len(rescaled))}
 
