@@ -45,6 +45,13 @@ class CityDataFull(CityDataBase):
     crime_rate_ppt: float
     nearest_string: str
 
+class SchoolData(BaseModel):
+    total_schools: int
+    percent_high_performing_schools: float
+    percent_private: float
+    percent_public: float
+    percent_charter: float
+
 class LivabilityWeights(BaseModel):
     walkability: float = 1.0
     bikescore: float = 1.0
@@ -384,6 +391,29 @@ async def get_population(city: City):
     city = validate_city(city)
     value = await select("Population", city)
     return {"population": value[0]}
+
+@router.post("/api/school_summary", response_model=SchoolData)
+async def get_school_summary(city: City):
+    """Retrieve recommended cities for target city
+
+    Fetch data from DB
+
+    args:
+    - city: The target city
+
+    returns:
+    - Dictionary that contains the requested data, which is converted
+    by fastAPI to a json object.
+    """
+
+    city = validate_city(city)
+
+    value = await select_all(city)
+
+    full_data = SchoolData(city=city, **value)
+    data = {**full_data.dict()}
+
+    return data
 
 @router.post("/api/nearest", response_model=CityRecommendations)
 async def get_recommendations(city: City):
