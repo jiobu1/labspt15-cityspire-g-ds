@@ -257,7 +257,7 @@ async def rental_listing(
     return rental_list
 
 # Schools Listing Endpoint
-SCHOOLS_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/datasets/data/schools/schools_cleaned.csv'
+SCHOOLS_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/datasets/data/schools/csv/final_school.csv'
 
 class School_Data():
     """
@@ -305,8 +305,6 @@ async def schools_listings(current_city:City, school_category):
 
     city = validate_city(current_city)
     school_data = School_Data(city)
-
-    school_category = ['pre-k', 'elementary', 'middle school', 'high school']
 
     # School Category
     if school_category == 'pre-k':
