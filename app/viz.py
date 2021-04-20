@@ -3,6 +3,9 @@
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel
 import pandas as pd
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
@@ -316,3 +319,103 @@ async def population_forecast_graph(city:City):
     fig.show()
 
     return fig.to_json()
+
+RENTAL_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/rental_cleaned.csv'
+RENTAL_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/rental_predictions.csv'
+
+@router.post('/api/rental_forecast_graph')
+def rental_forecast_graph(city:City):
+    """
+    Create visualization of historical and forecasted population
+
+    args:
+    - city: str -> The target city
+    - periods: int -> number of years to forecast for
+
+    Returns:
+    Visualization of population forecast
+    - 10 year of historical data
+    - forecasts for number of years entered
+    """
+
+    city = validate_city(city)
+    location = [city.city + ', ' + city.state]
+
+    # Historical population data
+    rental = pd.read_csv(RENTAL_CSV)
+    rental = rental[rental['RegionName'].isin(location)]
+    rental = rental.drop(columns = ['RegionID'])
+    rental_melt = rental.melt(id_vars=['RegionName'], var_name='ds', value_name='y')
+    rental_melt['ds'] = pd.to_datetime(rental_melt['ds'])
+    rental_melt['y'] = pd.to_numeric(rental_melt['y'])
+
+    # Predictions
+    forecast = pd.read_csv(RENTAL_FORECAST_CSV)
+    predictions = forecast[forecast['RegionName'].isin(location)][-13:]
+    predictions['ds'] = pd.to_datetime(predictions['ds'])
+    predictions['yhat'] = pd.to_numeric(predictions['yhat'])
+    predictions['yhat_lower'] = pd.to_numeric(predictions['yhat_lower'])
+    predictions['yhat_upper'] = pd.to_numeric(predictions['yhat_upper'])
+
+
+    # Graph Data
+    ax = rental_melt.plot(x = 'ds', y = 'y', label='Observed', figsize= (10, 8))
+    predictions[['ds', 'yhat']].plot(ax = ax, x = 'ds', y = 'yhat', label = "Forecast")
+
+    # Fill to show upper and lower bounds
+    # Graph predictions including the upper and lower bounds
+    plot = go.Figure()
+
+    plot.add_trace(go.Scatter(
+        name = 'Original',
+        x = rental_melt['ds'],
+        y = rental_melt['y'],
+        fill = None,
+        mode = 'lines',
+        line_color = 'black',
+        showlegend = True
+    ))
+
+    plot.add_trace(go.Scatter(
+        name = 'Forecast',
+        x = predictions['ds'],
+        y = predictions['yhat'],
+        fill = None,
+        mode = 'lines',
+        line_color = 'red',
+        showlegend = True
+    ))
+
+    plot.add_trace(go.Scatter(
+        name = 'Lower Bound',
+        x = predictions['ds'],
+        y = predictions['yhat_lower'],
+        fill = None,
+        mode = 'lines',
+        line_color = 'gray'
+    ))
+
+    plot.add_trace(go.Scatter(
+        name = 'Upper Bound',
+        x = predictions['ds'],
+        y = predictions['yhat_upper'],
+        fill='tonexty',
+        mode='lines',
+        line_color = 'gray'
+    ))
+
+    # Edit the layout
+    plot.update_layout({
+        'autosize':True,
+        'title': f'{location[0]} Rental Forecast',
+        'title_x': 0.5,
+        'xaxis_title': 'Month',
+        'yaxis_title': 'Rental_Projection'
+        })
+
+    plot.update_yaxes(automargin = True)
+    plot.update_xaxes(automargin = True)
+
+    plot.show(renderer = 'browser')
+
+    return plot.to_json()
