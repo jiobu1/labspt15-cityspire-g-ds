@@ -320,11 +320,11 @@ async def population_forecast_graph(city:City):
 
     return fig.to_json()
 
-FMR_0 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr0.csv'
-FMR_0_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr0_predictions.csv'
+FMR_0 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr0.csv'
+FMR_0_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr0_predictions.csv'
 
-FMR_1 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr1.csv'
-FMR_1_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr1_predictions.csv'
+FMR_1 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr1.csv'
+FMR_1_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr1_predictions.csv'
 
 FMR_2 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr2.csv'
 FMR_2_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr2_predictions.csv'
@@ -351,13 +351,13 @@ def rental_forecast_graph(city:City, bed):
     city = validate_city(city)
     location = [city.city + ', ' + city.state]
 
-    if bed == 0:
+    if bed == "0":
         RENTAL_CSV = FMR_0
         RENTAL_FORECAST_CSV = FMR_0_FORECAST_CSV
-    elif bed == 1:
+    elif bed == "1":
         RENTAL_CSV = FMR_1
         RENTAL_FORECAST_CSV = FMR_1_FORECAST_CSV
-    elif bed == 2:
+    elif bed == "2":
         RENTAL_CSV = FMR_2
         RENTAL_FORECAST_CSV = FMR_2_FORECAST_CSV
     else:
