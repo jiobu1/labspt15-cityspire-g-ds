@@ -320,38 +320,63 @@ async def population_forecast_graph(city:City):
 
     return fig.to_json()
 
-RENTAL_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/rental_cleaned.csv'
-RENTAL_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/rental_predictions.csv'
+
+FMR_0 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr0.csv'
+FMR_0_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr0_predictions.csv'
+
+FMR_1 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr1.csv'
+FMR_1_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr1_predictions.csv'
+
+FMR_2 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr2.csv'
+FMR_2_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr2_predictions.csv'
+
+FMR_3 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr3.csv'
+FMR_3_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/csv/fmr3_predictions.csv'
 
 @router.post('/api/rental_forecast_graph')
-def rental_forecast_graph(city:City):
+def rental_forecast_graph(city:City, bed):
     """
-    Create visualization of historical and forecasted population
+    Create visualization of historical and forecasted \n
+    Fair Market Rents for studios - 3 bedrooms
 
     args:
     - city: str -> The target city
-    - periods: int -> number of years to forecast for
+    - beds: int -> number of beds (0,1,2,3)
 
     Returns:
-    Visualization of population forecast
-    - 10 year of historical data
-    - forecasts for number of years entered
+    Visualization of Rental forecast
+    - 5 year of historical data
+    - 10 years forecasted data
     """
 
     city = validate_city(city)
     location = [city.city + ', ' + city.state]
 
-    # Historical population data
+    if bed == 0:
+        RENTAL_CSV = FMR_0
+        RENTAL_FORECAST_CSV = FMR_0_FORECAST_CSV
+    elif:
+        RENTAL_CSV = FMR_1
+        RENTAL_FORECAST_CSV = FMR_1_FORECAST_CSV
+    elif:
+        RENTAL_CSV = FMR_2
+        RENTAL_FORECAST_CSV = FMR_2_FORECAST_CSV
+    else:
+        RENTAL_CSV = FMR_3
+        RENTAL_FORECAST_CSV = FMR_3_FORECAST_CSV
+    
+
+    # Historical Rental data
     rental = pd.read_csv(RENTAL_CSV)
-    rental = rental[rental['RegionName'].isin(location)]
-    rental = rental.drop(columns = ['RegionID'])
-    rental_melt = rental.melt(id_vars=['RegionName'], var_name='ds', value_name='y')
+    rental = rental[rental['city, state'].isin(location)]
+    rental = rental.drop(columns = ['metro_code', 'state_alpha', 'areaname'])
+    rental_melt = rental.melt(id_vars=['city, state'], var_name='ds', value_name='y')
     rental_melt['ds'] = pd.to_datetime(rental_melt['ds'])
     rental_melt['y'] = pd.to_numeric(rental_melt['y'])
 
     # Predictions
     forecast = pd.read_csv(RENTAL_FORECAST_CSV)
-    predictions = forecast[forecast['RegionName'].isin(location)][-13:]
+    predictions = forecast[forecast['city, state'].isin(location)][-11:]
     predictions['ds'] = pd.to_datetime(predictions['ds'])
     predictions['yhat'] = pd.to_numeric(predictions['yhat'])
     predictions['yhat_lower'] = pd.to_numeric(predictions['yhat_lower'])
