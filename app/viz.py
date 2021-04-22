@@ -354,10 +354,10 @@ def rental_forecast_graph(city:City, bed):
     if bed == 0:
         RENTAL_CSV = FMR_0
         RENTAL_FORECAST_CSV = FMR_0_FORECAST_CSV
-    elif:
+    elif bed == 1:
         RENTAL_CSV = FMR_1
         RENTAL_FORECAST_CSV = FMR_1_FORECAST_CSV
-    elif:
+    elif bed == 2:
         RENTAL_CSV = FMR_2
         RENTAL_FORECAST_CSV = FMR_2_FORECAST_CSV
     else:
@@ -429,7 +429,7 @@ def rental_forecast_graph(city:City, bed):
     # Edit the layout
     plot.update_layout({
         'autosize':True,
-        'title': f'{location[0]} Rental Forecast',
+        'title': f'{location[0]} Rental Forecast for {bed[0]} Bedroom Apartment',
         'title_x': 0.5,
         'xaxis_title': 'Month',
         'yaxis_title': 'Rental_Projection'
