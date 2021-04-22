@@ -99,6 +99,7 @@ async def job_opportunities(position, city:City):
 
     for card in cards:
         record = get_record(card)
+        print(record)
         records.append(record)
 
     #also return total number of jobs
@@ -115,18 +116,41 @@ async def job_opportunities(position, city:City):
 def get_record(card):
     """Extract job date from a single record"""
     atag = card.h2.a
-    job_title = atag.get('title')
-    company = card.find('span', 'company').text.strip()
-    job_location = card.find('div', 'recJobLoc').get('data-rc-loc')
-    job_summary = card.find('div', 'summary').text.strip()
-    post_date = card.find('span', 'date').text.strip()
+    try:
+        job_title = atag.get('title')
+    except AttributeError:
+        job_title = ''
+
+    try:
+        company = card.find('span', 'company').text.strip()
+    except AttributeError:
+        company = ''
+
+    try:
+        job_location = card.find('div', 'recJobLoc').get('data-rc-loc')
+    except AttributeError:
+        job_location = ''
+
+    try:
+        job_summary = card.find('div', 'summary').text.strip()
+    except AttributeError:
+        job_summary = ''
+
+    try:
+        post_date = card.find('span', 'date').text.strip()
+    except AttributeError:
+        post_date = ''
 
     try:
         salary = card.find('span', 'salarytext').text.strip()
     except AttributeError:
         salary = ''
 
-    extract_date = datetime.datetime.today().strftime('%Y-%m-%d')
+    try:
+        extract_date = datetime.datetime.today().strftime('%Y-%m-%d')
+    except AttributeError:
+        extract_date = ''
+
     job_url = 'https://www.indeed.com' + atag.get('href')
 
     record = {'Job Title': job_title,
