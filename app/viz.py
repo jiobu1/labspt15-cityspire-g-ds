@@ -320,7 +320,6 @@ async def population_forecast_graph(city:City):
 
     return fig.to_json()
 
-
 FMR_0 = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr0.csv'
 FMR_0_FORECAST_CSV = 'https://raw.githubusercontent.com/jiobu1/labspt15-cityspire-g-ds/main/notebooks/model/rental/new_csv/fmr0_predictions.csv'
 
@@ -364,7 +363,6 @@ def rental_forecast_graph(city:City, bed):
     else:
         RENTAL_CSV = FMR_3
         RENTAL_FORECAST_CSV = FMR_3_FORECAST_CSV
-    
 
     # Historical Rental data
     rental = pd.read_csv(RENTAL_CSV)
@@ -381,7 +379,6 @@ def rental_forecast_graph(city:City, bed):
     predictions['yhat'] = pd.to_numeric(predictions['yhat'])
     predictions['yhat_lower'] = pd.to_numeric(predictions['yhat_lower'])
     predictions['yhat_upper'] = pd.to_numeric(predictions['yhat_upper'])
-
 
     # Graph Data
     ax = rental_melt.plot(x = 'ds', y = 'y', label='Observed', figsize= (10, 8))

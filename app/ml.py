@@ -1,17 +1,17 @@
 """Machine learning functions"""
 
-from pickle import load
+import asyncio
 import requests
+import pandas as pd
 from bs4 import BeautifulSoup as bs
+from pickle import load
 from fastapi import APIRouter, HTTPException, Depends
 from pydantic import BaseModel
-from app.data.files.state_abbr import us_state_abbrev as abbr
 from pathlib import Path
-import pandas as pd
 from pypika import Query, Table, CustomFunction
-import asyncio
-from app.db import database, select, select_all
 from typing import List, Optional
+from app.db import database, select, select_all
+from app.data.files.state_abbr import us_state_abbrev as abbr
 
 router = APIRouter()
 
