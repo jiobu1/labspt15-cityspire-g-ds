@@ -414,6 +414,7 @@ https://www.njsp.org/info/ucr2000/pdf/calc_ucr2000.pdf
 To calculate walkability, bikeability, and public transportaion columns, we used the scores from the walkscore api
 ![Walkscore Methodology](https://www.walkscore.com/methodology.shtml)
 
+
 ### Datasets:
 (https://github.com/jiobu1/labspt15-cityspire-g-ds/tree/main/notebooks/datasets/datasets_to_merge) \
 The first link shows all combined csv that is stored in Postgres.
