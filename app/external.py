@@ -261,8 +261,8 @@ async def rental_listing(
 @router.post('/api/schools_listing')
 async def schools_listings(current_city:City, school_category):
     """
-    Listing of school information for the city
-    Locates specific pickled dictionary based on school category for the city
+    Listing of school information for the city \n
+    (locates specific pickled dictionary based on school category for the city)
     - Ratings -> sorted, listed from highest to lowest
     - Type -> public, private, charter
     - Grades -> pre-k, elementary, middle, high school
