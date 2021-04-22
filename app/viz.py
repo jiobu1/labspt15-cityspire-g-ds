@@ -414,7 +414,7 @@ def rental_forecast_graph(city:City, bed):
         y = predictions['yhat_lower'],
         fill = None,
         mode = 'lines',
-        line_color = 'gray'
+        line_color = 'blue'
     ))
 
     plot.add_trace(go.Scatter(
@@ -423,7 +423,7 @@ def rental_forecast_graph(city:City, bed):
         y = predictions['yhat_upper'],
         fill='tonexty',
         mode='lines',
-        line_color = 'gray'
+        line_color = 'blue'
     ))
 
     # Edit the layout
@@ -431,8 +431,8 @@ def rental_forecast_graph(city:City, bed):
         'autosize':True,
         'title': f'{location[0]} Rental Forecast for {bed[0]} Bedroom Apartment',
         'title_x': 0.5,
-        'xaxis_title': 'Month',
-        'yaxis_title': 'Rental_Projection'
+        'xaxis_title': 'Years',
+        'yaxis_title': 'Rental Projection'
         })
 
     plot.update_yaxes(automargin = True)
