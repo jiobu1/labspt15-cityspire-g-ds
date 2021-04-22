@@ -1,0 +1,4551 @@
+"city, state",ds,y
+"Daphne, AL",2017,847
+"Fairhope, AL",2017,847
+"Foley, AL",2017,847
+"Anniston, AL",2017,474
+"Oxford, AL",2017,474
+"Jacksonville, AL",2017,474
+"Chilton County, AL",2017,538
+"Gadsden, AL",2017,545
+"Henry County, AL",2017,538
+"Dothan, AL",2017,511
+"Florence, AL",2017,532
+"Muscle Shoals, AL",2017,532
+"Auburn, AL",2017,600
+"Opelika, AL",2017,600
+"Huntsville, AL",2017,620
+"Mobile, AL",2017,732
+"Montgomery, AL",2017,682
+"Decatur, AL",2017,515
+"Pickens County, AL",2017,467
+"Columbus, AL",2017,648
+"Birmingham, AL",2017,751
+"Hoover, AL",2017,751
+"Tuscaloosa, AL",2017,643
+"Walker County, AL",2017,519
+"Anchorage, AK",2017,1018
+"Fairbanks, AK",2017,953
+"Matanuska, AK",2017,783
+"Susitna Borough, AK",2017,783
+"Sierra Vista, AZ",2017,598
+"Douglas, AZ",2017,598
+"Flagstaff, AZ",2017,835
+"Lake Havasu City, AZ",2017,602
+"Kingman, AZ",2017,602
+"Tucson, AZ",2017,652
+"Phoenix, AZ",2017,757
+"Mesa, AZ",2017,757
+"Scottsdale, AZ",2017,757
+"Prescott, AZ",2017,688
+"Yuma, AZ",2017,655
+"Jonesboro, AR",2017,607
+"Memphis, AR",2017,707
+"Hot Springs, AR",2017,576
+"Grant County, AR",2017,539
+"Pine Bluff, AR",2017,509
+"Little River County, AR",2017,460
+"Texarkana, AR",2017,573
+"Poinsett County, AR",2017,493
+"Little Rock, AR",2017,673
+"North Little Rock, AR",2017,673
+"Conway, AR",2017,673
+"Fort Smith, AR",2017,511
+"Fayetteville, AR",2017,578
+"Springdale, AR",2017,578
+"Rogers, AR",2017,578
+"Chico, CA",2017,729
+"Oakland, CA",2017,1723
+"Fremont, CA",2017,1723
+"Fresno, CA",2017,709
+"El Centro, CA",2017,626
+"Bakersfield, CA",2017,650
+"Hanford, CA",2017,623
+"Corcoran, CA",2017,623
+"Los Angeles, CA",2017,1195
+"Long Beach, CA",2017,1195
+"Glendale, CA",2017,1195
+"Madera, CA",2017,672
+"Merced, CA",2017,602
+"Salinas, CA",2017,1133
+"Napa, CA",2017,1228
+"Santa Ana, CA",2017,1436
+"Anaheim, CA",2017,1436
+"Irvine, CA",2017,1436
+"Sacramento, CA",2017,821
+"Roseville, CA",2017,821
+", CA",2017,821
+"Arden, CA",2017,821
+"Arcade, CA",2017,821
+"San Benito County, CA",2017,1133
+"Riverside, CA",2017,957
+"San Bernardino, CA",2017,957
+"Ontario, CA",2017,957
+"San Diego, CA",2017,1342
+"Carlsbad, CA",2017,1342
+"Stockton, CA",2017,733
+"Lodi, CA",2017,733
+"San Luis Obispo, CA",2017,1011
+"Paso Robles, CA",2017,1011
+"Arroyo Grande, CA",2017,1011
+"San Francisco, CA",2017,2411
+"Santa Maria, CA",2017,1323
+"Santa Barbara, CA",2017,1323
+"San Jose, CA",2017,1773
+"Sunnyvale, CA",2017,1773
+"Santa Clara, CA",2017,1773
+"Santa Cruz, CA",2017,1375
+"Watsonville, CA",2017,1375
+"Redding, CA",2017,688
+"Vallejo, CA",2017,1035
+"Fairfield, CA",2017,1035
+"Santa Rosa, CA",2017,1213
+"Modesto, CA",2017,726
+"Visalia, CA",2017,668
+"Porterville, CA",2017,668
+"Oxnard, CA",2017,1326
+"Thousand Oaks, CA",2017,1326
+"Ventura, CA",2017,1326
+"Yolo, CA",2017,884
+"Yuba City, CA",2017,679
+"Boulder, CO",2017,1021
+"Colorado Springs, CO",2017,737
+"Fort Collins, CO",2017,817
+"Grand Junction, CO",2017,601
+"Denver, CO",2017,1031
+"Aurora, CO",2017,1031
+"Lakewood, CO",2017,1031
+"Pueblo, CO",2017,603
+"Teller County, CO",2017,779
+"Greeley, CO",2017,693
+"Danbury, CT",2017,1103
+"Bridgeport, CT",2017,990
+"Stamford, CT",2017,1539
+"Norwalk, CT",2017,1539
+"Southern Middlesex County, CT",2017,1029
+"Milford, CT",2017,1046
+"Ansonia, CT",2017,1046
+"Seymour, CT",2017,1046
+"Waterbury, CT",2017,801
+"New Haven, CT",2017,1093
+"Meriden, CT",2017,1093
+"Colchester, CT",2017,865
+"Lebanon, CT",2017,865
+"Norwich, CT",2017,832
+"New London, CT",2017,832
+"Hartford, CT",2017,971
+"West Hartford, CT",2017,971
+"East Hartford, CT",2017,971
+"Windham County, CT",2017,725
+"Dover, DE",2017,899
+"Philadelphia, DE",2017,1003
+"Camden, DE",2017,1003
+"Wilmington, DE",2017,1003
+"Sussex County, DE",2017,688
+"Washington, DC",2017,1513
+"Arlington, DC",2017,1513
+"Alexandria, DC",2017,1513
+"Baker County, FL",2017,645
+"Panama City, FL",2017,813
+"Lynn Haven, FL",2017,813
+"Panama City Beach, FL",2017,813
+"Palm Bay, FL",2017,697
+"Melbourne, FL",2017,697
+"Titusville, FL",2017,697
+"Fort Lauderdale, FL",2017,1023
+"Punta Gorda, FL",2017,661
+"Homosassa Springs, FL",2017,580
+"Naples, FL",2017,973
+"Immokalee, FL",2017,973
+"Marco Island, FL",2017,973
+"Palm Coast, FL",2017,848
+"Gainesville, FL",2017,717
+"Gulf County, FL",2017,749
+"Sebring, FL",2017,561
+"Sebastian, FL",2017,701
+"Vero Beach, FL",2017,701
+"Cape Coral, FL",2017,741
+"Fort Myers, FL",2017,741
+"Tallahassee, FL",2017,736
+"Ocala, FL",2017,675
+"Miami, FL",2017,1020
+"Miami Beach, FL",2017,1020
+"Kendall, FL",2017,1020
+"Crestview, FL",2017,810
+"Fort Walton Beach, FL",2017,810
+"Destin, FL",2017,810
+"West Palm Beach, FL",2017,1093
+"Boca Raton, FL",2017,1093
+"Tampa, FL",2017,815
+"St. Petersburg, FL",2017,815
+"Clearwater, FL",2017,815
+"Lakeland, FL",2017,640
+"Winter Haven, FL",2017,640
+"Jacksonville, FL",2017,791
+"Port St. Lucie, FL",2017,831
+"Pensacola, FL",2017,749
+"Ferry Pass, FL",2017,749
+"Brent, FL",2017,749
+"North Port, FL",2017,827
+"Sarasota, FL",2017,827
+"Bradenton, FL",2017,827
+"Orlando, FL",2017,837
+"Kissimmee, FL",2017,837
+"Sanford, FL",2017,837
+"The Villages, FL",2017,581
+"Deltona, FL",2017,764
+"Daytona Beach, FL",2017,764
+"Ormond Beach, FL",2017,764
+"Wakulla County, FL",2017,719
+"Walton County, FL",2017,715
+"Butts County, GA",2017,605
+"Savannah, GA",2017,801
+"Rome, GA",2017,520
+"Gainesville, GA",2017,682
+"Haralson County, GA",2017,554
+"Warner Robins, GA",2017,676
+"Lamar County, GA",2017,475
+"Hinesville, GA",2017,782
+"Lincoln County, GA",2017,517
+"Long County, GA",2017,641
+"Valdosta, GA",2017,542
+"Brunswick, GA",2017,606
+"Meriwether County, GA",2017,498
+"Monroe County, GA",2017,679
+"Morgan County, GA",2017,616
+"Murray County, GA",2017,471
+"Columbus, GA",2017,648
+"Athens, GA",2017,696
+"Clarke County, GA",2017,696
+"Peach County, GA",2017,547
+"Pulaski County, GA",2017,517
+"Augusta, GA",2017,618
+"Richmond County, GA",2017,618
+"Chattanooga, GA",2017,661
+"Atlanta, GA",2017,858
+"Sandy Springs, GA",2017,858
+"Roswell, GA",2017,858
+"Dalton, GA",2017,550
+"Albany, GA",2017,616
+"Urban Honolulu, HI",2017,1492
+"Pocatello, ID",2017,512
+"Butte County, ID",2017,551
+"Logan, ID",2017,555
+"Gem County, ID",2017,550
+"Idaho Falls, ID",2017,558
+"Coeur d'Alene, ID",2017,608
+"Lewiston, ID",2017,538
+"Boise City, ID",2017,629
+"Cape Girardeau, IL",2017,554
+"Bond County, IL",2017,584
+"DeKalb County, IL",2017,691
+"De Witt County, IL",2017,510
+"Grundy County, IL",2017,779
+"Jackson County, IL",2017,582
+"Kankakee, IL",2017,676
+"Kendall County, IL",2017,828
+"Bloomington, IL",2017,613
+"Decatur, IL",2017,531
+"Macoupin County, IL",2017,492
+"Champaign, IL",2017,668
+"Urbana, IL",2017,668
+"Davenport, IL",2017,578
+"Moline, IL",2017,578
+"Rock Island, IL",2017,578
+"St. Louis, IL",2017,690
+"Springfield, IL",2017,604
+"Danville, IL",2017,537
+"Chicago, IL",2017,1055
+"Joliet, IL",2017,1055
+"Naperville, IL",2017,1055
+"Williamson County, IL",2017,506
+"Rockford, IL",2017,578
+"Peoria, IL",2017,604
+"Columbus, IN",2017,720
+"Carroll County, IN",2017,514
+"Muncie, IN",2017,527
+"Elkhart, IN",2017,567
+"Goshen, IN",2017,567
+"Louisville, IN",2017,629
+"Kokomo, IN",2017,561
+"Jasper County, IN",2017,576
+"Michigan City, IN",2017,548
+"La Porte, IN",2017,548
+"Anderson, IN",2017,587
+"Bloomington, IN",2017,688
+"Cincinnati, IN",2017,613
+"Owen County, IN",2017,579
+"Gary, IN",2017,710
+"Putnam County, IN",2017,544
+"South Bend, IN",2017,635
+"Mishawaka, IN",2017,635
+"Scott County, IN",2017,546
+"Indianapolis, IN",2017,689
+"Carmel, IN",2017,689
+"Sullivan County, IN",2017,620
+"Lafayette, IN",2017,682
+"West Lafayette, IN",2017,682
+"Union County, IN",2017,577
+"Terre Haute, IN",2017,594
+"Evansville, IN",2017,605
+"Washington County, IN",2017,546
+"Fort Wayne, IN",2017,544
+"Benton County, IA",2017,515
+"Bremer County, IA",2017,529
+"Dubuque, IA",2017,616
+"Waterloo, IA",2017,597
+"Cedar Falls, IA",2017,597
+"Iowa City, IA",2017,771
+"Jones County, IA",2017,488
+"Cedar Rapids, IA",2017,575
+"Plymouth County, IA",2017,497
+"Omaha, IA",2017,715
+"Council Bluffs, IA",2017,715
+"Davenport, IA",2017,578
+"Moline, IA",2017,578
+"Rock Island, IA",2017,578
+"Ames, IA",2017,663
+"Des Moines, IA",2017,669
+"West Des Moines, IA",2017,669
+"Washington County, IA",2017,603
+"Sioux City, IA",2017,567
+"St. Joseph, KS",2017,547
+"Lawrence, KS",2017,640
+"Kingman County, KS",2017,512
+"Manhattan, KS",2017,631
+"Wichita, KS",2017,575
+"Sumner County, KS",2017,512
+"Topeka, KS",2017,576
+"Kansas City, KS",2017,772
+"Allen County, KY",2017,490
+"Butler County, KY",2017,490
+"Grant County, KY",2017,557
+"Huntington, KY",2017,569
+"Ashland, KY",2017,569
+"Evansville, KY",2017,605
+"Elizabethtown, KY",2017,566
+"Owensboro, KY",2017,514
+"Meade County, KY",2017,536
+"Cincinnati, KY",2017,613
+"Shelby County, KY",2017,551
+"Clarksville, KY",2017,596
+"Louisville, KY",2017,629
+"Bowling Green, KY",2017,555
+"Lexington, KY",2017,605
+"Fayette, KY",2017,605
+"Acadia Parish, LA",2017,454
+"Lake Charles, LA",2017,630
+"Shreveport, LA",2017,754
+"Bossier City, LA",2017,754
+"Iberia Parish, LA",2017,518
+"Iberville Parish, LA",2017,501
+"Alexandria, LA",2017,634
+"St. James Parish, LA",2017,524
+"Lafayette, LA",2017,731
+"New Orleans, LA",2017,796
+"Metairie, LA",2017,796
+"Hammond, LA",2017,610
+"Houma, LA",2017,666
+"Thibodaux, LA",2017,666
+"Monroe, LA",2017,626
+"Vermilion Parish, LA",2017,560
+"Webster Parish, LA",2017,535
+"Baton Rouge, LA",2017,742
+"Lewiston, ME",2017,660
+"Auburn, ME",2017,660
+"Cumberland County, ME",2017,688
+"Bangor, ME",2017,678
+"Penobscot County, ME",2017,573
+"Sagadahoc County, ME",2017,720
+"Portland, ME",2017,851
+"York County, ME",2017,725
+"York, ME",2017,893
+"Kittery, ME",2017,893
+"South Berwick, ME",2017,893
+"Cumberland, MD",2017,592
+"Philadelphia, MD",2017,1003
+"Camden, MD",2017,1003
+"Wilmington, MD",2017,1003
+"Washington, MD",2017,1513
+"Arlington, MD",2017,1513
+"Alexandria, MD",2017,1513
+"California, MD",2017,1080
+"Lexington Park, MD",2017,1080
+"Somerset County, MD",2017,636
+"Hagerstown, MD",2017,658
+"Salisbury, MD",2017,712
+"Worcester County, MD",2017,719
+"Baltimore, MD",2017,1097
+"Columbia, MD",2017,1097
+"Towson, MD",2017,1097
+"Barnstable Town, MA",2017,933
+"Pittsfield, MA",2017,733
+"Berkshire County, MA",2017,768
+"New Bedford, MA",2017,717
+"Easton, MA",2017,1011
+"Raynham, MA",2017,1011
+"Taunton, MA",2017,851
+"Mansfield, MA",2017,851
+"Norton, MA",2017,851
+"Providence, MA",2017,827
+"Fall River, MA",2017,827
+"Lawrence, MA",2017,1024
+"Springfield, MA",2017,844
+"Lowell, MA",2017,954
+"Brockton, MA",2017,904
+"Boston, MA",2017,1372
+"Cambridge, MA",2017,1372
+"Quincy, MA",2017,1372
+"Eastern Worcester County, MA",2017,972
+"Western Worcester County, MA",2017,680
+"Fitchburg, MA",2017,774
+"Leominster, MA",2017,774
+"Worcester, MA",2017,839
+"Barry County, MI",2017,573
+"Bay City, MI",2017,546
+"Niles, MI",2017,537
+"Benton Harbor, MI",2017,537
+"Battle Creek, MI",2017,642
+"Cass County, MI",2017,555
+"Flint, MI",2017,555
+"Lansing, MI",2017,659
+"East Lansing, MI",2017,659
+"Jackson, MI",2017,604
+"Grand Rapids, MI",2017,668
+"Wyoming, MI",2017,668
+"Livingston County, MI",2017,698
+"Midland, MI",2017,577
+"Monroe, MI",2017,629
+"Montcalm County, MI",2017,537
+"Muskegon, MI",2017,544
+"Holland, MI",2017,670
+"Grand Haven, MI",2017,670
+"Saginaw, MI",2017,594
+"Kalamazoo, MI",2017,629
+"Portage, MI",2017,629
+"Ann Arbor, MI",2017,850
+"Detroit, MI",2017,701
+"Warren, MI",2017,701
+"Livonia, MI",2017,701
+"Fargo, MN",2017,602
+"Fillmore County, MN",2017,517
+"La Crosse, MN",2017,612
+"Onalaska, MN",2017,612
+"Le Sueur County, MN",2017,561
+"Mille Lacs County, MN",2017,675
+"Mankato, MN",2017,697
+"North Mankato, MN",2017,697
+"Rochester, MN",2017,720
+"Grand Forks, MN",2017,654
+"Duluth, MN",2017,603
+"Sibley County, MN",2017,522
+"St. Cloud, MN",2017,598
+"Wabasha County, MN",2017,606
+"Minneapolis, MN",2017,862
+"St. Paul, MN",2017,862
+"Bloomington, MN",2017,862
+"Benton County, MS",2017,590
+"Memphis, MS",2017,707
+"Gulfport, MS",2017,673
+"Biloxi, MS",2017,673
+"Pascagoula, MS",2017,684
+"Marshall County, MS",2017,580
+"Hattiesburg, MS",2017,721
+"Jackson, MS",2017,710
+"Simpson County, MS",2017,590
+"Tate County, MS",2017,562
+"Tunica County, MS",2017,620
+"Yazoo County, MS",2017,522
+"Bates County, MO",2017,479
+"Columbia, MO",2017,619
+"Callaway County, MO",2017,485
+"Cape Girardeau, MO",2017,554
+"Dallas County, MO",2017,481
+"St. Joseph, MO",2017,547
+"McDonald County, MO",2017,509
+"Moniteau County, MO",2017,497
+"Joplin, MO",2017,551
+"Jefferson City, MO",2017,495
+"Polk County, MO",2017,479
+"Kansas City, MO",2017,772
+"Springfield, MO",2017,545
+"St. Louis, MO",2017,690
+"Great Falls, MT",2017,542
+"Golden Valley County, MT",2017,512
+"Missoula, MT",2017,691
+"Billings, MT",2017,646
+"Sioux City, NE",2017,567
+"Hall County, NE",2017,532
+"Hamilton County, NE",2017,486
+"Howard County, NE",2017,486
+"Lincoln, NE",2017,606
+"Merrick County, NE",2017,560
+"Saunders County, NE",2017,557
+"Seward County, NE",2017,545
+"Omaha, NE",2017,715
+"Council Bluffs, NE",2017,715
+"Las Vegas, NV",2017,769
+"Henderson, NV",2017,769
+"Paradise, NV",2017,769
+"Reno, NV",2017,706
+"Carson City, NV",2017,645
+"Manchester, NH",2017,936
+"Nashua, NH",2017,895
+"Hillsborough County, NH",2017,824
+"Western Rockingham County, NH",2017,1011
+"Boston, NH",2017,1372
+"Cambridge, NH",2017,1372
+"Quincy, NH",2017,1372
+"Lawrence, NH",2017,1024
+"Portsmouth, NH",2017,937
+"Rochester, NH",2017,937
+"Atlantic City, NJ",2017,1013
+"Hammonton, NJ",2017,1013
+"Ocean City, NJ",2017,933
+"Vineland, NJ",2017,878
+"Bridgeton, NJ",2017,878
+"Jersey City, NJ",2017,1278
+"Trenton, NJ",2017,1109
+"Monmouth, NJ",2017,1156
+"Ocean, NJ",2017,1156
+"Bergen, NJ",2017,1328
+"Passaic, NJ",2017,1328
+"Philadelphia, NJ",2017,1003
+"Camden, NJ",2017,1003
+"Wilmington, NJ",2017,1003
+"Middlesex, NJ",2017,1296
+"Somerset, NJ",2017,1296
+"Hunterdon, NJ",2017,1296
+"Newark, NJ",2017,1063
+"Warren County, NJ",2017,927
+"Las Cruces, NM",2017,573
+"Farmington, NM",2017,641
+"Santa Fe, NM",2017,878
+"Albuquerque, NM",2017,716
+"Elmira, NY",2017,641
+"Watertown, NY",2017,824
+"Fort Drum, NY",2017,824
+"Buffalo, NY",2017,666
+"Cheektowaga, NY",2017,666
+"Niagara Falls, NY",2017,666
+"Utica, NY",2017,634
+"Rome, NY",2017,634
+"Poughkeepsie, NY",2017,1021
+"Newburgh, NY",2017,1021
+"Middletown, NY",2017,1021
+"Syracuse, NY",2017,647
+"New York, NY",2017,1419
+"Albany, NY",2017,817
+"Schenectady, NY",2017,817
+"Troy, NY",2017,817
+"Nassau, NY",2017,1533
+"Suffolk, NY",2017,1533
+"Binghamton, NY",2017,597
+"Ithaca, NY",2017,911
+"Kingston, NY",2017,904
+"Glens Falls, NY",2017,700
+"Rochester, NY",2017,737
+"Westchester County, NY",2017,1401
+"Yates County, NY",2017,602
+"Burlington, NC",2017,668
+"Brunswick County, NC",2017,765
+"Hickory, NC",2017,565
+"Lenoir, NC",2017,565
+"Morganton, NC",2017,565
+"Craven County, NC",2017,623
+"Fayetteville, NC",2017,679
+"Virginia Beach, NC",2017,939
+"Norfolk, NC",2017,939
+"Newport News, NC",2017,939
+"Davidson County, NC",2017,550
+"Gates County, NC",2017,533
+"Haywood County, NC",2017,596
+"Hoke County, NC",2017,512
+"Iredell County, NC",2017,715
+"Jones County, NC",2017,503
+"Lincoln County, NC",2017,605
+"Asheville, NC",2017,713
+"Rocky Mount, NC",2017,589
+"Wilmington, NC",2017,710
+"Jacksonville, NC",2017,666
+"Durham, NC",2017,834
+"Chapel Hill, NC",2017,834
+"Pamlico County, NC",2017,526
+"Pender County, NC",2017,621
+"Person County, NC",2017,525
+"Greenville, NC",2017,626
+"Greensboro, NC",2017,655
+"High Point, NC",2017,655
+"Rockingham County, NC",2017,483
+"Rowan County, NC",2017,554
+"Charlotte, NC",2017,784
+"Concord, NC",2017,784
+"Gastonia, NC",2017,784
+"Raleigh, NC",2017,861
+"Goldsboro, NC",2017,505
+"Winston, NC",2017,611
+"Salem, NC",2017,611
+"Fargo, ND",2017,602
+"Grand Forks, ND",2017,654
+"Bismarck, ND",2017,649
+"Oliver County, ND",2017,521
+"Sioux County, ND",2017,569
+"Lima, OH",2017,520
+"Wheeling, OH",2017,627
+"Brown County, OH",2017,512
+"Springfield, OH",2017,534
+"Hocking County, OH",2017,576
+"Weirton, OH",2017,581
+"Steubenville, OH",2017,581
+"Huntington, OH",2017,569
+"Ashland, OH",2017,569
+"Cleveland, OH",2017,626
+"Elyria, OH",2017,626
+"Dayton, OH",2017,585
+"Perry County, OH",2017,543
+"Columbus, OH",2017,687
+"Mansfield, OH",2017,512
+"Canton, OH",2017,576
+"Massillon, OH",2017,576
+"Akron, OH",2017,594
+"Youngstown, OH",2017,547
+"Warren, OH",2017,547
+"Boardman, OH",2017,547
+"Union County, OH",2017,657
+"Cincinnati, OH",2017,613
+"Toledo, OH",2017,559
+"Lawton, OK",2017,560
+"Cotton County, OK",2017,589
+"Grady County, OK",2017,524
+"Le Flore County, OK",2017,540
+"Lincoln County, OK",2017,562
+"Oklahoma City, OK",2017,630
+"Okmulgee County, OK",2017,589
+"Pawnee County, OK",2017,567
+"Fort Smith, OK",2017,511
+"Tulsa, OK",2017,630
+"Corvallis, OR",2017,750
+"Bend, OR",2017,733
+"Redmond, OR",2017,733
+"Medford, OR",2017,649
+"Grants Pass, OR",2017,626
+"Eugene, OR",2017,669
+"Springfield, OR",2017,669
+"Albany, OR",2017,661
+"Salem, OR",2017,612
+"Portland, OR",2017,1053
+"Vancouver, OR",2017,1053
+"Hillsboro, OR",2017,1053
+"Gettysburg, PA",2017,680
+"Armstrong County, PA",2017,527
+"Reading, PA",2017,722
+"Altoona, PA",2017,589
+"Johnstown, PA",2017,559
+"State College, PA",2017,777
+"Columbia County, PA",2017,671
+"Erie, PA",2017,594
+"Chambersburg, PA",2017,638
+"Waynesboro, PA",2017,638
+"Lancaster, PA",2017,749
+"Lebanon, PA",2017,613
+"Williamsport, PA",2017,683
+"Sharon, PA",2017,546
+"East Stroudsburg, PA",2017,943
+"Montour County, PA",2017,747
+"Allentown, PA",2017,815
+"Bethlehem, PA",2017,815
+"Easton, PA",2017,815
+"Harrisburg, PA",2017,737
+"Carlisle, PA",2017,737
+"Philadelphia, PA",2017,1003
+"Camden, PA",2017,1003
+"Wilmington, PA",2017,1003
+"Pike County, PA",2017,861
+"Pittsburgh, PA",2017,657
+"Scranton, PA",2017,657
+", PA",2017,657
+"Wilkes, PA",2017,657
+"Barre, PA",2017,657
+"York, PA",2017,686
+"Hanover, PA",2017,686
+"Newport, RI",2017,968
+"Middleton, RI",2017,968
+"Portsmouth, RI",2017,968
+"Providence, RI",2017,827
+"Fall River, RI",2017,827
+"Westerly, RI",2017,845
+"Hopkinton, RI",2017,845
+"New Shoreham, RI",2017,845
+"Anderson, SC",2017,543
+"Beaufort County, SC",2017,939
+"Chester County, SC",2017,515
+"Darlington County, SC",2017,584
+"Charleston, SC",2017,818
+"North Charleston, SC",2017,818
+"Augusta, SC",2017,618
+"Richmond County, SC",2017,618
+"Florence, SC",2017,547
+"Myrtle Beach, SC",2017,754
+"North Myrtle Beach, SC",2017,754
+"Conway, SC",2017,754
+"Jasper County, SC",2017,757
+"Kershaw County, SC",2017,580
+"Lancaster County, SC",2017,772
+"Laurens County, SC",2017,507
+"Greenville, SC",2017,656
+"Mauldin, SC",2017,656
+"Easley, SC",2017,656
+"Columbia, SC",2017,759
+"Spartanburg, SC",2017,575
+"Sumter, SC",2017,590
+"Union County, SC",2017,507
+"Charlotte, SC",2017,784
+"Concord, SC",2017,784
+"Gastonia, SC",2017,784
+"Custer County, SD",2017,588
+"Meade County, SD",2017,575
+"Rapid City, SD",2017,619
+"Sioux Falls, SD",2017,655
+"Sioux City, SD",2017,567
+"Campbell County, TN",2017,457
+"Crockett County, TN",2017,475
+"Grainger County, TN",2017,460
+"Hickman County, TN",2017,584
+"Morristown, TN",2017,502
+"Macon County, TN",2017,461
+"Jackson, TN",2017,566
+"Maury County, TN",2017,642
+"Clarksville, TN",2017,596
+"Morgan County, TN",2017,476
+"Cleveland, TN",2017,561
+"Roane County, TN",2017,542
+"Chattanooga, TN",2017,661
+"Smith County, TN",2017,471
+"Kingsport, TN",2017,479
+"Bristol, TN",2017,479
+"Memphis, TN",2017,707
+"Knoxville, TN",2017,669
+"Johnson City, TN",2017,527
+"Nashville, TN",2017,780
+"Davidson, TN",2017,780
+"Murfreesboro, TN",2017,780
+", TN",2017,780
+"Franklin, TN",2017,780
+"Aransas County, TX",2017,722
+"Atascosa County, TX",2017,594
+"Austin County, TX",2017,663
+"Texarkana, TX",2017,573
+"Brazoria County, TX",2017,824
+"Brownsville, TX",2017,536
+"Harlingen, TX",2017,536
+"Killeen, TX",2017,594
+"Temple, TX",2017,594
+"Odessa, TX",2017,1066
+"El Paso, TX",2017,685
+"Falls County, TX",2017,512
+"Sherman, TX",2017,625
+"Denison, TX",2017,625
+"McAllen, TX",2017,566
+"Edinburg, TX",2017,566
+"Mission, TX",2017,566
+"Hood County, TX",2017,663
+"Hudspeth County, TX",2017,734
+"Kendall County, TX",2017,906
+"Lampasas County, TX",2017,543
+"Lubbock, TX",2017,636
+"Lynn County, TX",2017,572
+"Waco, TX",2017,617
+"Martin County, TX",2017,601
+"Medina County, TX",2017,531
+"Midland, TX",2017,1206
+"Newton County, TX",2017,560
+"Oldham County, TX",2017,717
+"Beaumont, TX",2017,685
+"Port Arthur, TX",2017,685
+"Amarillo, TX",2017,632
+"College Station, TX",2017,699
+"Bryan, TX",2017,699
+"Dallas, TX",2017,837
+"Rusk County, TX",2017,546
+"Corpus Christi, TX",2017,790
+"Tyler, TX",2017,696
+"Somervell County, TX",2017,551
+"Fort Worth, TX",2017,770
+"Arlington, TX",2017,770
+"Abilene, TX",2017,617
+"San Angelo, TX",2017,758
+"Longview, TX",2017,720
+"Victoria, TX",2017,742
+"Houston, TX",2017,797
+"The Woodlands, TX",2017,797
+"Sugar Land, TX",2017,797
+"Laredo, TX",2017,639
+"Wichita Falls, TX",2017,601
+"Austin, TX",2017,968
+"Round Rock, TX",2017,968
+"San Antonio, TX",2017,768
+"New Braunfels, TX",2017,768
+"Wise County, TX",2017,685
+"Box Elder County, UT",2017,522
+"Logan, UT",2017,555
+"Salt Lake City, UT",2017,795
+"Tooele County, UT",2017,694
+"Provo, UT",2017,697
+"Orem, UT",2017,697
+"St. George, UT",2017,662
+"Ogden, UT",2017,671
+"Clearfield, UT",2017,671
+"Burlington, VT",2017,1080
+"South Burlington, VT",2017,1080
+"Buckingham County, VA",2017,595
+"Culpeper County, VA",2017,864
+"Floyd County, VA",2017,549
+"Franklin County, VA",2017,558
+"Giles County, VA",2017,522
+"Pulaski County, VA",2017,552
+"Rappahannock County, VA",2017,870
+"Warren County, VA",2017,743
+"Kingsport, VA",2017,479
+"Bristol, VA",2017,479
+"Charlottesville, VA",2017,976
+"Harrisonburg, VA",2017,630
+"Lynchburg, VA",2017,634
+"Washington, VA",2017,1513
+"Arlington, VA",2017,1513
+"Alexandria, VA",2017,1513
+"Blacksburg, VA",2017,763
+"Christiansburg, VA",2017,763
+"Radford, VA",2017,763
+"Richmond, VA",2017,871
+"Roanoke, VA",2017,692
+"Staunton, VA",2017,640
+"Waynesboro, VA",2017,640
+"Virginia Beach, VA",2017,939
+"Norfolk, VA",2017,939
+"Newport News, VA",2017,939
+"Winchester, VA",2017,780
+"Lewiston, WA",2017,538
+"Columbia County, WA",2017,545
+"Longview, WA",2017,605
+"Wenatchee, WA",2017,608
+"Kennewick, WA",2017,687
+"Richland, WA",2017,687
+"Bremerton, WA",2017,803
+"Silverdale, WA",2017,803
+"Pend Oreille County, WA",2017,551
+"Tacoma, WA",2017,885
+"Mount Vernon, WA",2017,728
+"Anacortes, WA",2017,728
+"Portland, WA",2017,1053
+"Vancouver, WA",2017,1053
+"Hillsboro, WA",2017,1053
+"Seattle, WA",2017,1249
+"Bellevue, WA",2017,1249
+"Spokane, WA",2017,654
+"Stevens County, WA",2017,557
+"Olympia, WA",2017,866
+"Tumwater, WA",2017,866
+"Walla Walla County, WA",2017,576
+"Bellingham, WA",2017,747
+"Yakima, WA",2017,628
+"Martinsburg, WV",2017,779
+"Boone County, WV",2017,512
+"Fayette County, WV",2017,514
+"Winchester, WV",2017,780
+"Weirton, WV",2017,581
+"Steubenville, WV",2017,581
+"Jefferson County, WV",2017,732
+"Charleston, WV",2017,614
+"Lincoln County, WV",2017,516
+"Cumberland, WV",2017,592
+"Wheeling, WV",2017,627
+"Morgantown, WV",2017,719
+"Putnam County, WV",2017,665
+"Raleigh County, WV",2017,606
+"Huntington, WV",2017,569
+"Ashland, WV",2017,569
+"Parkersburg, WV",2017,614
+"Vienna, WV",2017,614
+"Columbia County, WI",2017,594
+"Madison, WI",2017,813
+"Duluth, WI",2017,603
+"Eau Claire, WI",2017,590
+"Fond du Lac, WI",2017,575
+"Green County, WI",2017,527
+"Iowa County, WI",2017,555
+"Kenosha County, WI",2017,670
+"Green Bay, WI",2017,557
+"La Crosse, WI",2017,612
+"Onalaska, WI",2017,612
+"Wausau, WI",2017,562
+"Oconto County, WI",2017,581
+"Appleton, WI",2017,575
+"Racine, WI",2017,584
+"Janesville, WI",2017,592
+"Beloit, WI",2017,592
+"Minneapolis, WI",2017,862
+"St. Paul, WI",2017,862
+"Bloomington, WI",2017,862
+"Sheboygan, WI",2017,554
+"Milwaukee, WI",2017,748
+"Waukesha, WI",2017,748
+"West Allis, WI",2017,748
+"Oshkosh, WI",2017,592
+"Neenah, WI",2017,592
+"Cheyenne, WY",2017,636
+"Casper, WY",2017,746
+"Arecibo, PR",2017,325
+"Fajardo, PR",2017,367
+"Mayagüez, PR",2017,487
+"Barranquitas, PR",2017,362
+"Aibonito, PR",2017,362
+"Guayama, PR",2017,374
+"Quebradillas Municipio, PR",2017,374
+"San German, PR",2017,374
+"Caguas, PR",2017,389
+"Aguadilla, PR",2017,374
+"Isabela, PR",2017,374
+"Utuado Municipio, PR",2017,325
+"Ponce, PR",2017,395
+"San Juan, PR",2017,459
+"Guaynabo, PR",2017,459
+"Yauco, PR",2017,374
+"Daphne, AL",2018,762
+"Fairhope, AL",2018,762
+"Foley, AL",2018,762
+"Anniston, AL",2018,511
+"Oxford, AL",2018,511
+"Jacksonville, AL",2018,511
+"Chilton County, AL",2018,551
+"Gadsden, AL",2018,497
+"Henry County, AL",2018,554
+"Dothan, AL",2018,535
+"Florence, AL",2018,529
+"Muscle Shoals, AL",2018,529
+"Auburn, AL",2018,633
+"Opelika, AL",2018,633
+"Huntsville, AL",2018,603
+"Mobile, AL",2018,683
+"Montgomery, AL",2018,691
+"Decatur, AL",2018,523
+"Pickens County, AL",2018,456
+"Columbus, AL",2018,685
+"Birmingham, AL",2018,768
+"Hoover, AL",2018,768
+"Tuscaloosa, AL",2018,660
+"Walker County, AL",2018,505
+"Anchorage, AK",2018,1035
+"Fairbanks, AK",2018,1029
+"Matanuska, AK",2018,835
+"Susitna Borough, AK",2018,835
+"Sierra Vista, AZ",2018,621
+"Douglas, AZ",2018,621
+"Flagstaff, AZ",2018,920
+"Lake Havasu City, AZ",2018,626
+"Kingman, AZ",2018,626
+"Tucson, AZ",2018,642
+"Phoenix, AZ",2018,815
+"Mesa, AZ",2018,815
+"Scottsdale, AZ",2018,815
+"Prescott, AZ",2018,670
+"Yuma, AZ",2018,601
+"Jonesboro, AR",2018,613
+"Memphis, AR",2018,705
+"Hot Springs, AR",2018,580
+"Grant County, AR",2018,566
+"Pine Bluff, AR",2018,537
+"Little River County, AR",2018,476
+"Texarkana, AR",2018,627
+"Poinsett County, AR",2018,476
+"Little Rock, AR",2018,676
+"North Little Rock, AR",2018,676
+"Conway, AR",2018,676
+"Fort Smith, AR",2018,524
+"Fayetteville, AR",2018,558
+"Springdale, AR",2018,558
+"Rogers, AR",2018,558
+"Chico, CA",2018,785
+"Oakland, CA",2018,1855
+"Fremont, CA",2018,1855
+"Fresno, CA",2018,771
+"El Centro, CA",2018,687
+"Bakersfield, CA",2018,695
+"Hanford, CA",2018,752
+"Corcoran, CA",2018,752
+"Los Angeles, CA",2018,1284
+"Long Beach, CA",2018,1284
+"Glendale, CA",2018,1284
+"Madera, CA",2018,723
+"Merced, CA",2018,623
+"Salinas, CA",2018,1146
+"Napa, CA",2018,1196
+"Santa Ana, CA",2018,1493
+"Anaheim, CA",2018,1493
+"Irvine, CA",2018,1493
+"Sacramento, CA",2018,860
+"Roseville, CA",2018,860
+", CA",2018,860
+"Arden, CA",2018,860
+"Arcade, CA",2018,860
+"San Benito County, CA",2018,1277
+"Riverside, CA",2018,926
+"San Bernardino, CA",2018,926
+"Ontario, CA",2018,926
+"San Diego, CA",2018,1400
+"Carlsbad, CA",2018,1400
+"Stockton, CA",2018,746
+"Lodi, CA",2018,746
+"San Luis Obispo, CA",2018,1107
+"Paso Robles, CA",2018,1107
+"Arroyo Grande, CA",2018,1107
+"San Francisco, CA",2018,2499
+"Santa Maria, CA",2018,1636
+"Santa Barbara, CA",2018,1636
+"San Jose, CA",2018,2031
+"Sunnyvale, CA",2018,2031
+"Santa Clara, CA",2018,2031
+"Santa Cruz, CA",2018,1477
+"Watsonville, CA",2018,1477
+"Redding, CA",2018,713
+"Vallejo, CA",2018,1087
+"Fairfield, CA",2018,1087
+"Santa Rosa, CA",2018,1420
+"Modesto, CA",2018,809
+"Visalia, CA",2018,633
+"Porterville, CA",2018,633
+"Oxnard, CA",2018,1308
+"Thousand Oaks, CA",2018,1308
+"Ventura, CA",2018,1308
+"Yolo, CA",2018,905
+"Yuba City, CA",2018,678
+"Boulder, CO",2018,1195
+"Colorado Springs, CO",2018,793
+"Fort Collins, CO",2018,905
+"Grand Junction, CO",2018,635
+"Denver, CO",2018,1127
+"Aurora, CO",2018,1127
+"Lakewood, CO",2018,1127
+"Pueblo, CO",2018,579
+"Teller County, CO",2018,803
+"Greeley, CO",2018,744
+"Danbury, CT",2018,1280
+"Bridgeport, CT",2018,1010
+"Stamford, CT",2018,1571
+"Norwalk, CT",2018,1571
+"Southern Middlesex County, CT",2018,1042
+"Milford, CT",2018,1063
+"Ansonia, CT",2018,1063
+"Seymour, CT",2018,1063
+"Waterbury, CT",2018,852
+"New Haven, CT",2018,1074
+"Meriden, CT",2018,1074
+"Colchester, CT",2018,971
+"Lebanon, CT",2018,971
+"Norwich, CT",2018,928
+"New London, CT",2018,928
+"Hartford, CT",2018,929
+"West Hartford, CT",2018,929
+"East Hartford, CT",2018,929
+"Windham County, CT",2018,903
+"Dover, DE",2018,809
+"Philadelphia, DE",2018,1047
+"Camden, DE",2018,1047
+"Wilmington, DE",2018,1047
+"Sussex County, DE",2018,691
+"Washington, DC",2018,1561
+"Arlington, DC",2018,1561
+"Alexandria, DC",2018,1561
+"Baker County, FL",2018,632
+"Panama City, FL",2018,857
+"Lynn Haven, FL",2018,857
+"Panama City Beach, FL",2018,857
+"Palm Bay, FL",2018,803
+"Melbourne, FL",2018,803
+"Titusville, FL",2018,803
+"Fort Lauderdale, FL",2018,1086
+"Punta Gorda, FL",2018,671
+"Homosassa Springs, FL",2018,600
+"Naples, FL",2018,996
+"Immokalee, FL",2018,996
+"Marco Island, FL",2018,996
+"Palm Coast, FL",2018,816
+"Gainesville, FL",2018,725
+"Gulf County, FL",2018,674
+"Sebring, FL",2018,594
+"Sebastian, FL",2018,744
+"Vero Beach, FL",2018,744
+"Cape Coral, FL",2018,773
+"Fort Myers, FL",2018,773
+"Tallahassee, FL",2018,771
+"Ocala, FL",2018,674
+"Miami, FL",2018,1066
+"Miami Beach, FL",2018,1066
+"Kendall, FL",2018,1066
+"Crestview, FL",2018,858
+"Fort Walton Beach, FL",2018,858
+"Destin, FL",2018,858
+"West Palm Beach, FL",2018,1136
+"Boca Raton, FL",2018,1136
+"Tampa, FL",2018,842
+"St. Petersburg, FL",2018,842
+"Clearwater, FL",2018,842
+"Lakeland, FL",2018,652
+"Winter Haven, FL",2018,652
+"Jacksonville, FL",2018,775
+"Port St. Lucie, FL",2018,825
+"Pensacola, FL",2018,706
+"Ferry Pass, FL",2018,706
+"Brent, FL",2018,706
+"North Port, FL",2018,841
+"Sarasota, FL",2018,841
+"Bradenton, FL",2018,841
+"Orlando, FL",2018,919
+"Kissimmee, FL",2018,919
+"Sanford, FL",2018,919
+"The Villages, FL",2018,593
+"Deltona, FL",2018,768
+"Daytona Beach, FL",2018,768
+"Ormond Beach, FL",2018,768
+"Wakulla County, FL",2018,774
+"Walton County, FL",2018,744
+"Butts County, GA",2018,662
+"Savannah, GA",2018,926
+"Rome, GA",2018,561
+"Gainesville, GA",2018,725
+"Haralson County, GA",2018,625
+"Warner Robins, GA",2018,705
+"Lamar County, GA",2018,540
+"Hinesville, GA",2018,731
+"Lincoln County, GA",2018,574
+"Long County, GA",2018,577
+"Valdosta, GA",2018,558
+"Brunswick, GA",2018,583
+"Meriwether County, GA",2018,543
+"Monroe County, GA",2018,651
+"Morgan County, GA",2018,697
+"Murray County, GA",2018,513
+"Columbus, GA",2018,685
+"Athens, GA",2018,666
+"Clarke County, GA",2018,666
+"Peach County, GA",2018,579
+"Pulaski County, GA",2018,574
+"Augusta, GA",2018,636
+"Richmond County, GA",2018,636
+"Chattanooga, GA",2018,656
+"Atlanta, GA",2018,898
+"Sandy Springs, GA",2018,898
+"Roswell, GA",2018,898
+"Dalton, GA",2018,597
+"Albany, GA",2018,588
+"Urban Honolulu, HI",2018,1527
+"Pocatello, ID",2018,541
+"Butte County, ID",2018,540
+"Logan, ID",2018,573
+"Gem County, ID",2018,594
+"Idaho Falls, ID",2018,558
+"Coeur d'Alene, ID",2018,641
+"Lewiston, ID",2018,584
+"Boise City, ID",2018,676
+"Cape Girardeau, IL",2018,530
+"Bond County, IL",2018,612
+"DeKalb County, IL",2018,720
+"De Witt County, IL",2018,542
+"Grundy County, IL",2018,813
+"Jackson County, IL",2018,566
+"Kankakee, IL",2018,668
+"Kendall County, IL",2018,921
+"Bloomington, IL",2018,677
+"Decatur, IL",2018,584
+"Macoupin County, IL",2018,504
+"Champaign, IL",2018,695
+"Urbana, IL",2018,695
+"Davenport, IL",2018,607
+"Moline, IL",2018,607
+"Rock Island, IL",2018,607
+"St. Louis, IL",2018,692
+"Springfield, IL",2018,636
+"Danville, IL",2018,568
+"Chicago, IL",2018,1014
+"Joliet, IL",2018,1014
+"Naperville, IL",2018,1014
+"Williamson County, IL",2018,523
+"Rockford, IL",2018,584
+"Peoria, IL",2018,610
+"Columbus, IN",2018,707
+"Carroll County, IN",2018,524
+"Muncie, IN",2018,552
+"Elkhart, IN",2018,597
+"Goshen, IN",2018,597
+"Louisville, IN",2018,656
+"Kokomo, IN",2018,532
+"Jasper County, IN",2018,617
+"Michigan City, IN",2018,572
+"La Porte, IN",2018,572
+"Anderson, IN",2018,568
+"Bloomington, IN",2018,709
+"Cincinnati, IN",2018,643
+"Owen County, IN",2018,580
+"Gary, IN",2018,741
+"Putnam County, IN",2018,539
+"South Bend, IN",2018,689
+"Mishawaka, IN",2018,689
+"Scott County, IN",2018,588
+"Indianapolis, IN",2018,696
+"Carmel, IN",2018,696
+"Sullivan County, IN",2018,586
+"Lafayette, IN",2018,690
+"West Lafayette, IN",2018,690
+"Union County, IN",2018,593
+"Terre Haute, IN",2018,607
+"Evansville, IN",2018,595
+"Washington County, IN",2018,556
+"Fort Wayne, IN",2018,590
+"Benton County, IA",2018,517
+"Bremer County, IA",2018,525
+"Dubuque, IA",2018,586
+"Waterloo, IA",2018,603
+"Cedar Falls, IA",2018,603
+"Iowa City, IA",2018,723
+"Jones County, IA",2018,491
+"Cedar Rapids, IA",2018,582
+"Plymouth County, IA",2018,521
+"Omaha, IA",2018,744
+"Council Bluffs, IA",2018,744
+"Davenport, IA",2018,607
+"Moline, IA",2018,607
+"Rock Island, IA",2018,607
+"Ames, IA",2018,735
+"Des Moines, IA",2018,708
+"West Des Moines, IA",2018,708
+"Washington County, IA",2018,584
+"Sioux City, IA",2018,606
+"St. Joseph, KS",2018,576
+"Lawrence, KS",2018,640
+"Kingman County, KS",2018,524
+"Manhattan, KS",2018,767
+"Wichita, KS",2018,609
+"Sumner County, KS",2018,544
+"Topeka, KS",2018,594
+"Kansas City, KS",2018,713
+"Allen County, KY",2018,529
+"Butler County, KY",2018,479
+"Grant County, KY",2018,587
+"Huntington, KY",2018,575
+"Ashland, KY",2018,575
+"Evansville, KY",2018,595
+"Elizabethtown, KY",2018,563
+"Owensboro, KY",2018,537
+"Meade County, KY",2018,551
+"Cincinnati, KY",2018,643
+"Shelby County, KY",2018,601
+"Clarksville, KY",2018,660
+"Louisville, KY",2018,656
+"Bowling Green, KY",2018,612
+"Lexington, KY",2018,639
+"Fayette, KY",2018,639
+"Acadia Parish, LA",2018,511
+"Lake Charles, LA",2018,638
+"Shreveport, LA",2018,710
+"Bossier City, LA",2018,710
+"Iberia Parish, LA",2018,584
+"Iberville Parish, LA",2018,580
+"Alexandria, LA",2018,600
+"St. James Parish, LA",2018,592
+"Lafayette, LA",2018,751
+"New Orleans, LA",2018,827
+"Metairie, LA",2018,827
+"Hammond, LA",2018,635
+"Houma, LA",2018,650
+"Thibodaux, LA",2018,650
+"Monroe, LA",2018,566
+"Vermilion Parish, LA",2018,592
+"Webster Parish, LA",2018,592
+"Baton Rouge, LA",2018,789
+"Lewiston, ME",2018,668
+"Auburn, ME",2018,668
+"Cumberland County, ME",2018,755
+"Bangor, ME",2018,740
+"Penobscot County, ME",2018,634
+"Sagadahoc County, ME",2018,789
+"Portland, ME",2018,1054
+"York County, ME",2018,798
+"York, ME",2018,944
+"Kittery, ME",2018,944
+"South Berwick, ME",2018,944
+"Cumberland, MD",2018,606
+"Philadelphia, MD",2018,1047
+"Camden, MD",2018,1047
+"Wilmington, MD",2018,1047
+"Washington, MD",2018,1561
+"Arlington, MD",2018,1561
+"Alexandria, MD",2018,1561
+"California, MD",2018,1126
+"Lexington Park, MD",2018,1126
+"Somerset County, MD",2018,664
+"Hagerstown, MD",2018,695
+"Salisbury, MD",2018,782
+"Worcester County, MD",2018,761
+"Baltimore, MD",2018,1125
+"Columbia, MD",2018,1125
+"Towson, MD",2018,1125
+"Barnstable Town, MA",2018,1083
+"Pittsfield, MA",2018,817
+"Berkshire County, MA",2018,877
+"New Bedford, MA",2018,761
+"Easton, MA",2018,1071
+"Raynham, MA",2018,1071
+"Taunton, MA",2018,928
+"Mansfield, MA",2018,928
+"Norton, MA",2018,928
+"Providence, MA",2018,849
+"Fall River, MA",2018,849
+"Lawrence, MA",2018,929
+"Springfield, MA",2018,884
+"Lowell, MA",2018,1098
+"Brockton, MA",2018,1064
+"Boston, MA",2018,1421
+"Cambridge, MA",2018,1421
+"Quincy, MA",2018,1421
+"Eastern Worcester County, MA",2018,959
+"Western Worcester County, MA",2018,730
+"Fitchburg, MA",2018,822
+"Leominster, MA",2018,822
+"Worcester, MA",2018,942
+"Barry County, MI",2018,619
+"Bay City, MI",2018,567
+"Niles, MI",2018,567
+"Benton Harbor, MI",2018,567
+"Battle Creek, MI",2018,585
+"Cass County, MI",2018,597
+"Flint, MI",2018,586
+"Lansing, MI",2018,690
+"East Lansing, MI",2018,690
+"Jackson, MI",2018,612
+"Grand Rapids, MI",2018,713
+"Wyoming, MI",2018,713
+"Livingston County, MI",2018,732
+"Midland, MI",2018,600
+"Monroe, MI",2018,648
+"Montcalm County, MI",2018,583
+"Muskegon, MI",2018,571
+"Holland, MI",2018,721
+"Grand Haven, MI",2018,721
+"Saginaw, MI",2018,578
+"Kalamazoo, MI",2018,659
+"Portage, MI",2018,659
+"Ann Arbor, MI",2018,905
+"Detroit, MI",2018,727
+"Warren, MI",2018,727
+"Livonia, MI",2018,727
+"Fargo, MN",2018,643
+"Fillmore County, MN",2018,525
+"La Crosse, MN",2018,596
+"Onalaska, MN",2018,596
+"Le Sueur County, MN",2018,571
+"Mille Lacs County, MN",2018,674
+"Mankato, MN",2018,661
+"North Mankato, MN",2018,661
+"Rochester, MN",2018,655
+"Grand Forks, MN",2018,745
+"Duluth, MN",2018,662
+"Sibley County, MN",2018,530
+"St. Cloud, MN",2018,651
+"Wabasha County, MN",2018,571
+"Minneapolis, MN",2018,864
+"St. Paul, MN",2018,864
+"Bloomington, MN",2018,864
+"Benton County, MS",2018,576
+"Memphis, MS",2018,705
+"Gulfport, MS",2018,667
+"Biloxi, MS",2018,667
+"Pascagoula, MS",2018,644
+"Marshall County, MS",2018,563
+"Hattiesburg, MS",2018,649
+"Jackson, MS",2018,736
+"Simpson County, MS",2018,580
+"Tate County, MS",2018,611
+"Tunica County, MS",2018,632
+"Yazoo County, MS",2018,529
+"Bates County, MO",2018,482
+"Columbia, MO",2018,616
+"Callaway County, MO",2018,502
+"Cape Girardeau, MO",2018,530
+"Dallas County, MO",2018,497
+"St. Joseph, MO",2018,576
+"McDonald County, MO",2018,530
+"Moniteau County, MO",2018,482
+"Joplin, MO",2018,611
+"Jefferson City, MO",2018,495
+"Polk County, MO",2018,489
+"Kansas City, MO",2018,713
+"Springfield, MO",2018,589
+"St. Louis, MO",2018,692
+"Great Falls, MT",2018,568
+"Golden Valley County, MT",2018,707
+"Missoula, MT",2018,735
+"Billings, MT",2018,708
+"Sioux City, NE",2018,606
+"Hall County, NE",2018,579
+"Hamilton County, NE",2018,530
+"Howard County, NE",2018,491
+"Lincoln, NE",2018,634
+"Merrick County, NE",2018,560
+"Saunders County, NE",2018,583
+"Seward County, NE",2018,551
+"Omaha, NE",2018,744
+"Council Bluffs, NE",2018,744
+"Las Vegas, NV",2018,784
+"Henderson, NV",2018,784
+"Paradise, NV",2018,784
+"Reno, NV",2018,757
+"Carson City, NV",2018,682
+"Manchester, NH",2018,965
+"Nashua, NH",2018,938
+"Hillsborough County, NH",2018,854
+"Western Rockingham County, NH",2018,1094
+"Boston, NH",2018,1421
+"Cambridge, NH",2018,1421
+"Quincy, NH",2018,1421
+"Lawrence, NH",2018,929
+"Portsmouth, NH",2018,940
+"Rochester, NH",2018,940
+"Atlantic City, NJ",2018,1020
+"Hammonton, NJ",2018,1020
+"Ocean City, NJ",2018,930
+"Vineland, NJ",2018,873
+"Bridgeton, NJ",2018,873
+"Jersey City, NJ",2018,1351
+"Trenton, NJ",2018,1072
+"Monmouth, NJ",2018,1126
+"Ocean, NJ",2018,1126
+"Bergen, NJ",2018,1439
+"Passaic, NJ",2018,1439
+"Philadelphia, NJ",2018,1047
+"Camden, NJ",2018,1047
+"Wilmington, NJ",2018,1047
+"Middlesex, NJ",2018,1268
+"Somerset, NJ",2018,1268
+"Hunterdon, NJ",2018,1268
+"Newark, NJ",2018,1082
+"Warren County, NJ",2018,1020
+"Las Cruces, NM",2018,612
+"Farmington, NM",2018,656
+"Santa Fe, NM",2018,854
+"Albuquerque, NM",2018,707
+"Elmira, NY",2018,640
+"Watertown, NY",2018,759
+"Fort Drum, NY",2018,759
+"Buffalo, NY",2018,660
+"Cheektowaga, NY",2018,660
+"Niagara Falls, NY",2018,660
+"Utica, NY",2018,600
+"Rome, NY",2018,600
+"Poughkeepsie, NY",2018,1057
+"Newburgh, NY",2018,1057
+"Middletown, NY",2018,1057
+"Syracuse, NY",2018,719
+"New York, NY",2018,1558
+"Albany, NY",2018,837
+"Schenectady, NY",2018,837
+"Troy, NY",2018,837
+"Nassau, NY",2018,1527
+"Suffolk, NY",2018,1527
+"Binghamton, NY",2018,607
+"Ithaca, NY",2018,978
+"Kingston, NY",2018,918
+"Glens Falls, NY",2018,737
+"Rochester, NY",2018,741
+"Westchester County, NY",2018,1384
+"Yates County, NY",2018,634
+"Burlington, NC",2018,601
+"Brunswick County, NC",2018,747
+"Hickory, NC",2018,556
+"Lenoir, NC",2018,556
+"Morganton, NC",2018,556
+"Craven County, NC",2018,689
+"Fayetteville, NC",2018,678
+"Virginia Beach, NC",2018,912
+"Norfolk, NC",2018,912
+"Newport News, NC",2018,912
+"Davidson County, NC",2018,584
+"Gates County, NC",2018,569
+"Haywood County, NC",2018,608
+"Hoke County, NC",2018,523
+"Iredell County, NC",2018,721
+"Jones County, NC",2018,514
+"Lincoln County, NC",2018,637
+"Asheville, NC",2018,660
+"Rocky Mount, NC",2018,553
+"Wilmington, NC",2018,776
+"Jacksonville, NC",2018,673
+"Durham, NC",2018,847
+"Chapel Hill, NC",2018,847
+"Pamlico County, NC",2018,594
+"Pender County, NC",2018,693
+"Person County, NC",2018,537
+"Greenville, NC",2018,595
+"Greensboro, NC",2018,692
+"High Point, NC",2018,692
+"Rockingham County, NC",2018,514
+"Rowan County, NC",2018,619
+"Charlotte, NC",2018,838
+"Concord, NC",2018,838
+"Gastonia, NC",2018,838
+"Raleigh, NC",2018,893
+"Goldsboro, NC",2018,568
+"Winston, NC",2018,594
+"Salem, NC",2018,594
+"Fargo, ND",2018,643
+"Grand Forks, ND",2018,745
+"Bismarck, ND",2018,662
+"Oliver County, ND",2018,659
+"Sioux County, ND",2018,555
+"Lima, OH",2018,549
+"Wheeling, OH",2018,569
+"Brown County, OH",2018,526
+"Springfield, OH",2018,572
+"Hocking County, OH",2018,586
+"Weirton, OH",2018,558
+"Steubenville, OH",2018,558
+"Huntington, OH",2018,575
+"Ashland, OH",2018,575
+"Cleveland, OH",2018,634
+"Elyria, OH",2018,634
+"Dayton, OH",2018,583
+"Perry County, OH",2018,535
+"Columbus, OH",2018,714
+"Mansfield, OH",2018,523
+"Canton, OH",2018,539
+"Massillon, OH",2018,539
+"Akron, OH",2018,629
+"Youngstown, OH",2018,555
+"Warren, OH",2018,555
+"Boardman, OH",2018,555
+"Union County, OH",2018,668
+"Cincinnati, OH",2018,643
+"Toledo, OH",2018,557
+"Lawton, OK",2018,558
+"Cotton County, OK",2018,607
+"Grady County, OK",2018,528
+"Le Flore County, OK",2018,551
+"Lincoln County, OK",2018,545
+"Oklahoma City, OK",2018,669
+"Okmulgee County, OK",2018,589
+"Pawnee County, OK",2018,561
+"Fort Smith, OK",2018,524
+"Tulsa, OK",2018,649
+"Corvallis, OR",2018,801
+"Bend, OR",2018,806
+"Redmond, OR",2018,806
+"Medford, OR",2018,676
+"Grants Pass, OR",2018,697
+"Eugene, OR",2018,727
+"Springfield, OR",2018,727
+"Albany, OR",2018,689
+"Salem, OR",2018,668
+"Portland, OR",2018,1132
+"Vancouver, OR",2018,1132
+"Hillsboro, OR",2018,1132
+"Gettysburg, PA",2018,746
+"Armstrong County, PA",2018,562
+"Reading, PA",2018,693
+"Altoona, PA",2018,623
+"Johnstown, PA",2018,571
+"State College, PA",2018,839
+"Columbia County, PA",2018,638
+"Erie, PA",2018,593
+"Chambersburg, PA",2018,677
+"Waynesboro, PA",2018,677
+"Lancaster, PA",2018,788
+"Lebanon, PA",2018,677
+"Williamsport, PA",2018,667
+"Sharon, PA",2018,552
+"East Stroudsburg, PA",2018,849
+"Montour County, PA",2018,683
+"Allentown, PA",2018,824
+"Bethlehem, PA",2018,824
+"Easton, PA",2018,824
+"Harrisburg, PA",2018,837
+"Carlisle, PA",2018,837
+"Philadelphia, PA",2018,1047
+"Camden, PA",2018,1047
+"Wilmington, PA",2018,1047
+"Pike County, PA",2018,926
+"Pittsburgh, PA",2018,710
+"Scranton, PA",2018,682
+", PA",2018,682
+"Wilkes, PA",2018,682
+"Barre, PA",2018,682
+"York, PA",2018,728
+"Hanover, PA",2018,728
+"Newport, RI",2018,1021
+"Middleton, RI",2018,1021
+"Portsmouth, RI",2018,1021
+"Providence, RI",2018,849
+"Fall River, RI",2018,849
+"Westerly, RI",2018,873
+"Hopkinton, RI",2018,873
+"New Shoreham, RI",2018,873
+"Anderson, SC",2018,595
+"Beaufort County, SC",2018,920
+"Chester County, SC",2018,515
+"Darlington County, SC",2018,587
+"Charleston, SC",2018,884
+"North Charleston, SC",2018,884
+"Augusta, SC",2018,636
+"Richmond County, SC",2018,636
+"Florence, SC",2018,569
+"Myrtle Beach, SC",2018,800
+"North Myrtle Beach, SC",2018,800
+"Conway, SC",2018,800
+"Jasper County, SC",2018,740
+"Kershaw County, SC",2018,615
+"Lancaster County, SC",2018,695
+"Laurens County, SC",2018,536
+"Greenville, SC",2018,709
+"Mauldin, SC",2018,709
+"Easley, SC",2018,709
+"Columbia, SC",2018,776
+"Spartanburg, SC",2018,605
+"Sumter, SC",2018,608
+"Union County, SC",2018,502
+"Charlotte, SC",2018,838
+"Concord, SC",2018,838
+"Gastonia, SC",2018,838
+"Custer County, SD",2018,635
+"Meade County, SD",2018,600
+"Rapid City, SD",2018,676
+"Sioux Falls, SD",2018,639
+"Sioux City, SD",2018,606
+"Campbell County, TN",2018,461
+"Crockett County, TN",2018,504
+"Grainger County, TN",2018,503
+"Hickman County, TN",2018,603
+"Morristown, TN",2018,511
+"Macon County, TN",2018,480
+"Jackson, TN",2018,603
+"Maury County, TN",2018,649
+"Clarksville, TN",2018,660
+"Morgan County, TN",2018,493
+"Cleveland, TN",2018,571
+"Roane County, TN",2018,566
+"Chattanooga, TN",2018,656
+"Smith County, TN",2018,492
+"Kingsport, TN",2018,514
+"Bristol, TN",2018,514
+"Memphis, TN",2018,705
+"Knoxville, TN",2018,694
+"Johnson City, TN",2018,530
+"Nashville, TN",2018,816
+"Davidson, TN",2018,816
+"Murfreesboro, TN",2018,816
+", TN",2018,816
+"Franklin, TN",2018,816
+"Aransas County, TX",2018,745
+"Atascosa County, TX",2018,614
+"Austin County, TX",2018,758
+"Texarkana, TX",2018,627
+"Brazoria County, TX",2018,953
+"Brownsville, TX",2018,545
+"Harlingen, TX",2018,545
+"Killeen, TX",2018,580
+"Temple, TX",2018,580
+"Odessa, TX",2018,959
+"El Paso, TX",2018,690
+"Falls County, TX",2018,524
+"Sherman, TX",2018,685
+"Denison, TX",2018,685
+"McAllen, TX",2018,584
+"Edinburg, TX",2018,584
+"Mission, TX",2018,584
+"Hood County, TX",2018,758
+"Hudspeth County, TX",2018,681
+"Kendall County, TX",2018,913
+"Lampasas County, TX",2018,524
+"Lubbock, TX",2018,689
+"Lynn County, TX",2018,607
+"Waco, TX",2018,639
+"Martin County, TX",2018,558
+"Medina County, TX",2018,561
+"Midland, TX",2018,1085
+"Newton County, TX",2018,571
+"Oldham County, TX",2018,662
+"Beaumont, TX",2018,699
+"Port Arthur, TX",2018,699
+"Amarillo, TX",2018,616
+"College Station, TX",2018,756
+"Bryan, TX",2018,756
+"Dallas, TX",2018,878
+"Rusk County, TX",2018,568
+"Corpus Christi, TX",2018,789
+"Tyler, TX",2018,728
+"Somervell County, TX",2018,567
+"Fort Worth, TX",2018,838
+"Arlington, TX",2018,838
+"Abilene, TX",2018,605
+"San Angelo, TX",2018,695
+"Longview, TX",2018,747
+"Victoria, TX",2018,744
+"Houston, TX",2018,871
+"The Woodlands, TX",2018,871
+"Sugar Land, TX",2018,871
+"Laredo, TX",2018,622
+"Wichita Falls, TX",2018,625
+"Austin, TX",2018,1023
+"Round Rock, TX",2018,1023
+"San Antonio, TX",2018,801
+"New Braunfels, TX",2018,801
+"Wise County, TX",2018,728
+"Box Elder County, UT",2018,524
+"Logan, UT",2018,573
+"Salt Lake City, UT",2018,834
+"Tooele County, UT",2018,732
+"Provo, UT",2018,720
+"Orem, UT",2018,720
+"St. George, UT",2018,683
+"Ogden, UT",2018,690
+"Clearfield, UT",2018,690
+"Burlington, VT",2018,1121
+"South Burlington, VT",2018,1121
+"Buckingham County, VA",2018,639
+"Culpeper County, VA",2018,872
+"Floyd County, VA",2018,596
+"Franklin County, VA",2018,547
+"Giles County, VA",2018,534
+"Pulaski County, VA",2018,596
+"Rappahannock County, VA",2018,857
+"Warren County, VA",2018,770
+"Kingsport, VA",2018,514
+"Bristol, VA",2018,514
+"Charlottesville, VA",2018,1027
+"Harrisonburg, VA",2018,656
+"Lynchburg, VA",2018,636
+"Washington, VA",2018,1561
+"Arlington, VA",2018,1561
+"Alexandria, VA",2018,1561
+"Blacksburg, VA",2018,772
+"Christiansburg, VA",2018,772
+"Radford, VA",2018,772
+"Richmond, VA",2018,907
+"Roanoke, VA",2018,667
+"Staunton, VA",2018,660
+"Waynesboro, VA",2018,660
+"Virginia Beach, VA",2018,912
+"Norfolk, VA",2018,912
+"Newport News, VA",2018,912
+"Winchester, VA",2018,704
+"Lewiston, WA",2018,584
+"Columbia County, WA",2018,626
+"Longview, WA",2018,682
+"Wenatchee, WA",2018,695
+"Kennewick, WA",2018,708
+"Richland, WA",2018,708
+"Bremerton, WA",2018,882
+"Silverdale, WA",2018,882
+"Pend Oreille County, WA",2018,560
+"Tacoma, WA",2018,881
+"Mount Vernon, WA",2018,748
+"Anacortes, WA",2018,748
+"Portland, WA",2018,1132
+"Vancouver, WA",2018,1132
+"Hillsboro, WA",2018,1132
+"Seattle, WA",2018,1529
+"Bellevue, WA",2018,1529
+"Spokane, WA",2018,652
+"Stevens County, WA",2018,583
+"Olympia, WA",2018,904
+"Tumwater, WA",2018,904
+"Walla Walla County, WA",2018,665
+"Bellingham, WA",2018,790
+"Yakima, WA",2018,673
+"Martinsburg, WV",2018,752
+"Boone County, WV",2018,484
+"Fayette County, WV",2018,495
+"Winchester, WV",2018,704
+"Weirton, WV",2018,558
+"Steubenville, WV",2018,558
+"Jefferson County, WV",2018,733
+"Charleston, WV",2018,650
+"Lincoln County, WV",2018,519
+"Cumberland, WV",2018,606
+"Wheeling, WV",2018,569
+"Morgantown, WV",2018,717
+"Putnam County, WV",2018,609
+"Raleigh County, WV",2018,641
+"Huntington, WV",2018,575
+"Ashland, WV",2018,575
+"Parkersburg, WV",2018,582
+"Vienna, WV",2018,582
+"Columbia County, WI",2018,648
+"Madison, WI",2018,924
+"Duluth, WI",2018,662
+"Eau Claire, WI",2018,581
+"Fond du Lac, WI",2018,588
+"Green County, WI",2018,585
+"Iowa County, WI",2018,595
+"Kenosha County, WI",2018,676
+"Green Bay, WI",2018,591
+"La Crosse, WI",2018,596
+"Onalaska, WI",2018,596
+"Wausau, WI",2018,603
+"Oconto County, WI",2018,568
+"Appleton, WI",2018,641
+"Racine, WI",2018,623
+"Janesville, WI",2018,615
+"Beloit, WI",2018,615
+"Minneapolis, WI",2018,864
+"St. Paul, WI",2018,864
+"Bloomington, WI",2018,864
+"Sheboygan, WI",2018,586
+"Milwaukee, WI",2018,742
+"Waukesha, WI",2018,742
+"West Allis, WI",2018,742
+"Oshkosh, WI",2018,603
+"Neenah, WI",2018,603
+"Cheyenne, WY",2018,664
+"Casper, WY",2018,718
+"Arecibo, PR",2018,321
+"Fajardo, PR",2018,377
+"Mayagüez, PR",2018,438
+"Barranquitas, PR",2018,326
+"Aibonito, PR",2018,326
+"Guayama, PR",2018,351
+"Quebradillas Municipio, PR",2018,340
+"San German, PR",2018,346
+"Caguas, PR",2018,407
+"Aguadilla, PR",2018,352
+"Isabela, PR",2018,352
+"Utuado Municipio, PR",2018,312
+"Ponce, PR",2018,381
+"San Juan, PR",2018,439
+"Guaynabo, PR",2018,439
+"Yauco, PR",2018,337
+"Daphne, AL",2019,773
+"Fairhope, AL",2019,773
+"Foley, AL",2019,773
+"Anniston, AL",2019,513
+"Oxford, AL",2019,513
+"Jacksonville, AL",2019,513
+"Chilton County, AL",2019,549
+"Gadsden, AL",2019,500
+"Henry County, AL",2019,549
+"Dothan, AL",2019,519
+"Florence, AL",2019,534
+"Muscle Shoals, AL",2019,534
+"Auburn, AL",2019,627
+"Opelika, AL",2019,627
+"Huntsville, AL",2019,685
+"Mobile, AL",2019,681
+"Montgomery, AL",2019,696
+"Decatur, AL",2019,528
+"Pickens County, AL",2019,481
+"Columbus, AL",2019,714
+"Birmingham, AL",2019,763
+"Hoover, AL",2019,763
+"Tuscaloosa, AL",2019,705
+"Walker County, AL",2019,502
+"Anchorage, AK",2019,1005
+"Fairbanks, AK",2019,1025
+"Matanuska, AK",2019,815
+"Susitna Borough, AK",2019,815
+"Sierra Vista, AZ",2019,642
+"Douglas, AZ",2019,642
+"Flagstaff, AZ",2019,1007
+"Lake Havasu City, AZ",2019,615
+"Kingman, AZ",2019,615
+"Tucson, AZ",2019,683
+"Phoenix, AZ",2019,868
+"Mesa, AZ",2019,868
+"Scottsdale, AZ",2019,868
+"Prescott, AZ",2019,724
+"Yuma, AZ",2019,603
+"Jonesboro, AR",2019,609
+"Memphis, AR",2019,742
+"Hot Springs, AR",2019,587
+"Grant County, AR",2019,609
+"Pine Bluff, AR",2019,545
+"Little River County, AR",2019,491
+"Texarkana, AR",2019,625
+"Poinsett County, AR",2019,491
+"Little Rock, AR",2019,702
+"North Little Rock, AR",2019,702
+"Conway, AR",2019,702
+"Fort Smith, AR",2019,529
+"Fayetteville, AR",2019,586
+"Springdale, AR",2019,586
+"Rogers, AR",2019,586
+"Chico, CA",2019,894
+"Oakland, CA",2019,1706
+"Fremont, CA",2019,1706
+"Fresno, CA",2019,769
+"El Centro, CA",2019,733
+"Bakersfield, CA",2019,711
+"Hanford, CA",2019,811
+"Corcoran, CA",2019,811
+"Los Angeles, CA",2019,1384
+"Long Beach, CA",2019,1384
+"Glendale, CA",2019,1384
+"Madera, CA",2019,771
+"Merced, CA",2019,680
+"Salinas, CA",2019,1240
+"Napa, CA",2019,1289
+"Santa Ana, CA",2019,1632
+"Anaheim, CA",2019,1632
+"Irvine, CA",2019,1632
+"Sacramento, CA",2019,968
+"Roseville, CA",2019,968
+", CA",2019,968
+"Arden, CA",2019,968
+"Arcade, CA",2019,968
+"San Benito County, CA",2019,1323
+"Riverside, CA",2019,986
+"San Bernardino, CA",2019,986
+"Ontario, CA",2019,986
+"San Diego, CA",2019,1590
+"Carlsbad, CA",2019,1590
+"Stockton, CA",2019,826
+"Lodi, CA",2019,826
+"San Luis Obispo, CA",2019,1196
+"Paso Robles, CA",2019,1196
+"Arroyo Grande, CA",2019,1196
+"San Francisco, CA",2019,2561
+"Santa Maria, CA",2019,1667
+"Santa Barbara, CA",2019,1667
+"San Jose, CA",2019,2316
+"Sunnyvale, CA",2019,2316
+"Santa Clara, CA",2019,2316
+"Santa Cruz, CA",2019,1844
+"Watsonville, CA",2019,1844
+"Redding, CA",2019,758
+"Vallejo, CA",2019,1184
+"Fairfield, CA",2019,1184
+"Santa Rosa, CA",2019,1447
+"Modesto, CA",2019,803
+"Visalia, CA",2019,699
+"Porterville, CA",2019,699
+"Oxnard, CA",2019,1362
+"Thousand Oaks, CA",2019,1362
+"Ventura, CA",2019,1362
+"Yolo, CA",2019,1015
+"Yuba City, CA",2019,674
+"Boulder, CO",2019,1242
+"Colorado Springs, CO",2019,833
+"Fort Collins, CO",2019,1025
+"Grand Junction, CO",2019,637
+"Denver, CO",2019,1204
+"Aurora, CO",2019,1204
+"Lakewood, CO",2019,1204
+"Pueblo, CO",2019,661
+"Teller County, CO",2019,807
+"Greeley, CO",2019,796
+"Danbury, CT",2019,1253
+"Bridgeport, CT",2019,1032
+"Stamford, CT",2019,1517
+"Norwalk, CT",2019,1517
+"Southern Middlesex County, CT",2019,1079
+"Milford, CT",2019,1111
+"Ansonia, CT",2019,1111
+"Seymour, CT",2019,1111
+"Waterbury, CT",2019,901
+"New Haven, CT",2019,1163
+"Meriden, CT",2019,1163
+"Colchester, CT",2019,957
+"Lebanon, CT",2019,957
+"Norwich, CT",2019,898
+"New London, CT",2019,898
+"Hartford, CT",2019,960
+"West Hartford, CT",2019,960
+"East Hartford, CT",2019,960
+"Windham County, CT",2019,825
+"Dover, DE",2019,875
+"Philadelphia, DE",2019,992
+"Camden, DE",2019,992
+"Wilmington, DE",2019,992
+"Sussex County, DE",2019,812
+"Washington, DC",2019,1454
+"Arlington, DC",2019,1454
+"Alexandria, DC",2019,1454
+"Baker County, FL",2019,622
+"Panama City, FL",2019,867
+"Lynn Haven, FL",2019,867
+"Panama City Beach, FL",2019,867
+"Palm Bay, FL",2019,797
+"Melbourne, FL",2019,797
+"Titusville, FL",2019,797
+"Fort Lauderdale, FL",2019,1135
+"Punta Gorda, FL",2019,760
+"Homosassa Springs, FL",2019,640
+"Naples, FL",2019,1082
+"Immokalee, FL",2019,1082
+"Marco Island, FL",2019,1082
+"Palm Coast, FL",2019,935
+"Gainesville, FL",2019,773
+"Gulf County, FL",2019,700
+"Sebring, FL",2019,636
+"Sebastian, FL",2019,802
+"Vero Beach, FL",2019,802
+"Cape Coral, FL",2019,838
+"Fort Myers, FL",2019,838
+"Tallahassee, FL",2019,776
+"Ocala, FL",2019,712
+"Miami, FL",2019,1147
+"Miami Beach, FL",2019,1147
+"Kendall, FL",2019,1147
+"Crestview, FL",2019,852
+"Fort Walton Beach, FL",2019,852
+"Destin, FL",2019,852
+"West Palm Beach, FL",2019,1145
+"Boca Raton, FL",2019,1145
+"Tampa, FL",2019,916
+"St. Petersburg, FL",2019,916
+"Clearwater, FL",2019,916
+"Lakeland, FL",2019,708
+"Winter Haven, FL",2019,708
+"Jacksonville, FL",2019,798
+"Port St. Lucie, FL",2019,873
+"Pensacola, FL",2019,794
+"Ferry Pass, FL",2019,794
+"Brent, FL",2019,794
+"North Port, FL",2019,925
+"Sarasota, FL",2019,925
+"Bradenton, FL",2019,925
+"Orlando, FL",2019,1004
+"Kissimmee, FL",2019,1004
+"Sanford, FL",2019,1004
+"The Villages, FL",2019,640
+"Deltona, FL",2019,868
+"Daytona Beach, FL",2019,868
+"Ormond Beach, FL",2019,868
+"Wakulla County, FL",2019,772
+"Walton County, FL",2019,718
+"Butts County, GA",2019,681
+"Savannah, GA",2019,870
+"Rome, GA",2019,607
+"Gainesville, GA",2019,779
+"Haralson County, GA",2019,690
+"Warner Robins, GA",2019,780
+"Lamar County, GA",2019,601
+"Hinesville, GA",2019,775
+"Lincoln County, GA",2019,576
+"Long County, GA",2019,600
+"Valdosta, GA",2019,536
+"Brunswick, GA",2019,637
+"Meriwether County, GA",2019,572
+"Monroe County, GA",2019,628
+"Morgan County, GA",2019,758
+"Murray County, GA",2019,532
+"Columbus, GA",2019,714
+"Athens, GA",2019,667
+"Clarke County, GA",2019,667
+"Peach County, GA",2019,587
+"Pulaski County, GA",2019,576
+"Augusta, GA",2019,697
+"Richmond County, GA",2019,697
+"Chattanooga, GA",2019,694
+"Atlanta, GA",2019,966
+"Sandy Springs, GA",2019,966
+"Roswell, GA",2019,966
+"Dalton, GA",2019,635
+"Albany, GA",2019,567
+"Urban Honolulu, HI",2019,1563
+"Pocatello, ID",2019,530
+"Butte County, ID",2019,556
+"Logan, ID",2019,564
+"Gem County, ID",2019,608
+"Idaho Falls, ID",2019,565
+"Coeur d'Alene, ID",2019,654
+"Lewiston, ID",2019,611
+"Boise City, ID",2019,688
+"Cape Girardeau, IL",2019,565
+"Bond County, IL",2019,628
+"DeKalb County, IL",2019,733
+"De Witt County, IL",2019,567
+"Grundy County, IL",2019,849
+"Jackson County, IL",2019,563
+"Kankakee, IL",2019,674
+"Kendall County, IL",2019,934
+"Bloomington, IL",2019,647
+"Decatur, IL",2019,571
+"Macoupin County, IL",2019,527
+"Champaign, IL",2019,696
+"Urbana, IL",2019,696
+"Davenport, IL",2019,648
+"Moline, IL",2019,648
+"Rock Island, IL",2019,648
+"St. Louis, IL",2019,713
+"Springfield, IL",2019,657
+"Danville, IL",2019,561
+"Chicago, IL",2019,1044
+"Joliet, IL",2019,1044
+"Naperville, IL",2019,1044
+"Williamson County, IL",2019,529
+"Rockford, IL",2019,605
+"Peoria, IL",2019,629
+"Columbus, IN",2019,717
+"Carroll County, IN",2019,520
+"Muncie, IN",2019,559
+"Elkhart, IN",2019,619
+"Goshen, IN",2019,619
+"Louisville, IN",2019,688
+"Kokomo, IN",2019,556
+"Jasper County, IN",2019,637
+"Michigan City, IN",2019,594
+"La Porte, IN",2019,594
+"Anderson, IN",2019,610
+"Bloomington, IN",2019,736
+"Cincinnati, IN",2019,670
+"Owen County, IN",2019,606
+"Gary, IN",2019,751
+"Putnam County, IN",2019,566
+"South Bend, IN",2019,652
+"Mishawaka, IN",2019,652
+"Scott County, IN",2019,616
+"Indianapolis, IN",2019,751
+"Carmel, IN",2019,751
+"Sullivan County, IN",2019,610
+"Lafayette, IN",2019,707
+"West Lafayette, IN",2019,707
+"Union County, IN",2019,588
+"Terre Haute, IN",2019,637
+"Evansville, IN",2019,612
+"Washington County, IN",2019,541
+"Fort Wayne, IN",2019,615
+"Benton County, IA",2019,526
+"Bremer County, IA",2019,564
+"Dubuque, IA",2019,599
+"Waterloo, IA",2019,662
+"Cedar Falls, IA",2019,662
+"Iowa City, IA",2019,684
+"Jones County, IA",2019,503
+"Cedar Rapids, IA",2019,614
+"Plymouth County, IA",2019,530
+"Omaha, IA",2019,744
+"Council Bluffs, IA",2019,744
+"Davenport, IA",2019,648
+"Moline, IA",2019,648
+"Rock Island, IA",2019,648
+"Ames, IA",2019,760
+"Des Moines, IA",2019,736
+"West Des Moines, IA",2019,736
+"Washington County, IA",2019,554
+"Sioux City, IA",2019,620
+"St. Joseph, KS",2019,591
+"Lawrence, KS",2019,706
+"Kingman County, KS",2019,518
+"Manhattan, KS",2019,727
+"Wichita, KS",2019,598
+"Sumner County, KS",2019,531
+"Topeka, KS",2019,593
+"Kansas City, KS",2019,786
+"Allen County, KY",2019,485
+"Butler County, KY",2019,467
+"Grant County, KY",2019,634
+"Huntington, KY",2019,609
+"Ashland, KY",2019,609
+"Evansville, KY",2019,612
+"Elizabethtown, KY",2019,579
+"Owensboro, KY",2019,571
+"Meade County, KY",2019,557
+"Cincinnati, KY",2019,670
+"Shelby County, KY",2019,618
+"Clarksville, KY",2019,689
+"Louisville, KY",2019,688
+"Bowling Green, KY",2019,615
+"Lexington, KY",2019,692
+"Fayette, KY",2019,692
+"Acadia Parish, LA",2019,485
+"Lake Charles, LA",2019,661
+"Shreveport, LA",2019,718
+"Bossier City, LA",2019,718
+"Iberia Parish, LA",2019,594
+"Iberville Parish, LA",2019,663
+"Alexandria, LA",2019,623
+"St. James Parish, LA",2019,611
+"Lafayette, LA",2019,730
+"New Orleans, LA",2019,844
+"Metairie, LA",2019,844
+"Hammond, LA",2019,645
+"Houma, LA",2019,669
+"Thibodaux, LA",2019,669
+"Monroe, LA",2019,579
+"Vermilion Parish, LA",2019,582
+"Webster Parish, LA",2019,560
+"Baton Rouge, LA",2019,849
+"Lewiston, ME",2019,712
+"Auburn, ME",2019,712
+"Cumberland County, ME",2019,826
+"Bangor, ME",2019,784
+"Penobscot County, ME",2019,662
+"Sagadahoc County, ME",2019,832
+"Portland, ME",2019,1071
+"York County, ME",2019,874
+"York, ME",2019,1039
+"Kittery, ME",2019,1039
+"South Berwick, ME",2019,1039
+"Cumberland, MD",2019,593
+"Philadelphia, MD",2019,992
+"Camden, MD",2019,992
+"Wilmington, MD",2019,992
+"Washington, MD",2019,1454
+"Arlington, MD",2019,1454
+"Alexandria, MD",2019,1454
+"California, MD",2019,1102
+"Lexington Park, MD",2019,1102
+"Somerset County, MD",2019,718
+"Hagerstown, MD",2019,742
+"Salisbury, MD",2019,899
+"Worcester County, MD",2019,816
+"Baltimore, MD",2019,1074
+"Columbia, MD",2019,1074
+"Towson, MD",2019,1074
+"Barnstable Town, MA",2019,1152
+"Pittsfield, MA",2019,843
+"Berkshire County, MA",2019,906
+"New Bedford, MA",2019,777
+"Easton, MA",2019,1124
+"Raynham, MA",2019,1124
+"Taunton, MA",2019,956
+"Mansfield, MA",2019,956
+"Norton, MA",2019,956
+"Providence, MA",2019,889
+"Fall River, MA",2019,889
+"Lawrence, MA",2019,1057
+"Springfield, MA",2019,831
+"Lowell, MA",2019,1179
+"Brockton, MA",2019,1136
+"Boston, MA",2019,1801
+"Cambridge, MA",2019,1801
+"Quincy, MA",2019,1801
+"Eastern Worcester County, MA",2019,940
+"Western Worcester County, MA",2019,718
+"Fitchburg, MA",2019,832
+"Leominster, MA",2019,832
+"Worcester, MA",2019,946
+"Barry County, MI",2019,696
+"Bay City, MI",2019,583
+"Niles, MI",2019,558
+"Benton Harbor, MI",2019,558
+"Battle Creek, MI",2019,601
+"Cass County, MI",2019,578
+"Flint, MI",2019,570
+"Lansing, MI",2019,730
+"East Lansing, MI",2019,730
+"Jackson, MI",2019,660
+"Grand Rapids, MI",2019,736
+"Wyoming, MI",2019,736
+"Livingston County, MI",2019,762
+"Midland, MI",2019,621
+"Monroe, MI",2019,664
+"Montcalm County, MI",2019,596
+"Muskegon, MI",2019,602
+"Holland, MI",2019,763
+"Grand Haven, MI",2019,763
+"Saginaw, MI",2019,628
+"Kalamazoo, MI",2019,644
+"Portage, MI",2019,644
+"Ann Arbor, MI",2019,929
+"Detroit, MI",2019,753
+"Warren, MI",2019,753
+"Livonia, MI",2019,753
+"Fargo, MN",2019,691
+"Fillmore County, MN",2019,529
+"La Crosse, MN",2019,624
+"Onalaska, MN",2019,624
+"Le Sueur County, MN",2019,601
+"Mille Lacs County, MN",2019,664
+"Mankato, MN",2019,715
+"North Mankato, MN",2019,715
+"Rochester, MN",2019,734
+"Grand Forks, MN",2019,671
+"Duluth, MN",2019,670
+"Sibley County, MN",2019,584
+"St. Cloud, MN",2019,698
+"Wabasha County, MN",2019,625
+"Minneapolis, MN",2019,915
+"St. Paul, MN",2019,915
+"Bloomington, MN",2019,915
+"Benton County, MS",2019,569
+"Memphis, MS",2019,742
+"Gulfport, MS",2019,681
+"Biloxi, MS",2019,681
+"Pascagoula, MS",2019,655
+"Marshall County, MS",2019,564
+"Hattiesburg, MS",2019,625
+"Jackson, MS",2019,729
+"Simpson County, MS",2019,602
+"Tate County, MS",2019,617
+"Tunica County, MS",2019,676
+"Yazoo County, MS",2019,523
+"Bates County, MO",2019,521
+"Columbia, MO",2019,659
+"Callaway County, MO",2019,521
+"Cape Girardeau, MO",2019,565
+"Dallas County, MO",2019,497
+"St. Joseph, MO",2019,591
+"McDonald County, MO",2019,550
+"Moniteau County, MO",2019,488
+"Joplin, MO",2019,567
+"Jefferson City, MO",2019,502
+"Polk County, MO",2019,494
+"Kansas City, MO",2019,786
+"Springfield, MO",2019,561
+"St. Louis, MO",2019,713
+"Great Falls, MT",2019,587
+"Golden Valley County, MT",2019,637
+"Missoula, MT",2019,732
+"Billings, MT",2019,680
+"Sioux City, NE",2019,620
+"Hall County, NE",2019,577
+"Hamilton County, NE",2019,529
+"Howard County, NE",2019,529
+"Lincoln, NE",2019,620
+"Merrick County, NE",2019,572
+"Saunders County, NE",2019,573
+"Seward County, NE",2019,529
+"Omaha, NE",2019,744
+"Council Bluffs, NE",2019,744
+"Las Vegas, NV",2019,791
+"Henderson, NV",2019,791
+"Paradise, NV",2019,791
+"Reno, NV",2019,811
+"Carson City, NV",2019,679
+"Manchester, NH",2019,970
+"Nashua, NH",2019,1086
+"Hillsborough County, NH",2019,967
+"Western Rockingham County, NH",2019,1151
+"Boston, NH",2019,1801
+"Cambridge, NH",2019,1801
+"Quincy, NH",2019,1801
+"Lawrence, NH",2019,1057
+"Portsmouth, NH",2019,916
+"Rochester, NH",2019,916
+"Atlantic City, NJ",2019,1003
+"Hammonton, NJ",2019,1003
+"Ocean City, NJ",2019,998
+"Vineland, NJ",2019,936
+"Bridgeton, NJ",2019,936
+"Jersey City, NJ",2019,1322
+"Trenton, NJ",2019,1082
+"Monmouth, NJ",2019,1137
+"Ocean, NJ",2019,1137
+"Bergen, NJ",2019,1425
+"Passaic, NJ",2019,1425
+"Philadelphia, NJ",2019,992
+"Camden, NJ",2019,992
+"Wilmington, NJ",2019,992
+"Middlesex, NJ",2019,1360
+"Somerset, NJ",2019,1360
+"Hunterdon, NJ",2019,1360
+"Newark, NJ",2019,1188
+"Warren County, NJ",2019,1069
+"Las Cruces, NM",2019,574
+"Farmington, NM",2019,674
+"Santa Fe, NM",2019,928
+"Albuquerque, NM",2019,711
+"Elmira, NY",2019,663
+"Watertown, NY",2019,880
+"Fort Drum, NY",2019,880
+"Buffalo, NY",2019,695
+"Cheektowaga, NY",2019,695
+"Niagara Falls, NY",2019,695
+"Utica, NY",2019,608
+"Rome, NY",2019,608
+"Poughkeepsie, NY",2019,1073
+"Newburgh, NY",2019,1073
+"Middletown, NY",2019,1073
+"Syracuse, NY",2019,688
+"New York, NY",2019,1599
+"Albany, NY",2019,904
+"Schenectady, NY",2019,904
+"Troy, NY",2019,904
+"Nassau, NY",2019,1548
+"Suffolk, NY",2019,1548
+"Binghamton, NY",2019,640
+"Ithaca, NY",2019,941
+"Kingston, NY",2019,962
+"Glens Falls, NY",2019,761
+"Rochester, NY",2019,760
+"Westchester County, NY",2019,1463
+"Yates County, NY",2019,647
+"Burlington, NC",2019,637
+"Brunswick County, NC",2019,736
+"Hickory, NC",2019,549
+"Lenoir, NC",2019,549
+"Morganton, NC",2019,549
+"Craven County, NC",2019,676
+"Fayetteville, NC",2019,749
+"Virginia Beach, NC",2019,925
+"Norfolk, NC",2019,925
+"Newport News, NC",2019,925
+"Davidson County, NC",2019,582
+"Gates County, NC",2019,569
+"Haywood County, NC",2019,735
+"Hoke County, NC",2019,628
+"Iredell County, NC",2019,763
+"Jones County, NC",2019,513
+"Lincoln County, NC",2019,664
+"Asheville, NC",2019,799
+"Rocky Mount, NC",2019,555
+"Wilmington, NC",2019,790
+"Jacksonville, NC",2019,667
+"Durham, NC",2019,902
+"Chapel Hill, NC",2019,902
+"Pamlico County, NC",2019,584
+"Pender County, NC",2019,694
+"Person County, NC",2019,534
+"Greenville, NC",2019,611
+"Greensboro, NC",2019,661
+"High Point, NC",2019,661
+"Rockingham County, NC",2019,513
+"Rowan County, NC",2019,673
+"Charlotte, NC",2019,897
+"Concord, NC",2019,897
+"Gastonia, NC",2019,897
+"Raleigh, NC",2019,949
+"Goldsboro, NC",2019,569
+"Winston, NC",2019,583
+"Salem, NC",2019,583
+"Fargo, ND",2019,691
+"Grand Forks, ND",2019,671
+"Bismarck, ND",2019,663
+"Oliver County, ND",2019,659
+"Sioux County, ND",2019,546
+"Lima, OH",2019,562
+"Wheeling, OH",2019,552
+"Brown County, OH",2019,553
+"Springfield, OH",2019,613
+"Hocking County, OH",2019,571
+"Weirton, OH",2019,555
+"Steubenville, OH",2019,555
+"Huntington, OH",2019,609
+"Ashland, OH",2019,609
+"Cleveland, OH",2019,678
+"Elyria, OH",2019,678
+"Dayton, OH",2019,599
+"Perry County, OH",2019,542
+"Columbus, OH",2019,761
+"Mansfield, OH",2019,516
+"Canton, OH",2019,586
+"Massillon, OH",2019,586
+"Akron, OH",2019,623
+"Youngstown, OH",2019,544
+"Warren, OH",2019,544
+"Boardman, OH",2019,544
+"Union County, OH",2019,703
+"Cincinnati, OH",2019,670
+"Toledo, OH",2019,560
+"Lawton, OK",2019,562
+"Cotton County, OK",2019,611
+"Grady County, OK",2019,529
+"Le Flore County, OK",2019,552
+"Lincoln County, OK",2019,529
+"Oklahoma City, OK",2019,689
+"Okmulgee County, OK",2019,557
+"Pawnee County, OK",2019,564
+"Fort Smith, OK",2019,529
+"Tulsa, OK",2019,669
+"Corvallis, OR",2019,886
+"Bend, OR",2019,884
+"Redmond, OR",2019,884
+"Medford, OR",2019,747
+"Grants Pass, OR",2019,722
+"Eugene, OR",2019,780
+"Springfield, OR",2019,780
+"Albany, OR",2019,761
+"Salem, OR",2019,736
+"Portland, OR",2019,1234
+"Vancouver, OR",2019,1234
+"Hillsboro, OR",2019,1234
+"Gettysburg, PA",2019,771
+"Armstrong County, PA",2019,596
+"Reading, PA",2019,792
+"Altoona, PA",2019,638
+"Johnstown, PA",2019,573
+"State College, PA",2019,887
+"Columbia County, PA",2019,663
+"Erie, PA",2019,631
+"Chambersburg, PA",2019,700
+"Waynesboro, PA",2019,700
+"Lancaster, PA",2019,869
+"Lebanon, PA",2019,702
+"Williamsport, PA",2019,694
+"Sharon, PA",2019,548
+"East Stroudsburg, PA",2019,871
+"Montour County, PA",2019,694
+"Allentown, PA",2019,887
+"Bethlehem, PA",2019,887
+"Easton, PA",2019,887
+"Harrisburg, PA",2019,813
+"Carlisle, PA",2019,813
+"Philadelphia, PA",2019,992
+"Camden, PA",2019,992
+"Wilmington, PA",2019,992
+"Pike County, PA",2019,912
+"Pittsburgh, PA",2019,725
+"Scranton, PA",2019,636
+", PA",2019,636
+"Wilkes, PA",2019,636
+"Barre, PA",2019,636
+"York, PA",2019,722
+"Hanover, PA",2019,722
+"Newport, RI",2019,1076
+"Middleton, RI",2019,1076
+"Portsmouth, RI",2019,1076
+"Providence, RI",2019,889
+"Fall River, RI",2019,889
+"Westerly, RI",2019,889
+"Hopkinton, RI",2019,889
+"New Shoreham, RI",2019,889
+"Anderson, SC",2019,614
+"Beaufort County, SC",2019,998
+"Chester County, SC",2019,529
+"Darlington County, SC",2019,586
+"Charleston, SC",2019,967
+"North Charleston, SC",2019,967
+"Augusta, SC",2019,697
+"Richmond County, SC",2019,697
+"Florence, SC",2019,605
+"Myrtle Beach, SC",2019,797
+"North Myrtle Beach, SC",2019,797
+"Conway, SC",2019,797
+"Jasper County, SC",2019,801
+"Kershaw County, SC",2019,650
+"Lancaster County, SC",2019,626
+"Laurens County, SC",2019,559
+"Greenville, SC",2019,755
+"Mauldin, SC",2019,755
+"Easley, SC",2019,755
+"Columbia, SC",2019,838
+"Spartanburg, SC",2019,632
+"Sumter, SC",2019,622
+"Union County, SC",2019,520
+"Charlotte, SC",2019,897
+"Concord, SC",2019,897
+"Gastonia, SC",2019,897
+"Custer County, SD",2019,670
+"Meade County, SD",2019,587
+"Rapid City, SD",2019,671
+"Sioux Falls, SD",2019,715
+"Sioux City, SD",2019,620
+"Campbell County, TN",2019,468
+"Crockett County, TN",2019,509
+"Grainger County, TN",2019,554
+"Hickman County, TN",2019,701
+"Morristown, TN",2019,544
+"Macon County, TN",2019,548
+"Jackson, TN",2019,634
+"Maury County, TN",2019,726
+"Clarksville, TN",2019,689
+"Morgan County, TN",2019,507
+"Cleveland, TN",2019,604
+"Roane County, TN",2019,581
+"Chattanooga, TN",2019,694
+"Smith County, TN",2019,529
+"Kingsport, TN",2019,529
+"Bristol, TN",2019,529
+"Memphis, TN",2019,742
+"Knoxville, TN",2019,698
+"Johnson City, TN",2019,552
+"Nashville, TN",2019,911
+"Davidson, TN",2019,911
+"Murfreesboro, TN",2019,911
+", TN",2019,911
+"Franklin, TN",2019,911
+"Aransas County, TX",2019,816
+"Atascosa County, TX",2019,645
+"Austin County, TX",2019,792
+"Texarkana, TX",2019,625
+"Brazoria County, TX",2019,935
+"Brownsville, TX",2019,563
+"Harlingen, TX",2019,563
+"Killeen, TX",2019,593
+"Temple, TX",2019,593
+"Odessa, TX",2019,899
+"El Paso, TX",2019,678
+"Falls County, TX",2019,529
+"Sherman, TX",2019,708
+"Denison, TX",2019,708
+"McAllen, TX",2019,586
+"Edinburg, TX",2019,586
+"Mission, TX",2019,586
+"Hood County, TX",2019,814
+"Hudspeth County, TX",2019,700
+"Kendall County, TX",2019,984
+"Lampasas County, TX",2019,551
+"Lubbock, TX",2019,726
+"Lynn County, TX",2019,625
+"Waco, TX",2019,628
+"Martin County, TX",2019,560
+"Medina County, TX",2019,609
+"Midland, TX",2019,1067
+"Newton County, TX",2019,568
+"Oldham County, TX",2019,736
+"Beaumont, TX",2019,745
+"Port Arthur, TX",2019,745
+"Amarillo, TX",2019,654
+"College Station, TX",2019,767
+"Bryan, TX",2019,767
+"Dallas, TX",2019,989
+"Rusk County, TX",2019,599
+"Corpus Christi, TX",2019,876
+"Tyler, TX",2019,747
+"Somervell County, TX",2019,668
+"Fort Worth, TX",2019,853
+"Arlington, TX",2019,853
+"Abilene, TX",2019,621
+"San Angelo, TX",2019,732
+"Longview, TX",2019,766
+"Victoria, TX",2019,784
+"Houston, TX",2019,907
+"The Woodlands, TX",2019,907
+"Sugar Land, TX",2019,907
+"Laredo, TX",2019,676
+"Wichita Falls, TX",2019,599
+"Austin, TX",2019,1086
+"Round Rock, TX",2019,1086
+"San Antonio, TX",2019,844
+"New Braunfels, TX",2019,844
+"Wise County, TX",2019,857
+"Box Elder County, UT",2019,544
+"Logan, UT",2019,564
+"Salt Lake City, UT",2019,870
+"Tooele County, UT",2019,751
+"Provo, UT",2019,751
+"Orem, UT",2019,751
+"St. George, UT",2019,717
+"Ogden, UT",2019,713
+"Clearfield, UT",2019,713
+"Burlington, VT",2019,1202
+"South Burlington, VT",2019,1202
+"Buckingham County, VA",2019,698
+"Culpeper County, VA",2019,789
+"Floyd County, VA",2019,611
+"Franklin County, VA",2019,529
+"Giles County, VA",2019,529
+"Pulaski County, VA",2019,611
+"Rappahannock County, VA",2019,836
+"Warren County, VA",2019,756
+"Kingsport, VA",2019,529
+"Bristol, VA",2019,529
+"Charlottesville, VA",2019,1146
+"Harrisonburg, VA",2019,678
+"Lynchburg, VA",2019,637
+"Washington, VA",2019,1454
+"Arlington, VA",2019,1454
+"Alexandria, VA",2019,1454
+"Blacksburg, VA",2019,759
+"Christiansburg, VA",2019,759
+"Radford, VA",2019,759
+"Richmond, VA",2019,932
+"Roanoke, VA",2019,646
+"Staunton, VA",2019,661
+"Waynesboro, VA",2019,661
+"Virginia Beach, VA",2019,925
+"Norfolk, VA",2019,925
+"Newport News, VA",2019,925
+"Winchester, VA",2019,724
+"Lewiston, WA",2019,611
+"Columbia County, WA",2019,701
+"Longview, WA",2019,715
+"Wenatchee, WA",2019,742
+"Kennewick, WA",2019,778
+"Richland, WA",2019,778
+"Bremerton, WA",2019,929
+"Silverdale, WA",2019,929
+"Pend Oreille County, WA",2019,578
+"Tacoma, WA",2019,966
+"Mount Vernon, WA",2019,778
+"Anacortes, WA",2019,778
+"Portland, WA",2019,1234
+"Vancouver, WA",2019,1234
+"Hillsboro, WA",2019,1234
+"Seattle, WA",2019,1557
+"Bellevue, WA",2019,1557
+"Spokane, WA",2019,669
+"Stevens County, WA",2019,570
+"Olympia, WA",2019,938
+"Tumwater, WA",2019,938
+"Walla Walla County, WA",2019,735
+"Bellingham, WA",2019,811
+"Yakima, WA",2019,637
+"Martinsburg, WV",2019,834
+"Boone County, WV",2019,504
+"Fayette County, WV",2019,506
+"Winchester, WV",2019,724
+"Weirton, WV",2019,555
+"Steubenville, WV",2019,555
+"Jefferson County, WV",2019,774
+"Charleston, WV",2019,671
+"Lincoln County, WV",2019,513
+"Cumberland, WV",2019,593
+"Wheeling, WV",2019,552
+"Morgantown, WV",2019,678
+"Putnam County, WV",2019,644
+"Raleigh County, WV",2019,650
+"Huntington, WV",2019,609
+"Ashland, WV",2019,609
+"Parkersburg, WV",2019,605
+"Vienna, WV",2019,605
+"Columbia County, WI",2019,657
+"Madison, WI",2019,931
+"Duluth, WI",2019,670
+"Eau Claire, WI",2019,612
+"Fond du Lac, WI",2019,605
+"Green County, WI",2019,590
+"Iowa County, WI",2019,598
+"Kenosha County, WI",2019,689
+"Green Bay, WI",2019,650
+"La Crosse, WI",2019,624
+"Onalaska, WI",2019,624
+"Wausau, WI",2019,605
+"Oconto County, WI",2019,572
+"Appleton, WI",2019,598
+"Racine, WI",2019,655
+"Janesville, WI",2019,612
+"Beloit, WI",2019,612
+"Minneapolis, WI",2019,915
+"St. Paul, WI",2019,915
+"Bloomington, WI",2019,915
+"Sheboygan, WI",2019,595
+"Milwaukee, WI",2019,753
+"Waukesha, WI",2019,753
+"West Allis, WI",2019,753
+"Oshkosh, WI",2019,606
+"Neenah, WI",2019,606
+"Cheyenne, WY",2019,646
+"Casper, WY",2019,702
+"Arecibo, PR",2019,361
+"Fajardo, PR",2019,394
+"Mayagüez, PR",2019,404
+"Barranquitas, PR",2019,363
+"Aibonito, PR",2019,363
+"Guayama, PR",2019,369
+"Quebradillas Municipio, PR",2019,359
+"San German, PR",2019,366
+"Caguas, PR",2019,427
+"Aguadilla, PR",2019,373
+"Isabela, PR",2019,373
+"Utuado Municipio, PR",2019,373
+"Ponce, PR",2019,408
+"San Juan, PR",2019,459
+"Guaynabo, PR",2019,459
+"Yauco, PR",2019,363
+"Daphne, AL",2020,749
+"Fairhope, AL",2020,749
+"Foley, AL",2020,749
+"Anniston, AL",2020,531
+"Oxford, AL",2020,531
+"Jacksonville, AL",2020,531
+"Chilton County, AL",2020,627
+"Gadsden, AL",2020,527
+"Henry County, AL",2020,520
+"Dothan, AL",2020,506
+"Florence, AL",2020,565
+"Muscle Shoals, AL",2020,565
+"Auburn, AL",2020,623
+"Opelika, AL",2020,623
+"Huntsville, AL",2020,660
+"Mobile, AL",2020,699
+"Montgomery, AL",2020,702
+"Decatur, AL",2020,546
+"Pickens County, AL",2020,489
+"Columbus, AL",2020,670
+"Birmingham, AL",2020,861
+"Hoover, AL",2020,861
+"Tuscaloosa, AL",2020,737
+"Walker County, AL",2020,570
+"Anchorage, AK",2020,991
+"Fairbanks, AK",2020,1006
+"Matanuska, AK",2020,792
+"Susitna Borough, AK",2020,792
+"Sierra Vista, AZ",2020,658
+"Douglas, AZ",2020,658
+"Flagstaff, AZ",2020,1024
+"Lake Havasu City, AZ",2020,698
+"Kingman, AZ",2020,698
+"Tucson, AZ",2020,721
+"Phoenix, AZ",2020,958
+"Mesa, AZ",2020,958
+"Scottsdale, AZ",2020,958
+"Prescott, AZ",2020,781
+"Yuma, AZ",2020,621
+"Jonesboro, AR",2020,628
+"Memphis, AR",2020,755
+"Hot Springs, AR",2020,586
+"Grant County, AR",2020,608
+"Pine Bluff, AR",2020,541
+"Little River County, AR",2020,478
+"Texarkana, AR",2020,624
+"Poinsett County, AR",2020,478
+"Little Rock, AR",2020,688
+"North Little Rock, AR",2020,688
+"Conway, AR",2020,688
+"Fort Smith, AR",2020,521
+"Fayetteville, AR",2020,630
+"Springdale, AR",2020,630
+"Rogers, AR",2020,630
+"Chico, CA",2020,842
+"Oakland, CA",2020,1808
+"Fremont, CA",2020,1808
+"Fresno, CA",2020,787
+"El Centro, CA",2020,781
+"Bakersfield, CA",2020,726
+"Hanford, CA",2020,861
+"Corcoran, CA",2020,861
+"Los Angeles, CA",2020,1517
+"Long Beach, CA",2020,1517
+"Glendale, CA",2020,1517
+"Madera, CA",2020,839
+"Merced, CA",2020,782
+"Salinas, CA",2020,1467
+"Napa, CA",2020,1427
+"Santa Ana, CA",2020,1785
+"Anaheim, CA",2020,1785
+"Irvine, CA",2020,1785
+"Sacramento, CA",2020,1072
+"Roseville, CA",2020,1072
+", CA",2020,1072
+"Arden, CA",2020,1072
+"Arcade, CA",2020,1072
+"San Benito County, CA",2020,1298
+"Riverside, CA",2020,1030
+"San Bernardino, CA",2020,1030
+"Ontario, CA",2020,1030
+"San Diego, CA",2020,1566
+"Carlsbad, CA",2020,1566
+"Stockton, CA",2020,869
+"Lodi, CA",2020,869
+"San Luis Obispo, CA",2020,1275
+"Paso Robles, CA",2020,1275
+"Arroyo Grande, CA",2020,1275
+"San Francisco, CA",2020,2720
+"Santa Maria, CA",2020,1964
+"Santa Barbara, CA",2020,1964
+"San Jose, CA",2020,2458
+"Sunnyvale, CA",2020,2458
+"Santa Clara, CA",2020,2458
+"Santa Cruz, CA",2020,1913
+"Watsonville, CA",2020,1913
+"Redding, CA",2020,744
+"Vallejo, CA",2020,1318
+"Fairfield, CA",2020,1318
+"Santa Rosa, CA",2020,1489
+"Modesto, CA",2020,885
+"Visalia, CA",2020,714
+"Porterville, CA",2020,714
+"Oxnard, CA",2020,1503
+"Thousand Oaks, CA",2020,1503
+"Ventura, CA",2020,1503
+"Yolo, CA",2020,1066
+"Yuba City, CA",2020,844
+"Boulder, CO",2020,1412
+"Colorado Springs, CO",2020,897
+"Fort Collins, CO",2020,1014
+"Grand Junction, CO",2020,786
+"Denver, CO",2020,1260
+"Aurora, CO",2020,1260
+"Lakewood, CO",2020,1260
+"Pueblo, CO",2020,636
+"Teller County, CO",2020,847
+"Greeley, CO",2020,845
+"Danbury, CT",2020,1360
+"Bridgeport, CT",2020,1077
+"Stamford, CT",2020,1701
+"Norwalk, CT",2020,1701
+"Southern Middlesex County, CT",2020,1100
+"Milford, CT",2020,1118
+"Ansonia, CT",2020,1118
+"Seymour, CT",2020,1118
+"Waterbury, CT",2020,906
+"New Haven, CT",2020,1162
+"Meriden, CT",2020,1162
+"Colchester, CT",2020,969
+"Lebanon, CT",2020,969
+"Norwich, CT",2020,938
+"New London, CT",2020,938
+"Hartford, CT",2020,993
+"West Hartford, CT",2020,993
+"East Hartford, CT",2020,993
+"Windham County, CT",2020,811
+"Dover, DE",2020,893
+"Philadelphia, DE",2020,1013
+"Camden, DE",2020,1013
+"Wilmington, DE",2020,1013
+"Sussex County, DE",2020,731
+"Washington, DC",2020,1500
+"Arlington, DC",2020,1500
+"Alexandria, DC",2020,1500
+"Baker County, FL",2020,598
+"Panama City, FL",2020,805
+"Lynn Haven, FL",2020,805
+"Panama City Beach, FL",2020,805
+"Palm Bay, FL",2020,866
+"Melbourne, FL",2020,866
+"Titusville, FL",2020,866
+"Fort Lauderdale, FL",2020,1208
+"Punta Gorda, FL",2020,818
+"Homosassa Springs, FL",2020,648
+"Naples, FL",2020,1126
+"Immokalee, FL",2020,1126
+"Marco Island, FL",2020,1126
+"Palm Coast, FL",2020,881
+"Gainesville, FL",2020,795
+"Gulf County, FL",2020,644
+"Sebring, FL",2020,643
+"Sebastian, FL",2020,853
+"Vero Beach, FL",2020,853
+"Cape Coral, FL",2020,946
+"Fort Myers, FL",2020,946
+"Tallahassee, FL",2020,829
+"Ocala, FL",2020,730
+"Miami, FL",2020,1285
+"Miami Beach, FL",2020,1285
+"Kendall, FL",2020,1285
+"Crestview, FL",2020,947
+"Fort Walton Beach, FL",2020,947
+"Destin, FL",2020,947
+"West Palm Beach, FL",2020,1208
+"Boca Raton, FL",2020,1208
+"Tampa, FL",2020,981
+"St. Petersburg, FL",2020,981
+"Clearwater, FL",2020,981
+"Lakeland, FL",2020,702
+"Winter Haven, FL",2020,702
+"Jacksonville, FL",2020,872
+"Port St. Lucie, FL",2020,938
+"Pensacola, FL",2020,803
+"Ferry Pass, FL",2020,803
+"Brent, FL",2020,803
+"North Port, FL",2020,951
+"Sarasota, FL",2020,951
+"Bradenton, FL",2020,951
+"Orlando, FL",2020,1064
+"Kissimmee, FL",2020,1064
+"Sanford, FL",2020,1064
+"The Villages, FL",2020,659
+"Deltona, FL",2020,900
+"Daytona Beach, FL",2020,900
+"Ormond Beach, FL",2020,900
+"Wakulla County, FL",2020,761
+"Walton County, FL",2020,773
+"Butts County, GA",2020,694
+"Savannah, GA",2020,887
+"Rome, GA",2020,613
+"Gainesville, GA",2020,789
+"Haralson County, GA",2020,697
+"Warner Robins, GA",2020,786
+"Lamar County, GA",2020,673
+"Hinesville, GA",2020,781
+"Lincoln County, GA",2020,590
+"Long County, GA",2020,543
+"Valdosta, GA",2020,552
+"Brunswick, GA",2020,657
+"Meriwether County, GA",2020,628
+"Monroe County, GA",2020,632
+"Morgan County, GA",2020,806
+"Murray County, GA",2020,533
+"Columbus, GA",2020,670
+"Athens, GA",2020,723
+"Clarke County, GA",2020,723
+"Peach County, GA",2020,551
+"Pulaski County, GA",2020,572
+"Augusta, GA",2020,722
+"Richmond County, GA",2020,722
+"Chattanooga, GA",2020,686
+"Atlanta, GA",2020,1025
+"Sandy Springs, GA",2020,1025
+"Roswell, GA",2020,1025
+"Dalton, GA",2020,604
+"Albany, GA",2020,623
+"Urban Honolulu, HI",2020,1640
+"Pocatello, ID",2020,585
+"Butte County, ID",2020,605
+"Logan, ID",2020,567
+"Gem County, ID",2020,648
+"Idaho Falls, ID",2020,645
+"Coeur d'Alene, ID",2020,726
+"Lewiston, ID",2020,659
+"Boise City, ID",2020,748
+"Cape Girardeau, IL",2020,587
+"Bond County, IL",2020,567
+"DeKalb County, IL",2020,769
+"De Witt County, IL",2020,565
+"Grundy County, IL",2020,879
+"Jackson County, IL",2020,571
+"Kankakee, IL",2020,692
+"Kendall County, IL",2020,947
+"Bloomington, IL",2020,648
+"Decatur, IL",2020,588
+"Macoupin County, IL",2020,530
+"Champaign, IL",2020,730
+"Urbana, IL",2020,730
+"Davenport, IL",2020,615
+"Moline, IL",2020,615
+"Rock Island, IL",2020,615
+"St. Louis, IL",2020,701
+"Springfield, IL",2020,627
+"Danville, IL",2020,572
+"Chicago, IL",2020,1076
+"Joliet, IL",2020,1076
+"Naperville, IL",2020,1076
+"Williamson County, IL",2020,563
+"Rockford, IL",2020,629
+"Peoria, IL",2020,606
+"Columbus, IN",2020,728
+"Carroll County, IN",2020,542
+"Muncie, IN",2020,573
+"Elkhart, IN",2020,630
+"Goshen, IN",2020,630
+"Louisville, IN",2020,713
+"Kokomo, IN",2020,573
+"Jasper County, IN",2020,669
+"Michigan City, IN",2020,607
+"La Porte, IN",2020,607
+"Anderson, IN",2020,624
+"Bloomington, IN",2020,689
+"Cincinnati, IN",2020,658
+"Owen County, IN",2020,569
+"Gary, IN",2020,746
+"Putnam County, IN",2020,581
+"South Bend, IN",2020,687
+"Mishawaka, IN",2020,687
+"Scott County, IN",2020,607
+"Indianapolis, IN",2020,778
+"Carmel, IN",2020,778
+"Sullivan County, IN",2020,601
+"Lafayette, IN",2020,721
+"West Lafayette, IN",2020,721
+"Union County, IN",2020,542
+"Terre Haute, IN",2020,625
+"Evansville, IN",2020,624
+"Washington County, IN",2020,542
+"Fort Wayne, IN",2020,611
+"Benton County, IA",2020,535
+"Bremer County, IA",2020,522
+"Dubuque, IA",2020,595
+"Waterloo, IA",2020,604
+"Cedar Falls, IA",2020,604
+"Iowa City, IA",2020,774
+"Jones County, IA",2020,522
+"Cedar Rapids, IA",2020,590
+"Plymouth County, IA",2020,564
+"Omaha, IA",2020,762
+"Council Bluffs, IA",2020,762
+"Davenport, IA",2020,615
+"Moline, IA",2020,615
+"Rock Island, IA",2020,615
+"Ames, IA",2020,706
+"Des Moines, IA",2020,730
+"West Des Moines, IA",2020,730
+"Washington County, IA",2020,611
+"Sioux City, IA",2020,610
+"St. Joseph, KS",2020,610
+"Lawrence, KS",2020,733
+"Kingman County, KS",2020,556
+"Manhattan, KS",2020,757
+"Wichita, KS",2020,630
+"Sumner County, KS",2020,561
+"Topeka, KS",2020,598
+"Kansas City, KS",2020,813
+"Allen County, KY",2020,497
+"Butler County, KY",2020,479
+"Grant County, KY",2020,649
+"Huntington, KY",2020,669
+"Ashland, KY",2020,669
+"Evansville, KY",2020,624
+"Elizabethtown, KY",2020,593
+"Owensboro, KY",2020,605
+"Meade County, KY",2020,568
+"Cincinnati, KY",2020,658
+"Shelby County, KY",2020,636
+"Clarksville, KY",2020,691
+"Louisville, KY",2020,713
+"Bowling Green, KY",2020,629
+"Lexington, KY",2020,678
+"Fayette, KY",2020,678
+"Acadia Parish, LA",2020,539
+"Lake Charles, LA",2020,663
+"Shreveport, LA",2020,739
+"Bossier City, LA",2020,739
+"Iberia Parish, LA",2020,610
+"Iberville Parish, LA",2020,624
+"Alexandria, LA",2020,640
+"St. James Parish, LA",2020,614
+"Lafayette, LA",2020,795
+"New Orleans, LA",2020,908
+"Metairie, LA",2020,908
+"Hammond, LA",2020,671
+"Houma, LA",2020,690
+"Thibodaux, LA",2020,690
+"Monroe, LA",2020,600
+"Vermilion Parish, LA",2020,615
+"Webster Parish, LA",2020,597
+"Baton Rouge, LA",2020,765
+"Lewiston, ME",2020,658
+"Auburn, ME",2020,658
+"Cumberland County, ME",2020,815
+"Bangor, ME",2020,743
+"Penobscot County, ME",2020,616
+"Sagadahoc County, ME",2020,798
+"Portland, ME",2020,1167
+"York County, ME",2020,837
+"York, ME",2020,1008
+"Kittery, ME",2020,1008
+"South Berwick, ME",2020,1008
+"Cumberland, MD",2020,587
+"Philadelphia, MD",2020,1013
+"Camden, MD",2020,1013
+"Wilmington, MD",2020,1013
+"Washington, MD",2020,1500
+"Arlington, MD",2020,1500
+"Alexandria, MD",2020,1500
+"California, MD",2020,1091
+"Lexington Park, MD",2020,1091
+"Somerset County, MD",2020,647
+"Hagerstown, MD",2020,676
+"Salisbury, MD",2020,810
+"Worcester County, MD",2020,735
+"Baltimore, MD",2020,1105
+"Columbia, MD",2020,1105
+"Towson, MD",2020,1105
+"Barnstable Town, MA",2020,1149
+"Pittsfield, MA",2020,815
+"Berkshire County, MA",2020,872
+"New Bedford, MA",2020,784
+"Easton, MA",2020,1158
+"Raynham, MA",2020,1158
+"Taunton, MA",2020,953
+"Mansfield, MA",2020,953
+"Norton, MA",2020,953
+"Providence, MA",2020,898
+"Fall River, MA",2020,898
+"Lawrence, MA",2020,1117
+"Springfield, MA",2020,875
+"Lowell, MA",2020,1188
+"Brockton, MA",2020,1160
+"Boston, MA",2020,1900
+"Cambridge, MA",2020,1900
+"Quincy, MA",2020,1900
+"Eastern Worcester County, MA",2020,937
+"Western Worcester County, MA",2020,731
+"Fitchburg, MA",2020,818
+"Leominster, MA",2020,818
+"Worcester, MA",2020,1100
+"Barry County, MI",2020,682
+"Bay City, MI",2020,557
+"Niles, MI",2020,582
+"Benton Harbor, MI",2020,582
+"Battle Creek, MI",2020,632
+"Cass County, MI",2020,612
+"Flint, MI",2020,604
+"Lansing, MI",2020,722
+"East Lansing, MI",2020,722
+"Jackson, MI",2020,668
+"Grand Rapids, MI",2020,789
+"Wyoming, MI",2020,789
+"Livingston County, MI",2020,801
+"Midland, MI",2020,611
+"Monroe, MI",2020,656
+"Montcalm County, MI",2020,598
+"Muskegon, MI",2020,593
+"Holland, MI",2020,735
+"Grand Haven, MI",2020,735
+"Saginaw, MI",2020,603
+"Kalamazoo, MI",2020,678
+"Portage, MI",2020,678
+"Ann Arbor, MI",2020,921
+"Detroit, MI",2020,764
+"Warren, MI",2020,764
+"Livonia, MI",2020,764
+"Fargo, MN",2020,676
+"Fillmore County, MN",2020,542
+"La Crosse, MN",2020,629
+"Onalaska, MN",2020,629
+"Le Sueur County, MN",2020,654
+"Mille Lacs County, MN",2020,684
+"Mankato, MN",2020,704
+"North Mankato, MN",2020,704
+"Rochester, MN",2020,777
+"Grand Forks, MN",2020,650
+"Duluth, MN",2020,622
+"Sibley County, MN",2020,621
+"St. Cloud, MN",2020,657
+"Wabasha County, MN",2020,650
+"Minneapolis, MN",2020,971
+"St. Paul, MN",2020,971
+"Bloomington, MN",2020,971
+"Benton County, MS",2020,577
+"Memphis, MS",2020,755
+"Gulfport, MS",2020,732
+"Biloxi, MS",2020,732
+"Pascagoula, MS",2020,713
+"Marshall County, MS",2020,585
+"Hattiesburg, MS",2020,680
+"Jackson, MS",2020,774
+"Simpson County, MS",2020,657
+"Tate County, MS",2020,611
+"Tunica County, MS",2020,692
+"Yazoo County, MS",2020,540
+"Bates County, MO",2020,530
+"Columbia, MO",2020,741
+"Callaway County, MO",2020,548
+"Cape Girardeau, MO",2020,587
+"Dallas County, MO",2020,557
+"St. Joseph, MO",2020,610
+"McDonald County, MO",2020,557
+"Moniteau County, MO",2020,481
+"Joplin, MO",2020,563
+"Jefferson City, MO",2020,525
+"Polk County, MO",2020,521
+"Kansas City, MO",2020,813
+"Springfield, MO",2020,583
+"St. Louis, MO",2020,701
+"Great Falls, MT",2020,569
+"Golden Valley County, MT",2020,574
+"Missoula, MT",2020,722
+"Billings, MT",2020,675
+"Sioux City, NE",2020,610
+"Hall County, NE",2020,605
+"Hamilton County, NE",2020,537
+"Howard County, NE",2020,530
+"Lincoln, NE",2020,667
+"Merrick County, NE",2020,530
+"Saunders County, NE",2020,575
+"Seward County, NE",2020,552
+"Omaha, NE",2020,762
+"Council Bluffs, NE",2020,762
+"Las Vegas, NV",2020,877
+"Henderson, NV",2020,877
+"Paradise, NV",2020,877
+"Reno, NV",2020,846
+"Carson City, NV",2020,733
+"Manchester, NH",2020,948
+"Nashua, NH",2020,1036
+"Hillsborough County, NH",2020,880
+"Western Rockingham County, NH",2020,1162
+"Boston, NH",2020,1900
+"Cambridge, NH",2020,1900
+"Quincy, NH",2020,1900
+"Lawrence, NH",2020,1117
+"Portsmouth, NH",2020,1029
+"Rochester, NH",2020,1029
+"Atlantic City, NJ",2020,1028
+"Hammonton, NJ",2020,1028
+"Ocean City, NJ",2020,1012
+"Vineland, NJ",2020,960
+"Bridgeton, NJ",2020,960
+"Jersey City, NJ",2020,1439
+"Trenton, NJ",2020,1128
+"Monmouth, NJ",2020,1270
+"Ocean, NJ",2020,1270
+"Bergen, NJ",2020,1377
+"Passaic, NJ",2020,1377
+"Philadelphia, NJ",2020,1013
+"Camden, NJ",2020,1013
+"Wilmington, NJ",2020,1013
+"Middlesex, NJ",2020,1382
+"Somerset, NJ",2020,1382
+"Hunterdon, NJ",2020,1382
+"Newark, NJ",2020,1218
+"Warren County, NJ",2020,963
+"Las Cruces, NM",2020,602
+"Farmington, NM",2020,713
+"Santa Fe, NM",2020,928
+"Albuquerque, NM",2020,713
+"Elmira, NY",2020,671
+"Watertown, NY",2020,834
+"Fort Drum, NY",2020,834
+"Buffalo, NY",2020,703
+"Cheektowaga, NY",2020,703
+"Niagara Falls, NY",2020,703
+"Utica, NY",2020,613
+"Rome, NY",2020,613
+"Poughkeepsie, NY",2020,1112
+"Newburgh, NY",2020,1112
+"Middletown, NY",2020,1112
+"Syracuse, NY",2020,723
+"New York, NY",2020,1714
+"Albany, NY",2020,855
+"Schenectady, NY",2020,855
+"Troy, NY",2020,855
+"Nassau, NY",2020,1624
+"Suffolk, NY",2020,1624
+"Binghamton, NY",2020,634
+"Ithaca, NY",2020,969
+"Kingston, NY",2020,967
+"Glens Falls, NY",2020,754
+"Rochester, NY",2020,775
+"Westchester County, NY",2020,1641
+"Yates County, NY",2020,644
+"Burlington, NC",2020,659
+"Brunswick County, NC",2020,700
+"Hickory, NC",2020,573
+"Lenoir, NC",2020,573
+"Morganton, NC",2020,573
+"Craven County, NC",2020,719
+"Fayetteville, NC",2020,722
+"Virginia Beach, NC",2020,958
+"Norfolk, NC",2020,958
+"Newport News, NC",2020,958
+"Davidson County, NC",2020,576
+"Gates County, NC",2020,588
+"Haywood County, NC",2020,806
+"Hoke County, NC",2020,633
+"Iredell County, NC",2020,770
+"Jones County, NC",2020,528
+"Lincoln County, NC",2020,658
+"Asheville, NC",2020,1045
+"Rocky Mount, NC",2020,572
+"Wilmington, NC",2020,776
+"Jacksonville, NC",2020,723
+"Durham, NC",2020,934
+"Chapel Hill, NC",2020,934
+"Pamlico County, NC",2020,599
+"Pender County, NC",2020,637
+"Person County, NC",2020,549
+"Greenville, NC",2020,620
+"Greensboro, NC",2020,728
+"High Point, NC",2020,728
+"Rockingham County, NC",2020,514
+"Rowan County, NC",2020,681
+"Charlotte, NC",2020,934
+"Concord, NC",2020,934
+"Gastonia, NC",2020,934
+"Raleigh, NC",2020,1022
+"Goldsboro, NC",2020,617
+"Winston, NC",2020,617
+"Salem, NC",2020,617
+"Fargo, ND",2020,676
+"Grand Forks, ND",2020,650
+"Bismarck, ND",2020,698
+"Oliver County, ND",2020,693
+"Sioux County, ND",2020,542
+"Lima, OH",2020,594
+"Wheeling, OH",2020,570
+"Brown County, OH",2020,541
+"Springfield, OH",2020,590
+"Hocking County, OH",2020,551
+"Weirton, OH",2020,550
+"Steubenville, OH",2020,550
+"Huntington, OH",2020,669
+"Ashland, OH",2020,669
+"Cleveland, OH",2020,691
+"Elyria, OH",2020,691
+"Dayton, OH",2020,596
+"Perry County, OH",2020,554
+"Columbus, OH",2020,794
+"Mansfield, OH",2020,528
+"Canton, OH",2020,579
+"Massillon, OH",2020,579
+"Akron, OH",2020,659
+"Youngstown, OH",2020,557
+"Warren, OH",2020,557
+"Boardman, OH",2020,557
+"Union County, OH",2020,751
+"Cincinnati, OH",2020,658
+"Toledo, OH",2020,592
+"Lawton, OK",2020,575
+"Cotton County, OK",2020,603
+"Grady County, OK",2020,530
+"Le Flore County, OK",2020,545
+"Lincoln County, OK",2020,527
+"Oklahoma City, OK",2020,724
+"Okmulgee County, OK",2020,521
+"Pawnee County, OK",2020,533
+"Fort Smith, OK",2020,521
+"Tulsa, OK",2020,696
+"Corvallis, OR",2020,991
+"Bend, OR",2020,986
+"Redmond, OR",2020,986
+"Medford, OR",2020,792
+"Grants Pass, OR",2020,812
+"Eugene, OR",2020,893
+"Springfield, OR",2020,893
+"Albany, OR",2020,832
+"Salem, OR",2020,761
+"Portland, OR",2020,1289
+"Vancouver, OR",2020,1289
+"Hillsboro, OR",2020,1289
+"Gettysburg, PA",2020,739
+"Armstrong County, PA",2020,608
+"Reading, PA",2020,713
+"Altoona, PA",2020,616
+"Johnstown, PA",2020,573
+"State College, PA",2020,837
+"Columbia County, PA",2020,660
+"Erie, PA",2020,600
+"Chambersburg, PA",2020,660
+"Waynesboro, PA",2020,660
+"Lancaster, PA",2020,812
+"Lebanon, PA",2020,667
+"Williamsport, PA",2020,658
+"Sharon, PA",2020,555
+"East Stroudsburg, PA",2020,829
+"Montour County, PA",2020,666
+"Allentown, PA",2020,804
+"Bethlehem, PA",2020,804
+"Easton, PA",2020,804
+"Harrisburg, PA",2020,760
+"Carlisle, PA",2020,760
+"Philadelphia, PA",2020,1013
+"Camden, PA",2020,1013
+"Wilmington, PA",2020,1013
+"Pike County, PA",2020,989
+"Pittsburgh, PA",2020,727
+"Scranton, PA",2020,657
+", PA",2020,657
+"Wilkes, PA",2020,657
+"Barre, PA",2020,657
+"York, PA",2020,739
+"Hanover, PA",2020,739
+"Newport, RI",2020,1091
+"Middleton, RI",2020,1091
+"Portsmouth, RI",2020,1091
+"Providence, RI",2020,898
+"Fall River, RI",2020,898
+"Westerly, RI",2020,876
+"Hopkinton, RI",2020,876
+"New Shoreham, RI",2020,876
+"Anderson, SC",2020,618
+"Beaufort County, SC",2020,899
+"Chester County, SC",2020,525
+"Darlington County, SC",2020,595
+"Charleston, SC",2020,1035
+"North Charleston, SC",2020,1035
+"Augusta, SC",2020,722
+"Richmond County, SC",2020,722
+"Florence, SC",2020,611
+"Myrtle Beach, SC",2020,847
+"North Myrtle Beach, SC",2020,847
+"Conway, SC",2020,847
+"Jasper County, SC",2020,729
+"Kershaw County, SC",2020,632
+"Lancaster County, SC",2020,607
+"Laurens County, SC",2020,570
+"Greenville, SC",2020,740
+"Mauldin, SC",2020,740
+"Easley, SC",2020,740
+"Columbia, SC",2020,818
+"Spartanburg, SC",2020,679
+"Sumter, SC",2020,641
+"Union County, SC",2020,524
+"Charlotte, SC",2020,934
+"Concord, SC",2020,934
+"Gastonia, SC",2020,934
+"Custer County, SD",2020,682
+"Meade County, SD",2020,591
+"Rapid City, SD",2020,639
+"Sioux Falls, SD",2020,685
+"Sioux City, SD",2020,610
+"Campbell County, TN",2020,514
+"Crockett County, TN",2020,503
+"Grainger County, TN",2020,621
+"Hickman County, TN",2020,691
+"Morristown, TN",2020,560
+"Macon County, TN",2020,560
+"Jackson, TN",2020,648
+"Maury County, TN",2020,739
+"Clarksville, TN",2020,691
+"Morgan County, TN",2020,545
+"Cleveland, TN",2020,613
+"Roane County, TN",2020,623
+"Chattanooga, TN",2020,686
+"Smith County, TN",2020,528
+"Kingsport, TN",2020,542
+"Bristol, TN",2020,542
+"Memphis, TN",2020,755
+"Knoxville, TN",2020,742
+"Johnson City, TN",2020,564
+"Nashville, TN",2020,957
+"Davidson, TN",2020,957
+"Murfreesboro, TN",2020,957
+", TN",2020,957
+"Franklin, TN",2020,957
+"Aransas County, TX",2020,735
+"Atascosa County, TX",2020,683
+"Austin County, TX",2020,793
+"Texarkana, TX",2020,624
+"Brazoria County, TX",2020,925
+"Brownsville, TX",2020,596
+"Harlingen, TX",2020,596
+"Killeen, TX",2020,611
+"Temple, TX",2020,611
+"Odessa, TX",2020,901
+"El Paso, TX",2020,677
+"Falls County, TX",2020,542
+"Sherman, TX",2020,740
+"Denison, TX",2020,740
+"McAllen, TX",2020,577
+"Edinburg, TX",2020,577
+"Mission, TX",2020,577
+"Hood County, TX",2020,904
+"Hudspeth County, TX",2020,642
+"Kendall County, TX",2020,991
+"Lampasas County, TX",2020,580
+"Lubbock, TX",2020,708
+"Lynn County, TX",2020,627
+"Waco, TX",2020,692
+"Martin County, TX",2020,572
+"Medina County, TX",2020,618
+"Midland, TX",2020,1080
+"Newton County, TX",2020,575
+"Oldham County, TX",2020,764
+"Beaumont, TX",2020,688
+"Port Arthur, TX",2020,688
+"Amarillo, TX",2020,675
+"College Station, TX",2020,791
+"Bryan, TX",2020,791
+"Dallas, TX",2020,1093
+"Rusk County, TX",2020,621
+"Corpus Christi, TX",2020,789
+"Tyler, TX",2020,765
+"Somervell County, TX",2020,731
+"Fort Worth, TX",2020,945
+"Arlington, TX",2020,945
+"Abilene, TX",2020,655
+"San Angelo, TX",2020,740
+"Longview, TX",2020,781
+"Victoria, TX",2020,815
+"Houston, TX",2020,908
+"The Woodlands, TX",2020,908
+"Sugar Land, TX",2020,908
+"Laredo, TX",2020,687
+"Wichita Falls, TX",2020,605
+"Austin, TX",2020,1134
+"Round Rock, TX",2020,1134
+"San Antonio, TX",2020,851
+"New Braunfels, TX",2020,851
+"Wise County, TX",2020,929
+"Box Elder County, UT",2020,604
+"Logan, UT",2020,567
+"Salt Lake City, UT",2020,964
+"Tooele County, UT",2020,792
+"Provo, UT",2020,814
+"Orem, UT",2020,814
+"St. George, UT",2020,757
+"Ogden, UT",2020,802
+"Clearfield, UT",2020,802
+"Burlington, VT",2020,1223
+"South Burlington, VT",2020,1223
+"Buckingham County, VA",2020,658
+"Culpeper County, VA",2020,768
+"Floyd County, VA",2020,627
+"Franklin County, VA",2020,544
+"Giles County, VA",2020,592
+"Pulaski County, VA",2020,628
+"Rappahannock County, VA",2020,959
+"Warren County, VA",2020,772
+"Kingsport, VA",2020,542
+"Bristol, VA",2020,542
+"Charlottesville, VA",2020,1082
+"Harrisonburg, VA",2020,685
+"Lynchburg, VA",2020,676
+"Washington, VA",2020,1500
+"Arlington, VA",2020,1500
+"Alexandria, VA",2020,1500
+"Blacksburg, VA",2020,872
+"Christiansburg, VA",2020,872
+"Radford, VA",2020,872
+"Richmond, VA",2020,932
+"Roanoke, VA",2020,668
+"Staunton, VA",2020,683
+"Waynesboro, VA",2020,683
+"Virginia Beach, VA",2020,958
+"Norfolk, VA",2020,958
+"Newport News, VA",2020,958
+"Winchester, VA",2020,783
+"Lewiston, WA",2020,659
+"Columbia County, WA",2020,760
+"Longview, WA",2020,749
+"Wenatchee, WA",2020,800
+"Kennewick, WA",2020,883
+"Richland, WA",2020,883
+"Bremerton, WA",2020,1003
+"Silverdale, WA",2020,1003
+"Pend Oreille County, WA",2020,632
+"Tacoma, WA",2020,1075
+"Mount Vernon, WA",2020,951
+"Anacortes, WA",2020,951
+"Portland, WA",2020,1289
+"Vancouver, WA",2020,1289
+"Hillsboro, WA",2020,1289
+"Seattle, WA",2020,1741
+"Bellevue, WA",2020,1741
+"Spokane, WA",2020,696
+"Stevens County, WA",2020,568
+"Olympia, WA",2020,960
+"Tumwater, WA",2020,960
+"Walla Walla County, WA",2020,792
+"Bellingham, WA",2020,905
+"Yakima, WA",2020,769
+"Martinsburg, WV",2020,751
+"Boone County, WV",2020,572
+"Fayette County, WV",2020,580
+"Winchester, WV",2020,783
+"Weirton, WV",2020,550
+"Steubenville, WV",2020,550
+"Jefferson County, WV",2020,776
+"Charleston, WV",2020,684
+"Lincoln County, WV",2020,572
+"Cumberland, WV",2020,587
+"Wheeling, WV",2020,570
+"Morgantown, WV",2020,748
+"Putnam County, WV",2020,697
+"Raleigh County, WV",2020,662
+"Huntington, WV",2020,669
+"Ashland, WV",2020,669
+"Parkersburg, WV",2020,636
+"Vienna, WV",2020,636
+"Columbia County, WI",2020,695
+"Madison, WI",2020,1015
+"Duluth, WI",2020,622
+"Eau Claire, WI",2020,599
+"Fond du Lac, WI",2020,605
+"Green County, WI",2020,625
+"Iowa County, WI",2020,655
+"Kenosha County, WI",2020,790
+"Green Bay, WI",2020,624
+"La Crosse, WI",2020,629
+"Onalaska, WI",2020,629
+"Wausau, WI",2020,600
+"Oconto County, WI",2020,567
+"Appleton, WI",2020,624
+"Racine, WI",2020,663
+"Janesville, WI",2020,634
+"Beloit, WI",2020,634
+"Minneapolis, WI",2020,971
+"St. Paul, WI",2020,971
+"Bloomington, WI",2020,971
+"Sheboygan, WI",2020,608
+"Milwaukee, WI",2020,761
+"Waukesha, WI",2020,761
+"West Allis, WI",2020,761
+"Oshkosh, WI",2020,616
+"Neenah, WI",2020,616
+"Cheyenne, WY",2020,721
+"Casper, WY",2020,780
+"Arecibo, PR",2020,382
+"Fajardo, PR",2020,421
+"Mayagüez, PR",2020,415
+"Barranquitas, PR",2020,359
+"Aibonito, PR",2020,359
+"Guayama, PR",2020,370
+"Quebradillas Municipio, PR",2020,370
+"San German, PR",2020,366
+"Caguas, PR",2020,426
+"Aguadilla, PR",2020,372
+"Isabela, PR",2020,372
+"Utuado Municipio, PR",2020,374
+"Ponce, PR",2020,388
+"San Juan, PR",2020,451
+"Guaynabo, PR",2020,451
+"Yauco, PR",2020,359
+"Daphne, AL",2021,723
+"Fairhope, AL",2021,723
+"Foley, AL",2021,723
+"Anniston, AL",2021,549
+"Oxford, AL",2021,549
+"Jacksonville, AL",2021,549
+"Chilton County, AL",2021,625
+"Gadsden, AL",2021,560
+"Henry County, AL",2021,532
+"Dothan, AL",2021,547
+"Florence, AL",2021,580
+"Muscle Shoals, AL",2021,580
+"Auburn, AL",2021,625
+"Opelika, AL",2021,625
+"Huntsville, AL",2021,690
+"Mobile, AL",2021,658
+"Montgomery, AL",2021,766
+"Decatur, AL",2021,574
+"Pickens County, AL",2021,493
+"Columbus, AL",2021,717
+"Birmingham, AL",2021,871
+"Hoover, AL",2021,871
+"Tuscaloosa, AL",2021,695
+"Walker County, AL",2021,549
+"Anchorage, AK",2021,926
+"Fairbanks, AK",2021,987
+"Matanuska, AK",2021,775
+"Susitna Borough, AK",2021,775
+"Sierra Vista, AZ",2021,667
+"Douglas, AZ",2021,667
+"Flagstaff, AZ",2021,1062
+"Lake Havasu City, AZ",2021,725
+"Kingman, AZ",2021,725
+"Tucson, AZ",2021,728
+"Phoenix, AZ",2021,1032
+"Mesa, AZ",2021,1032
+"Scottsdale, AZ",2021,1032
+"Prescott, AZ",2021,822
+"Yuma, AZ",2021,705
+"Jonesboro, AR",2021,631
+"Memphis, AR",2021,784
+"Hot Springs, AR",2021,606
+"Grant County, AR",2021,648
+"Pine Bluff, AR",2021,553
+"Little River County, AR",2021,496
+"Texarkana, AR",2021,658
+"Poinsett County, AR",2021,496
+"Little Rock, AR",2021,735
+"North Little Rock, AR",2021,735
+"Conway, AR",2021,735
+"Fort Smith, AR",2021,552
+"Fayetteville, AR",2021,618
+"Springdale, AR",2021,618
+"Rogers, AR",2021,618
+"Chico, CA",2021,904
+"Oakland, CA",2021,1934
+"Fremont, CA",2021,1934
+"Fresno, CA",2021,851
+"El Centro, CA",2021,810
+"Bakersfield, CA",2021,743
+"Hanford, CA",2021,903
+"Corcoran, CA",2021,903
+"Los Angeles, CA",2021,1605
+"Long Beach, CA",2021,1605
+"Glendale, CA",2021,1605
+"Madera, CA",2021,881
+"Merced, CA",2021,882
+"Salinas, CA",2021,1466
+"Napa, CA",2021,1531
+"Santa Ana, CA",2021,1888
+"Anaheim, CA",2021,1888
+"Irvine, CA",2021,1888
+"Sacramento, CA",2021,1188
+"Roseville, CA",2021,1188
+", CA",2021,1188
+"Arden, CA",2021,1188
+"Arcade, CA",2021,1188
+"San Benito County, CA",2021,1270
+"Riverside, CA",2021,1106
+"San Bernardino, CA",2021,1106
+"Ontario, CA",2021,1106
+"San Diego, CA",2021,1642
+"Carlsbad, CA",2021,1642
+"Stockton, CA",2021,964
+"Lodi, CA",2021,964
+"San Luis Obispo, CA",2021,1263
+"Paso Robles, CA",2021,1263
+"Arroyo Grande, CA",2021,1263
+"San Francisco, CA",2021,2923
+"Santa Maria, CA",2021,2015
+"Santa Barbara, CA",2021,2015
+"San Jose, CA",2021,2558
+"Sunnyvale, CA",2021,2558
+"Santa Clara, CA",2021,2558
+"Santa Cruz, CA",2021,2292
+"Watsonville, CA",2021,2292
+"Redding, CA",2021,924
+"Vallejo, CA",2021,1351
+"Fairfield, CA",2021,1351
+"Santa Rosa, CA",2021,1519
+"Modesto, CA",2021,987
+"Visalia, CA",2021,728
+"Porterville, CA",2021,728
+"Oxnard, CA",2021,1519
+"Thousand Oaks, CA",2021,1519
+"Ventura, CA",2021,1519
+"Yolo, CA",2021,1147
+"Yuba City, CA",2021,881
+"Boulder, CO",2021,1428
+"Colorado Springs, CO",2021,949
+"Fort Collins, CO",2021,1096
+"Grand Junction, CO",2021,772
+"Denver, CO",2021,1304
+"Aurora, CO",2021,1304
+"Lakewood, CO",2021,1304
+"Pueblo, CO",2021,634
+"Teller County, CO",2021,875
+"Greeley, CO",2021,937
+"Danbury, CT",2021,1350
+"Bridgeport, CT",2021,1156
+"Stamford, CT",2021,1621
+"Norwalk, CT",2021,1621
+"Southern Middlesex County, CT",2021,1155
+"Milford, CT",2021,1177
+"Ansonia, CT",2021,1177
+"Seymour, CT",2021,1177
+"Waterbury, CT",2021,948
+"New Haven, CT",2021,1181
+"Meriden, CT",2021,1181
+"Colchester, CT",2021,1007
+"Lebanon, CT",2021,1007
+"Norwich, CT",2021,976
+"New London, CT",2021,976
+"Hartford, CT",2021,1091
+"West Hartford, CT",2021,1091
+"East Hartford, CT",2021,1091
+"Windham County, CT",2021,818
+"Dover, DE",2021,908
+"Philadelphia, DE",2021,1040
+"Camden, DE",2021,1040
+"Wilmington, DE",2021,1040
+"Sussex County, DE",2021,732
+"Washington, DC",2021,1548
+"Arlington, DC",2021,1548
+"Alexandria, DC",2021,1548
+"Baker County, FL",2021,599
+"Panama City, FL",2021,933
+"Lynn Haven, FL",2021,933
+"Panama City Beach, FL",2021,933
+"Palm Bay, FL",2021,921
+"Melbourne, FL",2021,921
+"Titusville, FL",2021,921
+"Fort Lauderdale, FL",2021,1198
+"Punta Gorda, FL",2021,866
+"Homosassa Springs, FL",2021,679
+"Naples, FL",2021,1118
+"Immokalee, FL",2021,1118
+"Marco Island, FL",2021,1118
+"Palm Coast, FL",2021,854
+"Gainesville, FL",2021,897
+"Gulf County, FL",2021,764
+"Sebring, FL",2021,661
+"Sebastian, FL",2021,881
+"Vero Beach, FL",2021,881
+"Cape Coral, FL",2021,951
+"Fort Myers, FL",2021,951
+"Tallahassee, FL",2021,843
+"Ocala, FL",2021,757
+"Miami, FL",2021,1231
+"Miami Beach, FL",2021,1231
+"Kendall, FL",2021,1231
+"Crestview, FL",2021,983
+"Fort Walton Beach, FL",2021,983
+"Destin, FL",2021,983
+"West Palm Beach, FL",2021,1180
+"Boca Raton, FL",2021,1180
+"Tampa, FL",2021,1040
+"St. Petersburg, FL",2021,1040
+"Clearwater, FL",2021,1040
+"Lakeland, FL",2021,799
+"Winter Haven, FL",2021,799
+"Jacksonville, FL",2021,921
+"Port St. Lucie, FL",2021,932
+"Pensacola, FL",2021,840
+"Ferry Pass, FL",2021,840
+"Brent, FL",2021,840
+"North Port, FL",2021,992
+"Sarasota, FL",2021,992
+"Bradenton, FL",2021,992
+"Orlando, FL",2021,1140
+"Kissimmee, FL",2021,1140
+"Sanford, FL",2021,1140
+"The Villages, FL",2021,718
+"Deltona, FL",2021,856
+"Daytona Beach, FL",2021,856
+"Ormond Beach, FL",2021,856
+"Wakulla County, FL",2021,738
+"Walton County, FL",2021,847
+"Butts County, GA",2021,657
+"Savannah, GA",2021,921
+"Rome, GA",2021,627
+"Gainesville, GA",2021,834
+"Haralson County, GA",2021,657
+"Warner Robins, GA",2021,786
+"Lamar County, GA",2021,652
+"Hinesville, GA",2021,831
+"Lincoln County, GA",2021,587
+"Long County, GA",2021,586
+"Valdosta, GA",2021,591
+"Brunswick, GA",2021,684
+"Meriwether County, GA",2021,609
+"Monroe County, GA",2021,623
+"Morgan County, GA",2021,726
+"Murray County, GA",2021,555
+"Columbus, GA",2021,717
+"Athens, GA",2021,699
+"Clarke County, GA",2021,699
+"Peach County, GA",2021,556
+"Pulaski County, GA",2021,568
+"Augusta, GA",2021,708
+"Richmond County, GA",2021,708
+"Chattanooga, GA",2021,694
+"Atlanta, GA",2021,1040
+"Sandy Springs, GA",2021,1040
+"Roswell, GA",2021,1040
+"Dalton, GA",2021,607
+"Albany, GA",2021,645
+"Urban Honolulu, HI",2021,1577
+"Pocatello, ID",2021,593
+"Butte County, ID",2021,599
+"Logan, ID",2021,618
+"Gem County, ID",2021,718
+"Idaho Falls, ID",2021,670
+"Coeur d'Alene, ID",2021,755
+"Lewiston, ID",2021,672
+"Boise City, ID",2021,801
+"Cape Girardeau, IL",2021,612
+"Bond County, IL",2021,585
+"DeKalb County, IL",2021,805
+"De Witt County, IL",2021,557
+"Grundy County, IL",2021,893
+"Jackson County, IL",2021,580
+"Kankakee, IL",2021,717
+"Kendall County, IL",2021,974
+"Bloomington, IL",2021,682
+"Decatur, IL",2021,614
+"Macoupin County, IL",2021,539
+"Champaign, IL",2021,739
+"Urbana, IL",2021,739
+"Davenport, IL",2021,626
+"Moline, IL",2021,626
+"Rock Island, IL",2021,626
+"St. Louis, IL",2021,731
+"Springfield, IL",2021,684
+"Danville, IL",2021,598
+"Chicago, IL",2021,1122
+"Joliet, IL",2021,1122
+"Naperville, IL",2021,1122
+"Williamson County, IL",2021,578
+"Rockford, IL",2021,606
+"Peoria, IL",2021,675
+"Columbus, IN",2021,764
+"Carroll County, IN",2021,555
+"Muncie, IN",2021,578
+"Elkhart, IN",2021,640
+"Goshen, IN",2021,640
+"Louisville, IN",2021,760
+"Kokomo, IN",2021,579
+"Jasper County, IN",2021,685
+"Michigan City, IN",2021,602
+"La Porte, IN",2021,602
+"Anderson, IN",2021,619
+"Bloomington, IN",2021,748
+"Cincinnati, IN",2021,698
+"Owen County, IN",2021,581
+"Gary, IN",2021,749
+"Putnam County, IN",2021,590
+"South Bend, IN",2021,706
+"Mishawaka, IN",2021,706
+"Scott County, IN",2021,645
+"Indianapolis, IN",2021,781
+"Carmel, IN",2021,781
+"Sullivan County, IN",2021,599
+"Lafayette, IN",2021,753
+"West Lafayette, IN",2021,753
+"Union County, IN",2021,571
+"Terre Haute, IN",2021,636
+"Evansville, IN",2021,670
+"Washington County, IN",2021,555
+"Fort Wayne, IN",2021,632
+"Benton County, IA",2021,545
+"Bremer County, IA",2021,578
+"Dubuque, IA",2021,612
+"Waterloo, IA",2021,670
+"Cedar Falls, IA",2021,670
+"Iowa City, IA",2021,803
+"Jones County, IA",2021,543
+"Cedar Rapids, IA",2021,602
+"Plymouth County, IA",2021,592
+"Omaha, IA",2021,798
+"Council Bluffs, IA",2021,798
+"Davenport, IA",2021,626
+"Moline, IA",2021,626
+"Rock Island, IA",2021,626
+"Ames, IA",2021,752
+"Des Moines, IA",2021,738
+"West Des Moines, IA",2021,738
+"Washington County, IA",2021,621
+"Sioux City, IA",2021,631
+"St. Joseph, KS",2021,620
+"Lawrence, KS",2021,756
+"Kingman County, KS",2021,599
+"Manhattan, KS",2021,720
+"Wichita, KS",2021,658
+"Sumner County, KS",2021,576
+"Topeka, KS",2021,608
+"Kansas City, KS",2021,857
+"Allen County, KY",2021,524
+"Butler County, KY",2021,503
+"Grant County, KY",2021,690
+"Huntington, KY",2021,652
+"Ashland, KY",2021,652
+"Evansville, KY",2021,670
+"Elizabethtown, KY",2021,642
+"Owensboro, KY",2021,623
+"Meade County, KY",2021,603
+"Cincinnati, KY",2021,698
+"Shelby County, KY",2021,658
+"Clarksville, KY",2021,689
+"Louisville, KY",2021,760
+"Bowling Green, KY",2021,660
+"Lexington, KY",2021,728
+"Fayette, KY",2021,728
+"Acadia Parish, LA",2021,550
+"Lake Charles, LA",2021,674
+"Shreveport, LA",2021,715
+"Bossier City, LA",2021,715
+"Iberia Parish, LA",2021,601
+"Iberville Parish, LA",2021,700
+"Alexandria, LA",2021,650
+"St. James Parish, LA",2021,610
+"Lafayette, LA",2021,790
+"New Orleans, LA",2021,899
+"Metairie, LA",2021,899
+"Hammond, LA",2021,693
+"Houma, LA",2021,705
+"Thibodaux, LA",2021,705
+"Monroe, LA",2021,610
+"Vermilion Parish, LA",2021,639
+"Webster Parish, LA",2021,584
+"Baton Rouge, LA",2021,856
+"Lewiston, ME",2021,737
+"Auburn, ME",2021,737
+"Cumberland County, ME",2021,930
+"Bangor, ME",2021,826
+"Penobscot County, ME",2021,658
+"Sagadahoc County, ME",2021,892
+"Portland, ME",2021,1229
+"York County, ME",2021,936
+"York, ME",2021,1118
+"Kittery, ME",2021,1118
+"South Berwick, ME",2021,1118
+"Cumberland, MD",2021,587
+"Philadelphia, MD",2021,1040
+"Camden, MD",2021,1040
+"Wilmington, MD",2021,1040
+"Washington, MD",2021,1548
+"Arlington, MD",2021,1548
+"Alexandria, MD",2021,1548
+"California, MD",2021,1102
+"Lexington Park, MD",2021,1102
+"Somerset County, MD",2021,666
+"Hagerstown, MD",2021,683
+"Salisbury, MD",2021,802
+"Worcester County, MD",2021,752
+"Baltimore, MD",2021,1115
+"Columbia, MD",2021,1115
+"Towson, MD",2021,1115
+"Barnstable Town, MA",2021,1265
+"Pittsfield, MA",2021,916
+"Berkshire County, MA",2021,892
+"New Bedford, MA",2021,818
+"Easton, MA",2021,1240
+"Raynham, MA",2021,1240
+"Taunton, MA",2021,996
+"Mansfield, MA",2021,996
+"Norton, MA",2021,996
+"Providence, MA",2021,955
+"Fall River, MA",2021,955
+"Lawrence, MA",2021,1148
+"Springfield, MA",2021,891
+"Lowell, MA",2021,1193
+"Brockton, MA",2021,1184
+"Boston, MA",2021,1924
+"Cambridge, MA",2021,1924
+"Quincy, MA",2021,1924
+"Eastern Worcester County, MA",2021,961
+"Western Worcester County, MA",2021,741
+"Fitchburg, MA",2021,812
+"Leominster, MA",2021,812
+"Worcester, MA",2021,1134
+"Barry County, MI",2021,690
+"Bay City, MI",2021,589
+"Niles, MI",2021,619
+"Benton Harbor, MI",2021,619
+"Battle Creek, MI",2021,661
+"Cass County, MI",2021,609
+"Flint, MI",2021,609
+"Lansing, MI",2021,740
+"East Lansing, MI",2021,740
+"Jackson, MI",2021,709
+"Grand Rapids, MI",2021,817
+"Wyoming, MI",2021,817
+"Livingston County, MI",2021,881
+"Midland, MI",2021,627
+"Monroe, MI",2021,691
+"Montcalm County, MI",2021,643
+"Muskegon, MI",2021,626
+"Holland, MI",2021,822
+"Grand Haven, MI",2021,822
+"Saginaw, MI",2021,632
+"Kalamazoo, MI",2021,705
+"Portage, MI",2021,705
+"Ann Arbor, MI",2021,1043
+"Detroit, MI",2021,821
+"Warren, MI",2021,821
+"Livonia, MI",2021,821
+"Fargo, MN",2021,712
+"Fillmore County, MN",2021,557
+"La Crosse, MN",2021,673
+"Onalaska, MN",2021,673
+"Le Sueur County, MN",2021,709
+"Mille Lacs County, MN",2021,710
+"Mankato, MN",2021,732
+"North Mankato, MN",2021,732
+"Rochester, MN",2021,789
+"Grand Forks, MN",2021,694
+"Duluth, MN",2021,671
+"Sibley County, MN",2021,660
+"St. Cloud, MN",2021,671
+"Wabasha County, MN",2021,616
+"Minneapolis, MN",2021,1054
+"St. Paul, MN",2021,1054
+"Bloomington, MN",2021,1054
+"Benton County, MS",2021,600
+"Memphis, MS",2021,784
+"Gulfport, MS",2021,701
+"Biloxi, MS",2021,701
+"Pascagoula, MS",2021,700
+"Marshall County, MS",2021,615
+"Hattiesburg, MS",2021,716
+"Jackson, MS",2021,794
+"Simpson County, MS",2021,676
+"Tate County, MS",2021,604
+"Tunica County, MS",2021,714
+"Yazoo County, MS",2021,571
+"Bates County, MO",2021,536
+"Columbia, MO",2021,722
+"Callaway County, MO",2021,568
+"Cape Girardeau, MO",2021,612
+"Dallas County, MO",2021,581
+"St. Joseph, MO",2021,620
+"McDonald County, MO",2021,581
+"Moniteau County, MO",2021,502
+"Joplin, MO",2021,611
+"Jefferson City, MO",2021,546
+"Polk County, MO",2021,528
+"Kansas City, MO",2021,857
+"Springfield, MO",2021,595
+"St. Louis, MO",2021,731
+"Great Falls, MT",2021,613
+"Golden Valley County, MT",2021,569
+"Missoula, MT",2021,772
+"Billings, MT",2021,725
+"Sioux City, NE",2021,631
+"Hall County, NE",2021,628
+"Hamilton County, NE",2021,557
+"Howard County, NE",2021,557
+"Lincoln, NE",2021,675
+"Merrick County, NE",2021,557
+"Saunders County, NE",2021,590
+"Seward County, NE",2021,557
+"Omaha, NE",2021,798
+"Council Bluffs, NE",2021,798
+"Las Vegas, NV",2021,937
+"Henderson, NV",2021,937
+"Paradise, NV",2021,937
+"Reno, NV",2021,964
+"Carson City, NV",2021,788
+"Manchester, NH",2021,1038
+"Nashua, NH",2021,1147
+"Hillsborough County, NH",2021,935
+"Western Rockingham County, NH",2021,1160
+"Boston, NH",2021,1924
+"Cambridge, NH",2021,1924
+"Quincy, NH",2021,1924
+"Lawrence, NH",2021,1148
+"Portsmouth, NH",2021,1033
+"Rochester, NH",2021,1033
+"Atlantic City, NJ",2021,1108
+"Hammonton, NJ",2021,1108
+"Ocean City, NJ",2021,1069
+"Vineland, NJ",2021,1037
+"Bridgeton, NJ",2021,1037
+"Jersey City, NJ",2021,1686
+"Trenton, NJ",2021,1170
+"Monmouth, NJ",2021,1291
+"Ocean, NJ",2021,1291
+"Bergen, NJ",2021,1503
+"Passaic, NJ",2021,1503
+"Philadelphia, NJ",2021,1040
+"Camden, NJ",2021,1040
+"Wilmington, NJ",2021,1040
+"Middlesex, NJ",2021,1371
+"Somerset, NJ",2021,1371
+"Hunterdon, NJ",2021,1371
+"Newark, NJ",2021,1358
+"Warren County, NJ",2021,1037
+"Las Cruces, NM",2021,603
+"Farmington, NM",2021,695
+"Santa Fe, NM",2021,940
+"Albuquerque, NM",2021,770
+"Elmira, NY",2021,733
+"Watertown, NY",2021,794
+"Fort Drum, NY",2021,794
+"Buffalo, NY",2021,772
+"Cheektowaga, NY",2021,772
+"Niagara Falls, NY",2021,772
+"Utica, NY",2021,625
+"Rome, NY",2021,625
+"Poughkeepsie, NY",2021,1160
+"Newburgh, NY",2021,1160
+"Middletown, NY",2021,1160
+"Syracuse, NY",2021,729
+"New York, NY",2021,1801
+"Albany, NY",2021,912
+"Schenectady, NY",2021,912
+"Troy, NY",2021,912
+"Nassau, NY",2021,1659
+"Suffolk, NY",2021,1659
+"Binghamton, NY",2021,654
+"Ithaca, NY",2021,1048
+"Kingston, NY",2021,1020
+"Glens Falls, NY",2021,794
+"Rochester, NY",2021,805
+"Westchester County, NY",2021,1619
+"Yates County, NY",2021,667
+"Burlington, NC",2021,682
+"Brunswick County, NC",2021,720
+"Hickory, NC",2021,560
+"Lenoir, NC",2021,560
+"Morganton, NC",2021,560
+"Craven County, NC",2021,750
+"Fayetteville, NC",2021,743
+"Virginia Beach, NC",2021,972
+"Norfolk, NC",2021,972
+"Newport News, NC",2021,972
+"Davidson County, NC",2021,562
+"Gates County, NC",2021,630
+"Haywood County, NC",2021,726
+"Hoke County, NC",2021,641
+"Iredell County, NC",2021,810
+"Jones County, NC",2021,558
+"Lincoln County, NC",2021,682
+"Asheville, NC",2021,1099
+"Rocky Mount, NC",2021,604
+"Wilmington, NC",2021,873
+"Jacksonville, NC",2021,721
+"Durham, NC",2021,974
+"Chapel Hill, NC",2021,974
+"Pamlico County, NC",2021,628
+"Pender County, NC",2021,692
+"Person County, NC",2021,574
+"Greenville, NC",2021,704
+"Greensboro, NC",2021,750
+"High Point, NC",2021,750
+"Rockingham County, NC",2021,537
+"Rowan County, NC",2021,724
+"Charlotte, NC",2021,1010
+"Concord, NC",2021,1010
+"Gastonia, NC",2021,1010
+"Raleigh, NC",2021,1053
+"Goldsboro, NC",2021,628
+"Winston, NC",2021,670
+"Salem, NC",2021,670
+"Fargo, ND",2021,712
+"Grand Forks, ND",2021,694
+"Bismarck, ND",2021,719
+"Oliver County, ND",2021,716
+"Sioux County, ND",2021,557
+"Lima, OH",2021,615
+"Wheeling, OH",2021,570
+"Brown County, OH",2021,560
+"Springfield, OH",2021,612
+"Hocking County, OH",2021,567
+"Weirton, OH",2021,576
+"Steubenville, OH",2021,576
+"Huntington, OH",2021,652
+"Ashland, OH",2021,652
+"Cleveland, OH",2021,705
+"Elyria, OH",2021,705
+"Dayton, OH",2021,647
+"Perry County, OH",2021,557
+"Columbus, OH",2021,827
+"Mansfield, OH",2021,557
+"Canton, OH",2021,570
+"Massillon, OH",2021,570
+"Akron, OH",2021,664
+"Youngstown, OH",2021,585
+"Warren, OH",2021,585
+"Boardman, OH",2021,585
+"Union County, OH",2021,820
+"Cincinnati, OH",2021,698
+"Toledo, OH",2021,613
+"Lawton, OK",2021,582
+"Cotton County, OK",2021,562
+"Grady County, OK",2021,559
+"Le Flore County, OK",2021,580
+"Lincoln County, OK",2021,595
+"Oklahoma City, OK",2021,738
+"Okmulgee County, OK",2021,552
+"Pawnee County, OK",2021,566
+"Fort Smith, OK",2021,552
+"Tulsa, OK",2021,697
+"Corvallis, OR",2021,1031
+"Bend, OR",2021,1042
+"Redmond, OR",2021,1042
+"Medford, OR",2021,788
+"Grants Pass, OR",2021,839
+"Eugene, OR",2021,917
+"Springfield, OR",2021,917
+"Albany, OR",2021,860
+"Salem, OR",2021,836
+"Portland, OR",2021,1331
+"Vancouver, OR",2021,1331
+"Hillsboro, OR",2021,1331
+"Gettysburg, PA",2021,802
+"Armstrong County, PA",2021,619
+"Reading, PA",2021,741
+"Altoona, PA",2021,647
+"Johnstown, PA",2021,572
+"State College, PA",2021,885
+"Columbia County, PA",2021,704
+"Erie, PA",2021,653
+"Chambersburg, PA",2021,681
+"Waynesboro, PA",2021,681
+"Lancaster, PA",2021,809
+"Lebanon, PA",2021,716
+"Williamsport, PA",2021,688
+"Sharon, PA",2021,556
+"East Stroudsburg, PA",2021,851
+"Montour County, PA",2021,690
+"Allentown, PA",2021,891
+"Bethlehem, PA",2021,891
+"Easton, PA",2021,891
+"Harrisburg, PA",2021,773
+"Carlisle, PA",2021,773
+"Philadelphia, PA",2021,1040
+"Camden, PA",2021,1040
+"Wilmington, PA",2021,1040
+"Pike County, PA",2021,1041
+"Pittsburgh, PA",2021,772
+"Scranton, PA",2021,685
+", PA",2021,685
+"Wilkes, PA",2021,685
+"Barre, PA",2021,685
+"York, PA",2021,736
+"Hanover, PA",2021,736
+"Newport, RI",2021,1157
+"Middleton, RI",2021,1157
+"Portsmouth, RI",2021,1157
+"Providence, RI",2021,955
+"Fall River, RI",2021,955
+"Westerly, RI",2021,933
+"Hopkinton, RI",2021,933
+"New Shoreham, RI",2021,933
+"Anderson, SC",2021,680
+"Beaufort County, SC",2021,1056
+"Chester County, SC",2021,556
+"Darlington County, SC",2021,596
+"Charleston, SC",2021,1059
+"North Charleston, SC",2021,1059
+"Augusta, SC",2021,708
+"Richmond County, SC",2021,708
+"Florence, SC",2021,620
+"Myrtle Beach, SC",2021,763
+"North Myrtle Beach, SC",2021,763
+"Conway, SC",2021,763
+"Jasper County, SC",2021,813
+"Kershaw County, SC",2021,630
+"Lancaster County, SC",2021,628
+"Laurens County, SC",2021,610
+"Greenville, SC",2021,826
+"Mauldin, SC",2021,826
+"Easley, SC",2021,826
+"Columbia, SC",2021,845
+"Spartanburg, SC",2021,735
+"Sumter, SC",2021,667
+"Union County, SC",2021,535
+"Charlotte, SC",2021,1010
+"Concord, SC",2021,1010
+"Gastonia, SC",2021,1010
+"Custer County, SD",2021,706
+"Meade County, SD",2021,651
+"Rapid City, SD",2021,664
+"Sioux Falls, SD",2021,714
+"Sioux City, SD",2021,631
+"Campbell County, TN",2021,509
+"Crockett County, TN",2021,511
+"Grainger County, TN",2021,575
+"Hickman County, TN",2021,685
+"Morristown, TN",2021,571
+"Macon County, TN",2021,555
+"Jackson, TN",2021,661
+"Maury County, TN",2021,735
+"Clarksville, TN",2021,689
+"Morgan County, TN",2021,520
+"Cleveland, TN",2021,617
+"Roane County, TN",2021,597
+"Chattanooga, TN",2021,694
+"Smith County, TN",2021,546
+"Kingsport, TN",2021,533
+"Bristol, TN",2021,533
+"Memphis, TN",2021,784
+"Knoxville, TN",2021,729
+"Johnson City, TN",2021,621
+"Nashville, TN",2021,1031
+"Davidson, TN",2021,1031
+"Murfreesboro, TN",2021,1031
+", TN",2021,1031
+"Franklin, TN",2021,1031
+"Aransas County, TX",2021,779
+"Atascosa County, TX",2021,773
+"Austin County, TX",2021,810
+"Texarkana, TX",2021,658
+"Brazoria County, TX",2021,999
+"Brownsville, TX",2021,590
+"Harlingen, TX",2021,590
+"Killeen, TX",2021,639
+"Temple, TX",2021,639
+"Odessa, TX",2021,924
+"El Paso, TX",2021,687
+"Falls County, TX",2021,595
+"Sherman, TX",2021,792
+"Denison, TX",2021,792
+"McAllen, TX",2021,574
+"Edinburg, TX",2021,574
+"Mission, TX",2021,574
+"Hood County, TX",2021,927
+"Hudspeth County, TX",2021,605
+"Kendall County, TX",2021,1061
+"Lampasas County, TX",2021,604
+"Lubbock, TX",2021,733
+"Lynn County, TX",2021,602
+"Waco, TX",2021,721
+"Martin County, TX",2021,595
+"Medina County, TX",2021,657
+"Midland, TX",2021,1128
+"Newton County, TX",2021,592
+"Oldham County, TX",2021,798
+"Beaumont, TX",2021,708
+"Port Arthur, TX",2021,708
+"Amarillo, TX",2021,705
+"College Station, TX",2021,774
+"Bryan, TX",2021,774
+"Dallas, TX",2021,1134
+"Rusk County, TX",2021,575
+"Corpus Christi, TX",2021,864
+"Tyler, TX",2021,899
+"Somervell County, TX",2021,738
+"Fort Worth, TX",2021,1021
+"Arlington, TX",2021,1021
+"Abilene, TX",2021,733
+"San Angelo, TX",2021,762
+"Longview, TX",2021,721
+"Victoria, TX",2021,837
+"Houston, TX",2021,983
+"The Woodlands, TX",2021,983
+"Sugar Land, TX",2021,983
+"Laredo, TX",2021,735
+"Wichita Falls, TX",2021,656
+"Austin, TX",2021,1212
+"Round Rock, TX",2021,1212
+"San Antonio, TX",2021,912
+"New Braunfels, TX",2021,912
+"Wise County, TX",2021,954
+"Box Elder County, UT",2021,599
+"Logan, UT",2021,618
+"Salt Lake City, UT",2021,1001
+"Tooele County, UT",2021,769
+"Provo, UT",2021,827
+"Orem, UT",2021,827
+"St. George, UT",2021,781
+"Ogden, UT",2021,812
+"Clearfield, UT",2021,812
+"Burlington, VT",2021,1265
+"South Burlington, VT",2021,1265
+"Buckingham County, VA",2021,652
+"Culpeper County, VA",2021,794
+"Floyd County, VA",2021,615
+"Franklin County, VA",2021,618
+"Giles County, VA",2021,655
+"Pulaski County, VA",2021,631
+"Rappahannock County, VA",2021,942
+"Warren County, VA",2021,777
+"Kingsport, VA",2021,533
+"Bristol, VA",2021,533
+"Charlottesville, VA",2021,1077
+"Harrisonburg, VA",2021,703
+"Lynchburg, VA",2021,660
+"Washington, VA",2021,1548
+"Arlington, VA",2021,1548
+"Alexandria, VA",2021,1548
+"Blacksburg, VA",2021,858
+"Christiansburg, VA",2021,858
+"Radford, VA",2021,858
+"Richmond, VA",2021,1020
+"Roanoke, VA",2021,743
+"Staunton, VA",2021,695
+"Waynesboro, VA",2021,695
+"Virginia Beach, VA",2021,972
+"Norfolk, VA",2021,972
+"Newport News, VA",2021,972
+"Winchester, VA",2021,819
+"Lewiston, WA",2021,672
+"Columbia County, WA",2021,788
+"Longview, WA",2021,774
+"Wenatchee, WA",2021,866
+"Kennewick, WA",2021,824
+"Richland, WA",2021,824
+"Bremerton, WA",2021,1141
+"Silverdale, WA",2021,1141
+"Pend Oreille County, WA",2021,730
+"Tacoma, WA",2021,1126
+"Mount Vernon, WA",2021,974
+"Anacortes, WA",2021,974
+"Portland, WA",2021,1331
+"Vancouver, WA",2021,1331
+"Hillsboro, WA",2021,1331
+"Seattle, WA",2021,1599
+"Bellevue, WA",2021,1599
+"Spokane, WA",2021,774
+"Stevens County, WA",2021,637
+"Olympia, WA",2021,1026
+"Tumwater, WA",2021,1026
+"Walla Walla County, WA",2021,837
+"Bellingham, WA",2021,972
+"Yakima, WA",2021,792
+"Martinsburg, WV",2021,723
+"Boone County, WV",2021,593
+"Fayette County, WV",2021,566
+"Winchester, WV",2021,819
+"Weirton, WV",2021,576
+"Steubenville, WV",2021,576
+"Jefferson County, WV",2021,794
+"Charleston, WV",2021,664
+"Lincoln County, WV",2021,571
+"Cumberland, WV",2021,587
+"Wheeling, WV",2021,570
+"Morgantown, WV",2021,715
+"Putnam County, WV",2021,694
+"Raleigh County, WV",2021,611
+"Huntington, WV",2021,652
+"Ashland, WV",2021,652
+"Parkersburg, WV",2021,622
+"Vienna, WV",2021,622
+"Columbia County, WI",2021,697
+"Madison, WI",2021,1039
+"Duluth, WI",2021,671
+"Eau Claire, WI",2021,659
+"Fond du Lac, WI",2021,619
+"Green County, WI",2021,652
+"Iowa County, WI",2021,665
+"Kenosha County, WI",2021,798
+"Green Bay, WI",2021,680
+"La Crosse, WI",2021,673
+"Onalaska, WI",2021,673
+"Wausau, WI",2021,618
+"Oconto County, WI",2021,587
+"Appleton, WI",2021,619
+"Racine, WI",2021,688
+"Janesville, WI",2021,656
+"Beloit, WI",2021,656
+"Minneapolis, WI",2021,1054
+"St. Paul, WI",2021,1054
+"Bloomington, WI",2021,1054
+"Sheboygan, WI",2021,644
+"Milwaukee, WI",2021,803
+"Waukesha, WI",2021,803
+"West Allis, WI",2021,803
+"Oshkosh, WI",2021,591
+"Neenah, WI",2021,591
+"Cheyenne, WY",2021,696
+"Casper, WY",2021,737
+"Arecibo, PR",2021,393
+"Fajardo, PR",2021,434
+"Mayagüez, PR",2021,429
+"Barranquitas, PR",2021,369
+"Aibonito, PR",2021,369
+"Guayama, PR",2021,369
+"Quebradillas Municipio, PR",2021,402
+"San German, PR",2021,373
+"Caguas, PR",2021,433
+"Aguadilla, PR",2021,393
+"Isabela, PR",2021,393
+"Utuado Municipio, PR",2021,373
+"Ponce, PR",2021,393
+"San Juan, PR",2021,477
+"Guaynabo, PR",2021,477
+"Yauco, PR",2021,369
