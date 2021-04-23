@@ -3,7 +3,7 @@
 [Docs](https://docs.labs.lambdaschool.com/data-science/)
 
 
-## CitySprire APP:
+## CitySpire APP:
 An app that analyzes data from cities such as populations, cost of living,
 rental rates, crime rates, park (walk score), and many other social
 and economic factors that are important in deciding where someone would like to live.
