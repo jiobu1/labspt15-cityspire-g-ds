@@ -438,6 +438,6 @@ def rental_forecast_graph(city:City, bed):
     plot.update_yaxes(automargin = True)
     plot.update_xaxes(automargin = True)
 
-    plot.show(renderer = 'browser')
+    plot.show()
 
     return plot.to_json()
