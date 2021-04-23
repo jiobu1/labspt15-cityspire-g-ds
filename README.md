@@ -447,7 +447,7 @@ https://github.com/jiobu1/labspt15-cityspire-g-ds/tree/main/Pipfile
 ### Other Links
 **Data Sources:**
 * US Census - https://www.census.gov/
-* FBI Crime Data - https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/arizona.xls/@@template-layout-view?override-view=data-declaration
+* FBI Crime Data - https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8
 * Job Opportunities - http://www.indeed.com
 * Pollution Data - https://aqs.epa.gov/aqsweb/airdata
 * Rental Data - https://www.huduser.gov/
