@@ -3,7 +3,7 @@
 [Docs](https://docs.labs.lambdaschool.com/data-science/)
 
 
-## CitySprire APP:
+## CitySpire APP:
 An app that analyzes data from cities such as populations, cost of living,
 rental rates, crime rates, park (walk score), and many other social
 and economic factors that are important in deciding where someone would like to live.
@@ -447,7 +447,7 @@ https://github.com/jiobu1/labspt15-cityspire-g-ds/tree/main/Pipfile
 ### Other Links
 **Data Sources:**
 * US Census - https://www.census.gov/
-* FBI Crime Data - https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8/table-8-state-cuts/arizona.xls/@@template-layout-view?override-view=data-declaration
+* FBI Crime Data - https://ucr.fbi.gov/crime-in-the-u.s/2019/crime-in-the-u.s.-2019/tables/table-8
 * Job Opportunities - http://www.indeed.com
 * Pollution Data - https://aqs.epa.gov/aqsweb/airdata
 * Rental Data - https://www.huduser.gov/
