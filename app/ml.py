@@ -161,7 +161,6 @@ async def get_crime(city: City):
     """
 
     city = validate_city(city)
-    data = Table("mytable")
     value = await select("Crime Rating", city)
     return {"crime": value[0]}
 
@@ -368,7 +367,8 @@ async def get_livability_score(city: City, city_data: CityDataFull):
     transitscore = await get_walkscore(city.city, city.state)
 
 
-    rescaled = [walkscore[0], walkscore[2], walkscore[1], city_data.diversity_index, city_data.percent_high_performing_schools]
+    rescaled = [walkscore[0], bikescore[2], transitscore[1], city_data.diversity_index, city_data.percent_high_performing_schools]
+    print(rescaled)
     for score in scaled:
         rescaled.append(score * 100)
 

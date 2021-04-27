@@ -3,7 +3,7 @@
 import os
 from fastapi import APIRouter, Depends
 import sqlalchemy
-from dotenv import dotenv_values, load_dotenv
+from dotenv import load_dotenv
 import databases
 import asyncio
 from typing import Union, Iterable
