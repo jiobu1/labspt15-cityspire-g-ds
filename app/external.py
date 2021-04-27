@@ -45,7 +45,7 @@ async def current_weather(city:City):
     city_name = location.city + "," + location.state
     county_code = "US"
     api_call = 'http://api.openweathermap.org/data/2.5/weather?q=' + city_name + ',' + county_code + '&appid=' + app_id + '&mode=json&units=imperial'
-    data = requests.post(api_call)
+    data = requests.get(api_call)
 
     data = data.json()
     main = data['main']
@@ -59,7 +59,8 @@ async def current_weather(city:City):
         "Humidity": str(main['humidity'])+ "%",
         "Wind Speed": str(data['wind']['speed'])+ " mph",
         "Feels Like": str(main['feels_like'])+" F\N{DEGREE SIGN}",
-        "Pressure": str(main['pressure'])+" hPa"}
+        "Pressure": str(main['pressure'])+" hPa"
+        }
 
 # Jobs Listing Endpoint
 # https://github.com/israel-dryer/Indeed-Job-Scraper/blob/master/indeed-job-scraper.ipynb
@@ -99,7 +100,6 @@ async def job_opportunities(position, city:City):
 
     for card in cards:
         record = get_record(card)
-        print(record)
         records.append(record)
 
     #also return total number of jobs
@@ -292,11 +292,11 @@ async def schools_listings(current_city:City, school_category):
     - Grades -> pre-k, elementary, middle, high school
     - District -> district in city
 
-    ### Query Parameters
+    args:
     - city
     - school category -> pre-k, elementary, middle school, high school
 
-    ### Response
+    returns:
     sorted dataframe as JSON string to render with react-plotly.js
     - returns first 25 schools for speed
     """
