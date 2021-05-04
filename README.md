@@ -12,8 +12,7 @@ Use data to find a place right for you to live.
 
 
 ## DEMO
-[![CitySpire API Demo](http://img.youtube.com/vi/WSLJawDw1aQ/0.jpg)](https://www.youtube.com/watch?v=WSLJawDw1aQ "CitySpire API Demo")
-
+[![CitySpire 2.0 API Demo](http://img.youtube.com/vi/Rz84nk3_W54/0.jpg)](https://www.youtube.com/watch?v=Rz84nk3_W54 "CitySpire 2.0 API Demo")
 
 ## LOCAL TESTING
 1. Clone repository
@@ -262,6 +261,7 @@ Below are the visualization endpoints that allows users to visualize and get a b
 * /api/rental_forecast_graph
 ![Rental Forecast](https://github.com/Lambda-School-Labs/PT17_cityspire-a-ds/blob/main/notebooks/visuals/files/rental_forecast.png)
 
+
 #### External
 Below are the external endpoints, these endpoints are either scraped or connects to another API and returns information
 * /api/temperature
@@ -379,7 +379,7 @@ Below are links to resources used to create this project:
   This is how we created the livability index for users (livability.pkl)
 
 - Nearest Neigbhors Model:
-  https://github.com/jiobu1/labspt15-cityspire-g-ds/tree/main/notebooks/model/nearest_neighbor
+  https://github.com/jiobu1/labspt15-cityspire-g-ds/tree/main/notebooks/model/nearest_neighbor/labs2
   This is how we created the recommendations for cities using the nearest neighbors model
 
 - Rental Forecast
@@ -437,6 +437,7 @@ https://github.com/jiobu1/labspt15-cityspire-g-ds/tree/main/Pipfile
 - SQL
 - Scikit
 - Beautiful Soup, requests (webscraping)
+- Selenium (webscraping)
 - AWS RDS PostgreSQL: Relational database service.
 - AWS Elastic Beanstalk: Platform as a service, hosts your API.
 - FastAPI: Web framework. Like Flask, but faster, with automatic interactive docs.
@@ -456,6 +457,11 @@ https://github.com/jiobu1/labspt15-cityspire-g-ds/tree/main/Pipfile
 * Walkscore, Bikescore, Busscore -  https://www.walkscore.com/
 * Weather - https://home.openweathermap.org/
 
+| [Jisha Obukwelu](https://github.com/jiobu1) |
+| :-: |
+| [<img src="https://avatars.githubusercontent.com/u/54873526?s=460&u=e2d546433e06a73b443a01efce84abd6f859f071&v=4" width = "200" />](https://github.com/jiobu1) |
+| [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/jiobu1) |
+| [ <img src="https://static.licdn.com/sc/h/al2o9zrvru7aqj8e1x2rzsrca" width="15"> ](https://www.linkedin.com/in/jishaobukwelu/) |
 
 ## Contributors
 

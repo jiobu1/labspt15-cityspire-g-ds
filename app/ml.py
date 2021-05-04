@@ -407,7 +407,6 @@ async def get_school_summary(city: City):
     """
 
     city = validate_city(city)
-
     value = await select_all(city)
 
     full_data = SchoolData(city=city, **value)
